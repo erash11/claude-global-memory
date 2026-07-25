@@ -2,24 +2,21 @@
 # Working Memory
 
 ## Active Threads
-- **OKR/JD 2026 (7/17)**: New JD accepted; OKR v3 = semester cycles + mid-sem checkpoints, Aug-31 closeout. Blake LEFT org. AJ owns FB/Aranda review. Ruf email (7 confirm-or-correct Qs) ready to send; Friday biweekly reports start wk 7/20. →SecondBrain/Projects/Applied-Performance-JD-2026/ (9 decision records).
-- **Tezino CampPrep (6/17)**: Phase 3/3b + framing DONE. Open (Eric): FC25 P4-P9 gap, DL target weight, surgery date/clearance, Tier-2 thresholds (NARRATIVE-PLAN.md).
-- **Open PRs awaiting Eric (7/23)**: SpeedProfiling #9 (TCU "degraded" RETRACTED — transient-pull bug fixed, 66/66 athletes; ONE pipeline run at a time, concurrent runs silently OOM). Drafts: ForcePlate #2, cmj-traffic-light #1. →Tier A speedprofiling-data-gotchas.
-- **KeystoneOS**: Codex Stop-hook bug open; 4 stale unmerged branches (3 worktree-*, speedprofiling-ticket-03) to review/delete.
-- **FaceComps sim**: plan LOCKED 6/15. NEXT: day-by-day color templates. →Tier A project-facecomps-practice-simulator.
-- **SecondBrain re-tune (7/13)**: shipped /harvest skill + output/_ledger.md + vault CLAUDE.md. NEXT: harvest a shipped project; review 8/31.
-- **Dormant til 8/31 gate**: AI integration (PD 6/17 done; pending buy-in) + data governance (awaiting Anthony's proposal).
-- **Travel Map (6/10)**: 3D globe shipped. IN PROGRESS: CSV import. →Tier A project_state.
+- **OKR/JD 2026 (7/17)**: New JD accepted; OKR v3 = semester cycles, Aug-31 closeout. Blake LEFT. AJ owns FB. Ruf email (7 Qs) ready to send; Friday reports from 7/20. →SecondBrain/Projects/Applied-Performance-JD-2026/.
+- **Weekly review 7/24 (49d catch-up)**: Top 3 = (1) verify fall-camp 10-day itinerary (due 6/26, camp imminent), (2) Kevin Goll AI memo + book Databricks/Nat, (3) scope Kitman API as a 1-page decision memo. 13 stale actions listed. →SecondBrain/Inbox/weekly-review/2026-07-24-review.md.
+- **Open PRs awaiting Eric (7/23)**: SpeedProfiling #9; drafts ForcePlate #2, cmj-traffic-light #1. →Tier A speedprofiling-data-gotchas.
+- **Tezino CampPrep (6/17)**: Phases done. Open (Eric): FC25 P4-P9 gap, DL target weight, surgery date/clearance, Tier-2 thresholds.
+- **FaceComps sim**: plan LOCKED 6/15. NEXT: day-by-day color templates.
+- **Dormant til 8/31 gate**: AI integration (buy-in) + data governance (Anthony's proposal).
+- **Child dental (6/25)**: 4yo cavities; n-HAp toothpaste. NEXT: pediatric dentist, ask re SDF.
 
 ## Environment Notes
-- memsearch 0.4.3 + Milvus 2.6.4 →Tier A project-memsearch-setup.
-- **memsearch FIXED 7/22**: Milvus bind-mount latency → named Docker volumes + Defender exclusions. Backlog indexed; KeystoneOS Tier A in corpus.
-- **gws CLI** authed eric.rash11@gmail.com, can send email (MCP Gmail=draft-only). Re-login: `rm ~/.config/gws/token_cache.json`.
-- **github MCP**: PAT via setx. **Catapult pp-cli**: authed 6/10 →Tier A Tezino mem.
-- **Python 3.14.6** via Install Manager, NOT WinGet. `ai-check.ps1` repairs AI SDKs. →Tier A project-python-environment.
-
-## Personal Threads
-- **Child dental (6/25)**: 4yo cavities; plan = n-HAp toothpaste (Boka kids, safe-to-swallow); baby molars stay til 10-12 — treat. NEXT: pediatric dentist consult, ask about SDF.
+- **OS audits 7/24**: KeystoneOS + ~/.claude + SecondBrain audited; reports in each repo's `audits/`. Guards auto-run: `keystone freshness` + `ritual-check` in morning cadence, skill-tax + memory-cap in StackDoctor. Skills 105→62. Next audit 10/24.
+- **Rituals hooked**: KeystoneOS-Rituals nudges weekdays 17:00 (/interview-me), Fri 15:30 (/weekly-review). Reads each ritual's own output as the record.
+- **Meetings auto-tagged** via `data/meeting-topics.json` on sync; 82/243 backfilled.
+- **memsearch**: nightly reindex moved to the 06:15 backup task (7/24). gws authed; MCP Gmail = draft-only.
+- **Python 3.14.6** via Install Manager, NOT WinGet. →Tier A project-python-environment.
 
 ## Pending Decisions
-- **≥2026-08-31**: OKR Q1 gate — re-evaluate AI integration + data governance threads based on buy-in/proposal status.
+- **≥2026-08-31**: OKR Q1 gate — re-evaluate AI integration + data governance.
+- **Kitman vs MyLink**: brokering MyLink intros (~half Kitman's cost) while buying Kitman API access. Undecided; blocks priority 3.
