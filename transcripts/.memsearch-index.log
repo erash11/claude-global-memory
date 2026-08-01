@@ -1,7 +1,5 @@
-﻿Indexed 0 chunks.
-
-[2026-08-01T08:52:05.7327923-05:00] codex memsearch-sync: timed out at 45s (non-fatal, next run catches up)
-[2026-08-01T09:00:01.8434859-05:00] codex memsearch-sync: timed out at 45s (non-fatal, next run catches up)
-[2026-08-01T09:37:06.3997693-05:00] codex memsearch-sync: timed out at 45s (non-fatal, next run catches up)
-[2026-08-01T09:38:05.0443121-05:00] codex memsearch-sync: timed out at 45s (non-fatal, next run catches up)
-[2026-08-01T10:06:54.9748355-05:00] codex memsearch-sync: timed out at 45s (non-fatal, next run catches up)
+(no output)
+(ETIMEDOUT — streak 3/6, next session catches up)
+[2026-08-01T10:44:03.1564328-05:00] codex memsearch-sync: timed out at 45s (non-fatal, next run catches up)
+[2026-08-01T10:48:47.3664262-05:00] codex memsearch-sync: timed out at 45s (non-fatal, next run catches up)
+[2026-08-01T10:55:53.9668178-05:00] codex memsearch-sync: timed out at 45s (non-fatal, next run catches up)
