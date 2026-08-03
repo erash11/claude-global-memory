@@ -1,7 +1,2 @@
 (no output)
-(ETIMEDOUT — streak 2/6, next session catches up)
-[2026-08-01T20:08:10.3103040-05:00] codex memsearch-sync: timed out at 45s (non-fatal, next run catches up)
-[2026-08-01T20:10:44.5888275-05:00] codex memsearch-sync: timed out at 45s (non-fatal, next run catches up)
-[2026-08-01T20:32:58.4211127-05:00] codex memsearch-sync: timed out at 45s (non-fatal, next run catches up)
-[2026-08-01T22:35:27.2167480-05:00] codex memsearch-sync: timed out at 45s (non-fatal, next run catches up)
-[2026-08-01T22:38:38.8880244-05:00] codex memsearch-sync: timed out at 45s (non-fatal, next run catches up)
+(ETIMEDOUT — streak 4/6, next session catches up)
