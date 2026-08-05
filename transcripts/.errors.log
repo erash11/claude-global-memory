@@ -1,3 +1,5 @@
 2026-08-03 08:19 morning-briefing: Outlook auth expired - brief sent with 0 email threads. Run DEV\morning-briefing\scripts\reauth.bat
 [2026-08-03T10:32:24.0378614-05:00] stack-doctor weekly: 1 issue(s): errors-log — details in ~\.claude\skills\claude-stack-doctor\scripts\last-weekly-run.log; run /claude-stack-doctor to fix
 [2026-08-03 15:02] daily-backup: 1 error(s): manifest-unmanaged:AssistantBackup|NCAA_BestPractices_Doc|OKRs_2026-27|SPA_Presentation - see ~\.claude\scripts\logs\daily-backup.log
+[2026-08-05 07:42] daily-backup: 2 error(s): snapshot-ssd:.claude/global-memory, snapshot-ssd:.codex - see ~\.claude\scripts\logs\daily-backup.log
+[2026-08-05 07:42] daily-backup: 1 error(s): snapshot-ssd:.codex - see ~\.claude\scripts\logs\daily-backup.log
