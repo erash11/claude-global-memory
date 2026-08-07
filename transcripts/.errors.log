@@ -3,3 +3,4 @@
 [2026-08-06 17:46] daily-backup: 8 error(s): repo-diverged:SecondBrain, repo-diverged:global-memory, backup-target-offline:SSD, snapshot:Football, snapshot:PracticeIntensity, snapshot:Risk_Exposure_Windows, snapshot:SpecialRequests, receipt-failed:drive - see ~/.claude/scripts/logs/daily-backup.log
 [2026-08-06T23:02:38.361318+00:00] compiler-backlog: 64 log(s) backlogged, compiling newest 2 this run - run compile.py manually to catch up
 [2026-08-06 19:42] daily-backup: 2 error(s): repo-diverged:SecondBrain, backup-target-offline:SSD - see ~/.claude/scripts/logs/daily-backup.log
+[2026-08-06 19:43] daily-backup: 1 error(s): repo-diverged:SecondBrain - see ~/.claude/scripts/logs/daily-backup.log
