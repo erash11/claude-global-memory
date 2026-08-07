@@ -9,6 +9,7 @@
 - **Open PRs awaiting Eric (7/31)**: SpeedProfiling #9; KeystoneOS #17 (zotero-snap, needs LIVE verify + JPEG); drafts ForcePlate #2, cmj-traffic-light #1. Coach report merged 7/31; add FA26 camp day-type regex later.
 - **CFB forecast capture (7/27)**: Wednesdays 8/26–1/20, no backfill. `/forecast-capture`; briefing nags Wed, OVERDUE Thu/Fri. →Tier A project-cfb-forecast-capture.
 - **Tezino CampPrep (6/17)**: Phases done. Open (Eric): FC25 P4-P9 gap, DL target weight, surgery date/clearance, Tier-2 thresholds.
+- **Mac migration (8/7)**: `.agents/skills` rewrite put `.Codex/` where `.claude/` belongs (29 files); 79 uncommitted. →handoff 8/7.
 - **FaceComps sim**: LOCKED 6/15. NEXT: day color templates.
 - **Child dental (6/25)**: 4yo cavities. NEXT: ped. dentist, SDF/n-HAp.
 
@@ -16,7 +17,6 @@
 - **OS audits done 7/24** (reports in `audits/`, guards auto-run); next 10/24.
 - **Rituals hooked**: KeystoneOS-Rituals nudges weekdays 17:00 (/interview-me), Fri 15:30 (/weekly-review). Reads each ritual's own output as the record.
 - **memsearch**: nightly reindex rides the backup task, now **00:30** (7/27). gws authed; MCP Gmail = draft-only.
-- **Python 3.14.6** via Install Manager, NOT WinGet. →Tier A project-python-environment.
 - **reMarkable OCR LIVE (7/31)**: `remarkable_extract.py` in reMarkale_extract; USB-first, `--cloud` fallback; Vision key in .env.
 
 ## Pending Decisions
