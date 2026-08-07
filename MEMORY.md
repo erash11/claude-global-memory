@@ -2,6 +2,7 @@
 # Working Memory
 
 ## Active Threads
+- **CLIs reprinted (8/6)**: catapult PR#1667 + zotero PR#1668 open on printing-press-library, await maintainer merge. 6 repos pushed via API (git outage); pull --rebase sweep pending.
 - **OKR/JD 2026 (7/17)**: New JD accepted; OKR v3 = semester cycles, Aug-31 closeout. Blake LEFT. AJ owns FB. Ruf email (7 Qs) ready to send; Friday reports from 7/20. →SecondBrain JD-2026 project.
 - **Kinexon volleyball (8/1)**: API-access email sent to CSM; awaiting docs. Repo: `DEV/Kinexon_Volleyball` (private). Plan: sync→SQLite→coach dashboards; CSV interim.
 - **Portfolio dashboard (7/31)**: LIVE. `DEV/project-triage/portfolio.json`; `/project` re-renders+republishes; pulse.md feeds snapshot/briefing.
