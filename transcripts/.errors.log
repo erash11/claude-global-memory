@@ -1,2 +1,1 @@
-[2026-08-07T02:07:30.001350+00:00] compiler-budget-tripped: stopped after 629,173 / 600,000 tokens; 55 log(s) deferred
-[2026-08-07T02:10:40.545375+00:00] compiler-backlog: 54 log(s) backlogged, compiling newest 2 this run - run compile.py manually to catch up
+[2026-08-07T02:28:43.751366+00:00] compiler-backlog: 53 log(s) backlogged, compiling newest 2 this run - run compile.py manually to catch up
