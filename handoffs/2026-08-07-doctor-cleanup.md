@@ -65,7 +65,8 @@ Re-running is the documented remedy; `state.json` makes it resumable. 7 runs, $3
 
 ## Next actions, most important first
 
-1. **Fix the `.Codex` path bug in `~/.agents/skills`** (see below). 29 files broken.
+1. **Reconcile `~/.agents/skills` with `origin/main`** — see "The `.Codex` bug" below.
+   The path bug itself is FIXED, but that checkout is still 5 commits behind.
 2. **Restart Claude Code**, then `/context` — the skill/plugin changes load at session
    start and are NOT active in the session that made them. Verify the skill listing is
    no longer truncated.
@@ -76,19 +77,42 @@ Re-running is the documented remedy; `state.json` makes it resumable. 7 runs, $3
 
 ## Mid-flight / open questions
 
-**The `.Codex` bug.** A Windows→Mac path rewrite across `~/.agents/skills` replaced
-`C:\Users\eric_rash\.claude\skills\_shared\config.json` with
-`/Users/kristinarash/.Codex/skills/_shared/config.json`. That path does not exist —
-the config lives at `~/.claude/skills/_shared/config.json` and
-`~/.agents/skills/_shared/config.json`. 29 `SKILL.md` files affected. Git history
-confirms the original said `.claude`, so the intended target is unambiguous.
+**The `.Codex` bug — FIXED 2026-08-07. The underlying divergence is NOT.**
 
-Not fixed here on purpose: those 29 files sit inside 79 files of uncommitted migration
-work that this session did not author, and mixing edits in would have made that diff
-unreviewable. Suggested fix, to run after reviewing the existing diff:
+A Windows→Mac path rewrite across `~/.agents/skills` replaced the `.claude` path
+segment with `.Codex` — **235 occurrences across 73 `.md` files**, not the 29 first
+counted (that count only caught the `.Codex/skills` shape). Other shapes affected:
+`.Codex/LIFEOS/...`, `.Codex/global-memory/MEMORY.md`,
+`.Codex/projects/<slug>/memory/`, and `~\.Codex\scripts\daily-backup.ps1`.
 
-    cd ~/.agents/skills && grep -rl '\.Codex/skills' --include='SKILL.md' . \
-      | xargs sed -i '' 's#\.Codex/skills#.claude/skills#g'
+Ground truth came from `origin/main`, which **already had correct macOS paths** — zero
+`.Codex`, zero Windows `C:\` paths. Every `.Codex` shape maps to `.claude` there, and
+all rewritten targets exist on disk (`~/.claude/LIFEOS`,
+`~/.claude/skills/_shared/config.json`, `~/.claude/scripts/daily-backup.ps1`, …).
+
+Fix applied: `LC_ALL=C sed -i '' 's#\.Codex#.claude#g'` over the 73 files.
+Case-sensitive on purpose — 13 legitimate lowercase `~/.codex` references (real Codex
+CLI paths in `impeccable/`, `watch/`, `claude-stack-doctor/`) were left untouched,
+verified by diffing per-file counts before and after.
+
+Result: 235 → 0. Files differing from `origin/main` dropped 45 → 27, meaning 18
+converged exactly with upstream. None of the remaining 27 contain `.Codex` — they
+differ because the checkout is stale. Zero `.Codex` remains reachable through the 21
+symlinks in `~/.claude/skills` that Claude Code actually loads.
+
+Backup taken first:
+`~/.claude/doctor-backup-20260807-135924/agents-skills-before-codex-fix.tar.gz`
+
+**Still open — the real problem.** `~/.agents/skills` is a second checkout of
+`erash11/claude-skills` sitting **5 commits behind `origin/main`**, missing 933 files
+that exist upstream, with 72 untracked directories that upstream now tracks.
+`~/.claude/skills` is the healthy checkout: synced, correct paths, clean tree.
+
+The sed is a stopgap on a stale tree. The correct resolution is to reconcile the
+checkout — at which point these edits become redundant, because upstream is already
+right. `git reset --hard origin/main` would discard the patch AND fix it properly, but
+it would also overwrite 72 untracked directories, so it needs review first.
+**Do not treat `~/.agents/skills` as healthy just because `.Codex` is gone.**
 
 Note macOS is case-insensitive, so `~/.Codex` and `~/.codex` resolve to the same real
 directory — which is why this failed silently rather than erroring loudly.

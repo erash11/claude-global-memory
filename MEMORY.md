@@ -9,7 +9,7 @@
 - **Open PRs awaiting Eric (7/31)**: SpeedProfiling #9; KeystoneOS #17 (zotero-snap, needs LIVE verify + JPEG); drafts ForcePlate #2, cmj-traffic-light #1. Coach report merged 7/31; add FA26 camp day-type regex later.
 - **CFB forecast capture (7/27)**: Wednesdays 8/26–1/20, no backfill. `/forecast-capture`; briefing nags Wed, OVERDUE Thu/Fri. →Tier A project-cfb-forecast-capture.
 - **Tezino CampPrep (6/17)**: Phases done. Open (Eric): FC25 P4-P9 gap, DL target weight, surgery date/clearance, Tier-2 thresholds.
-- **Mac migration (8/7)**: `.agents/skills` rewrite put `.Codex/` where `.claude/` belongs (29 files); 79 uncommitted. →handoff 8/7.
+- **Mac migration (8/7)**: `.agents/skills` `.Codex`→`.claude` FIXED (73 files); checkout still 5 behind origin. →handoff 8/7.
 - **FaceComps sim**: LOCKED 6/15. NEXT: day color templates.
 - **Child dental (6/25)**: 4yo cavities. NEXT: ped. dentist, SDF/n-HAp.
 
