@@ -1,8 +1,10 @@
 # Ephemeral memsearch indexer artifacts.
 # Both are rewritten on every index run, so tracking them adds a spurious
 # delete/re-add to each `daily-backup` commit without preserving any history:
-#   .memsearch-index.lock  presence-only lock; meaningless outside a live run
-#   .memsearch-index.log   overwritten status line ("Indexed N chunks."), not appended
+#   .memsearch-index.lock     presence-only lock; meaningless outside a live run
+#   .memsearch-index.log      overwritten status line ("Indexed N chunks."), not appended
+#   .memsearch-timeout-streak 1-byte counter; daily-backup.ps1:394 deletes it each run
 # .errors.log is deliberately NOT ignored - it is the surfaced error channel.
 transcripts/.memsearch-index.lock
 transcripts/.memsearch-index.log
+transcripts/.memsearch-timeout-streak
