@@ -65,14 +65,13 @@ Re-running is the documented remedy; `state.json` makes it resumable. 7 runs, $3
 
 ## Next actions, most important first
 
-1. **Reconcile `~/.agents/skills` with `origin/main`** — see "The `.Codex` bug" below.
-   The path bug itself is FIXED, but that checkout is still 5 commits behind.
+1. **Get the 73 unversioned skill files into version control** — the one real remaining
+   exposure. See "The `~/.agents/skills` structure" below. Needs a design decision;
+   nothing else is blocking.
 2. **Restart Claude Code**, then `/context` — the skill/plugin changes load at session
    start and are NOT active in the session that made them. Verify the skill listing is
    no longer truncated.
-3. Review and commit the 79 uncommitted files in `~/.agents/skills` (migration work,
-   not authored by this session).
-4. If any Tier B skill turns out to be needed, delete its name from `skillOverrides`
+3. If any Tier B skill turns out to be needed, delete its name from `skillOverrides`
    in `~/.claude/settings.json`. Re-enabling a plugin = flip to `true`.
 
 ## Mid-flight / open questions
@@ -103,19 +102,52 @@ symlinks in `~/.claude/skills` that Claude Code actually loads.
 Backup taken first:
 `~/.claude/doctor-backup-20260807-135924/agents-skills-before-codex-fix.tar.gz`
 
-**Still open — the real problem.** `~/.agents/skills` is a second checkout of
-`erash11/claude-skills` sitting **5 commits behind `origin/main`**, missing 933 files
-that exist upstream, with 72 untracked directories that upstream now tracks.
-`~/.claude/skills` is the healthy checkout: synced, correct paths, clean tree.
-
-The sed is a stopgap on a stale tree. The correct resolution is to reconcile the
-checkout — at which point these edits become redundant, because upstream is already
-right. `git reset --hard origin/main` would discard the patch AND fix it properly, but
-it would also overwrite 72 untracked directories, so it needs review first.
-**Do not treat `~/.agents/skills` as healthy just because `.Codex` is gone.**
-
 Note macOS is case-insensitive, so `~/.Codex` and `~/.codex` resolve to the same real
 directory — which is why this failed silently rather than erroring loudly.
+
+## The `~/.agents/skills` structure — CORRECTED 2026-08-08
+
+Three claims in the 8/07 version of this handoff were **wrong**. Superseded:
+
+- ~~"`~/.agents/skills` is 5 commits behind, missing 933 files"~~ — false. Both
+  checkouts sat at `459c9ba` with an **identical 1,203-file tracked list**. Nothing
+  was behind, and there was nothing to reconcile.
+- ~~"the committed symlinks are self-referential garbage"~~ — false. The blob target
+  `../../.agents/skills/<name>` is **correct** when checked out at `~/.claude/skills`
+  (→ `~/.agents/skills/<name>`). It is a self-loop **only** at `~/.agents/skills`.
+  The repo assumes one checkout path; `~/.agents/skills` was the wrong one.
+- ~~"`daily-backup` auto-commits `~/.agents/skills`"~~ — false. `daily-backup.ps1`
+  lines 199–201 sync `~/.claude/global-memory`, `~/.claude`, `~/.claude/skills` only.
+
+**What actually happened on 8/07.** `git reset --hard origin/main` on
+`~/.agents/skills` destroyed 73 of 76 local files. Recovered in full from
+`agents-skills-before-reset.tar.gz`.
+
+**Root cause — and it is NOT `core.symlinks`.** The **content** of the 21 mattpocock
+skills is tracked in **no git repo at all**: `git ls-tree -r origin/main` returns 0
+files beneath those paths; only the symlink blobs are tracked. The 73 files existed
+solely on disk plus the tarballs. `core.symlinks=false` only changed what the wreckage
+looked like (29-byte text files); with it `true`, the reset would have written real
+self-looping symlinks over the same directories and destroyed the same 73 files.
+Verified both ways with throwaway clones.
+
+**Fixes applied 2026-08-08:**
+- **A** — `~/.agents/skills/.git` moved to
+  `~/.claude/doctor-backup-20260807-135924/agents-skills-dotgit` (5.9M, moved not
+  deleted). That path is now a **plain content directory**: no `checkout`/`reset`/
+  `stash` can ever clobber it again. All 1,257 files preserved.
+- **B** — `git config core.symlinks true` on `~/.claude/skills`, the canonical
+  checkout. It had inherited `false` from Windows; a fresh clone there materialized
+  all 21 symlinks as 29-byte text files, which would have broken every mattpocock
+  skill from the *canonical* side. Tree stayed clean through the flip.
+
+Verified after: 21/21 symlinks resolve, 154 `SKILL.md` reachable, 0 `.Codex`,
+`~/.claude/skills` clean at `459c9ba`.
+
+**Still open (the only real exposure):** those 73 files remain unversioned. Fixing it
+forks three ways — a new repo; commit the content at a non-colliding path in
+`claude-skills` and repoint the symlinks; or drop the symlink indirection entirely and
+collapse to a single checkout. Deferred pending a decision.
 
 **Ambiguity left unresolved:** 4 bare `code-review` dispatches on 2026-07-18 could be
 the symlinked personal skill or a built-in. It was kept rather than guessed at.
