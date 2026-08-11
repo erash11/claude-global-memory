@@ -1,0 +1,37 @@
+# Resolved error-log entries, archived 2026-08-11
+# Moved out of .errors.log so the live file surfaces only OPEN items at session start.
+
+[2026-08-08 00:51] daily-backup: 1 error(s): repo-diverged:SecondBrain - see ~/.claude/scripts/logs/daily-backup.log
+    -> RESOLVED 8/11 - skills: untracked last-weekly-run.log + __pycache__ (the churn source), commit a259114. SecondBrain: pulled to 40851e8, 4 local briefing variants preserved in doctor-backup-20260807-135924/secondbrain-local-briefings/.
+
+[2026-08-08 11:11] daily-backup: 1 error(s): repo-diverged:SecondBrain - see ~/.claude/scripts/logs/daily-backup.log
+    -> RESOLVED 8/11 - skills: untracked last-weekly-run.log + __pycache__ (the churn source), commit a259114. SecondBrain: pulled to 40851e8, 4 local briefing variants preserved in doctor-backup-20260807-135924/secondbrain-local-briefings/.
+
+[2026-08-08T16:17:49.885204+00:00] compiler-flush-failed: memory-compiler flush failed (session 7e69ce43-75ae-4883-b456-2158f2259787): FLUSH_ERROR: Exception: Claude Code returned an error result: success | a single failure is usually transient session-end contention (retries exhausted) — check scripts/flush.log; only if it repeats across sessions suspect bundled-CLI version skew — fix: cd ~/.claude/claude-memory-compiler && uv lock --upgrade-package claude-agent-sdk && uv sync
+    -> RESOLVED 8/11 - claude-agent-sdk 0.2.110 -> 0.2.136 (uv lock --upgrade-package + sync). Verified: last-flush.json OK 0h after.
+
+[2026-08-09 11:15] daily-backup: 5 error(s): repo-diverged:SecondBrain, repo-push:global-memory, repo-push:dotclaude, snapshot:sessions, manifest-unmanaged:S2_Evaluation - see ~/.claude/scripts/logs/daily-backup.log
+    -> RESOLVED 8/11 - skills: untracked last-weekly-run.log + __pycache__ (the churn source), commit a259114. SecondBrain: pulled to 40851e8, 4 local briefing variants preserved in doctor-backup-20260807-135924/secondbrain-local-briefings/.
+
+[2026-08-10 01:56] daily-backup: 4 error(s): repo-diverged:SecondBrain, repo-push:global-memory, snapshot:sessions, manifest-unmanaged:S2_Evaluation - see ~/.claude/scripts/logs/daily-backup.log
+    -> RESOLVED 8/11 - skills: untracked last-weekly-run.log + __pycache__ (the churn source), commit a259114. SecondBrain: pulled to 40851e8, 4 local briefing variants preserved in doctor-backup-20260807-135924/secondbrain-local-briefings/.
+
+[2026-08-10 08:39] daily-backup: 4 error(s): repo-diverged:SecondBrain, repo-push:global-memory, snapshot:sessions, manifest-unmanaged:S2_Evaluation - see ~/.claude/scripts/logs/daily-backup.log
+    -> RESOLVED 8/11 - skills: untracked last-weekly-run.log + __pycache__ (the churn source), commit a259114. SecondBrain: pulled to 40851e8, 4 local briefing variants preserved in doctor-backup-20260807-135924/secondbrain-local-briefings/.
+
+[2026-08-10T11:39:11.2413030-05:00] stack-doctor weekly: 8 issue(s): task:com.keystone.morningbriefing, task:com.keystone.dailybackup, errors-log, flush-error, backup-error, backup-cloud-check, skill-tax, memfile-full:MEMORY.md — details in ~/.claude/skills/claude-stack-doctor/scripts/last-weekly-run.log; run /claude-stack-doctor to fix
+    -> RESOLVED 8/11 - skill-tax was a false positive (script now reads skillOverrides); memfile-full fixed by consolidating MEMORY.md to 93%.
+
+[2026-08-11 02:15] daily-backup: 5 error(s): repo-diverged:SecondBrain, repo-push:global-memory, repo-diverged:skills, snapshot:sessions, manifest-unmanaged:COG_S2_Position_Reports|S2_Evaluation - see ~/.claude/scripts/logs/daily-backup.log
+    -> RESOLVED 8/11 - skills: untracked last-weekly-run.log + __pycache__ (the churn source), commit a259114. SecondBrain: pulled to 40851e8, 4 local briefing variants preserved in doctor-backup-20260807-135924/secondbrain-local-briefings/.
+
+[2026-08-11 07:47] daily-backup: 4 error(s): repo-diverged:SecondBrain, repo-diverged:skills, snapshot:sessions, manifest-unmanaged:COG_S2_Position_Reports|S2_Evaluation - see ~/.claude/scripts/logs/daily-backup.log
+    -> RESOLVED 8/11 - skills: untracked last-weekly-run.log + __pycache__ (the churn source), commit a259114. SecondBrain: pulled to 40851e8, 4 local briefing variants preserved in doctor-backup-20260807-135924/secondbrain-local-briefings/.
+
+[2026-08-11T15:22:30.518575+00:00] compiler-flush-failed: memory-compiler flush failed (session 6dac2c3b-c70e-49d3-8a00-7dc20d995307): FLUSH_ERROR: Exception: Claude Code returned an error result: success | a single failure is usually transient session-end contention (retries exhausted) — check scripts/flush.log; only if it repeats across sessions suspect bundled-CLI version skew — fix: cd ~/.claude/claude-memory-compiler && uv lock --upgrade-package claude-agent-sdk && uv sync
+    -> RESOLVED 8/11 - claude-agent-sdk 0.2.110 -> 0.2.136 (uv lock --upgrade-package + sync). Verified: last-flush.json OK 0h after.
+
+# NOT resolved by this pass (left in .errors.log): Outlook auth expired.
+# Also reported but not auto-fixable: DriveFS 154h stale; snapshot:sessions is an
+# rsync 'mmap: Resource deadlock avoided' race on a live Codex jsonl (file-in-use,
+# not rot); manifest-unmanaged DEV dirs is a scope decision for Eric.
