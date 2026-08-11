@@ -18,6 +18,13 @@ result rather than current state. Breakdown of what's left:
 | `backup-error` | Lagging — now reduced to `manifest-unmanaged` only (a scope call), down from 4 errors |
 | `flush-error` | Lagging — greps historical FLUSH_ERROR text in the 8/08 + 8/11 daily logs; the cause is fixed and a flush has since succeeded |
 
+Separately verified, since it appeared in the same flush log and is a *different*
+failure than the SDK exception: `[hook] SKIP: transcript missing` under the
+`-Users-kristinarash-DEV` slug is **benign**. Neither session ID exists anywhere under
+`~/.claude/projects/`, while that slug holds 28 transcripts and received 3 in the last
+24h — so the hook's path derivation is correct and those sessions simply produced no
+transcript. Not a silent capture failure.
+
 Fully cleared at the source: `skill-tax`, `memfile-full:MEMORY.md`,
 `repo-diverged:skills`, `repo-diverged:SecondBrain`.
 
@@ -47,15 +54,22 @@ bundled-CLI version skew rather than transient contention. `claude-agent-sdk`
 succeeded (`last-flush.json` 0h). memsearch re-checked — the flush patch was NOT
 stripped (that landmine applies to memsearch pip ops, not this uv upgrade).
 
-**4. `repo-diverged:SecondBrain` — a genuine two-writer conflict, resolved without
-picking a winner.** Four untracked morning briefings existed locally while origin had
-*different* committed versions of three of the same dates (local 8/07 had a working
-Outlook fetch; origin's was degraded). Local git history was 4 commits behind since
-the migration, so the briefing script kept regenerating files the repo already had.
-**All four local variants preserved** at
-`~/.claude/doctor-backup-20260807-135924/secondbrain-local-briefings/*.local.md`,
-then pulled to `40851e8`. Eric should decide which 8/07 and 8/10 to keep — the
-content differs materially, and that was not mine to choose.
+**4. `repo-diverged:SecondBrain` — a genuine two-writer conflict. A winner WAS
+picked; Eric should review it.** Four untracked morning briefings existed locally
+while origin had *different* committed versions of three of the same dates. Local git
+history was 4 commits behind since the migration, so the briefing script kept
+regenerating files the repo already had.
+
+Resolution: **origin's versions are what is live in the working tree now**, and the
+local variants were moved to
+`~/.claude/doctor-backup-20260807-135924/secondbrain-local-briefings/*.local.md`.
+Preserving is not the same as not choosing — origin won by default.
+
+**The local 8/07 copy looks like the better one**: it has a working Outlook fetch and
+a `NEEDS REPLY (9)` section, where origin's records `Outlook fetch failed`. Local 8/10
+is also larger (48,925 vs 45,733 bytes). Eric should diff the two `.local.md` files
+against what is live and restore whichever he wants. This is the one content decision
+this sweep made on his behalf, and it is reversible.
 
 **5. `daily-backup.ps1` lied in dry-run mode.** The `git add/commit/push` calls sit
 inside `if (-not $DryRun)`, but the `Log "... committed/pushed"` lines sit *outside*
