@@ -1,12 +1,25 @@
-# 2026-08-11 — Stack doctor sweep: 8 issues → 2 (both need Eric)
+# 2026-08-11 — Stack doctor sweep
 
 Follow-on to `2026-08-07-doctor-cleanup.md`. Ran `/claude-stack-doctor`, fixed every
-issue that was mine to fix, and left two that require Eric at the machine.
+issue that was mine to fix, and left the rest for Eric.
 
-## Verdict movement
+## Verdict movement — read this carefully, the count understates the change
 
-`8 issue(s)` → `2 issue(s)`. Cleared: `skill-tax`, `memfile-full:MEMORY.md`,
-`repo-diverged:skills`, `repo-diverged:SecondBrain`, `flush-error`, `errors-log`.
+Raw verdict: **8 issue(s) → 6 issue(s)**. The count is a poor measure here, because
+three of the six remaining codes are *lagging indicators* that read the last run's
+result rather than current state. Breakdown of what's left:
+
+| Code | Status |
+|---|---|
+| `task:com.keystone.morningbriefing` | **Genuinely open** — Outlook auth, needs Eric |
+| `backup-cloud-stale` | **Genuinely open** — DriveFS, needs Eric |
+| `errors-log` | Correct: non-empty *because* of the open Outlook item |
+| `task:com.keystone.dailybackup` | Lagging — reflects the 07:47 run's exit code; clears tonight |
+| `backup-error` | Lagging — now reduced to `manifest-unmanaged` only (a scope call), down from 4 errors |
+| `flush-error` | Lagging — greps historical FLUSH_ERROR text in the 8/08 + 8/11 daily logs; the cause is fixed and a flush has since succeeded |
+
+Fully cleared at the source: `skill-tax`, `memfile-full:MEMORY.md`,
+`repo-diverged:skills`, `repo-diverged:SecondBrain`.
 
 ## Root causes fixed (not just symptoms)
 
