@@ -2,14 +2,15 @@
 # Working Memory
 
 ## Active Threads
-- **CLIs reprinted (8/6)**: PR#1667+#1668 green, await merge. Git-hang fix →Tier A zsh-shell-traps. SSH: `gh auth refresh -s admin:public_key`.
+- **CLIs reprinted (8/6)**: PR#1667+#1668 green, await merge. Git-hang fix →Tier A zsh-shell-traps.
 - **OKR/JD 2026 (7/17)**: JD accepted; OKR v3 = semester cycles, Aug-31 closeout. Blake LEFT, AJ owns FB. Ruf email (7 Qs) ready to send; Fri reports from 7/20. →SecondBrain JD-2026.
 - **Kinexon volleyball (8/1)**: API email sent to CSM; awaiting docs. `DEV/Kinexon_Volleyball` (private). Plan: sync→SQLite→dashboards; CSV interim.
 - **Portfolio dashboard (7/31)**: LIVE. `DEV/project-triage/portfolio.json`; `/project` re-renders+republishes; pulse.md feeds briefing.
 - **Open PRs awaiting Eric (7/31)**: SpeedProfiling #9; KeystoneOS #17 (zotero-snap: LIVE verify + JPEG); drafts ForcePlate #2, cmj-traffic-light #1. Add FA26 camp day-type regex later.
 - **CFB forecast capture (7/27)**: Weds 8/26–1/20, no backfill. `/forecast-capture`; briefing nags Wed, OVERDUE Thu/Fri. →Tier A project-cfb-forecast-capture.
 - **Tezino CampPrep (6/17)**: Phases done. Open (Eric): FC25 P4-P9 gap, DL target weight, surgery date/clearance, Tier-2 thresholds.
-- **Mac migration (8/11)**: settled; details →handoff 8/7. OPEN: 73 skill files unversioned.
+- **Mac migration (8/11)**: settled →handoff 8/7. OPEN: 73 skill files unversioned.
+- **ATH Tech framework (8/12)**: 3 docs in `DEV/SoftwareTech_Mgmt_Framework/deliverables` + OneDrive `SoftwareTechDocs` — edit in OneDrive, local=snapshot. Mtg 8/13. OPEN: level naming, §2.1 lost "department-wide".
 - **FaceComps sim**: LOCKED 6/15. NEXT: day color templates.
 - **Child dental (6/25)**: 4yo cavities. NEXT: ped. dentist, SDF/n-HAp.
 
