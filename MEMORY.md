@@ -2,7 +2,7 @@
 # Working Memory
 
 ## Active Threads
-- **Backup/sync (8/14)**: nightly OK(0 err), but ROOT CAUSE UNFIXED — Windows box still runs `daily-backup.ps1`+pushes, so `repo-diverged:SecondBrain` recurs nightly until Bucket Prompt 2 runs there. CRASHBOX unmounted. Morning brief RETIRED. `~/DEV/Bucket`: FIX-STATUS + doc edits uncommitted. →Tier A backup-sync-system.
+- **Backup/sync (8/14)**: root cause CLOSED — Windows writers disabled 8/14 (9 tasks, contributed no unique history); all 4 repos 0/0. CRASHBOX reattached; morning brief retired; Bucket docs pushed. WATCH: first nightly after 8/14 must end OK(0 err) w/ an SSD capture line. →Tier A backup-sync-system.
 - **CLIs reprinted (8/6)**: PR#1667+#1668 green, await merge. →Tier A zsh-shell-traps.
 - **OKR/JD 2026 (7/17)**: JD accepted; OKR v3 = semester cycles, Aug-31 closeout. Blake LEFT, AJ owns FB. Ruf email (7 Qs) ready; Fri reports from 7/20. →SecondBrain JD-2026.
 - **Kinexon volleyball (8/1)**: API email→CSM, awaiting docs. `DEV/Kinexon_Volleyball` (private). Plan: sync→SQLite→dashboards; CSV interim.
