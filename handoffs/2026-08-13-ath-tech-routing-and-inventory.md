@@ -97,13 +97,16 @@ Micah's counter-proposal is coming and editing now means editing twice.
   Unpublish or delete once transferred to Microsoft Forms.
 - **Gmail draft** `r-1535866246841293577` — inventory request email, To/Cc empty,
   personal account. Copy to Baylor mail before sending.
+- **Gmail draft** `r-1467170420815929116` — Micah follow-up. **Superseded: the email
+  was sent from Baylor mail on 8/14.** Safe to delete this stale personal-account copy.
 
 ## Next actions, most important first
 
-1. **Schedule the Micah meeting** before his counter-proposal is final, so the two
-   documents converge instead of competing. Draft text is in
-   `MICAH_MEETING_REQUEST_2026-08-13.md`. Worth raising in that meeting: framework §1.7
-   already specified the weekly ITS standing meeting Kenny independently asked for.
+1. **Micah follow-up email SENT Fri 2026-08-14.** Asked for 30 minutes next week
+   before he finalizes his markups, plus a standing weekly cadence. **Awaiting his
+   reply.** When the meeting lands, use the 30-minute agenda further down this file,
+   and raise that framework §1.7 already specified the weekly ITS standing meeting
+   Kenny independently asked for.
 2. **Rebuild the Quick Inventory in Microsoft Forms**, add recipients, send from Baylor
    mail with Kenny + Jovon on CC. Suggested deadline Fri Aug 29 (adjust for fall camp).
 3. **Then** report out to Cody Hall and Jovon Overshown per Kenny's instruction.
