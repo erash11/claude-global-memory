@@ -10,7 +10,7 @@
 - **CFB forecast capture (7/27)**: Weds 8/26–1/20, no backfill. `/forecast-capture`; briefing nags Wed, OVERDUE Thu/Fri. →Tier A project-cfb-forecast-capture.
 - **Tezino CampPrep (6/17)**: Phases done. Open (Eric): FC25 P4-P9 gap, DL target weight, surgery date/clearance, Tier-2 thresholds.
 - **Mac migration (8/11)**: settled →handoff 8/7. OPEN: 73 skill files unversioned.
-- **ATH Tech framework (8/12)**: 3 docs in `DEV/SoftwareTech_Mgmt_Framework/deliverables` + OneDrive `SoftwareTechDocs` — edit in OneDrive, local=snapshot. Mtg 8/13. OPEN: level naming, §2.1 lost "department-wide".
+- **ATH Tech framework (8/13)**: Mtg done. Micah Lamb (ITS) writing counter-proposal; direction = 1-page routing sheet feeding existing IDEA form, not parallel. Levels settled. Inventory forms built. →handoff 8/13.
 - **FaceComps sim**: LOCKED 6/15. NEXT: day color templates.
 - **Child dental (6/25)**: 4yo cavities. NEXT: ped. dentist, SDF/n-HAp.
 
