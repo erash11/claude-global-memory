@@ -65,6 +65,9 @@ Micah**.
    / let some mess in" half is blog advice and would damage a staff email CC'ing Kenny
    and Jovon. Same call as the 8/12 session made on the framework doc.
 
+8. **Entry point settled 2026-08-13:** every request starts with the Business Office
+   as the first control point, regardless of level or data type. No Level 1 bypass.
+
 ## Files created this session
 
 All under `/Users/kristinarash/DEV/SoftwareTech_Mgmt_Framework/docs/`:
@@ -97,18 +100,14 @@ Micah's counter-proposal is coming and editing now means editing twice.
 
 ## Next actions, most important first
 
-1. **Confirm the one open routing question.** The sheet routes *every* request to the
-   Business Office first. Kenny's phrasing conditioned that on student-athlete data
-   ("seems to be"). If Level 1 no-athlete-data requests should skip straight to the
-   IDEA form, it's a one-line change to Step 3.
-2. **Schedule the Micah meeting** before his counter-proposal is final, so the two
+1. **Schedule the Micah meeting** before his counter-proposal is final, so the two
    documents converge instead of competing. Draft text is in
    `MICAH_MEETING_REQUEST_2026-08-13.md`. Worth raising in that meeting: framework §1.7
    already specified the weekly ITS standing meeting Kenny independently asked for.
-3. **Rebuild the Quick Inventory in Microsoft Forms**, add recipients, send from Baylor
+2. **Rebuild the Quick Inventory in Microsoft Forms**, add recipients, send from Baylor
    mail with Kenny + Jovon on CC. Suggested deadline Fri Aug 29 (adjust for fall camp).
-4. **Then** report out to Cody Hall and Jovon Overshown per Kenny's instruction.
-5. Unpublish/delete the two Google Forms after transfer.
+3. **Then** report out to Cody Hall and Jovon Overshown per Kenny's instruction.
+4. Unpublish/delete the two Google Forms after transfer.
 
 ## Still open from pre-meeting analysis — not discussed on 8/13
 

@@ -3,3 +3,6 @@
 [2026-08-12 10:39] daily-backup: 3 error(s): repo-diverged:SecondBrain, snapshot:sessions, manifest-unmanaged:COG_S2_Position_Reports|S2_Evaluation - see ~/.claude/scripts/logs/daily-backup.log
 [2026-08-13 01:26] daily-backup: 5 error(s): repo-diverged:SecondBrain, repo-push:global-memory, repo-push:skills, snapshot:sessions, manifest-unmanaged:COG_S2_Position_Reports|S2_Evaluation - see ~/.claude/scripts/logs/daily-backup.log
 [2026-08-13 07:03] daily-backup: 5 error(s): repo-diverged:SecondBrain, repo-push:global-memory, repo-push:skills, snapshot:sessions, manifest-unmanaged:COG_S2_Position_Reports|S2_Evaluation - see ~/.claude/scripts/logs/daily-backup.log
+[2026-08-14 07:23] daily-backup: 3 error(s): repo-diverged:SecondBrain, snapshot:sessions, manifest-unmanaged:CFB_Analytics_Lab|COG_S2_Position_Reports|Football_Data_DEV|S2_Evaluation|Terminal_Fluency - see ~/.claude/scripts/logs/daily-backup.log
+2026-08-14 07:07 morning-briefing: Outlook auth expired - brief sent with 0 email threads. Run DEV/morning-briefing/scripts/reauth.sh
+[2026-08-14 07:24] daily-backup: 3 error(s): repo-diverged:SecondBrain, snapshot:sessions, manifest-unmanaged:CFB_Analytics_Lab|COG_S2_Position_Reports|Football_Data_DEV|S2_Evaluation|Terminal_Fluency - see ~/.claude/scripts/logs/daily-backup.log
