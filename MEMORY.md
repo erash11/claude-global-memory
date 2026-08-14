@@ -2,7 +2,7 @@
 # Working Memory
 
 ## Active Threads
-- **Backup/sync (8/14)**: root cause CLOSED — Windows writers disabled 8/14 (9 tasks, contributed no unique history); all 4 repos 0/0. CRASHBOX reattached; morning brief retired; Bucket docs pushed. WATCH: first nightly after 8/14 must end OK(0 err) w/ an SSD capture line. →Tier A backup-sync-system.
+- **Backup/sync (8/14)**: root cause CLOSED (Windows writers disabled; 4 repos 0/0; CRASHBOX reattached). WATCH: first nightly after 8/14 must end OK(0 err) w/ SSD capture line. →Tier A backup-sync-system.
 - **CLIs reprinted (8/6)**: PR#1667+#1668 green, await merge. →Tier A zsh-shell-traps.
 - **OKR/JD 2026 (7/17)**: JD accepted; OKR v3 = semester cycles, Aug-31 closeout. Blake LEFT, AJ owns FB. Ruf email (7 Qs) ready; Fri reports from 7/20. →SecondBrain JD-2026.
 - **Kinexon volleyball (8/1)**: API email→CSM, awaiting docs. `DEV/Kinexon_Volleyball` (private). Plan: sync→SQLite→dashboards; CSV interim.
@@ -10,7 +10,7 @@
 - **Open PRs (7/31)**: SpeedProfiling #9; KeystoneOS #17 (zotero-snap: LIVE verify+JPEG); drafts ForcePlate #2, cmj-traffic-light #1; FA26 camp day-type regex later.
 - **CFB forecast capture (7/27)**: Weds 8/26–1/20, no backfill. `/forecast-capture`; nags Wed, OVERDUE Thu/Fri. →Tier A project-cfb-forecast-capture.
 - **Tezino CampPrep (6/17)**: Phases done. Open (Eric): FC25 P4-P9 gap, DL target weight, surgery date/clearance, Tier-2 thresholds.
-- **ATH Tech framework (8/13)**: Micah Lamb (ITS) counter-proposal pending; direction = 1-page routing sheet feeding existing IDEA form, not parallel. Levels settled; forms built. →handoff 8/13.
+- **ATH Tech framework (8/14)**: 08-14 set shipped (framework w/ Appendix A = NCAA 5-rec crosswalk + workflow + exec summary, all consistent); old versions in `_Archive/`. v1 gaps: Education, Working Group, transfer-SA, consent template, annual survey. NEXT: Micah mtg Tue/Wed (need ITS intake path); inventory email Mon 8/17. →handoff 8/14.
 - **FaceComps sim**: LOCKED 6/15. NEXT: day color templates.
 - **Child dental (6/25)**: 4yo cavities. NEXT: ped. dentist, SDF/n-HAp.
 
