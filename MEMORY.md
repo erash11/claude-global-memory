@@ -1,25 +1,25 @@
-<!-- Cap: 2,500 chars. Curated working scratchpad. Mid-session writes persist to disk but only take effect next session (frozen-snapshot pattern preserves prefix cache). -->
+<!-- Cap: 2,500 chars. Working scratchpad; writes take effect next session. -->
 # Working Memory
 
 ## Active Threads
-- **CLIs reprinted (8/6)**: PR#1667+#1668 green, await merge. Git-hang fix →Tier A zsh-shell-traps.
-- **OKR/JD 2026 (7/17)**: JD accepted; OKR v3 = semester cycles, Aug-31 closeout. Blake LEFT, AJ owns FB. Ruf email (7 Qs) ready to send; Fri reports from 7/20. →SecondBrain JD-2026.
-- **Kinexon volleyball (8/1)**: API email sent to CSM; awaiting docs. `DEV/Kinexon_Volleyball` (private). Plan: sync→SQLite→dashboards; CSV interim.
-- **Portfolio dashboard (7/31)**: LIVE. `DEV/project-triage/portfolio.json`; `/project` re-renders+republishes; pulse.md feeds briefing.
-- **Open PRs awaiting Eric (7/31)**: SpeedProfiling #9; KeystoneOS #17 (zotero-snap: LIVE verify + JPEG); drafts ForcePlate #2, cmj-traffic-light #1. Add FA26 camp day-type regex later.
-- **CFB forecast capture (7/27)**: Weds 8/26–1/20, no backfill. `/forecast-capture`; briefing nags Wed, OVERDUE Thu/Fri. →Tier A project-cfb-forecast-capture.
+- **Backup/sync (8/14)**: nightly OK(0 err), but ROOT CAUSE UNFIXED — Windows box still runs `daily-backup.ps1`+pushes, so `repo-diverged:SecondBrain` recurs nightly until Bucket Prompt 2 runs there. CRASHBOX unmounted. Morning brief RETIRED. `~/DEV/Bucket`: FIX-STATUS + doc edits uncommitted. →Tier A backup-sync-system.
+- **CLIs reprinted (8/6)**: PR#1667+#1668 green, await merge. →Tier A zsh-shell-traps.
+- **OKR/JD 2026 (7/17)**: JD accepted; OKR v3 = semester cycles, Aug-31 closeout. Blake LEFT, AJ owns FB. Ruf email (7 Qs) ready; Fri reports from 7/20. →SecondBrain JD-2026.
+- **Kinexon volleyball (8/1)**: API email→CSM, awaiting docs. `DEV/Kinexon_Volleyball` (private). Plan: sync→SQLite→dashboards; CSV interim.
+- **Portfolio dashboard**: LIVE. `DEV/project-triage/portfolio.json`; `/project` re-renders+republishes; pulse.md→briefing.
+- **Open PRs (7/31)**: SpeedProfiling #9; KeystoneOS #17 (zotero-snap: LIVE verify+JPEG); drafts ForcePlate #2, cmj-traffic-light #1; FA26 camp day-type regex later.
+- **CFB forecast capture (7/27)**: Weds 8/26–1/20, no backfill. `/forecast-capture`; nags Wed, OVERDUE Thu/Fri. →Tier A project-cfb-forecast-capture.
 - **Tezino CampPrep (6/17)**: Phases done. Open (Eric): FC25 P4-P9 gap, DL target weight, surgery date/clearance, Tier-2 thresholds.
-- **Mac migration (8/11)**: settled →handoff 8/7. OPEN: 73 skill files unversioned.
-- **ATH Tech framework (8/13)**: Mtg done. Micah Lamb (ITS) writing counter-proposal; direction = 1-page routing sheet feeding existing IDEA form, not parallel. Levels settled. Inventory forms built. →handoff 8/13.
+- **ATH Tech framework (8/13)**: Micah Lamb (ITS) counter-proposal pending; direction = 1-page routing sheet feeding existing IDEA form, not parallel. Levels settled; forms built. →handoff 8/13.
 - **FaceComps sim**: LOCKED 6/15. NEXT: day color templates.
 - **Child dental (6/25)**: 4yo cavities. NEXT: ped. dentist, SDF/n-HAp.
 
 ## Environment Notes
-- **OS audits done 7/24** (reports in `audits/`, guards auto-run); next 10/24.
-- **Rituals hooked**: KeystoneOS-Rituals nudges weekdays 17:00 (/interview-me), Fri 15:30 (/weekly-review). Reads each ritual's own output as the record.
-- **memsearch**: nightly reindex rides the backup task, now **00:30** (7/27). gws authed; MCP Gmail = draft-only.
-- **reMarkable OCR (7/31)**: `remarkable_extract.py` in reMarkale_extract; USB-first, `--cloud` fallback; Vision key in .env.
+- **OS audits done 7/24** (reports `audits/`, guards auto-run); next 10/24.
+- **Rituals**: KeystoneOS-Rituals nudges weekdays 17:00 (/interview-me), Fri 15:30 (/weekly-review); output = the record.
+- **memsearch**: reindex rides the backup task (00:30 + ~07:23). gws authed; MCP Gmail = draft-only.
+- **reMarkable OCR (7/31)**: `remarkable_extract.py`; USB-first, `--cloud` fallback; Vision key in .env.
 
 ## Pending Decisions
-- **≥2026-08-31**: OKR Q1 gate — re-evaluate AI integration (buy-in) + data governance (Anthony's proposal); both dormant until then.
-- **Kitman vs MyLink**: brokering MyLink intros (~half Kitman's cost) while buying Kitman API access. Undecided; blocks priority 3.
+- **≥2026-08-31**: OKR Q1 gate — re-evaluate AI integration (buy-in) + data governance (Anthony's proposal); dormant until then.
+- **Kitman vs MyLink**: MyLink intros (~half Kitman's cost) while buying Kitman API access. Undecided; blocks priority 3.
