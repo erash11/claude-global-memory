@@ -5,3 +5,4 @@
 [2026-08-14 07:23] daily-backup: 3 error(s): repo-diverged:SecondBrain, snapshot:sessions, manifest-unmanaged:CFB_Analytics_Lab|COG_S2_Position_Reports|Football_Data_DEV|S2_Evaluation|Terminal_Fluency - see ~/.claude/scripts/logs/daily-backup.log
 [2026-08-14 07:24] daily-backup: 3 error(s): repo-diverged:SecondBrain, snapshot:sessions, manifest-unmanaged:CFB_Analytics_Lab|COG_S2_Position_Reports|Football_Data_DEV|S2_Evaluation|Terminal_Fluency - see ~/.claude/scripts/logs/daily-backup.log
 [2026-08-14 16:06] daily-backup: 2 error(s): rsync-timeout, snapshot:sessions - see ~/.claude/scripts/logs/daily-backup.log
+2026-08-14 19:39 morning-briefing: Outlook auth expired - brief sent with 0 email threads. Run DEV/morning-briefing/scripts/reauth.sh
