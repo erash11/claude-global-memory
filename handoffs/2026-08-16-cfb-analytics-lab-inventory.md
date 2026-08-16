@@ -107,8 +107,11 @@ Dashboard artifact (same URL throughout): https://claude.ai/code/artifact/34fa14
    applied; nothing is blocking it but the review.
 2. **Do Drill 0001** and report the result. Lesson 0002 will not be built until it is reported —
    that gate is deliberate, per `NOTES.md`.
-3. Push `~/DEV/project-triage` — commit `7f9b3bb` is local-only (this session was not authorized to
-   push any repo but KeystoneOS).
+3. Nothing to push. Commit `7f9b3bb` was made locally and **reached `origin/master` without this
+   session pushing it** — verified with `git ls-remote`, and the repo has no local hooks. An external
+   process (the cadence described in the `project-portfolio-registry-write-provenance` memory) pushed
+   it within minutes. Worth knowing: in this repo a local commit may publish itself, so do not assume
+   an unpushed commit stays unpushed.
 
 ## Mid-flight / open questions
 
