@@ -3,6 +3,11 @@
 **Date:** 2026-08-13
 **Owner:** Eric Rash (Applied Performance, Baylor Athletics)
 **Predecessor:** `2026-08-12-ath-tech-software-framework.md` (the merge/build session)
+**Superseded in part by:** `2026-08-14-ncaa-crosswalk-appendix.md` and
+`2026-08-14-ath-tech-scripts` — a newer document set shipped 8/14 (framework with
+Appendix A NCAA crosswalk, workflow, exec summary; older versions moved to `_Archive/`).
+**Read those first for current document state.** This file remains the reference for
+the routing sheet, the two inventory forms, and the 8/13 meeting record.
 **Status:** Meeting held 8/13 4:16 PM. Direction changed. Four new deliverables built,
 two Google Forms live, one Gmail draft staged.
 
