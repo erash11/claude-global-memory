@@ -9,6 +9,7 @@
 - **Open PRs**: reprinted CLIs #1667+#1668 green, await merge; SpeedProfiling #9; KeystoneOS #17 (zotero-snap: LIVE verify+JPEG). Drafts: ForcePlate #2, cmj-traffic-light #1. Deferred: FA26 camp day-type regex.
 - **Tezino CampPrep (6/17)**: phases done, dormant. Open (Eric): FC25 P4-P9 gap, DL target weight, surgery date/clearance, Tier-2 thresholds.
 - **FaceComps sim**: LOCKED 6/15, dormant. NEXT: day color templates.
+- **CLI lessons (8/16)**: `DEV/Terminal_Fluency` lessons 01-03 done (commands, npm/npx/uv+PATH, pipes). Resume: `cd` there, "continue my CLI lessons". Machine repaired: uv 0.12.3 one copy, PATH deduped, Fireflies key→Keychain. OPEN: rotate that key. →Tier A terminal-fluency-workspace + path-shadowing-and-cleanup.
 - **Child dental (6/25)**: 4yo cavities. NEXT: ped. dentist, SDF/n-HAp.
 
 ## Environment Notes
