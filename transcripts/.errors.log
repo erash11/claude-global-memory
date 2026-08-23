@@ -1,0 +1,4 @@
+[2026-08-22T20:02:50.078Z] memsearch-sync: index exit 1: Traceback (most recent call last):
+  File "/Users/kristinarash/.local/share/uv/tools/memsearch/lib/python3.12/site-packages/memsearch/embeddings/onnx.py", line 31, in __init__
+    import onnxruntime as ort
+  File "/Users/kristinarash/.local/share/uv/tools/memsearch/lib/python3.12/site-packages/onnxr
