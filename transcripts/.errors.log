@@ -2,3 +2,4 @@
   File "/Users/kristinarash/.local/share/uv/tools/memsearch/lib/python3.12/site-packages/memsearch/embeddings/onnx.py", line 31, in __init__
     import onnxruntime as ort
   File "/Users/kristinarash/.local/share/uv/tools/memsearch/lib/python3.12/site-packages/onnxr
+[2026-08-24T10:38:24.7562350-05:00] stack-doctor weekly: 3 issue(s): errors-log, flush-stale, memfile-full:MEMORY.md — details in ~/.claude/skills/claude-stack-doctor/scripts/last-weekly-run.log; run /claude-stack-doctor to fix
