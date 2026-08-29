@@ -2,7 +2,7 @@
 # Working Memory
 
 ## Active Threads
-- **Backup/sync (8/14)**: root cause CLOSED (Windows writers off; 4 repos 0/0; CRASHBOX remounted 11:50). WATCH: first nightly after 8/14 must end OK(0 err) + SSD capture line — only then clear `.errors.log`. →Tier A backup-sync-system.
+- **Backup/sync (8/29)**: CLOSED. Nightly moved 00:30→09:00 (CRASHBOX unplugged at 00:30); `.errors.log` cleared. Verify by receipt only. →Tier A backup-sync-system.
 - **ATH Tech framework (8/14)**: 08-14 set shipped (framework w/ Appendix A = NCAA 5-rec crosswalk + workflow + exec summary); old versions `_Archive/`. Gaps: Education, Working Group, transfer-SA, consent template, annual survey. NEXT: Micah mtg Tue/Wed (need ITS intake path); inventory email Mon 8/17.
 - **OKR/JD 2026 (7/17)**: JD accepted; OKR v3 = semester cycles, Aug-31 closeout. Blake LEFT, AJ owns FB. Ruf email (7 Qs) ready; Fri reports from 7/20. →SecondBrain JD-2026.
 - **Kinexon volleyball (8/1)**: API email→CSM, awaiting docs. `DEV/Kinexon_Volleyball` (private). Plan: sync→SQLite→dashboards; CSV interim.
