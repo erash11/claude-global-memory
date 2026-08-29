@@ -1,7 +1,0 @@
-[2026-08-29T19:58:25.909Z] memsearch-sync: index ETIMEDOUT 6x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
-[2026-08-29T19:59:30.522Z] memsearch-sync: index ETIMEDOUT 7x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
-[2026-08-29T20:00:21.306Z] memsearch-sync: index ETIMEDOUT 8x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
-[2026-08-29T20:01:24.681Z] memsearch-sync: index ETIMEDOUT 9x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
-[2026-08-29T20:02:37.506Z] memsearch-sync: index ETIMEDOUT 10x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
-[2026-08-29T20:03:49.472Z] memsearch-sync: index ETIMEDOUT 11x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
-[2026-08-29T20:06:19.798Z] memsearch-sync: index ETIMEDOUT 12x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT

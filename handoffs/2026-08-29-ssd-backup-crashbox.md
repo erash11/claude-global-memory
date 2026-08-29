@@ -53,9 +53,21 @@ Manual backup run `20260829-073713`:
 Eric's own edits from this session, not mine** (wording cleanups removing dated
 2026-08-13 history). Committed locally, not pushed.
 
+## STATUS AT SIGN-OFF — items 1–3 below are DONE
+
+Written before the fixes landed; kept for the reasoning. Current state:
+
+- **Schedule moved 00:30 → 09:00 and is live.** `launchctl print gui/$(id -u)/com.keystone.dailybackup`
+  shows `Hour => 9, Minute => 0`, `watching = 1`. Old plist at `.plist.bak-2026-08-29`.
+  Prove it worked by a fresh `_receipts/run-*.txt` dated 08-30 or later — never by exit code.
+- **`.errors.log` is clean** (0 bytes), archived twice first.
+- **stack-doctor returned `ALL CLEAR`** — every check below passed.
+
+Only open item left: two local commits are unpushed (see bottom).
+
 ## Next actions, most important first
 
-1. **Pick an hour for the backup schedule.** Eric chose option **B** — move
+1. ~~**Pick an hour for the backup schedule.**~~ **DONE — 09:00.** Eric chose option **B** — move
    `com.keystone.dailybackup` off 00:30 — but never named the replacement hour, and
    the session ended before I asked. **Do not guess**: the drive being mounted is the
    entire point, so a wrong hour makes the fix useless. Weak habit evidence only:
