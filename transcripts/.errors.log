@@ -1,0 +1,3 @@
+[2026-09-02T01:31:50.596689+00:00] compiler-backlog: 7 log(s) backlogged, compiling newest 2 this run - run compile.py manually to catch up
+[2026-09-02T02:50:37.465Z] memsearch-sync: index ETIMEDOUT 6x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-02T02:57:22.824Z] memsearch-sync: index ETIMEDOUT 7x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT

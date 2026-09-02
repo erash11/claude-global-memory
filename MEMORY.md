@@ -15,7 +15,7 @@
 ## Environment Notes
 - **Portfolio dashboard** LIVE: `DEV/project-triage/portfolio.json`; `/project` re-renders+republishes; pulse.md→briefing.
 - Ritual/reindex/audit schedules + gws & Gmail limits →Tier A automation-cadence.
-- CFB forecast capture resumes Wed 8/26 →Tier A cfb-forecast-capture.
+- CFB forecast capture: Monday-anchored, season 8/24-1/23 →Tier A cfb-forecast-capture.
 
 ## Pending Decisions
 - **≥2026-08-31**: OKR Q1 gate — re-evaluate AI integration (buy-in) + data governance (Anthony's proposal); dormant until then.
