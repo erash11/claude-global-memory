@@ -1,0 +1,4 @@
+[2026-09-02T01:31:50.596689+00:00] compiler-backlog: 7 log(s) backlogged, compiling newest 2 this run - run compile.py manually to catch up
+[2026-09-02T02:50:37.465Z] memsearch-sync: index ETIMEDOUT 6x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-02T02:57:22.824Z] memsearch-sync: index ETIMEDOUT 7x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-02 07:22] daily-backup: 5 error(s): repo-push:SecondBrain, repo-push:global-memory, repo-push:dotclaude, manifest-unmanaged:RTP_Constraints_Course, memsearch-index:full-set - see ~/.claude/scripts/logs/daily-backup.log
