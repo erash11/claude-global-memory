@@ -15,6 +15,7 @@
 
 ## Environment Notes
 - **Portfolio dashboard** LIVE: `DEV/project-triage/portfolio.json`; `/project` re-renders+republishes; pulse.md→briefing.
+- **Terminal (9/4)**: tmux = default VS Code shell; `cc`/`cx` agent aliases. →vault `Knowledge/tooling/tmux-cheat-sheet.md`.
 - Schedules, gws/Gmail limits →Tier A automation-cadence. CFB capture (Mon-anchored, 8/24–1/23) →Tier A cfb-forecast-capture.
 
 ## Pending Decisions
