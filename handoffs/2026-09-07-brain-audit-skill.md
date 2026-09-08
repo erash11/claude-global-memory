@@ -1,6 +1,6 @@
 # Handoff — `brain-audit` skill shipped
 
-**Date:** 2026-09-07 (late) · **Status: COMPLETE and verified running — never actually run for real**
+**Date:** 2026-09-07 (late) · **Status: COMPLETE, run once. Baseline 67/100.**
 
 Written during `/closeout`, because this skill was built late in the evening and appeared in
 no handoff, no memory file and no commit. Committed to `~/.claude/skills` so it cannot be
@@ -45,32 +45,34 @@ table.
 
 That second line resolves the overlap question worth asking about any new vault auditor.
 
-## Verified this session
+## First run — baseline 67/100
 
-`bash ~/.claude/skills/brain-audit/measure.sh` → **exit 0**, real numbers, no `MISSING`.
-Sample of what it currently reports about the vault:
+Ran the same evening. `~/SecondBrain/audits/brain-audit-2026-09-07.md`, with the row
+appended to `~/SecondBrain/audits/_trend.md`.
 
-```
-Notes:      23 | 2026-08-03 | 35 days stale
-Knowledge: 421 | 2026-09-05 |  2 days stale
-Inbox:     288 | 2026-09-07 |  0 days stale
-last_interview: 2026-08-03 | 35     grill_sessions: 0
-```
+| C | Score | The finding |
+|---|---:|---|
+| Context | 17 / 25 | Tier A strong (40 memories), `Knowledge/` 2d fresh. But **`MEMORY.md` at 100% of cap** and **0 grill sessions** — the biggest evergreen decisions are still only in Eric's head. |
+| Connections | 22 / 25 | All three live sources in window; ledger at 27d is nearly out of its 30d window. |
+| Capabilities | 15 / 25 | 161 skills installed. The July audit's one finding did ship, but **no audit→build loop existed until today**, so most findings were never converted into anything. |
+| Cadence | 13 / 25 | All 9 launchd jobs `exit=0`, and `Notes/` **35 days stale**. Green jobs, frozen synthesis — the exact failure the rubric is weighted to catch. |
 
-**Those numbers are a preview of the first real score, and they are not flattering.**
-`Notes/` at 35 days stale is squarely in Cadence's middle band, and by the skill's own
-argument that is the failure mode that matters most. Capture (`Inbox` 288, 0 days) is
-racing ahead of synthesis (`Notes` 23, 35 days).
+**The headline is the gap between capture and synthesis.** `Inbox/` 288 files, 0 days
+stale. `Notes/` 23 files, 35 days stale. Material arrives and is not processed.
+
+The report also records a deliberate rubric interpretation worth honouring on the next
+run: Context scored **17 rather than the flat 13** the "one file over cap" anchor implies,
+because `MEMORY.md` was over by two characters rather than meaningfully bloated, and the
+17 reflects the grill gap instead. Hold that reading so the column keeps meaning one thing.
 
 ## Next actions
 
-1. **Run `/brain-audit` for real.** It has never produced a report. The measurement half is
-   proven; the scoring half has never been exercised end to end.
-2. Expect a mediocre Cadence score and let it stand — the point is the baseline, not a
-   good first number.
-3. Act on the two builds it proposes, so the *next* run has something to measure movement
-   against. Capabilities scores "audit-driven builds shipped since last run", so the skill
-   grades whether its own advice was taken.
+1. **Act on the two builds the report proposes**, so the next run has movement to measure.
+   Capabilities explicitly scores "audit-driven builds shipped since last run" — the skill
+   grades whether its own advice was taken, and a second flat score means the loop failed.
+2. **Close the synthesis gap.** `Notes/` at 35 days and 0 grill sessions are the two
+   findings that most move the score, and both are habit rather than tooling.
+3. **The report is `status: raw`** — process it like any other inbox item.
 4. Probable origin, unconfirmed: `SecondBrain/Inbox/2026-09-07-aios-video-gap-analysis.md`
    (same evening, `status: raw`) is a gap analysis of the vault against the AIOS approach.
    This skill is very likely the tooling response to it. Inferred from timing and subject,
@@ -82,5 +84,6 @@ racing ahead of synthesis (`Notes` 23, 35 days).
 |---|---|
 | `~/.claude/skills/brain-audit/SKILL.md` | Complete |
 | `~/.claude/skills/brain-audit/measure.sh` | Complete, runs clean (exit 0) |
-| `~/SecondBrain/audits/` | Still one report, dated 2026-07-24 |
+| `~/SecondBrain/audits/brain-audit-2026-09-07.md` | First real report, 67/100, `status: raw` |
+| `~/SecondBrain/audits/_trend.md` | Trend table, one row. Append, never rewrite. |
 | `~/SecondBrain/Inbox/2026-09-07-aios-video-gap-analysis.md` | Committed, `status: raw` |
