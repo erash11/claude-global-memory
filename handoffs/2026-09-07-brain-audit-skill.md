@@ -87,3 +87,58 @@ because `MEMORY.md` was over by two characters rather than meaningfully bloated,
 | `~/SecondBrain/audits/brain-audit-2026-09-07.md` | First real report, 67/100, `status: raw` |
 | `~/SecondBrain/audits/_trend.md` | Trend table, one row. Append, never rewrite. |
 | `~/SecondBrain/Inbox/2026-09-07-aios-video-gap-analysis.md` | Committed, `status: raw` |
+
+---
+
+## Addendum — written by the session that built it (closeout, same evening)
+
+The handoff above was auto-generated mid-build. Everything in it is correct. This
+section closes its open question and records what it could not see.
+
+**Origin — confirmed, not inferred.** `Inbox/2026-09-07-aios-video-gap-analysis.md`
+is exactly the source. Eric asked to mine a video (Nate Herk, "I Turned GPT-6 Astra
+Into the Ultimate AI Second Brain", https://www.youtube.com/watch?v=yysILVsfLFM) for
+second-brain improvements, then said "create it" about the top recommendation. The
+gap analysis named four missing things; this skill is the first. The other three are
+still unbuilt: a level-up step (now folded into the skill as Step 5), a topic-driven
+grill, and the three-test rubric (also folded in, as Step 3).
+
+**The two proposed builds, named.** The handoff says to act on them but not what they
+are:
+1. `/grill-me <topic>` writing to `~/SecondBrain/Inbox/grills/`. Chosen because
+   `interview-me` is day-driven and `mattpocock-skills:grilling` writes nothing to
+   disk (28 lines, no output step) — and because `user_working-conditions-bottleneck.md`
+   says the limiting factor is the absence of a thinking partner and the right move is
+   helping him capture what surfaces. First topics: Kitman vs MyLink, the ATH Tech ITS
+   blocker, the overdue OKR Q1 gate.
+2. Put `/brain-audit` on `com.keystone.rituals`, monthly.
+
+**Naming — do not "fix" this.** The skill is `brain-audit`, kebab-case. The vendored
+LifeOS `CreateSkill` skill mandates TitleCase, but every skill Eric wrote himself
+(`closeout`, `improve-system`, `claude-stack-doctor`, `interview-me`) is kebab-case,
+and `/brain-audit` is what he types. Renaming it to `BrainAudit` would break his
+trigger.
+
+**Two bugs found and fixed while testing `measure.sh`:**
+1. BSD `date -j -f '%Y-%m-%d'` fills unspecified time fields from the clock at call
+   time, so the same date reported 34 days on one line and 35 on the next. Both
+   timestamps are now pinned to `12:00:00`. The gotcha is recorded in `SKILL.md`.
+2. `find -exec stat {} \;` spawned one process per file and pushed a run past the
+   120s timeout. Changed to `{} +`. A full run is now ~7 seconds.
+
+**One metric was designed and then dropped:** a count of configured MCP servers.
+`~/.claude.json` holds only 1; claude.ai connectors and plugin MCPs live elsewhere, so
+the number read as misleadingly low. Connections are scored on data *freshness*
+instead — a configured-but-silent connector should score zero anyway. The reasoning is
+left as a comment in `measure.sh` so it is not re-attempted.
+
+**Also created or modified, not in the table above:**
+- `~/.claude/skills/_shared/config.json` — added `vault_audits`, `vault_audit_trend`
+- `~/.claude/projects/-Users-kristinarash-DEV/memory/project_brain-audit-loop.md` (new)
+- `~/.claude/projects/-Users-kristinarash-DEV/memory/MEMORY.md` — index line
+- `~/.claude/LIFEOS/MEMORY/SKILLS/execution.jsonl` — CreateSkill log entry
+
+**Blocker worth surfacing:** global `~/.claude/global-memory/MEMORY.md` is at
+2496/2500 characters. Nothing new can be written to working memory until it is
+trimmed. This is why this session's thread was written to Tier A instead. Run
+`/claude-stack-doctor`.
