@@ -80,6 +80,26 @@ merged fast-forward into `main` and **pushed** to `github.com/erash11/PFF_Data_P
 (private). Eric's older `7200041` from 2026-08-30 went up with it. Local and remote
 are level.
 
+## Gap found while verifying backup coverage (pre-existing, NOT caused by this session)
+
+`daily-backup.ps1:330` walks `Get-ChildItem $DevRoot -Directory` — **directories only**.
+Every loose file at the `~/DEV` root is therefore backed up by nothing:
+
+    CLAUDE.md  COMMANDS.md  FOOTBALL.md  PERFORMANCE.md  PERSONAL.md
+    PLATFORM.md  PROGRAM.md  RESEARCH.md  CFBD_API_Access_Verification_2026-08-13.md
+
+`~/DEV` is not a git repo either, so there is no second copy anywhere. These are the
+router/index files the whole workspace map depends on, and this session wrote the move
+records into three of them. Confirmed absent from both `/Volumes/CRASHBOX/AssistantBackup`
+and the Drive `Backups/Machine` root.
+
+Fix would be a `DEV/_root-files` manifest entry plus a file-level branch in the script,
+or simply `git init` at `~/DEV` for the routers. Not attempted here — changing the backup
+script mid-session was out of scope and carries risk.
+
+Manifest coverage otherwise verified clean: zero unmanaged `DEV/` directories after
+adding `DEV/Life-OS`.
+
 ## Next actions, most important first
 
 1. **Delete the merged branch** `add-per-snap-and-threshold-outputs` in
@@ -93,7 +113,9 @@ are level.
    folder. Also note stack-doctor only watches `com.keystone.*`, so `com.eric.*` jobs
    would be unmonitored.
 4. **Confirm the manifest classification** of `DEV/Life-OS` (`personal`/`ssd`).
-5. `~/.claude/global-memory/MEMORY.md` is 2548 chars, over its 2500 cap — stack-doctor
+5. **Back up the `~/DEV` root `.md` routers** — see the gap section above. Nothing
+   copies them today.
+6. `~/.claude/global-memory/MEMORY.md` is 2548 chars, over its 2500 cap — stack-doctor
    flagged `memfile-full` at session start. Needs consolidation.
 
 ## Open questions
