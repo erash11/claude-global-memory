@@ -4,13 +4,13 @@
 ## Active Threads
 - **Personal site (9/2)**: build #1 `DEV/Website/scrollcraft/builds/eric-rash/`, committed, UNPUSHED. NEXT: real-phone check; host or keep local. →Tier A personal-site-build-routes.
 - **Baseball profiles (9/2)**: `DEV/Baseball_PerformanceProfiles`, Excel-only coach. 3 .xlsx prototypes, mock data. NEXT: coach picks one + real tests.
-- **RTP CLA course (9/5)**: `DEV/RTP_Constraints_Course`. Ingest DONE, 84 entries. NEXT: scan printed p254–255 then ONE rebuild; import `sources/myszka-references-new.ris`; lesson 0002. →Tier A rtp-cla-course.
-- **ATH Tech framework (8/14)**: 08-14 set shipped. NEXT: Micah mtg (need ITS intake path); inventory email. →Tier A ath-tech-framework.
+- **RTP CLA course (9/5)**: `DEV/RTP_Constraints_Course`. Ingest DONE, 84 entries. NEXT: scan printed p254–255 then ONE rebuild; import the new .ris; lesson 0002. →Tier A rtp-cla-course.
+- **ATH Tech framework (8/14)**: 08-14 set shipped. NEXT: Micah mtg (need ITS intake path); inventory export refresh (5 units out, due 9/29). →Tier A ath-tech-framework, tech-inventory-refresh.
 - **Kinexon volleyball (8/1)**: API email→CSM, awaiting docs. `DEV/Kinexon_Volleyball` (private). Plan: sync→SQLite→dashboards; CSV interim.
-- **Status report (9/7)**: #2 drafted, UNSENT — `SecondBrain/Inbox/status-reports/2026-09-07-email.txt`. 3 lines need Eric's read-check. `/interview-me` Part 0 logs to `Inbox/status-log/`. NEXT: send, rename `-email-sent.txt`, flip `sent: true`. #3 = 9/21. →Tier A supervisor-log-pipeline.
-- **Open PRs (verified 9/7)**: AgentAssist #1 (draft), CFB_Analytics_Lab #1. Every earlier listed PR is merged. Deferred: FA26 camp regex.
+- **Status report (9/7)**: #2 drafted, UNSENT — `SecondBrain/Inbox/status-reports/2026-09-07-email.txt`. 3 lines need Eric's read-check. NEXT: send, rename `-email-sent.txt`, flip `sent: true`. #3 = 9/21. →Tier A supervisor-log-pipeline.
+- **Open PRs (verified 9/7)**: AgentAssist #1 (draft), CFB_Analytics_Lab #1. All earlier PRs merged. Deferred: FA26 camp regex.
 - **OKR/JD 2026 (7/17)**: Blake LEFT, AJ owns FB. →SecondBrain `Projects/Applied-Performance-JD-2026/`.
-- **CLI lessons**: OPEN: rotate Fireflies key. →Tier A terminal-fluency-workspace.
+- **CLI lessons**: rotate Fireflies key. →Tier A terminal-fluency-workspace.
 - **Child dental (6/25)**: 4yo cavities. NEXT: ped. dentist, SDF/n-HAp.
 
 ## Environment Notes
