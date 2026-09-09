@@ -8,6 +8,7 @@
 - **ATH Tech framework (8/14)**: set shipped. NEXT: Micah mtg (need ITS intake path); inventory refresh (5 units out, due 9/29). →Tier A ath-tech-framework, tech-inventory-refresh.
 - **Kinexon volleyball (8/1)**: API email→CSM, awaiting docs. `DEV/Kinexon_Volleyball` (private). Plan: sync→SQLite→dashboards; CSV interim.
 - **Status report (9/7)**: #2 drafted, UNSENT — `SecondBrain/Inbox/status-reports/2026-09-07-email.txt`. 3 lines need Eric's read-check. NEXT: send, rename `-email-sent.txt`, flip `sent: true`. #3 = 9/21. →Tier A supervisor-log-pipeline.
+- **Acro & Tumbling (9/8)**: owe them an Excel "pass builder" — routines → cumulative impact load. 5-athlete manual pilot first. Waiting on their skill inventory + practice assignments.
 - **Open PRs (verified 9/7)**: AgentAssist #1 (draft), CFB_Analytics_Lab #1. Earlier PRs merged. Deferred: FA26 camp regex.
 - **OKR/JD 2026 (7/17)**: Blake LEFT, AJ owns FB. →SecondBrain `Projects/Applied-Performance-JD-2026/`.
 - Slow-moving to-dos parked in Tier A: rotate Fireflies key →fireflies-cli-broken-on-mac; child dental →child-dental-plan.
