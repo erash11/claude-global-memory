@@ -8,3 +8,7 @@
 transcripts/.memsearch-index.lock
 transcripts/.memsearch-index.log
 transcripts/.memsearch-timeout-streak
+
+# regenerated per machine by harvest-dev-docs; never tracked
+dev-docs/
+

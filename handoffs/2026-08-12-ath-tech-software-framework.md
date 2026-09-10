@@ -1,9 +1,35 @@
 # Handoff — ATH Technology / Software Management Framework
 
-**Date:** 2026-08-12
+**Date:** 2026-08-12 · **Updated:** 2026-08-16
 **Owner:** Eric Rash (Applied Performance, Baylor Athletics)
-**Status:** Delivered. Meeting 2026-08-13, 4:15–4:45 PM Central, Microsoft Teams —
-"INITIAL DISCUSSION: ATH Technology/Software Review". Email sent by Eric himself.
+
+> ## ⚠️ FILE PATHS BELOW ARE SUPERSEDED — read this first
+>
+> The 8/13 meeting happened. Eric revised everything on **2026-08-14** and
+> reorganised the folder himself. Every filename in the "File locations" section
+> below now points at an archived version.
+>
+> **Authoritative description of current document state:**
+> `…/OneDrive-BaylorUniversity/00_Primary_Storage_Drive/XXXX_Transfer/SoftwareTechDocs/_Archive/README.txt`
+> (written by Eric — trust it over anything in this file)
+>
+> **Current set** — all `_ER_2026-08-14`, in `SoftwareTechDocs/` and mirrored to
+> `~/DEV/SoftwareTech_Mgmt_Framework/deliverables/` (synced + hash-verified 8/16):
+> framework (10pp, now carries **Appendix A — NCAA Performance Technologies
+> crosswalk**), workflow handout (3pp), executive summary (2pp), plus
+> `NCAA_PerformanceTech_v3.docx` as the appendix source. Changes since 08-12:
+> step 1.4 ITS clarification, and the NCAA alignment section no longer uses the
+> "high-level by design" wording. Older versions live in `_Archive/2026-08-12/`
+> and `_Archive/2026-08-14_as-sent/`.
+>
+> **Open gaps** (per Eric's memory entry): Education, Working Group,
+> transfer-student-athlete, consent template, annual survey.
+> **Next:** Micah meeting Tue/Wed (needs the ITS intake path); inventory email
+> Mon 8/17.
+>
+> **What is still valid below:** the merge specification, the seven design
+> decisions and their reasoning, Kenny's tone constraints, and the environment
+> gotchas. That is why this file is kept rather than replaced.
 
 ---
 

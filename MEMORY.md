@@ -2,24 +2,25 @@
 # Working Memory
 
 ## Active Threads
-- **Backup/sync (8/14)**: nightly OK(0 err), but ROOT CAUSE UNFIXED — Windows box still runs `daily-backup.ps1`+pushes, so `repo-diverged:SecondBrain` recurs nightly until Bucket Prompt 2 runs there. CRASHBOX unmounted. Morning brief RETIRED. `~/DEV/Bucket`: FIX-STATUS + doc edits uncommitted. →Tier A backup-sync-system.
-- **CLIs reprinted (8/6)**: PR#1667+#1668 green, await merge. →Tier A zsh-shell-traps.
-- **OKR/JD 2026 (7/17)**: JD accepted; OKR v3 = semester cycles, Aug-31 closeout. Blake LEFT, AJ owns FB. Ruf email (7 Qs) ready; Fri reports from 7/20. →SecondBrain JD-2026.
-- **Kinexon volleyball (8/1)**: API email→CSM, awaiting docs. `DEV/Kinexon_Volleyball` (private). Plan: sync→SQLite→dashboards; CSV interim.
-- **Portfolio dashboard**: LIVE. `DEV/project-triage/portfolio.json`; `/project` re-renders+republishes; pulse.md→briefing.
-- **Open PRs (7/31)**: SpeedProfiling #9; KeystoneOS #17 (zotero-snap: LIVE verify+JPEG); drafts ForcePlate #2, cmj-traffic-light #1; FA26 camp day-type regex later.
-- **CFB forecast capture (7/27)**: Weds 8/26–1/20, no backfill. `/forecast-capture`; nags Wed, OVERDUE Thu/Fri. →Tier A project-cfb-forecast-capture.
-- **Tezino CampPrep (6/17)**: Phases done. Open (Eric): FC25 P4-P9 gap, DL target weight, surgery date/clearance, Tier-2 thresholds.
-- **ATH Tech framework (8/13)**: Micah Lamb (ITS) counter-proposal pending; direction = 1-page routing sheet feeding existing IDEA form, not parallel. Levels settled; forms built. →handoff 8/13.
-- **FaceComps sim**: LOCKED 6/15. NEXT: day color templates.
-- **Child dental (6/25)**: 4yo cavities. NEXT: ped. dentist, SDF/n-HAp.
+- **Personal site (9/2)**: `DEV/Website/scrollcraft/builds/eric-rash/`, pushed 9/9. NEXT: real-phone check; host or keep local. →Tier A personal-site-build-routes.
+- **Baseball profiles (9/2)**: `DEV/Baseball_PerformanceProfiles`, Excel-only coach. 3 .xlsx mock-data prototypes. NEXT: coach picks one + real tests.
+- **RTP CLA course (9/5)**: ingest DONE. NEXT: scan p254–255 → ONE rebuild; import .ris; lesson 0002. →Tier A rtp-cla-course.
+- **ATH Tech framework (8/14)**: shipped. NEXT: Micah mtg (need ITS intake path); inventory refresh due 9/29. →Tier A ath-tech-framework, tech-inventory-refresh.
+- **Kinexon volleyball (8/1)**: API email→CSM, awaiting docs. Plan: sync→SQLite→dashboards; CSV interim.
+- **Status report (9/7)**: #2 drafted, UNSENT — `SecondBrain/Inbox/status-reports/2026-09-07-email.txt`. NEXT: read-check, send, rename `-email-sent.txt`, flip `sent: true`. #3 = 9/21. →Tier A supervisor-log-pipeline.
+- **Acro & Tumbling (9/8)**: owe an Excel "pass builder" — routines → cumulative impact load. 5-athlete pilot. Awaiting skill inventory + assignments.
+- **Open PRs (9/7)**: AgentAssist #1 (draft), CFB_Analytics_Lab #1. Deferred: FA26 camp regex.
+- **OKR/JD 2026 (7/17)**: Blake LEFT, AJ owns FB. →vault `Projects/Applied-Performance-JD-2026/`.
+- Parked in Tier A: Fireflies key rotation; child dental.
+- **DEV→GitHub (9/9)**: DONE. 128 folders on `erash11`. DexaProject off GitHub→Drive; 18 repos now private. →Tier A github-consolidation.
 
 ## Environment Notes
-- **OS audits done 7/24** (reports `audits/`, guards auto-run); next 10/24.
-- **Rituals**: KeystoneOS-Rituals nudges weekdays 17:00 (/interview-me), Fri 15:30 (/weekly-review); output = the record.
-- **memsearch**: reindex rides the backup task (00:30 + ~07:23). gws authed; MCP Gmail = draft-only.
-- **reMarkable OCR (7/31)**: `remarkable_extract.py`; USB-first, `--cloud` fallback; Vision key in .env.
+- **Portfolio dashboard** LIVE; `/project` re-renders+republishes. →Tier A command-centre, portfolio-registry-write-provenance.
+- **Terminal (9/4)**: tmux = default VS Code shell; `cc`/`cx` aliases. →vault `Knowledge/tooling/tmux-cheat-sheet.md`.
+- Hooks exist in TWO copies (`.claude/hooks/`, `.codex/hooks/`) — patch both. →Tier A hook-two-copies-trap.
+- `~/DEV` = THIN repo (`erash11/DEV`), 8 router `.md` only; `.gitignore` starts `/*` — never remove. `_ARCHIVE/` = parked. →Tier A github-consolidation.
+- Schedules/gws limits →automation-cadence. CFB capture (Mon, 8/24–1/23) →cfb-forecast-capture.
 
 ## Pending Decisions
-- **≥2026-08-31**: OKR Q1 gate — re-evaluate AI integration (buy-in) + data governance (Anthony's proposal); dormant until then.
-- **Kitman vs MyLink**: MyLink intros (~half Kitman's cost) while buying Kitman API access. Undecided; blocks priority 3.
+- **DUE (was 8/31)**: OKR Q1 gate: AI integration (buy-in) + data governance (Anthony's proposal).
+- **Kitman vs MyLink**: MyLink intros (~half Kitman's cost) + buy Kitman API access. Undecided; blocks priority 3.
