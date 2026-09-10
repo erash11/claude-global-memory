@@ -1,0 +1,3 @@
+# Distinguish On-Demand Briefs from Reviewed Briefs
+
+Ask the Library will produce immediately useful On-Demand Briefs without a human approval step. Only a Review Candidate being promoted for staff-wide reuse requires one accountable Domain Reviewer after automated source and citation checks pass; no committee or second sign-off is required. Clear status, reviewer, review date, and evidence provenance will preserve the distinction between generated decision support, reviewed organizational knowledge, and separately adopted institutional policy. Reviewed Briefs are versioned and marked Refresh Due after 12 months or when newly added, directly relevant evidence could materially change them; prior versions remain visible rather than being silently rewritten.

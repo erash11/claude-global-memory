@@ -1,0 +1,3 @@
+# Use explained confidence tiers instead of numerical scores
+
+Each Decision Brief will communicate Evidence Confidence as Higher, Moderate, or Limited and explain the rating through source and review provenance, study quality and design, consistency, directness to the Decision Context, and the amount and recency of relevant evidence. The system will not present a numerical confidence score or infer confidence from study design alone, and inadequate evidence will produce a Coverage Gap rather than the lowest tier. Material Evidence Tension prevents Higher confidence; context-resolved tension may support a conditional direction with at most Moderate confidence, while unresolved tension results in Limited confidence and no Recommended Direction.

@@ -1,0 +1,3 @@
+# Keep On-Demand Briefs private by default
+
+An On-Demand Brief will be visible only to its requester unless the requester deliberately creates a Controlled Share or submits it as a Review Candidate. A Controlled Share must retain the brief's on-demand status, creation date, Decision Context, Evidence Confidence, and citations, and it does not create a public link or promote the brief. Only a promoted Reviewed Brief enters the shared staff knowledge base; this supports candid use, limits unnecessary operational exposure, and prevents generated material from becoming organizational knowledge without an explicit review transition.

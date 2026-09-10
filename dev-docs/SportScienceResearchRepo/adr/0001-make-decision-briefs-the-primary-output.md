@@ -1,0 +1,3 @@
+# Make Decision Briefs the primary Ask the Library output
+
+Ask the Library will produce structured Decision Briefs rather than treat free-form chatbot responses as its primary product contract. This prioritizes repeatable, source-grounded synthesis with an explicit bottom line, applicability, confidence, limitations, practical options and guardrails, and supporting sources while preserving staff judgment. V1 will omit open-ended follow-up chat: changing the Practical Question or Decision Context creates a versioned Brief Revision, while conversational follow-up may be reconsidered after pilot evidence shows a need.
