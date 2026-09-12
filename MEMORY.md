@@ -13,7 +13,7 @@
 - **OKR/JD 2026 (7/17)**: Blake LEFT, AJ owns FB. →vault `Projects/Applied-Performance-JD-2026/`.
 - Parked in Tier A: Fireflies key rotation; child dental.
 
-- **Skill audit (9/12)**: 770 installed, 58 ever used, 0 project-level. Audit before trying Pi. →Tier A skill-bloat-and-promotion
+- **Skill audit (9/12)**: DONE. 160→61 global skills, 19.2k→6.4k tok/session. Plugins beat local copies. →Tier A skill-bloat-and-promotion
 
 ## Environment Notes
 - **Portfolio dashboard** LIVE; `/project` re-renders+republishes. →Tier A command-centre, portfolio-registry-write-provenance.
