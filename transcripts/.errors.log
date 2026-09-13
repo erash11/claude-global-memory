@@ -1,1 +1,1 @@
-[2026-09-12 14:23] daily-backup: 1 error(s): snapshot-ssd:LibraryProject - see ~/.claude/scripts/logs/daily-backup.log
+[2026-09-13T04:30:44.946298+00:00] compiler-stale-lock: reclaimed compile lock held 1550min by pid 47899 (compile.py --auto)
