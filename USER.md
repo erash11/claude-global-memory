@@ -6,7 +6,7 @@ Eric Rash — Director of Applied Performance, Baylor Athletics. Builds athlete 
 
 ## Preferences
 - Python + R. **macOS since 2026-08-05**; Windows 11 box still ACTIVE (synced 9/9). Tool paths: see CLAUDE.md.
-- Local SQLite/DuckDB; no cloud/servers/schedulers without Baylor IT approval. OneDrive project folders — beware DuckDB locks.
+- Local SQLite/DuckDB; no cloud/servers/schedulers without Baylor IT approval. Storage = Google Drive only (OneDrive dropped 9/13); DuckDB stays local — cloud sync locks it.
 - Tangible working examples over documentation.
 
 ## Working Style
