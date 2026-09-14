@@ -3,24 +3,25 @@
 
 ## Active Threads
 - **Personal site (9/2)**: `DEV/Website/scrollcraft/builds/eric-rash/`, pushed 9/9. NEXT: phone check; host or keep local. →Tier A personal-site-build-routes.
-- **Baseball profiles (9/2)**: `DEV/Baseball_PerformanceProfiles`, Excel-only coach. 3 .xlsx mock prototypes. NEXT: coach picks one + real tests.
+- **Baseball profiles (9/2)**: `DEV/Baseball_PerformanceProfiles`, Excel-only coach. NEXT: coach picks 1 of 3 prototypes + real tests.
 - **RTP CLA course (9/10)**: ingest + PDF rebuild DONE. NEXT: import .ris → Zotero; lesson 0002. →Tier A rtp-cla-course.
 - **ATH Tech framework (8/14)**: shipped. NEXT: Micah mtg (ITS intake path); inventory refresh 9/29. →Tier A ath-tech-framework, tech-inventory-refresh.
-- **Kinexon volleyball (8/1)**: API email→CSM, awaiting docs. Plan: sync→SQLite→dashboards; CSV interim.
+- **Kinexon volleyball (8/1)**: awaiting API docs from CSM; CSV interim.
 - **Status report (9/7)**: #2 UNSENT `SecondBrain/Inbox/status-reports/2026-09-07-email.txt`. NEXT: send; #3 = 9/21. →Tier A supervisor-log-pipeline.
 - **Acro & Tumbling (9/8)**: owe Excel "pass builder" — routines → cumulative impact load. 5-athlete pilot. Awaiting skill inventory.
-- **Open PRs (9/7)**: AgentAssist #1 (draft), CFB_Analytics_Lab #1. Deferred: FA26 camp regex.
+- **Open PRs (9/7)**: AgentAssist #1 (draft), CFB_Analytics_Lab #1.
 - **OKR/JD 2026 (7/17)**: Blake LEFT, AJ owns FB. →vault `Projects/Applied-Performance-JD-2026/`.
 - Parked in Tier A: Fireflies key rotation; child dental.
-- **GPS pull (9/13)**: LIVE launchd 06:30 + `pull.sh`. NEXT: Windows step off; rotate token. →`DataBase_GPS_Reporting/docs/STATUS.md`
+- **GPS pull (9/13)**: LIVE Mac 06:30. Windows GPS step verified OFF. NEXT: rotate token. →`DataBase_GPS_Reporting/docs/STATUS.md`
+- **Win refresh task (9/13)**: ForcePlate step broken (import error), Perch untested. DECIDE which machine owns forceplate/perch DBs before fixing. →`_INBOX/docs/STATUS.md`
 - **FB matchups (9/13)**: Wk3 keys + profile v2 on Drive. EPA source = PFF current (decided 9/13), CFBD PPA cross-check only. TRAP: `run_direction` != point of attack.
 
 ## Environment Notes
-- **Portfolio dashboard** LIVE; `/project` re-renders+republishes. →Tier A command-centre, portfolio-registry-write-provenance.
-- **Terminal (9/4)**: tmux = default VS Code shell; `cc`/`cx` aliases. →vault `Knowledge/tooling/tmux-cheat-sheet.md`.
+- **Portfolio dashboard** LIVE; `/project` re-renders+republishes. →Tier A command-centre.
+- **Terminal (9/4)**: tmux default; `cc`/`cx` aliases. →vault tmux-cheat-sheet.
 - Hooks exist in TWO copies (`.claude/hooks/`, `.codex/hooks/`) — patch both. →Tier A hook-two-copies-trap.
-- `~/DEV` = THIN repo (`erash11/DEV`), 8 router `.md` only; `.gitignore` starts `/*` — never remove. `_ARCHIVE/` = parked. →Tier A github-consolidation.
-- Schedules/gws limits →automation-cadence. CFB capture (Mon, 8/24–1/23) →cfb-forecast-capture.
+- `~/DEV` = THIN repo (`erash11/DEV`), router `.md` only; `.gitignore` starts `/*` — never remove. →Tier A github-consolidation.
+- Schedules →automation-cadence. CFB capture (Mon, 8/24–1/23) →cfb-forecast-capture.
 
 ## Pending Decisions
 - **DUE (was 8/31)**: OKR Q1 gate: AI integration (buy-in) + data governance (Anthony's proposal).
