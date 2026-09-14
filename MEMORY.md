@@ -12,8 +12,7 @@
 - **Open PRs (9/7)**: AgentAssist #1 (draft), CFB_Analytics_Lab #1. Deferred: FA26 camp regex.
 - **OKR/JD 2026 (7/17)**: Blake LEFT, AJ owns FB. →vault `Projects/Applied-Performance-JD-2026/`.
 - Parked in Tier A: Fireflies key rotation; child dental.
-
-- **Skill audit (9/12)**: DONE. 160→61 global skills, 19.2k→6.4k tok/session. Plugins beat local copies. →Tier A skill-bloat-and-promotion
+- **GPS pull (9/13)**: LIVE: launchd 06:30 + `pull.sh`; DB to 9/12. NEXT: Windows GPS step off; rotate token. →`DataBase_GPS_Reporting/docs/STATUS.md`
 
 ## Environment Notes
 - **Portfolio dashboard** LIVE; `/project` re-renders+republishes. →Tier A command-centre, portfolio-registry-write-provenance.
