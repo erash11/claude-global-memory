@@ -13,6 +13,7 @@
 - **Win refresh task (9/13)**: ForcePlate step broken, Perch untested. DECIDE which machine owns forceplate/perch DBs first. →`_INBOX/docs/STATUS.md`
 - **FB matchups (9/13)**: Wk3 keys + profile v2 on Drive. EPA = PFF current; CFBD PPA cross-check only. TRAP: `run_direction` != point of attack.
 - **PP Recruiting (9/15)**: 008 = 2025 FCS+G6 leaderboard baseline on Drive (8,761, Elig 1+). NEXT: validation vs 000 POST-PORTAL RECAP, then matrix 009; weekly refresh by wk 5-6 for personnel staffer. Branch worktree-fireflies-review-board-0915 unmerged. →`PP_Recruiting/docs/STATUS.md`
+- **Sleep scheduler (9/15)**: game-weekend model built, draft PR #1 (133 tests). 2 real itineraries on Drive (FAST\GAME_WEEK_ITINERARIES, never Git). NEXT: 6 template decisions (clock-time curfew/Fri practice, breakfast check-in). →`sleep-scheduler/docs/STATUS.md` on branch
 
 ## Environment Notes
 - Hooks: patch both `.claude/hooks/` and `.codex/hooks/`. →Tier A hook-two-copies-trap.
