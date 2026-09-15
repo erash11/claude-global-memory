@@ -1,13 +1,12 @@
 # STATUS
 
 ## Current state
-- The 2026-09-12 transcript is current.
-- Working memory has the skill audit result.
-- The error log has two old backup alerts.
+- The 2026-09-14 transcript is current through the migration closeout.
+- The pending Codex session-end job flushed successfully; no pending jobs remain.
+- Memory-compiler SDK skew was corrected (`claude-agent-sdk` 0.2.110 to 0.2.152), all daily logs are compiled, and structural lint has zero errors.
 
 ## Next
-- Run one clean backup.
-- Clear `transcripts/.errors.log` after that backup.
+- Consolidate `USER.md` and `MEMORY.md` before the next Tier B write; both were at or over their operating thresholds during the Mac closeout.
 
 ## Open questions
 - None.
