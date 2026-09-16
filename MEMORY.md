@@ -6,7 +6,7 @@
 - **Personal site (9/2)**: NEXT: phone check; host or keep local. →Tier A personal-site-build-routes.
 - **Parked 9/14**: Baseball profiles, Acro pass builder (waiting on coach), 6 more job projects. Kinexon VB DONE (Wenger, McGuyre use it).
 - **RTP CLA course (9/10)**: NEXT: import .ris → Zotero; lesson 0002. →Tier A rtp-cla-course.
-- **ATH Tech framework (8/14)**: shipped. Micah silent ~4wk; ITS pending. Inventory refreshed 9/15 (merged to main): VB only via Business Office; final run after 9/29. →Tier A ath-tech-framework, tech-inventory-refresh.
+- **ATH Tech framework (8/14)**: shipped. Micah silent ~4wk; ITS pending. Inventory refreshed 9/16 (merged): VB answered, 32/32 units. NEXT: ask VB re Hawkin/DVSport; final run after 9/29. →Tier A ath-tech-framework, tech-inventory-refresh.
 - **Status report**: #2 send by 9/18, #3 by 9/25, then biweekly to 12/18 (timer checkpoints). →Tier A supervisor-log-pipeline.
 - **Open PRs**: AgentAssist #1 (draft), CFB_Analytics_Lab #1.
 - **GPS pull (9/13)**: LIVE Mac 06:30; Windows step OFF. NEXT: rotate token. →`DataBase_GPS_Reporting/docs/STATUS.md`
