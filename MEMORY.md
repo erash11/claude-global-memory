@@ -13,7 +13,7 @@
 - **Win refresh task (9/13)**: ForcePlate step broken, Perch untested. DECIDE which machine owns forceplate/perch DBs first. →`_INBOX/docs/STATUS.md`
 - **FB matchups (9/13)**: Wk3 keys + profile v2 on Drive. EPA = PFF current; CFBD PPA cross-check only. TRAP: `run_direction` != point of attack.
 - **PP Recruiting (9/15)**: 008 2025 FCS+G6 baseline done. NEXT: validation, then matrix 009; branch unmerged. →`PP_Recruiting/docs/STATUS.md`
-- **Sleep scheduler (9/15)**: game-weekend model built, draft PR #1 (133 tests). 2 real itineraries on Drive (FAST\GAME_WEEK_ITINERARIES, never Git). NEXT: 6 template decisions (clock-time curfew/Fri practice, breakfast check-in). →`sleep-scheduler/docs/STATUS.md` on branch
+- **Sleep scheduler (9/16)**: model fit to real itineraries, PR #1 draft (163 tests); 6 itinerary Qs = working assumptions. NEXT: staff confirm + verify times on Drive, then real templates. →`sleep-scheduler/docs/STATUS.md`
 
 ## Environment Notes
 - Hooks: patch both `.claude/hooks/` and `.codex/hooks/`. →Tier A hook-two-copies-trap.
