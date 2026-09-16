@@ -13,7 +13,7 @@
 - **Win refresh task (9/13)**: ForcePlate step broken, Perch untested. DECIDE which machine owns forceplate/perch DBs first. →`_INBOX/docs/STATUS.md`
 - **FB matchups (9/13)**: EPA = PFF current; CFBD PPA cross-check only. TRAP: `run_direction` != point of attack.
 - **PP Recruiting (9/15)**: 008 2025 FCS+G6 baseline done. NEXT: validation, then matrix 009; branch unmerged. →`PP_Recruiting/docs/STATUS.md`
-- **Sleep scheduler (9/16)**: Release 1 built + MERGED to main (CSV in, 1-page HTML, export; 210 tests). 9h target; post-game fixed; Sunday unplanned (medical check-in only). NEXT: run night/early-kickoff itineraries when they arrive. →`sleep-scheduler/docs/STATUS.md`
+- **Sleep scheduler (9/16)**: Release 1 MERGED (CSV in, HTML out). 9h target; post-game fixed. NEXT: run night/early-kickoff itineraries. →`sleep-scheduler/docs/STATUS.md`
 - **Research in 5 (9/16)**: weekly paper review built. #001 jumper's knee on Drive, ready. NEXT: post Teams+email; merge DEV#1. →`Weekly_Research_Review/docs/STATUS.md`
 
 ## Environment Notes
