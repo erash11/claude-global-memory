@@ -6,14 +6,14 @@
 - **Personal site (9/2)**: NEXT: phone check; host or keep local. →Tier A personal-site-build-routes.
 - **Parked 9/14**: Baseball profiles, Acro pass builder (waiting on coach), 6 more job projects. Kinexon VB DONE (Wenger, McGuyre use it).
 - **RTP CLA course (9/10)**: NEXT: import .ris → Zotero; lesson 0002. →Tier A rtp-cla-course.
-- **ATH Tech framework (8/14)**: shipped. Micah silent ~4wk; ITS pending. Inventory refreshed 9/16 (merged): VB answered, 32/32 units. NEXT: ask VB re Hawkin/DVSport; final run after 9/29. →Tier A ath-tech-framework, tech-inventory-refresh.
+- **ATH Tech framework (8/14)**: shipped. Micah silent ~4wk; ITS pending. Inventory refreshed 9/16 (merged): VB answered, 32/32 units; VB confirmed Hawkin/DVSport. NEXT: final run after 9/29. →Tier A ath-tech-framework, tech-inventory-refresh.
 - **Status report**: #2 send by 9/18, #3 by 9/25, then biweekly to 12/18 (timer checkpoints). →Tier A supervisor-log-pipeline.
 - **Open PRs**: AgentAssist #1 (draft), CFB_Analytics_Lab #1.
 - **GPS pull (9/13)**: LIVE Mac 06:30; Windows step OFF. NEXT: rotate token. →`DataBase_GPS_Reporting/docs/STATUS.md`
 - **Win refresh task (9/13)**: ForcePlate step broken, Perch untested. DECIDE which machine owns forceplate/perch DBs first. →`_INBOX/docs/STATUS.md`
 - **FB matchups (9/13)**: Wk3 keys + profile v2 on Drive. EPA = PFF current; CFBD PPA cross-check only. TRAP: `run_direction` != point of attack.
 - **PP Recruiting (9/15)**: 008 2025 FCS+G6 baseline done. NEXT: validation, then matrix 009; branch unmerged. →`PP_Recruiting/docs/STATUS.md`
-- **Sleep scheduler (9/16)**: model fit to real itineraries, PR #1 draft (163 tests); 6 itinerary Qs = working assumptions. NEXT: staff confirm + verify times on Drive, then real templates. →`sleep-scheduler/docs/STATUS.md`
+- **Sleep scheduler (9/16)**: 6 itinerary Qs confirmed; CSV input built (Pkg 2), PR #1 draft, 194 tests. NEXT: verify extracted times, enter real CSVs on Drive, then HTML (Pkg 3). →`sleep-scheduler/docs/STATUS.md`
 
 ## Environment Notes
 - Hooks: patch both `.claude/hooks/` and `.codex/hooks/`. →Tier A hook-two-copies-trap.
