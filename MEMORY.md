@@ -12,7 +12,7 @@
 - **GPS pull (9/13)**: LIVE Mac 06:30; Windows step OFF. NEXT: rotate token. →`DataBase_GPS_Reporting/docs/STATUS.md`
 - **Win refresh task (9/13)**: ForcePlate step broken, Perch untested. DECIDE which machine owns forceplate/perch DBs first. →`_INBOX/docs/STATUS.md`
 - **FB matchups (9/13)**: EPA = PFF current; CFBD PPA cross-check only. TRAP: `run_direction` != point of attack.
-- **PP Recruiting (9/16)**: 010 FBS+FCS load built, 7/7, pushed. NEXT: matrix 011 (narrow to 30-50/pos). →`PP_Recruiting/docs/STATUS.md`
+- **PP Recruiting (9/16)**: 010 full load + 011 matrix draft on Drive, pushed. NEXT: Eric reviews 011. →`PP_Recruiting/docs/STATUS.md`
 - **Sleep scheduler (9/16)**: Release 1 MERGED (CSV in, HTML out). 9h target; post-game fixed. NEXT: run night/early-kickoff itineraries. →`sleep-scheduler/docs/STATUS.md`
 - **Research in 5 (9/16)**: `/research-in-5` skill (+Codex). #001 v4 dark on Drive, ready. NEXT: post Teams+email; #002. →`Weekly_Research_Review/docs/STATUS.md`
 
