@@ -9,7 +9,7 @@
 - **ATH Tech framework (8/14)**: shipped; ITS pending. Inventory refreshed 9/16 (merged, 32/32). NEXT: final run after 9/29. →Tier A ath-tech-framework, tech-inventory-refresh.
 - **Status report**: #2 send by 9/18, #3 by 9/25, then biweekly to 12/18 (timer checkpoints). →Tier A supervisor-log-pipeline.
 - **Open PRs**: AgentAssist #1 (draft), CFB_Analytics_Lab #1.
-- **GPS pull (9/13)**: LIVE Mac 06:30; Windows step OFF. NEXT: rotate token. →`DataBase_GPS_Reporting/docs/STATUS.md`
+- **GPS pull (9/16)**: LIVE Mac 06:30; asleep=missed run. DECIDE pmset 06:28 wake; rotate token. →`DataBase_GPS_Reporting/docs/STATUS.md`
 - **Win refresh task (9/13)**: ForcePlate step broken, Perch untested. DECIDE which machine owns forceplate/perch DBs first. →`_INBOX/docs/STATUS.md`
 - **FB matchups (9/13)**: EPA = PFF current; CFBD PPA cross-check only. TRAP: `run_direction` != point of attack.
 - **PP Recruiting (9/16)**: 010 full load + 011 matrix draft on Drive, pushed. NEXT: Eric reviews 011. →`PP_Recruiting/docs/STATUS.md`
