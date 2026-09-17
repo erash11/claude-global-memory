@@ -83,9 +83,11 @@ Same blocker, two projects, five months. The note carries a `[still open 2026-09
 - `~/.claude/global-memory/handoffs/2026-09-17-windows-sync-vault-path-fix.md` — this file
 
 ## Next actions
-1. **Reconcile `global-memory/transcripts/2026-09-16.md.from-mac`.** Left by the 09-16 Windows
-   session, not this one. Checked: of 53 entries, **6 exist only in that file**. Deleting it
-   loses those six — fold them in first.
+1. ~~**Reconcile `global-memory/transcripts/2026-09-16.md.from-mac`.**~~ **DONE 18:11, commit
+   `4b0c1ed`.** The 6 Mac-only entries (of 53) were folded into `transcripts/2026-09-16.md` and
+   `.from-mac` was dropped. Bodies verified byte-identical before removal; the 2 out-of-order
+   points in the result are pre-existing artifacts of earlier cross-machine merges, not
+   introduced by the fold. The file stays recoverable in git history.
 2. **Decide what happens to `DexaProject`.** Its origin `erash11/DexaProject` **does not exist on
    GitHub** (`gh repo view` fails), so its "0 unpushed" was measured against a stale ref. It is a
    local-only repo holding identifiable health data, living in `~/DEV` against the documented
