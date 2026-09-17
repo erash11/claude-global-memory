@@ -12,9 +12,9 @@
 - **GPS pull (9/16)**: LIVE Mac 06:30; asleep=missed run. DECIDE pmset 06:28 wake; rotate token. →`DataBase_GPS_Reporting/docs/STATUS.md`
 - **Win refresh task (9/13)**: ForcePlate step broken, Perch untested. DECIDE which machine owns forceplate/perch DBs first. →`_INBOX/docs/STATUS.md`
 - **FB matchups (9/13)**: EPA = PFF current; CFBD PPA cross-check only. TRAP: `run_direction` != point of attack.
-- **PP Recruiting (9/15)**: 008 2025 FCS+G6 baseline done. NEXT: validation, then matrix 009; branch unmerged. →`PP_Recruiting/docs/STATUS.md`
+- **PP Recruiting (9/16)**: 010 FBS+FCS load built, 7/7, pushed. NEXT: matrix 011 (narrow to 30-50/pos). →`PP_Recruiting/docs/STATUS.md`
 - **Sleep scheduler (9/16)**: Release 1 MERGED (CSV in, HTML out). 9h target; post-game fixed. NEXT: run night/early-kickoff itineraries. →`sleep-scheduler/docs/STATUS.md`
-- **Research in 5 (9/16)**: weekly paper review built. #001 jumper's knee on Drive, ready. NEXT: post Teams+email; merge DEV#1. →`Weekly_Research_Review/docs/STATUS.md`
+- **Research in 5 (9/16)**: `/research-in-5` skill (+Codex). #001 v4 dark on Drive, ready. NEXT: post Teams+email; #002. →`Weekly_Research_Review/docs/STATUS.md`
 
 ## Environment Notes
 - Hooks: patch both `.claude/hooks/` and `.codex/hooks/`. →Tier A hook-two-copies-trap.
