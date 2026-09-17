@@ -1,0 +1,1 @@
+[2026-09-17T23:26:44.077Z] memsearch-sync: index ETIMEDOUT 7x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT

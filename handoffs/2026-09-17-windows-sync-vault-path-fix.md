@@ -88,7 +88,15 @@ Same blocker, two projects, five months. The note carries a `[still open 2026-09
    `.from-mac` was dropped. Bodies verified byte-identical before removal; the 2 out-of-order
    points in the result are pre-existing artifacts of earlier cross-machine merges, not
    introduced by the fold. The file stays recoverable in git history.
-2. **Decide what happens to `DexaProject`.** Its origin `erash11/DexaProject` **does not exist on
+2. ~~**Decide what happens to `DexaProject`.**~~ **DONE 2026-09-17 (2nd closeout).** Removed from
+   `~/DEV`; the Google Drive copy at `G:\My Drive\00_Primary_Storage_Drive\DexaProject` (the same
+   folder the Mac moved it to on 09-09) is now the single home. Verified safe first: Drive HEAD
+   `5ab14b6` is a descendant of local HEAD `962ce2d`, all 4 local commits present plus 2 more,
+   clean tree, no stashes, `.mdb` byte-identical, CSVs differing only in line endings. The backup
+   manifest needed no edit — its entry already points at the Drive path, SSD-only. Router updated
+   in DEV PR #2. Original context below:
+
+   **Decide what happens to `DexaProject`.** Its origin `erash11/DexaProject` **does not exist on
    GitHub** (`gh repo view` fails), so its "0 unpushed" was measured against a stale ref. It is a
    local-only repo holding identifiable health data, living in `~/DEV` against the documented
    layout. It should move to Google Drive like the Mac copy did — not get a GitHub repo. It was
