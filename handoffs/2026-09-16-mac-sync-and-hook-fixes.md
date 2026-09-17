@@ -38,6 +38,23 @@ Eric ran `/dev-sync` on the Mac, then worked through what it surfaced: two stale
    with the Mac plugged in overnight (recommended), or accept one alert on lid-shut mornings.
 2. Rotate the Catapult token (carried over).
 
+## Later: /backup (20:03)
+- Run 1 (19:44): 86 jobs, SSD mounted, 1 error `manifest-unmanaged:Weekly_Research_Review`.
+  Eric classified it **institutional** (ssd, github, baylor). Added to
+  `~/.claude/scripts/backup-manifest.json` (`~/.claude` commit `df98f8c`).
+- Run 2 (20:02): 87 jobs, manifest error gone, new error `snapshot-ssd:.codex`. Cause:
+  `rsync ... ~/.codex/logs_2.sqlite-wal / -shm: open: No such file`. The running ChatGPT/Codex
+  app removed its SQLite temp files mid-copy. Not the symlink-vs-folder gotcha (the listing in
+  the backup skill found none). The same copy passed at 09:03 and 19:35. Script not changed.
+- `.errors.log` still holds both 19:44 and 20:02 `daily-backup` lines; left in place because
+  the last run was not OK.
+
+## Open — backup
+3. `.codex` SQLite race. Either re-run `/backup` with the ChatGPT app closed (likely clean),
+   or change `daily-backup.ps1` so the `.codex` STATE-SSD copy skips `*.sqlite-wal` and
+   `*.sqlite-shm` (live temp files; copying them mid-write gives no usable copy anyway).
+   Only do the second if the race comes back.
+
 ## Files changed
 - `~/DEV/sleep-scheduler/AGENTS.md`, `~/DEV/sleep-scheduler/docs/STATUS.md`
 - `~/.claude/hooks/memsearch-sync.js` (also live at `~/.codex/hooks/memsearch-sync.js` via symlink)
