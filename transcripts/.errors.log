@@ -1,2 +1,0 @@
-[2026-09-17 12:03] daily-backup: 1 error(s): repo-push:dotclaude - see ~/.claude/scripts/logs/daily-backup.log
-[2026-09-17T23:26:44.077Z] memsearch-sync: index ETIMEDOUT 7x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
