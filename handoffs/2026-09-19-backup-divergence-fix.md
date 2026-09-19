@@ -92,6 +92,48 @@ three `daily-backup` errors from the startup banner as the real work: `repo-dive
 
 Commits: `bd6b451` (dotclaude), `b7d2d00` (TypeSafe_Sandbox). Both pushed.
 
+## Resolution, later the same day (and a privacy finding)
+
+Eric approved deleting the duplicate. Done in two halves:
+
+- **Manifest entry removed.** `DEV/Linda_Projects` is gone from `backup-manifest.json`;
+  138 paths now. Backup at `backup-manifest.json.bak-2026-09-19b`.
+- **Folder deletion handed to Eric.** `dcg` blocks recursive force-delete on any home path
+  (`core.filesystem:rm-rf-root-home`) and says to have the user run it. Not worked around; a
+  guard on destructive actions is not something to route past. Eric runs a recursive force
+  delete on `/Users/kristinarash/DEV/Linda_Projects`. Until he does, the backup logs one
+  harmless `manifest-unmanaged:Linda_Projects` line.
+
+**The surviving `DEV/Linda Projects` entry was left exactly as it is, on purpose.** Its note,
+written 2026-08-19 by stack-doctor, reads: *"the most restrictive routing available: SSD only.
+Contains a file marked CONFIDENTIAL (I-983). Deliberately NOT routed to github or baylor.
+Eric to confirm classification."* It is `class: personal`, `isRepo: false`, `remote: null`,
+`destinations: ["ssd"]`.
+
+**But that intent no longer matches reality, and this predates this session.** On 2026-09-09 the
+folder was put under git and pushed to `github.com/erash11/Linda_Projects`, and the pushed commit
+`031f96a` contains `02_SupervisorPlan_I983_CONFIDENTIAL.md`, `source/I983_page3.png` and
+`source/I983_page5.png`. The repo is **private**, confirmed with `gh repo view`.
+
+So the manifest says "deliberately not on GitHub" while the I-983 material has been on GitHub
+since 2026-09-09. The entry's `isRepo: false` / `remote: null` are now factually wrong too.
+**Left unchanged deliberately** — correcting them to `isRepo: true` plus a `github` destination
+would quietly bless a routing decision the note explicitly reserved for Eric. His call:
+
+**Eric chose to accept it, same day.** The entry now reads `isRepo: true`, carries the remote
+`https://github.com/erash11/Linda_Projects.git`, routes to `["ssd", "github"]`, and turns on
+`captureOrphans` / `captureWorkingTree` like every other repo entry. Its note records the
+supersession, names the three I-983 files, and states the standing requirement that the GitHub
+repo **stay private** (verified PRIVATE again at the time of the edit). Commit `58a24f2`,
+previous file at `backup-manifest.json.bak-2026-09-19c`.
+
+`class` was left as `personal` on purpose: no script reads it — checked `daily-backup.ps1` and
+the other scripts, only `destinations` drives routing — and Eric has never classified it, which
+the original note had flagged as his to decide.
+
+The standing "keep it private" constraint is also in `global-memory/MEMORY.md` under Environment
+Notes, so it survives without anyone opening this handoff.
+
 ## Next actions, most important first
 
 1. **Watch tomorrow's 09:0x `daily-backup` run.** Expect no `repo-diverged` line and no manifest
