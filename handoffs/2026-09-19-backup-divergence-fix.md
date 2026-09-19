@@ -120,10 +120,19 @@ since 2026-09-09. The entry's `isRepo: false` / `remote: null` are now factually
 **Left unchanged deliberately** — correcting them to `isRepo: true` plus a `github` destination
 would quietly bless a routing decision the note explicitly reserved for Eric. His call:
 
-- Accept it: set `isRepo: true`, add the remote, keep or add `github`, and rewrite the note so
-  it stops claiming something untrue.
-- Reject it: purge the I-983 files from the GitHub repo's history and delete the remote, then
-  fix `isRepo`/`remote` to match whatever is left.
+**Eric chose to accept it, same day.** The entry now reads `isRepo: true`, carries the remote
+`https://github.com/erash11/Linda_Projects.git`, routes to `["ssd", "github"]`, and turns on
+`captureOrphans` / `captureWorkingTree` like every other repo entry. Its note records the
+supersession, names the three I-983 files, and states the standing requirement that the GitHub
+repo **stay private** (verified PRIVATE again at the time of the edit). Commit `58a24f2`,
+previous file at `backup-manifest.json.bak-2026-09-19c`.
+
+`class` was left as `personal` on purpose: no script reads it — checked `daily-backup.ps1` and
+the other scripts, only `destinations` drives routing — and Eric has never classified it, which
+the original note had flagged as his to decide.
+
+The standing "keep it private" constraint is also in `global-memory/MEMORY.md` under Environment
+Notes, so it survives without anyone opening this handoff.
 
 ## Next actions, most important first
 

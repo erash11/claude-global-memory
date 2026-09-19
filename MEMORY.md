@@ -17,10 +17,10 @@
 
 ## Environment Notes
 - Hooks: patch both `.claude/hooks/` and `.codex/hooks/`. →Tier A hook-two-copies-trap.
+- `DEV/Linda Projects` = private GitHub repo holding I-983 files. MUST stay private. Folder has a space, repo has an underscore.
 - `~/DEV` = THIN repo; `.gitignore` starts `/*` — never remove. →Tier A github-consolidation.
 - Schedules →automation-cadence. CFB capture (Mon, 8/24–1/23) →cfb-forecast-capture. Portfolio dashboard →command-centre.
 
 ## Pending Decisions
 - **OKR gate scored 9/14; still undecided**: AI integration buy-in + data governance (Anthony's proposal). Fold into NCAA charter or parking lot?
 - **Kitman vs MyLink**: MyLink (~half Kitman cost) + Kitman API access. Undecided; blocks priority 3.
-- **Linda I-983 on GitHub (9/19)**: manifest says `Linda Projects` SSD-only NOT github; but 031f96a (pushed 9/9) holds the I-983 files, repo private. Accept+fix, or purge? →handoff 2026-09-19-backup-divergence-fix.md
