@@ -1,0 +1,25 @@
+
+## 09:17:23 [e8884170] (/Users/kristinarash/.claude/claude-memory-compiler)
+**Context:** Ran `/dev-sync` on the Mac (`~/DEV`) to reconcile local state with GitHub after Windows activity on 09/17–09/18.
+
+**Key Exchanges:**
+- Startup surfaced a `daily-backup` hook failure (`repo-push:dotclaude`); investigated and found the log line was `PUSH ERR | Everything up-to-date` — a no-op push miscounted as an error.
+- Advisor flagged that the first inventory pass reported repos "clean" without ever running `git fetch`, so the claim was based only on local state. Re-ran with fetch
+
+## 09:26:14 [2112ee97] (/Users/kristinarash/DEV)
+Two quick verifications before I report.
+
+## 09:29:29 [2112ee97] (/Users/kristinarash/DEV/TypeSafe_Sandbox)
+No bug after all — `nouls` is a property, so the test matches SDK 0.7.0. Let me make the STATUS wording accurate.
+
+## 09:33:19 [2112ee97] (/Users/kristinarash/DEV/TypeSafe_Sandbox)
+Correction: that repo was built on **Windows**, not this Mac. My earlier check matched my own session log. Let me record the real Mac state.
+
+## 09:44:35 [53ff90d7] (/Users/kristinarash/DEV/TypeSafe_Sandbox)
+Both machines did real work. I will keep both records.
+
+## 09:51:11 [53ff90d7] (/Users/kristinarash/DEV/TypeSafe_Sandbox)
+Confirmed the cause. Let me check the third error too.
+
+## 10:17:04 [2112ee97] (/Users/kristinarash/DEV)
+Key file is safely ignored. Windows manifest is missing the repo, so it would error there. Fixing it.
