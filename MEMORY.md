@@ -2,7 +2,7 @@
 # Working Memory
 
 ## Active Threads
-- **Prioritization slate (9/14)**: LIVE. 5 active, cap 5 (Fall). Nag: `portfolio.py mark-done`. →Tier A prioritization-slate.
+- **Prioritization slate (9/14)**: LIVE. 5 active, cap 5 (Fall). →Tier A prioritization-slate.
 - **Personal site (9/2)**: NEXT: phone check; host or local? →Tier A personal-site-build-routes.
 - **RTP CLA (9/10)**: NEXT: .ris → Zotero; lesson 0002. →Tier A rtp-cla-course.
 - **ATH Tech**: shipped; ITS pending; run 9/29. →Tier A tech-inventory-refresh.
@@ -12,11 +12,12 @@
 - **FB matchups (9/13)**: EPA = PFF; CFBD PPA cross-check only. TRAP: `run_direction` != point of attack.
 - **PP Recruiting (9/16)**: 010 + 011 matrix draft on Drive, pushed. NEXT: Eric reviews 011. →`PP_Recruiting/docs/STATUS.md`
 - **Sleep scheduler (9/16)**: R1 MERGED. NEXT: night/early-kickoff itineraries. →`sleep-scheduler/docs/STATUS.md`
-- **Research in 5 / TOS (9/18)**: #001 Drive/PR #7. #002 PR #8 NOT sent. TOS: 3 misquotes + bad Poisson - DO NOT SEND. →handoff 2026-09-18-tos-evidence-review-and-ri5-002.md
-- **TypeSafe (9/19)**: smoke test PASSES both boxes. Key per-box, NOT synced (Mac=Keychain, Win=`~/.claude/typesafe.env`); needs `apikey_` prefix (401=key, 422=request). Full docs read; capability map MERGED to main (PR #2) and harvested. NEXT: skill router (hook must fail open). →`TypeSafe_Sandbox/docs/JEV_CAPABILITY_MAP.md`
+- **Research in 5 / TOS (9/18)**: #001 PR #7. #002 PR #8 NOT sent. TOS brief: DO NOT SEND. →handoff 2026-09-18-tos-evidence-review-and-ri5-002.md
+- **TypeSafe (9/19)**: PASSES both boxes. Key per-box, NOT synced; needs `apikey_` prefix (401=key, 422=request). Full docs read; capability map MERGED to main (PR #2) and harvested. NEXT: skill router (hook must fail open). →`TypeSafe_Sandbox/docs/JEV_CAPABILITY_MAP.md`
 
 ## Environment Notes
 - Hooks: patch both `.claude/hooks/` and `.codex/hooks/`. →Tier A hook-two-copies-trap.
+- daily-backup (9/19): 4 bugs fixed, 1 disproven. A manifest entry alone copies NOTHING; non-DEV paths need a Snapshot line too. →handoff 2026-09-19-backup-divergence-fix.md
 - `DEV/Linda Projects` = private GitHub repo holding I-983 files. MUST stay private. Folder has a space, repo has an underscore.
 - `~/DEV` = THIN repo; `.gitignore` starts `/*` — never remove. →Tier A github-consolidation.
 - Schedules →automation-cadence. CFB capture (Mon, 8/24–1/23) →cfb-forecast-capture. Portfolio dashboard →command-centre.

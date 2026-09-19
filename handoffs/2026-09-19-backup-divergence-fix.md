@@ -192,6 +192,28 @@ but the failure was `src refspec main does not match any` — the throwaway repo
 means no push until the next day's run. Not fixed; nobody asked, and adding retries to an
 unattended job deserves its own decision.
 
+## LaunchAgents coverage, and the push retry
+
+**`~/Library/LaunchAgents` now gets backed up.** It had no coverage of any kind. Two halves were
+needed, and this is the thing to remember about this manifest: **a manifest entry alone copies
+nothing.** For non-DEV paths the `ssd` destination is served by the loop in section 2b, which
+only runs when CRASHBOX is mounted, and `drive` is served by hardcoded `Snapshot` lines in
+section 2a. So the entry was added *and* a `Snapshot "$U/Library/LaunchAgents"` line with it.
+Verified on a real run: 19 plists at `My Drive/Backups/Machine/launchagents`, including
+`com.keystone.dailybackup.plist` carrying the corrected `StandardOutPath`.
+
+**Push retries now.** Up to 3 attempts, 5s then 15s, and only for transient failures. Output
+matching `[rejected]`, `non-fast-forward`, `fetch first`, `Updates were rejected`,
+`Permission denied`, `403 Forbidden`, `Authentication failed`, `does not match any` or
+`Repository not found` bails on attempt 1 — those fail identically every time, so retrying just
+buries the real error under a longer log block. The log names the attempt it won on, so a flaky
+remote is visible instead of silent.
+
+Control flow was tested against a stubbed push, not assumed: succeeds first time (1 attempt, no
+suffix), transient twice then succeeds (3 attempts, logged), transient always (gives up after 3),
+rejected (fails on attempt 1, no retry). The real 2026-09-17 error text is classed transient, so
+that lost push would have been retried.
+
 ## Next actions, most important first
 
 1. **Watch tomorrow's 09:0x `daily-backup` run.** Expect no `repo-diverged` line and no manifest
