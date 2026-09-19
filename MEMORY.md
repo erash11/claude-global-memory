@@ -12,7 +12,7 @@
 - **FB matchups (9/13)**: EPA = PFF; CFBD PPA cross-check only. TRAP: `run_direction` != point of attack.
 - **PP Recruiting (9/16)**: 010 + 011 matrix draft on Drive, pushed. NEXT: Eric reviews 011. →`PP_Recruiting/docs/STATUS.md`
 - **Sleep scheduler (9/16)**: R1 MERGED. NEXT: night/early-kickoff itineraries. →`sleep-scheduler/docs/STATUS.md`
-- **Research in 5 / TOS (9/18)**: #001 on Drive (PR #7). #002 built, PR #8, NOT sent. TOS: Codex 3 misquotes + bad Poisson. DO NOT SEND. →handoff 2026-09-18-tos-evidence-review-and-ri5-002.md
+- **Research in 5 / TOS (9/18)**: #001 Drive/PR #7. #002 PR #8 NOT sent. TOS: 3 misquotes + bad Poisson - DO NOT SEND. →handoff 2026-09-18-tos-evidence-review-and-ri5-002.md
 - **TypeSafe (9/19)**: smoke test PASSES both boxes. Key per-box, NOT synced; needs `apikey_` prefix (401=key, 422=request). Capability map on branch `worktree-jev-docs-capability-map`, PR #2 UNMERGED (Mac cannot see it). NEXT: skill router (hook must fail open). →`TypeSafe_Sandbox/docs/JEV_CAPABILITY_MAP.md`
 
 ## Environment Notes
@@ -23,4 +23,4 @@
 ## Pending Decisions
 - **OKR gate scored 9/14; still undecided**: AI integration buy-in + data governance (Anthony's proposal). Fold into NCAA charter or parking lot?
 - **Kitman vs MyLink**: MyLink (~half Kitman cost) + Kitman API access. Undecided; blocks priority 3.
-- **Linda_Projects dup (9/19)**: 2 identical clones (space/underscore). Delete underscore + manifest line 799? →handoff 2026-09-19-backup-divergence-fix.md
+- **Linda I-983 on GitHub (9/19)**: manifest says `Linda Projects` SSD-only NOT github; but 031f96a (pushed 9/9) holds the I-983 files, repo private. Accept+fix, or purge? →handoff 2026-09-19-backup-divergence-fix.md
