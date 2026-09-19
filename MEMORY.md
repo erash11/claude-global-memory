@@ -8,14 +8,14 @@
 - **RTP CLA (9/10)**: NEXT: .ris → Zotero; lesson 0002. →Tier A rtp-cla-course.
 - **ATH Tech (8/14)**: shipped; ITS pending. NEXT: run after 9/29. →Tier A tech-inventory-refresh.
 - **Status report**: #3 by 9/25, biweekly to 12/18 (timers). →Tier A supervisor-log-pipeline.
-- **Open PRs**: AgentAssist #1 (draft), CFB_Analytics_Lab #1
+- **Open PRs**: AgentAssist #1 (draft), CFB_Analytics_Lab #1, TypeSafe_Sandbox #2 (draft, docs only)
 - **GPS pull (9/16)**: LIVE Mac 06:30; asleep=missed run. DECIDE pmset 06:28 wake; rotate token. →`DataBase_GPS_Reporting/docs/STATUS.md`
 - **Win refresh (9/13)**: ForcePlate broken, Perch untested. DECIDE which box owns those DBs. →`_INBOX/docs/STATUS.md`
 - **FB matchups (9/13)**: EPA = PFF; CFBD PPA cross-check only. TRAP: `run_direction` != point of attack.
 - **PP Recruiting (9/16)**: 010 + 011 matrix draft on Drive, pushed. NEXT: Eric reviews 011. →`PP_Recruiting/docs/STATUS.md`
 - **Sleep scheduler (9/16)**: R1 MERGED. NEXT: night/early-kickoff itineraries. →`sleep-scheduler/docs/STATUS.md`
 - **Research in 5 / TOS (9/18)**: #001 on Drive (PR #7). #002 built, PR #8, NOT sent. TOS brief: Codex found 3 misquotes + bad Poisson. DO NOT SEND. →handoff 2026-09-18-tos-evidence-review-and-ri5-002.md
-- **TypeSafe (9/19)**: smoke test PASSES both machines. Key per-machine, NOT synced: Mac=Keychain+`.zshenv`, Win=`~/.claude/typesafe.env`. Needs `apikey_` prefix (401=key, 422=request). →`TypeSafe_Sandbox/docs/STATUS.md`
+- **TypeSafe (9/19)**: smoke test PASSES both machines. Key per-machine, NOT synced: Mac=Keychain+`.zshenv`, Win=`~/.claude/typesafe.env`. Needs `apikey_` prefix (401=key, 422=request). Full docs read 9/19; capability map + STATUS are on branch `worktree-jev-docs-capability-map`, PR #2 UNMERGED so the Mac cannot see them yet. NEXT: skill router (hook must fail open). →`TypeSafe_Sandbox/docs/JEV_CAPABILITY_MAP.md`
 
 ## Environment Notes
 - Hooks: patch both `.claude/hooks/` and `.codex/hooks/`. →Tier A hook-two-copies-trap.
