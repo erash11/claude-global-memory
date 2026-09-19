@@ -7,7 +7,7 @@
 - **RTP CLA (9/10)**: NEXT: .ris → Zotero; lesson 0002. →Tier A rtp-cla-course.
 - **ATH Tech**: shipped; ITS pending; run 9/29. →Tier A tech-inventory-refresh.
 - **Status report**: #3 by 9/25, biweekly to 12/18 (timers). →Tier A supervisor-log-pipeline.
-- **GPS pull (9/16)**: LIVE Mac 06:30; asleep=missed. DECIDE pmset 06:28 wake; rotate token. →`DataBase_GPS_Reporting/docs/STATUS.md`
+- **GPS pull (9/16)**: LIVE Mac 06:30; asleep=missed. DECIDE pmset wake; rotate token. →`DataBase_GPS_Reporting/docs/STATUS.md`
 - **Win refresh (9/13)**: ForcePlate broken, Perch untested. DECIDE which box owns those DBs. →`_INBOX/docs/STATUS.md`
 - **FB matchups (9/13)**: EPA = PFF; CFBD PPA cross-check only. TRAP: `run_direction` != point of attack.
 - **PP Recruiting (9/16)**: 010 + 011 matrix draft on Drive, pushed. NEXT: Eric reviews 011. →`PP_Recruiting/docs/STATUS.md`
@@ -17,7 +17,7 @@
 
 ## Environment Notes
 - Hooks: patch both `.claude/hooks/` and `.codex/hooks/`. →Tier A hook-two-copies-trap.
-- daily-backup (9/19): 4 bugs fixed, 1 disproven. A manifest entry alone copies NOTHING; non-DEV paths need a Snapshot line too. →handoff 2026-09-19-backup-divergence-fix.md
+- daily-backup (9/19): 4 bugs fixed, 1 disproven; a manifest entry alone copies NOTHING. Sweeps must walk nested `~/.claude` repos + flag non-main branches. →handoff 2026-09-19-backup-divergence-fix.md
 - `DEV/Linda Projects` = private GitHub repo holding I-983 files. MUST stay private. Folder has a space, repo has an underscore.
 - `~/DEV` = THIN repo; `.gitignore` starts `/*` — never remove. →Tier A github-consolidation.
 - Schedules →automation-cadence. CFB capture (Mon, 8/24–1/23) →cfb-forecast-capture. Portfolio dashboard →command-centre.

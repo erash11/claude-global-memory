@@ -214,6 +214,54 @@ suffix), transient twice then succeeds (3 attempts, logged), transient always (g
 rejected (fails on attempt 1, no retry). The real 2026-09-17 error text is classed transient, so
 that lost push would have been retried.
 
+## "Indexed 0 chunks" — not a bug, but it led somewhere
+
+**The log line was correct.** The nightly index scanned at 09:16:15. `/dev-sync` pulled the
+Windows work down at ~09:17–09:27, *after* that scan. So nothing on the Mac had changed since the
+previous night, and 0 was the honest answer. The next run indexed 97 chunks — that backlog plus
+the day's work. Index health confirmed independently: two phrases unique to `daily/2026-09-19.md`
+came back from `memsearch` at 0.99 and 0.98.
+
+**Also not a bug:** `daily/` is gitignored, so daily logs never cross machines. Missing 09-17 and
+09-18 on the Mac is expected — those were Windows days.
+
+**What was real:** two stranded `session-flush-*.md` files from 09-16, ~29 KB. Recovered into
+`daily/2026-09-16.md`. One produced a full Session section; the other returned `FLUSH_OK`
+("nothing worth saving") and wrote a `### Memory Flush` marker instead. Originals preserved at
+`~/.claude/claude-memory-compiler/leftover-backup-2026-09-19/` and that path is now gitignored,
+because the nightly `git add -A` would otherwise have pushed raw session context to GitHub.
+
+## claude-memory-compiler: main was not what ran
+
+The repo sat on `session-start-progressive-disclosure`, **3 ahead and 2 behind `main`**, with no
+open PR — including the backfill-date feature used for the recovery above. Eleven branches
+existed; nine were already fully merged.
+
+Merged in the order that matters: **`main` into the branch first, test, then the branch into
+`main`.** That order paid for itself — the merge conflicted on `uv.lock`, where the branch pinned
+`claude-agent-sdk` 0.2.136 and `main` had refreshed to 0.2.152. A lockfile is generated, so it was
+resolved by taking `main`'s side and validating with `uv lock --check` (35 packages) rather than
+hand-editing, then `uv sync` installed 0.2.152, then a real end-to-end flush was run to prove the
+pipeline still works on the new SDK. Only then was it merged to `main`, pushed, and `main` checked
+out. End state: one branch, local and remote, and it is the code that runs.
+
+**Method correction worth keeping:** a pre-merge `git merge-tree` check reported "clean" and it
+was wrong — the real merge conflicted. Do not trust that check; merge into a throwaway or into
+the feature branch and look.
+
+## The sweep had a blind spot
+
+Closeout's repo sweep walked `~/DEV` plus three named config repos. It never looked at
+`~/.claude/claude-memory-compiler`, which is why closeout said "clear to sign off" while that repo
+sat on an unmerged branch for 17 days. The sweep now also walks nested git repos under
+`~/.claude` and flags any repo not on `main`/`master`.
+
+That wider sweep immediately found five more repos parked on feature branches — all pushed and
+clean, so nothing is lost, but `main` is not what they are: `AgentAssist` (`curriculum`),
+`PT_Dash` (`claude/cmj-performance-report-…`), `Football/SpeedProfiling` (`add-2025-smu`),
+`CFB_Analytics_Lab` (`foundation`), and `LibraryProject/ZoteroInjestion` (detached HEAD, commit
+already on `origin/main`).
+
 ## Next actions, most important first
 
 1. **Watch tomorrow's 09:0x `daily-backup` run.** Expect no `repo-diverged` line and no manifest
