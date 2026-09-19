@@ -4,7 +4,6 @@
 ## Active Threads
 - **Prioritization slate (9/14)**: LIVE. 5 active, cap 5 (Fall). Clear nags: `portfolio.py mark-done`. →Tier A prioritization-slate.
 - **Personal site (9/2)**: NEXT: phone check; host or local. →Tier A personal-site-build-routes.
-- **Parked 9/14**: Baseball profiles, Acro pass builder, 6 job projects.
 - **RTP CLA (9/10)**: NEXT: .ris → Zotero; lesson 0002. →Tier A rtp-cla-course.
 - **ATH Tech (8/14)**: shipped; ITS pending. NEXT: run after 9/29. →Tier A tech-inventory-refresh.
 - **Status report**: #3 by 9/25, biweekly to 12/18 (timers). →Tier A supervisor-log-pipeline.
@@ -15,7 +14,7 @@
 - **PP Recruiting (9/16)**: 010 + 011 matrix draft on Drive. NEXT: Eric reviews 011. →`PP_Recruiting/docs/STATUS.md`
 - **Sleep scheduler (9/16)**: R1 MERGED. NEXT: night/early-kickoff itineraries. →`sleep-scheduler/docs/STATUS.md`
 - **Research in 5 / TOS (9/18)**: #001 on Drive (PR #7). #002 built, PR #8, NOT sent. TOS brief: Codex found 3 misquotes + bad Poisson. DO NOT SEND. →handoff 2026-09-18-tos-evidence-review-and-ri5-002.md
-- **TypeSafe (9/19)**: smoke test PASSES both machines. Key per-machine, NOT synced: Mac=Keychain+`.zshenv`, Win=`~/.claude/typesafe.env`. Needs `apikey_` prefix (401=key, 422=request). Nothing built on it. →`TypeSafe_Sandbox/docs/STATUS.md`
+- **TypeSafe (9/19)**: PASSES both machines. Key per-machine, NOT synced. Nothing built on it. →`TypeSafe_Sandbox/docs/STATUS.md`
 
 ## Environment Notes
 - Hooks: patch both `.claude/hooks/` and `.codex/hooks/`. →Tier A hook-two-copies-trap.
@@ -26,3 +25,4 @@
 ## Pending Decisions
 - **OKR gate scored 9/14; still undecided**: AI integration buy-in + data governance (Anthony's proposal). Fold into NCAA charter or parking lot?
 - **Kitman vs MyLink**: MyLink (~half Kitman cost) + Kitman API access. Undecided; blocks priority 3.
+- **Linda_Projects dup (9/19)**: 2 identical clones, space vs underscore. DELETE underscore + manifest line 799? →handoff 2026-09-19-backup-divergence-fix.md
