@@ -15,7 +15,7 @@
 - **PP Recruiting (9/16)**: 010 + 011 matrix draft on Drive, pushed. NEXT: Eric reviews 011. →`PP_Recruiting/docs/STATUS.md`
 - **Sleep scheduler (9/16)**: R1 MERGED. NEXT: night/early-kickoff itineraries. →`sleep-scheduler/docs/STATUS.md`
 - **Research in 5 / TOS (9/18)**: #001 on Drive (PR #7). #002 built, PR #8, NOT sent. TOS: Codex 3 misquotes + bad Poisson. DO NOT SEND. →handoff 2026-09-18-tos-evidence-review-and-ri5-002.md
-- **TypeSafe (9/19)**: smoke test PASSES both boxes. Key per-box, NOT synced: Mac=Keychain+`.zshenv`, Win=`~/.claude/typesafe.env`; needs `apikey_` prefix (401=key, 422=request). Capability map on branch `worktree-jev-docs-capability-map`, PR #2 UNMERGED (Mac cannot see it). NEXT: skill router (hook must fail open). →`TypeSafe_Sandbox/docs/JEV_CAPABILITY_MAP.md`
+- **TypeSafe (9/19)**: smoke test PASSES both boxes. Key per-box, NOT synced: Mac=Keychain+`.zshenv`, Win=`~/.claude/typesafe.env`; needs `apikey_` prefix (401=key, 422=request). Full docs read 9/19; capability map MERGED to main (PR #2) and harvested. NEXT: skill router (hook must fail open). →`TypeSafe_Sandbox/docs/JEV_CAPABILITY_MAP.md`
 
 ## Environment Notes
 - Hooks: patch both `.claude/hooks/` and `.codex/hooks/`. →Tier A hook-two-copies-trap.
