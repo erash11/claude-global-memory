@@ -163,6 +163,35 @@ survived. Plist backup: `~/Library/LaunchAgents/com.keystone.dailybackup.plist.b
 `backup-manifest.json` and no snapshot copies it. Every launchd job definition on this machine
 exists in exactly one place. Not fixed — adding it is a routing decision for Eric.
 
+## The "no-op push" bug does not exist
+
+Asked to fix it; there was nothing to fix, and the 2026-09-17 diagnosis was wrong.
+
+A genuine no-op `git push` prints `Everything up-to-date` **to stderr and exits 0**. Verified on
+a throwaway repo. `daily-backup.ps1` records an error only on a non-zero exit, so a no-op push
+is silent. It never miscounted anything.
+
+What actually happened on 2026-09-17 was a real push failure. The full block:
+
+```
+PUSH ERR | error: RPC failed; curl 55 Recv failure: Can't assign requested address
+PUSH ERR | send-pack: unexpected disconnect while reading sideband packet
+PUSH ERR | fatal: the remote end hung up unexpectedly
+PUSH ERR | Everything up-to-date
+```
+
+`Everything up-to-date` was the **last of git's four stderr lines**, not the whole story. The
+earlier read took that one line as the cause. The double-logging bug made that block eight lines
+instead of four, which made it easier to misread.
+
+**Method note worth keeping:** a first attempt at this test asserted "bug confirmed" off exit 1,
+but the failure was `src refspec main does not match any` — the throwaway repo's branch was
+`master`. The test was broken, not git. Read the error text before believing the exit code.
+
+**What the 09-17 failure does reveal:** the job has **no push retry**. A transient network error
+means no push until the next day's run. Not fixed; nobody asked, and adding retries to an
+unattended job deserves its own decision.
+
 ## Next actions, most important first
 
 1. **Watch tomorrow's 09:0x `daily-backup` run.** Expect no `repo-diverged` line and no manifest
