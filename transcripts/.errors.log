@@ -1,4 +1,0 @@
-[2026-09-17 12:03] daily-backup: 1 error(s): repo-push:dotclaude - see ~/.claude/scripts/logs/daily-backup.log
-[2026-09-17T23:26:44.077Z] memsearch-sync: index ETIMEDOUT 7x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
-[2026-09-18 09:09] daily-backup: 3 error(s): repo-diverged:global-memory, repo-diverged:dotclaude, manifest-unmanaged:AppliedPerformance-Site|Linda_Projects - see ~/.claude/scripts/logs/daily-backup.log
-[2026-09-19 09:19] daily-backup: 3 error(s): repo-diverged:global-memory, repo-diverged:dotclaude, manifest-unmanaged:AppliedPerformance-Site|Linda_Projects - see ~/.claude/scripts/logs/daily-backup.log
