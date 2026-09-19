@@ -134,6 +134,35 @@ the original note had flagged as his to decide.
 The standing "keep it private" constraint is also in `global-memory/MEMORY.md` under Environment
 Notes, so it survives without anyone opening this handoff.
 
+## Double-logging bug, also fixed
+
+Every `daily-backup` line was written to `daily-backup.log` **twice**. Proven on the 09:1x run:
+36 lines, 18 unique — an exact 2x.
+
+Two writers, one file:
+
+1. `daily-backup.ps1`'s `Log` function does `Add-Content -Path $LogFile` **and** `Write-Output`.
+2. `com.keystone.dailybackup.plist` had `StandardOutPath` pointing at that same
+   `daily-backup.log`, so launchd wrote the stdout copy into it as well.
+
+**Fix:** `StandardOutPath` now points at `logs/daily-backup.out`. The script's own append is the
+single copy in `.log`; launchd's capture lands in `.out` and still catches anything printed
+outside `Log`. The script was not changed for this — `Write-Output` is what makes a manual run
+visible.
+
+Done with `plutil -replace StandardOutPath -string ... <plist>`, then reloaded:
+`launchctl bootout gui/$(id -u)/com.keystone.dailybackup` and
+`launchctl bootstrap gui/$(id -u) <plist>`. **A plist edit does nothing until it is reloaded.**
+Verified afterwards that the agent is loaded, stdout path is the new one, and the 09:00 schedule
+survived. Plist backup: `~/Library/LaunchAgents/com.keystone.dailybackup.plist.bak-2026-09-19`.
+
+**Verified by a real launchd run**, not a dry run: `launchctl kickstart` produced 28 log lines,
+28 unique, zero duplicates, and the stdout copy appeared in `.out` as intended.
+
+**New finding while doing this: `~/Library/LaunchAgents` is not backed up.** It is absent from
+`backup-manifest.json` and no snapshot copies it. Every launchd job definition on this machine
+exists in exactly one place. Not fixed — adding it is a routing decision for Eric.
+
 ## Next actions, most important first
 
 1. **Watch tomorrow's 09:0x `daily-backup` run.** Expect no `repo-diverged` line and no manifest
