@@ -134,6 +134,134 @@ the original note had flagged as his to decide.
 The standing "keep it private" constraint is also in `global-memory/MEMORY.md` under Environment
 Notes, so it survives without anyone opening this handoff.
 
+## Double-logging bug, also fixed
+
+Every `daily-backup` line was written to `daily-backup.log` **twice**. Proven on the 09:1x run:
+36 lines, 18 unique — an exact 2x.
+
+Two writers, one file:
+
+1. `daily-backup.ps1`'s `Log` function does `Add-Content -Path $LogFile` **and** `Write-Output`.
+2. `com.keystone.dailybackup.plist` had `StandardOutPath` pointing at that same
+   `daily-backup.log`, so launchd wrote the stdout copy into it as well.
+
+**Fix:** `StandardOutPath` now points at `logs/daily-backup.out`. The script's own append is the
+single copy in `.log`; launchd's capture lands in `.out` and still catches anything printed
+outside `Log`. The script was not changed for this — `Write-Output` is what makes a manual run
+visible.
+
+Done with `plutil -replace StandardOutPath -string ... <plist>`, then reloaded:
+`launchctl bootout gui/$(id -u)/com.keystone.dailybackup` and
+`launchctl bootstrap gui/$(id -u) <plist>`. **A plist edit does nothing until it is reloaded.**
+Verified afterwards that the agent is loaded, stdout path is the new one, and the 09:00 schedule
+survived. Plist backup: `~/Library/LaunchAgents/com.keystone.dailybackup.plist.bak-2026-09-19`.
+
+**Verified by a real launchd run**, not a dry run: `launchctl kickstart` produced 28 log lines,
+28 unique, zero duplicates, and the stdout copy appeared in `.out` as intended.
+
+**New finding while doing this: `~/Library/LaunchAgents` is not backed up.** It is absent from
+`backup-manifest.json` and no snapshot copies it. Every launchd job definition on this machine
+exists in exactly one place. Not fixed — adding it is a routing decision for Eric.
+
+## The "no-op push" bug does not exist
+
+Asked to fix it; there was nothing to fix, and the 2026-09-17 diagnosis was wrong.
+
+A genuine no-op `git push` prints `Everything up-to-date` **to stderr and exits 0**. Verified on
+a throwaway repo. `daily-backup.ps1` records an error only on a non-zero exit, so a no-op push
+is silent. It never miscounted anything.
+
+What actually happened on 2026-09-17 was a real push failure. The full block:
+
+```
+PUSH ERR | error: RPC failed; curl 55 Recv failure: Can't assign requested address
+PUSH ERR | send-pack: unexpected disconnect while reading sideband packet
+PUSH ERR | fatal: the remote end hung up unexpectedly
+PUSH ERR | Everything up-to-date
+```
+
+`Everything up-to-date` was the **last of git's four stderr lines**, not the whole story. The
+earlier read took that one line as the cause. The double-logging bug made that block eight lines
+instead of four, which made it easier to misread.
+
+**Method note worth keeping:** a first attempt at this test asserted "bug confirmed" off exit 1,
+but the failure was `src refspec main does not match any` — the throwaway repo's branch was
+`master`. The test was broken, not git. Read the error text before believing the exit code.
+
+**What the 09-17 failure does reveal:** the job has **no push retry**. A transient network error
+means no push until the next day's run. Not fixed; nobody asked, and adding retries to an
+unattended job deserves its own decision.
+
+## LaunchAgents coverage, and the push retry
+
+**`~/Library/LaunchAgents` now gets backed up.** It had no coverage of any kind. Two halves were
+needed, and this is the thing to remember about this manifest: **a manifest entry alone copies
+nothing.** For non-DEV paths the `ssd` destination is served by the loop in section 2b, which
+only runs when CRASHBOX is mounted, and `drive` is served by hardcoded `Snapshot` lines in
+section 2a. So the entry was added *and* a `Snapshot "$U/Library/LaunchAgents"` line with it.
+Verified on a real run: 19 plists at `My Drive/Backups/Machine/launchagents`, including
+`com.keystone.dailybackup.plist` carrying the corrected `StandardOutPath`.
+
+**Push retries now.** Up to 3 attempts, 5s then 15s, and only for transient failures. Output
+matching `[rejected]`, `non-fast-forward`, `fetch first`, `Updates were rejected`,
+`Permission denied`, `403 Forbidden`, `Authentication failed`, `does not match any` or
+`Repository not found` bails on attempt 1 — those fail identically every time, so retrying just
+buries the real error under a longer log block. The log names the attempt it won on, so a flaky
+remote is visible instead of silent.
+
+Control flow was tested against a stubbed push, not assumed: succeeds first time (1 attempt, no
+suffix), transient twice then succeeds (3 attempts, logged), transient always (gives up after 3),
+rejected (fails on attempt 1, no retry). The real 2026-09-17 error text is classed transient, so
+that lost push would have been retried.
+
+## "Indexed 0 chunks" — not a bug, but it led somewhere
+
+**The log line was correct.** The nightly index scanned at 09:16:15. `/dev-sync` pulled the
+Windows work down at ~09:17–09:27, *after* that scan. So nothing on the Mac had changed since the
+previous night, and 0 was the honest answer. The next run indexed 97 chunks — that backlog plus
+the day's work. Index health confirmed independently: two phrases unique to `daily/2026-09-19.md`
+came back from `memsearch` at 0.99 and 0.98.
+
+**Also not a bug:** `daily/` is gitignored, so daily logs never cross machines. Missing 09-17 and
+09-18 on the Mac is expected — those were Windows days.
+
+**What was real:** two stranded `session-flush-*.md` files from 09-16, ~29 KB. Recovered into
+`daily/2026-09-16.md`. One produced a full Session section; the other returned `FLUSH_OK`
+("nothing worth saving") and wrote a `### Memory Flush` marker instead. Originals preserved at
+`~/.claude/claude-memory-compiler/leftover-backup-2026-09-19/` and that path is now gitignored,
+because the nightly `git add -A` would otherwise have pushed raw session context to GitHub.
+
+## claude-memory-compiler: main was not what ran
+
+The repo sat on `session-start-progressive-disclosure`, **3 ahead and 2 behind `main`**, with no
+open PR — including the backfill-date feature used for the recovery above. Eleven branches
+existed; nine were already fully merged.
+
+Merged in the order that matters: **`main` into the branch first, test, then the branch into
+`main`.** That order paid for itself — the merge conflicted on `uv.lock`, where the branch pinned
+`claude-agent-sdk` 0.2.136 and `main` had refreshed to 0.2.152. A lockfile is generated, so it was
+resolved by taking `main`'s side and validating with `uv lock --check` (35 packages) rather than
+hand-editing, then `uv sync` installed 0.2.152, then a real end-to-end flush was run to prove the
+pipeline still works on the new SDK. Only then was it merged to `main`, pushed, and `main` checked
+out. End state: one branch, local and remote, and it is the code that runs.
+
+**Method correction worth keeping:** a pre-merge `git merge-tree` check reported "clean" and it
+was wrong — the real merge conflicted. Do not trust that check; merge into a throwaway or into
+the feature branch and look.
+
+## The sweep had a blind spot
+
+Closeout's repo sweep walked `~/DEV` plus three named config repos. It never looked at
+`~/.claude/claude-memory-compiler`, which is why closeout said "clear to sign off" while that repo
+sat on an unmerged branch for 17 days. The sweep now also walks nested git repos under
+`~/.claude` and flags any repo not on `main`/`master`.
+
+That wider sweep immediately found five more repos parked on feature branches — all pushed and
+clean, so nothing is lost, but `main` is not what they are: `AgentAssist` (`curriculum`),
+`PT_Dash` (`claude/cmj-performance-report-…`), `Football/SpeedProfiling` (`add-2025-smu`),
+`CFB_Analytics_Lab` (`foundation`), and `LibraryProject/ZoteroInjestion` (detached HEAD, commit
+already on `origin/main`).
+
 ## Next actions, most important first
 
 1. **Watch tomorrow's 09:0x `daily-backup` run.** Expect no `repo-diverged` line and no manifest
