@@ -8,12 +8,12 @@
 - **ATH Tech**: shipped; ITS pending; run 9/29. →Tier A tech-inventory-refresh.
 - **Status report**: #3 by 9/25, biweekly to 12/18 (timers). →Tier A supervisor-log-pipeline.
 - **GPS pull (9/16)**: LIVE Mac 06:30; asleep=missed. DECIDE pmset wake; rotate token. →`DataBase_GPS_Reporting/docs/STATUS.md`
-- **Win refresh (9/13)**: ForcePlate broken, Perch untested. DECIDE which box owns those DBs. →`_INBOX/docs/STATUS.md`
+- **Win refresh (9/20)**: ForcePlate NOT broken — DuckDB with a `.db` ext; Perch OK. DECIDE box ownership. →`_INBOX/docs/STATUS.md`
 - **FB matchups (9/13)**: EPA = PFF; CFBD PPA cross-check only. TRAP: `run_direction` != point of attack.
 - **PP Recruiting (9/16)**: 010 + 011 matrix draft on Drive, pushed. NEXT: Eric reviews 011. →`PP_Recruiting/docs/STATUS.md`
 - **Sleep scheduler (9/16)**: R1 MERGED. NEXT: night/early-kickoff itineraries. →`sleep-scheduler/docs/STATUS.md`
 - **Research in 5 / TOS (9/18)**: #001 PR #7. #002 PR #8 NOT sent. TOS brief: DO NOT SEND. →handoff 2026-09-18-tos-evidence-review-and-ri5-002.md
-- **TypeSafe (9/19)**: router LIVE (Win only), Zotero 1,418 classified, verifier WIRED into RI5 publish gate — blocks on findings, DEGRADED only warns. Key per-box, needs `apikey_` prefix. NEXT: tune AUTO_ACCEPT vs hand labels. →`TypeSafe_Sandbox/docs/STATUS.md`
+- **TypeSafe (9/20)**: router LIVE (Win), verifier gates RI5. AUTO_ACCEPT stays 0.80. Athlete residue=13, Jev out. NEXT: prose nums → string matcher. →`TypeSafe_Sandbox/docs/STATUS.md`
 
 ## Environment Notes
 - Hooks: patch both `.claude/hooks/` and `.codex/hooks/`. →Tier A hook-two-copies-trap.
