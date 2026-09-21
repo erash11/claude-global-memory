@@ -13,10 +13,10 @@
 - **PP Recruiting (9/16)**: 010 + 011 matrix on Drive, pushed. NEXT: Eric reviews 011. →`PP_Recruiting/docs/`
 - **Sleep scheduler (9/16)**: R1 MERGED. NEXT: night/early-kickoff itineraries. →`sleep-scheduler/docs/`
 - **RI5/TOS (9/20)**: #7 MERGED. #8 CANNOT verify (`zotero_key` empty; 0 TOS papers in Zotero) → `--go --pmid 38707577` (Funakoshi not in priority 4). "DO NOT SEND" = memory, not measurement.
-- **TypeSafe (9/20)**: router LIVE; verifier 6/6 (band 37→4 — `[n]` markers, NOT the bibliography). sde_cascade measured off map → code linter; 4 in a row down, map has a 3-condition gate. NEXT: rerank_typesafe. →`TypeSafe_Sandbox/docs/`
+- **TypeSafe (9/21)**: router LIVE both boxes; Mac roster 149/149, fail-open 6/6. Verifier 6/6 (`[n]`, not bibliography). sde_cascade→code linter; 4 map misses → 3-condition gate. NEXT: rerank_typesafe. →`TypeSafe_Sandbox/docs/`
 
 ## Environment Notes
-- Hooks: patch both `.claude/hooks/` and `.codex/hooks/`. →Tier A hook-two-copies-trap.
+- Hooks: patch both copies only for shared events; Codex has no prompt-submit event. →Tier A hook-two-copies-trap.
 - daily-backup (9/19): a manifest entry alone copies NOTHING; sweeps must walk nested `~/.claude` repos + flag non-main branches. →handoff 2026-09-19-backup-divergence-fix.md
 - `DEV/Linda Projects` = private repo, I-983 files. MUST stay private. Folder has a space, repo an underscore.
 - `~/DEV` = THIN repo; `.gitignore` starts `/*` — never remove. →Tier A github-consolidation.
