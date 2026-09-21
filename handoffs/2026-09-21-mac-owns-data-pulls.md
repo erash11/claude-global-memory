@@ -46,11 +46,20 @@ Separately, the Windows `.bat` called `pipeline.py`, which has no entry point; t
 - Drive: `02_SPORTS/Football/FA2026/_Mark_for_Deletion/gps_db_handoff_2026-09-21/` (the unused GPS DB
   copy, safe to delete)
 
+## First scheduled afternoon runs (2026-09-21) — all passed, two ran late
+
+- GPS 16:32: ok, exit 0, no new sessions (DB newest 2026-09-19).
+- Perch and VALD: the Mac idle-slept at 15:45, so both started at 16:45:33 on a wake and then crept
+  through DarkWakes (brief background wakes with no usable network). VALD finished ok at 17:36. Perch
+  hit two read timeouts and passed on attempt 3 at 17:39 (DB newest 2026-09-21). No alerts fired.
+- Open for Eric: `sudo pmset repeat wakeorpoweron MTWRFSU 16:28:00` to wake the Mac for the afternoon
+  runs (recommended), or leave it and accept late runs. Morning runs at 10:00 usually find it awake.
+
 ## Next actions
 
-1. Check today's 16:30 / 16:35 / 16:40 receipts: each `logs/last_run.json` should say `"status": "ok"`
-   (GPS: `DataBase_GPS_Reporting/gps_report/logs/`; Perch: `PlayerProfiles_FB_03-28-2026/logs/`;
-   VALD: `ForcePlate_DecisionSystem/logs/`).
+1. Eric decides on the 16:28 wake (above). Then check the 2026-09-22 receipts: each `logs/last_run.json`
+   should say `"status": "ok"` (GPS: `DataBase_GPS_Reporting/gps_report/logs/`; Perch:
+   `PlayerProfiles_FB_03-28-2026/logs/`; VALD: `ForcePlate_DecisionSystem/logs/`).
 2. The Perch and VALD failure alerts have not fired yet. Treat the first real failure as the test.
 3. Optional: add scipy to ForcePlate requirements (`tests/test_heterogeneity.py` needs it).
 4. Optional: have `claude-stack-doctor` read the three receipts.
