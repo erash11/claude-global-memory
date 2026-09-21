@@ -8,7 +8,7 @@
 - **ATH Tech**: shipped; ITS pending; run 9/29. →Tier A tech-inventory-refresh.
 - **Status report**: #3 by 9/25, biweekly to 12/18 (timers). →Tier A supervisor-log-pipeline.
 - **GPS pull (9/16)**: LIVE Mac 06:30; asleep=missed. DECIDE pmset wake; rotate token. →`DataBase_GPS_Reporting/docs/STATUS.md`
-- **Win refresh (9/20)**: ForcePlate NOT broken — DuckDB w/ `.db` ext; Perch OK. DECIDE box ownership. →`_INBOX/docs/STATUS.md`
+- **Win refresh (9/20)**: ForcePlate DB reads fine (DuckDB w/`.db`); INGEST is what's broken. DECIDE box owner. →`_INBOX/docs/STATUS.md`
 - **FB matchups (9/13)**: EPA = PFF; CFBD PPA cross-check only. TRAP: `run_direction` != point of attack.
 - **PP Recruiting (9/16)**: 010 + 011 matrix draft on Drive, pushed. NEXT: Eric reviews 011. →`PP_Recruiting/docs/STATUS.md`
 - **Sleep scheduler (9/16)**: R1 MERGED. NEXT: night/early-kickoff itineraries. →`sleep-scheduler/docs/STATUS.md`
