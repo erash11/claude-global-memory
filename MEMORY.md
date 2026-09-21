@@ -7,7 +7,7 @@
 - **RTP CLA (9/10)**: NEXT: .ris → Zotero; lesson 0002. →Tier A rtp-cla.
 - **ATH Tech**: shipped; ITS pending; run 9/29. →Tier A tech-inventory-refresh.
 - **Status report**: #3 by 9/25, biweekly to 12/18. →Tier A supervisor-log-pipeline.
-- **GPS pull (9/16)**: LIVE Mac 06:30; asleep=missed. DECIDE pmset wake; rotate token. →`DataBase_GPS_Reporting/docs/`
+- **GPS pull (9/21)**: LIVE Mac 10:00 + 16:30 (was 06:30; no pmset needed). Token rotation parked. →`DataBase_GPS_Reporting/docs/`
 - **Win refresh (9/20)**: Perch owner = WINDOWS (decided). ForcePlate stale, ingest broken, owner open. →`_INBOX/docs/STATUS.md`
 - **FB matchups (9/13)**: EPA = PFF; CFBD PPA cross-check. TRAP: `run_direction` != point of attack.
 - **PP Recruiting (9/16)**: 010 + 011 matrix on Drive, pushed. NEXT: Eric reviews 011. →`PP_Recruiting/docs/`
