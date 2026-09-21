@@ -12,8 +12,8 @@
 - **FB matchups (9/13)**: EPA = PFF; CFBD PPA cross-check. TRAP: `run_direction` != point of attack.
 - **PP Recruiting (9/16)**: 010 + 011 matrix on Drive, pushed. NEXT: Eric reviews 011. →`PP_Recruiting/docs/`
 - **Sleep scheduler (9/16)**: R1 MERGED. NEXT: night/early-kickoff itineraries. →`sleep-scheduler/docs/`
-- **RI5/TOS (9/20)**: #7 MERGED. #8 CANNOT verify (`zotero_key` empty; 0 TOS papers in Zotero) → `--go --pmid 38707577` (Funakoshi not in priority 4). "DO NOT SEND" = memory, not measurement.
-- **TypeSafe (9/20)**: router LIVE; verifier 6/6 (band 37→4 — `[n]` markers, NOT the bibliography). sde_cascade measured off map → code linter; 4 in a row down, map has a 3-condition gate. NEXT: rerank_typesafe. →`TypeSafe_Sandbox/docs/`
+- **RI5 #002 (9/21)**: VERIFIED, Eric cleared to send (28/30 ok, 2 read OK; 7 cites + "case series" fixed). v2 supersedes Drive v1. NEXT: merge TS #19→WRR #11→#8, publish.
+- **TypeSafe (9/21)**: router + verifier LIVE. 5 in a row measured off map (rerank not built). Rec: maintenance mode. →`TypeSafe_Sandbox/docs/`
 
 ## Environment Notes
 - Hooks: patch both `.claude/hooks/` and `.codex/hooks/`. →Tier A hook-two-copies-trap.
