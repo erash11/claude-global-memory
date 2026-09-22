@@ -49,3 +49,12 @@ Ran `/claude-stack-doctor` on the Windows laptop. `stack-check.ps1` is launchd-o
    Drive for Desktop already mirrors `Desktop\DEV`. Decide: delete the task, or fix and keep it.
 2. MEMORY.md is at 2490/2500 chars; consolidate before the next write.
 3. Stale `.git/worktrees/{t-PlayCalls*,p-origin_main}` dirs are locked by Drive; quit Drive, then `git worktree prune`.
+
+## Resolved (evening)
+- Open 1: `Backup DEV to Drive` deleted (Eric OK'd). Drive for Desktop's root_preference db lists
+  `C:\Users\eric_rash\Desktop\DEV` as its synced root. Task XML + script in `~/.claude/scripts/retired/`;
+  install-backup-triggers, verify-crossmachine, RECOVERY-INVENTORY updated. Doctor checks dropped (skills PR #3).
+- Open 2: MEMORY.md consolidated 2490 → 2330 chars; stale "quit Drive to unlock worktrees" note corrected.
+- Open 3: stale worktree dirs were **read-only**, not Drive-locked (prune failed even with Drive quit);
+  `Remove-Item -Recurse -Force` cleared all three.
+- Stack doctor on Windows: ALL CLEAR, exit 0.
