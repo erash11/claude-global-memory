@@ -8,6 +8,7 @@ Eric Rash, Director of Applied Performance, Baylor Athletics. Builds football GP
 - Python/R. macOS primary since 2026-08-05; Windows 11 still active. Tool paths: CLAUDE.md.
 - Local SQLite/DuckDB. No cloud servers or schedulers without Baylor IT approval. Google Drive only; keep DuckDB local to avoid sync locks.
 - Tangible working examples over documentation.
+- Staff-facing text: Athletic Performance (not S&C), Athletic Medicine (not sports medicine), Applied Performance (not sport science).
 
 ## Working Style
 - Direct; says "stop" when done. Challenge vague or rehearsed reasoning: "sharpened, not soothed."
