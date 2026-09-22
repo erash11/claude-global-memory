@@ -27,3 +27,25 @@ Ran `/claude-stack-doctor` on the Windows laptop. `stack-check.ps1` is launchd-o
 2. Optional: 3 stranded `session-flush-*.md` from June in
    `~/.claude/claude-memory-compiler/scripts/` — recoverable with flush.py, low value.
 3. Desktop Commander MCP timed out on connect this session; retry if it recurs.
+
+## Follow-up (same day, afternoon)
+- **Doctor now runs on Windows.** `claude-stack-doctor/scripts/stack-check.ps1` picks its checks by OS
+  (Task Scheduler, `.venv\Scripts`, Docker/Milvus, robocopy backup state files). Also fixed on both
+  machines: the cloud receipt check now keeps only `run-*.txt` (Drive token matching had returned
+  `jev_run2.jsonl`). claude-skills PR #2, merged `b25f514`. Weekly task `\Eric\KeystoneOS-StackDoctor`
+  enabled (Mon 10:30, pwsh 7). Use pwsh 7; PowerShell 5.1 gives false memsearch/gws failures.
+- **PFF_DB PRs merged** in owner-first order: PFF_Data_Project #1, SpringPlayerEvals_SymAnalysis #1,
+  PlayCalls_SuccessRate_EPA #1. Diffs fall back to the old paths when `PFF_DB` is unset (the Mac is unaffected).
+  Tests: PFF 35/35 on main and on the branch; PlayCalls failures are the same on main (no venv here, so
+  `tabulate` and `ijson` are missing).
+- **June stranded flushes NOT recovered**: flush.py writes to today's log, so recovering them would
+  misdate June facts. Moved to `claude-memory-compiler/scripts/_stranded-archive/`.
+- **Desktop Commander timeouts** (13 of the last 15 starts): npx @latest startup takes 23–46s against the 30s limit.
+  Set `MCP_TIMEOUT=90000` in `~/.claude/settings.json` env (takes effect next session).
+- AI-sessions backup re-run via the task: status OK 16:13.
+
+## Open
+1. `Backup DEV to Drive` has never completed: no `05_SYSTEMS\DEV_Backup`, no state file, missed its 9/20 run.
+   Drive for Desktop already mirrors `Desktop\DEV`. Decide: delete the task, or fix and keep it.
+2. MEMORY.md is at 2490/2500 chars; consolidate before the next write.
+3. Stale `.git/worktrees/{t-PlayCalls*,p-origin_main}` dirs are locked by Drive; quit Drive, then `git worktree prune`.
