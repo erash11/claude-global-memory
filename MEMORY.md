@@ -22,7 +22,6 @@
 - `~/DEV` = THIN repo; `.gitignore` starts `/*` — never remove. →Tier A github-consolidation.
 - Win: `Desktop\DEV` syncs via Drive (robocopy retired 9/22). No large DBs/junctions: renv via `RENV_PATHS_LIBRARY_ROOT`, PFF via `PFF_DB`. Stale `.git/worktrees`: read-only, then `Remove-Item -Force`.
 - Stack doctor: both machines. Schedules →automation-cadence. CFB capture →cfb-forecast-capture. Portfolio dashboard →command-centre.
-- **Mac TODO (9/22)**: `git pull` in `~/.claude/claude-memory-compiler` + `~/.claude/skills`, then delete this line.
 
 ## Pending Decisions
 - **OKR gate (scored 9/14)**: AI integration buy-in + data governance (Anthony). Fold into NCAA charter or park?
