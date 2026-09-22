@@ -13,7 +13,7 @@
 - **PP Recruiting (9/16)**: 010 + 011 matrix on Drive, pushed. NEXT: Eric reviews 011. →`PP_Recruiting/docs/`
 - **Sleep scheduler (9/16)**: R1 MERGED. NEXT: night/early-kickoff itineraries. →`sleep-scheduler/docs/`
 - **RI5 #002 (9/21)**: VERIFIED + v2 PUBLISHED to Drive (28/30 ok, 2 read OK; 7 cites + "case series" fixed). NEXT: Eric sends `_v2` only.
-- **TypeSafe (9/21)**: router LIVE both boxes (Mac 149/149); verifier LIVE, reads printed pages. 7 measured off map (surgery notes last). NEXT: Eric Y/Ns 22 surgeries, 12-mo rule (PR #21). Rec: maintenance; #3 = Eric's call. →`TypeSafe_Sandbox/docs/`
+- **TypeSafe (9/22)**: router + verifier LIVE. 8 measured off map (perm gate: Jev 0.42 vs 0.80 bar). Shadow gate hook LIVE Windows, log-only; review in 1-2 wks. NEXT: Eric Y/Ns 22 surgeries (PR #21). Maintenance. →`TypeSafe_Sandbox/docs/`
 
 ## Environment Notes
 - Hooks: patch both copies only for shared events; Codex has no prompt-submit event. →Tier A hook-two-copies-trap.
