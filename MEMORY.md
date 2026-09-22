@@ -12,7 +12,7 @@
 - **PP Recruiting (9/22)**: 011 awaits Eric/staff; Jev pilot on draft PR #2, shadow only. →`PP_Recruiting/docs/`
 - **Sleep scheduler (9/16)**: R1 merged. NEXT: night/early-kickoff itineraries. →`sleep-scheduler/`
 - **RI5 #002 (9/21)**: v2 on Drive. NEXT: Eric sends `_v2` only.
-- **TypeSafe (9/22)**: shadow gate log-only Win, review ~10/6. **Meeting→project tag SHIPPED** (`meeting-sync` step 4; 246 notes tagged). Spring traj FAILED .298/.30; role ρ.643 → own test vs 2026 snaps. NEXT: Eric Y/Ns 22 surgeries (#21). →`TypeSafe_Sandbox/docs/`
+- **TypeSafe (9/22)**: shadow gate log-only Win, review ~10/6; meeting→project tag shipped; spring traj failed. NEXT: Eric Y/Ns 22 surgeries (#21). →`TypeSafe_Sandbox/docs/`
 - **PFF DB (9/22)**: 2026 thru wk3. Machines swap Parquet on Drive, never the DB: `load_snapshot.py` (Mac pending). →`PFF_Data_Project/docs/`
 
 ## Environment Notes
@@ -21,7 +21,8 @@
 - `DEV/Linda Projects` = private I-983 repo; folder has a space, repo an underscore.
 - `~/DEV` = THIN repo; `.gitignore` starts `/*` — never remove. →Tier A github-consolidation.
 - Win: `Desktop\DEV` syncs via Drive (robocopy retired 9/22). No large DBs/junctions: renv via `RENV_PATHS_LIBRARY_ROOT`, PFF via `PFF_DB`. Stale `.git/worktrees`: read-only, then `Remove-Item -Force`.
-- Stack doctor runs on both machines (pwsh 7). Schedules →automation-cadence. CFB capture →cfb-forecast-capture. Portfolio dashboard →command-centre.
+- Stack doctor: both machines. Schedules →automation-cadence. CFB capture →cfb-forecast-capture. Portfolio dashboard →command-centre.
+- **Mac TODO (9/22)**: `git pull` in `~/.claude/claude-memory-compiler` + `~/.claude/skills`, then delete this line.
 
 ## Pending Decisions
 - **OKR gate (scored 9/14)**: AI integration buy-in + data governance (Anthony). Fold into NCAA charter or park?
