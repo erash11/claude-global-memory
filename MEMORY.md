@@ -13,7 +13,7 @@
 - **Sleep scheduler (9/16)**: R1 merged. NEXT: night/early-kickoff itineraries. →`sleep-scheduler/`
 - **RI5 #002 (9/21)**: v2 on Drive. NEXT: Eric sends `_v2` only.
 - **TypeSafe (9/22)**: shadow gate log-only Win, review ~10/6; meeting→project tag shipped; spring traj failed. NEXT: Eric Y/Ns 22 surgeries (#21). →`TypeSafe_Sandbox/docs/`
-- **PFF DB (9/22)**: Machines swap Parquet, not DB. BUG: load wipes local-only premium rows (restored 9/22); no load or 24-25 export till fixed. →`PFF_Data_Project/docs/`
+- **PFF DB (9/22)**: Swap Parquet, not DB. BUG: load wipes local-only premium rows (restored); no load/24-25 export till fixed. →`PFF_Data_Project/docs/`
 
 ## Environment Notes
 - Hooks: patch both copies only for shared events; Codex has no prompt-submit event. →Tier A hook-two-copies-trap.
