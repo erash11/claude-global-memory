@@ -7,7 +7,7 @@
 - **RTP CLA (9/10)**: NEXT: .ris → Zotero; lesson 0002. →Tier A rtp-cla.
 - **ATH Tech**: shipped; ITS pending; run 9/29. →Tier A tech-inventory-refresh.
 - **Status report**: #3 by 9/25, biweekly to 12/18. →Tier A supervisor-log-pipeline.
-- **GPS pull (9/21)**: Mac owns, 10:00+16:30. Stop the Windows writer. →`DataBase_GPS_Reporting/docs/`
+- **GPS pull (9/21)**: Mac owns, 10:00+16:30. Win writer stopped (Eric, 9/22). No 16:28 wake. →`DataBase_GPS_Reporting/docs/`
 - **VALD+Perch (9/21)**: Mac owns. Perch 10:05+16:35; VALD 10:10+16:40. Windows jobs off. →`_INBOX/docs/`
 - **FB matchups (9/13)**: EPA = PFF; CFBD PPA cross-check. TRAP: `run_direction` != point of attack.
 - **PP Recruiting (9/16)**: 010 + 011 matrix on Drive, pushed. NEXT: Eric reviews 011. →`PP_Recruiting/docs/`
