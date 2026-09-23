@@ -13,7 +13,7 @@
 - **Sleep scheduler (9/16)**: R1 merged. NEXT: night/early-kickoff itineraries. →`sleep-scheduler/`
 - **RI5 #002 (9/21)**: v2 on Drive. NEXT: Eric sends `_v2` only.
 - **TypeSafe (9/22)**: shadow gate log-only Win, review ~10/6; meeting→project tag shipped; spring traj failed. NEXT: Eric Y/Ns 22 surgeries (#21). →`TypeSafe_Sandbox/docs/`
-- **PFF DB (9/22)**: 2026 thru wk3, both machines current. Swap Parquet on Drive, never the DB: `load_snapshot.py`. →`PFF_Data_Project/docs/`
+- **PFF DB (9/22)**: Swap Parquet on Drive, never the DB. Win pulled 2026 thru wk3; load bug fixed (PR #4); Mac loaded + exported. NEXT: Win pull + load. →`PFF_Data_Project/docs/`
 
 ## Environment Notes
 - Hooks: patch both copies only for shared events; Codex has no prompt-submit event. →Tier A hook-two-copies-trap.
@@ -22,7 +22,6 @@
 - `~/DEV` = THIN repo; `.gitignore` starts `/*` — never remove. →Tier A github-consolidation.
 - Win: `Desktop\DEV` syncs via Drive (robocopy retired 9/22). No large DBs/junctions: renv via `RENV_PATHS_LIBRARY_ROOT`, PFF via `PFF_DB`. Stale `.git/worktrees`: read-only, then `Remove-Item -Force`.
 - Stack doctor: both machines. Schedules →automation-cadence. CFB capture →cfb-forecast-capture. Portfolio dashboard →command-centre.
-- **Mac TODO (9/22)**: `git pull` in `~/.claude/claude-memory-compiler` + `~/.claude/skills`, then delete this line.
 
 ## Pending Decisions
 - **OKR gate (scored 9/14)**: AI integration buy-in + data governance (Anthony). Fold into NCAA charter or park?
