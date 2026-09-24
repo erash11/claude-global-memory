@@ -8,7 +8,7 @@
 - **RTP CLA (9/10)**: NEXT: .ris → Zotero; lesson 0002. →Tier A rtp-cla
 - **ATH Tech**: shipped; ITS pending; run 9/29. →Tier A tech-inventory-refresh
 - **Data pulls (9/21)**: Mac owns GPS/Perch/VALD (10:00-10:10, 16:30-16:40); Win writers off. →`DataBase_GPS_Reporting/docs/`
-- **FB matchups (9/13)**: EPA = PFF; CFBD PPA cross-check. TRAP: `run_direction` != point of attack
+- **FB matchups (9/23)**: EPA = PFF via `scripts/pff_epa_profile.py`. Wk4 COLO: EPA layer only, full profile? →`MatchupAnalysis_FB2026/docs/`
 - **PP Recruiting (9/22)**: 011 awaits Eric/staff; Jev pilot on draft PR #2, shadow only. →`PP_Recruiting/docs/`
 - **Sleep scheduler (9/16)**: R1 merged. NEXT: night/early-kickoff itineraries. →`sleep-scheduler/`
 - **RI5 #002 (9/21)**: v2 on Drive. NEXT: Eric sends `_v2` only.
