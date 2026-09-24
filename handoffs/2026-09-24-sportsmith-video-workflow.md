@@ -30,7 +30,12 @@ Part 2's visible Vimeo transcript was accessed through the normal player UI; pla
 ## Luna versus Sol for this workflow
 Official OpenAI API documentation (checked 2026-09-24): GPT-6 Luna is positioned for efficient focused/high-volume tasks and lists API rates of $0.10/M input and $0.50/M output tokens; GPT-6 Sol is positioned for complex coding/agentic work and lists $2/M input and $10/M output tokens. That is a 20x API token-price difference, not a measured Codex subscription or latency ratio. The model pages list audio/video input as unsupported. Practical split: keep audio transcription local; use Luna for routine caption comparison, transcript cleanup, and concise summaries; use Sol to resolve difficult domain-specific disagreements or complex multi-step extraction. Escalate only uncertain segments to Sol to control cost. References: https://developers.openai.com/api/docs/models/gpt-6-luna and https://developers.openai.com/api/docs/models/gpt-6-sol
 
+## Closeout findings
+The DEV-wide closeout sweep checked 147 repositories and 13 nested repositories under `.claude`. All were clean and on `main`/`master` except `SpeedProfiling` (branch `add-2025-smu`) and `PT_Dash` (branch `claude/cmj-performance-report-011CURrnCVZRnL3cTVQHoiGN`); both branches are clean and synced with their remotes. `RunningTheRoom` was on `main` with local changes from a different session. The overview, department plan, and status update were committed as `ff3cefd`, but the repository has no remote configured, so the commit is local and cannot be pushed until the correct private remote is supplied/configured.
+
 ## Next actions
-1. Create and validate the portable video workflow skill, documenting extraction, local ASR, caption cross-check, audio-review limitations, summary generation, provenance, and verification.
-2. If exact transcript fidelity is needed, perform a human audio review of Part 2 and revise both the transcript and summary accordingly.
-3. Continue with the next course lesson only when the user requests it or confirms the batch scope.
+1. Configure the correct private remote for RunningTheRoom and push commit `ff3cefd`.
+2. Create and validate the portable video workflow skill, documenting extraction, local ASR, caption cross-check, audio-review limitations, summary generation, provenance, and verification.
+3. If exact transcript fidelity is needed, perform a human audio review of Part 2 and revise both the transcript and summary accordingly.
+4. Continue with the next course lesson only when the user requests it or confirms the batch scope.
+
