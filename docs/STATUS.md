@@ -1,15 +1,15 @@
 # STATUS
 
 ## Current state
-- The 2026-09-14 transcript is current through the migration closeout.
-- The pending Codex session-end job flushed successfully; no pending jobs remain.
-- Memory-compiler SDK skew was corrected (`claude-agent-sdk` 0.2.110 to 0.2.152), all daily logs are compiled, and structural lint has zero errors.
+- 2026-09-24: Sportsmith Part 2 video, transcript, and summary are saved in Drive. The automated transcript was compared with Vimeo captions and corrected; a human audio-listening pass remains open.
+- This closeout handoff records the workflow, deliverables, and next steps for another harness.
 
 ## Next
-- Consolidate `USER.md` and `MEMORY.md` before the next Tier B write; both were at or over their operating thresholds during the Mac closeout.
+- Create a portable video processing and transcript review skill in the canonical `~/.claude/skills` repo; sync generated Codex and `.agents` views.
+- If exact verbatim accuracy is required, listen to ambiguous passages and update the transcript with a human review note.
 
 ## Open questions
-- None.
+- None; skill creation is recorded as the next requested work item.
 
 ## Gotchas
 - The stop hook can add one final transcript entry after closeout.
