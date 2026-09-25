@@ -25,4 +25,4 @@
 
 ## Pending Decisions
 - **OKR gate (scored 9/14)**: AI integration buy-in + data governance (Anthony). Fold into NCAA charter or park?
-- **No Kitman vs MyLink**: error, never real. Vendor is Myelin (startup AMS), not pursued. Kitman stays; don't resurface (9/24).
+- **No Kitman vs Myelin decision**: never real. Vendor is Myelin (startup AMS), not pursued. Kitman stays; don't resurface (9/24).

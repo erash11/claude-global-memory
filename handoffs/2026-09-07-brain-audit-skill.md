@@ -109,7 +109,7 @@ are:
    `interview-me` is day-driven and `mattpocock-skills:grilling` writes nothing to
    disk (28 lines, no output step) — and because `user_working-conditions-bottleneck.md`
    says the limiting factor is the absence of a thinking partner and the right move is
-   helping him capture what surfaces. First topics: Kitman vs MyLink, the ATH Tech ITS
+   helping him capture what surfaces. First topics: the ATH Tech ITS
    blocker, the overdue OKR Q1 gate.
 2. Put `/brain-audit` on `com.keystone.rituals`, monthly.
 
@@ -142,3 +142,6 @@ left as a comment in `measure.sh` so it is not re-attempted.
 2496/2500 characters. Nothing new can be written to working memory until it is
 trimmed. This is why this session's thread was written to Tier A instead. Run
 `/claude-stack-doctor`.
+
+Correction 2026-09-25: there was no Kitman vs Myelin decision, then or ever. The
+vendor is Myelin, a startup AMS Baylor is not pursuing; Kitman stays.
