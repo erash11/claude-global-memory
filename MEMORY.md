@@ -8,6 +8,7 @@
 - **RTP CLA (9/10)**: NEXT: .ris → Zotero; lesson 0002. →Tier A rtp-cla
 - **ATH Tech**: shipped; ITS pending; run 9/29. →Tier A tech-inventory-refresh
 - **Machine split (9/24)**: Win=day, Mac=eve. Mac sole writer GPS/Perch/VALD → Parquet `athlete-snapshots/` on Drive; backup 21:00; nudges on Win. →handoff 2026-09-24-machine-split
+- **Ship queue (9/25)**: K-B self-audit done. Ship to a named user q2wk: RI5 #002 wk 9/28, intern M1 10/9, AP Digest ch1 10/23. →`RunningTheRoom/docs/STATUS.md`
 - **FB matchups (9/23)**: EPA = PFF via `scripts/pff_epa_profile.py`. Wk4 COLO: EPA layer only, full profile? →`MatchupAnalysis_FB2026/docs/`
 - **PP Recruiting (9/22)**: 011 awaits Eric/staff; Jev pilot on draft PR #2, shadow only. →`PP_Recruiting/docs/`
 - **Sleep scheduler (9/16)**: R1 merged. NEXT: night/early-kickoff itineraries. →`sleep-scheduler/`
@@ -25,4 +26,3 @@
 
 ## Pending Decisions
 - **OKR gate (scored 9/14)**: AI integration buy-in + data governance (Anthony). Fold into NCAA charter or park?
-- **No Kitman vs Myelin decision**: never real. Vendor is Myelin (startup AMS), not pursued. Kitman stays; don't resurface (9/24).
