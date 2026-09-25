@@ -114,3 +114,6 @@ who writes `portfolio.json`. Offered to the user; not requested.
   read at session start ("Open PRs") no longer matched. Re-read before editing it, and
   note that `wc -c` reports bytes while Python `len()` reports characters — the file's em
   dashes and arrows make those differ by ~30.
+
+Correction 2026-09-25: there was no Kitman vs MyLink decision, then or ever. The
+vendor is Myelin, a startup AMS Baylor is not pursuing; Kitman stays.

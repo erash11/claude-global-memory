@@ -142,3 +142,6 @@ left as a comment in `measure.sh` so it is not re-attempted.
 2496/2500 characters. Nothing new can be written to working memory until it is
 trimmed. This is why this session's thread was written to Tier A instead. Run
 `/claude-stack-doctor`.
+
+Correction 2026-09-25: there was no Kitman vs MyLink decision, then or ever. The
+vendor is Myelin, a startup AMS Baylor is not pursuing; Kitman stays.

@@ -119,3 +119,6 @@ Same blocker, two projects, five months. The note carries a `[still open 2026-09
   exit 0, so this was an indexing backlog under load, not a broken install. Log archived.
 - Two config paths still do not resolve, both created on demand by other skills, neither is a
   problem: `Inbox/TODO.md` and `Inbox/meetings/.pending-renames.json`.
+
+Correction 2026-09-25: there was no Kitman vs MyLink decision, then or ever. The
+vendor is Myelin, a startup AMS Baylor is not pursuing; Kitman stays.
