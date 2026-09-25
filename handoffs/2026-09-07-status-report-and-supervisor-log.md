@@ -84,7 +84,7 @@ who writes `portfolio.json`. Offered to the user; not requested.
 5. **Chase VALD MoveHealth+ / Kitman integration** for the Men's Tennis consultant. This
    is a vendor entering through a sport rather than through intake — exactly the case
    KR 1.2's technology decision matrix exists for, and KR 1.2 still lacks Chris's written
-   sign-off. Also touches the undecided Kitman vs MyLink question.
+   sign-off.
 6. **Run `/interview-me` nightly.** Day 1 of 14 is already logged for the 09-21 cycle.
 
 ## Mid-flight / open questions
@@ -115,5 +115,5 @@ who writes `portfolio.json`. Offered to the user; not requested.
   note that `wc -c` reports bytes while Python `len()` reports characters — the file's em
   dashes and arrows make those differ by ~30.
 
-Correction 2026-09-25: there was no Kitman vs MyLink decision, then or ever. The
+Correction 2026-09-25: there was no Kitman vs Myelin decision, then or ever. The
 vendor is Myelin, a startup AMS Baylor is not pursuing; Kitman stays.

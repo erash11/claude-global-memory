@@ -39,6 +39,6 @@ Also settled: Friday biweekly email to Chris (5 headings <300 words — Chris pr
 - Firstbeat quote (Matt Tardif) ~9 days stale — excluded from OKRs by decision 0009 but still owed a reply on its own merits.
 
 ## Addendum (post-closeout, same evening)
-Meeting-sync ran: 1 new Fireflies meeting renamed "Jul 17, 02:38 PM" → "MyLink — Platform Pricing, AI Agents & Rollout" (applied in Fireflies), exported to `SecondBrain\Inbox\meetings\2026-07-17_MyLink_Platform_Pricing_AI_Agents_Rollout.md`, committed @ 4d2e7b0 (local). MyLink = AMS vendor (~half Kitman's cost, $7–11K, AI agents, injury-risk roadmap); Eric owes intros (Seattle contacts, Tyler, CEO) — candidate for the revived tech decision matrix (KR 1.2).
+Meeting-sync ran: 1 new Fireflies meeting renamed "Jul 17, 02:38 PM" → "Myelin — Platform Pricing, AI Agents & Rollout" (applied in Fireflies), exported to `SecondBrain\Inbox\meetings\2026-07-17_Myelin_Platform_Pricing_AI_Agents_Rollout.md`, committed @ 4d2e7b0 (local). Myelin = startup AMS vendor (pitched at ~half Kitman's cost, $7–11K, AI agents, injury-risk roadmap); Eric owes intros (Seattle contacts, Tyler, CEO). Not a platform Baylor is weighing; Kitman stays.
 
-Correction 2026-09-25: there was no Kitman vs MyLink decision, then or ever. The vendor is Myelin, a startup AMS Baylor is not pursuing; Kitman stays.
+Correction 2026-09-25: there was no Kitman vs Myelin decision, then or ever. The vendor is Myelin, a startup AMS Baylor is not pursuing; Kitman stays.

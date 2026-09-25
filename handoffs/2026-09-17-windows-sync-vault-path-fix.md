@@ -62,7 +62,7 @@ the full 8,521-word transcript (pulled via the CLI — the vault file holds only
   committed at closeout instead.
 
 ## Finding worth acting on
-The 2026-04-08 Kruger meeting is the **origin of the still-open `Kitman vs MyLink` decision**.
+The 2026-04-08 Kruger meeting is where the **Kitman API access question** started.
 The Kitman API question was deferred by their contact (Tyler Held: "let's work on this first,
 then we'll circle back") and never resolved. memsearch corroborates a separate
 `AT_Utilization_Benchmarks` thread recording "Kitman API locked / vendor-mediated data access".
@@ -120,5 +120,5 @@ Same blocker, two projects, five months. The note carries a `[still open 2026-09
 - Two config paths still do not resolve, both created on demand by other skills, neither is a
   problem: `Inbox/TODO.md` and `Inbox/meetings/.pending-renames.json`.
 
-Correction 2026-09-25: there was no Kitman vs MyLink decision, then or ever. The
+Correction 2026-09-25: there was no Kitman vs Myelin decision, then or ever. The
 vendor is Myelin, a startup AMS Baylor is not pursuing; Kitman stays.
