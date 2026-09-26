@@ -8,11 +8,10 @@
 - **RTP CLA (9/25)**: L1–2 built; Joe pkg on Drive. NEXT: his field notes → L3. →`RTP_Constraints_Course/docs/STATUS.md`
 - **ATH Tech**: shipped; ITS pending; run 9/29. →Tier A tech-inventory-refresh
 - **Machine split (9/24)**: Win=day, Mac=eve. Mac sole writer GPS/Perch/VALD → Parquet `athlete-snapshots/` on Drive; backup 21:00; nudges on Win. →handoff 2026-09-24-machine-split
-- **Ship queue (9/25)**: K-B self-audit done. Ship to a named user q2wk: RI5 #002 wk 9/28, intern M1 10/9, AP Digest ch1 10/23. →`RunningTheRoom/docs/STATUS.md`
+- **Ship queue (9/25)**: K-B self-audit done. Ship to a named user q2wk: RI5 #002 (`_v2` only) wk 9/28, intern M1 10/9, AP Digest ch1 10/23. →`RunningTheRoom/docs/STATUS.md`
 - **FB matchups (9/23)**: EPA = PFF via `scripts/pff_epa_profile.py`. Wk4 COLO: EPA layer only, full profile? →`MatchupAnalysis_FB2026/docs/`
-- **PP Recruiting (9/22)**: 011 awaits Eric/staff; Jev pilot on draft PR #2, shadow only. →`PP_Recruiting/docs/`
+- **PP Recruiting (9/26)**: 013 built; size Q + 011 await Mauro (asst GM). →`PP_Recruiting/docs/`
 - **Sleep scheduler (9/16)**: R1 merged. NEXT: night/early-kickoff itineraries. →`sleep-scheduler/`
-- **RI5 #002 (9/21)**: v2 on Drive. NEXT: Eric sends `_v2` only.
 - **TypeSafe (9/22)**: shadow gate log-only Win, review ~10/6; spring traj failed. NEXT: Eric Y/Ns 22 surgeries (#21). →`TypeSafe_Sandbox/docs/`
 - **PFF DB (9/22)**: Swap Parquet on Drive, never the DB (`load_snapshot.py`, PK merge since PR #4). Both machines: 2026 thru wk3 + video plays. →`PFF_Data_Project/docs/`
 
@@ -25,4 +24,4 @@
 - Schedules →automation-cadence. CFB capture: Mac only →cfb-forecast-capture. Portfolio dashboard →command-centre.
 
 ## Pending Decisions
-- **OKR gate (scored 9/14)**: AI integration buy-in + data governance (Anthony). Fold into NCAA charter or park?
+- **OKR gate (9/14)**: AI buy-in + data governance (Anthony = outside-firm adviser, NOT Mauro). NCAA charter or park?
