@@ -33,3 +33,19 @@ Traceback (most recent call last):
   File "C:\Users\eric_rash\AppData\Roaming\Python\Python314\sit
 [2026-09-28T12:55:27.043Z] memsearch-sync: index ETIMEDOUT 23x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
 [2026-09-28T13:10:36.957Z] memsearch-sync: index ETIMEDOUT 24x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T13:20:49.725Z] memsearch-sync: index ETIMEDOUT 25x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T13:36:02.724Z] memsearch-sync: index ETIMEDOUT 26x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T14:58:22.917Z] memsearch-sync: index ETIMEDOUT 27x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T15:08:45.252Z] memsearch-sync: index ETIMEDOUT 28x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T15:19:05.338Z] memsearch-sync: index ETIMEDOUT 29x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T10:21:07.8652994-05:00] ERROR for session-end job C:\Users\eric_rash\.codex\state\session-end-memory\pending\session-end-20260928-101952-362-2e960029.json: The process cannot access the file 'C:\Users\eric_rash\.codex\state\session-end-memory\session-end.log' because it is being used by another process. | codex-session-end-memory
+[2026-09-28T15:25:12.837Z] memsearch-sync: index Milvus unreachable 30x consecutively — indexing may not be keeping up: 2026-09-28 10:23:33,322 [WARNING][_recover]: Connection recovery failed (connection_manager.py:672)
+Traceback (most recent call last):
+  File "C:\Users\eric_rash\AppData\Roaming\Python\Python314\sit
+[2026-09-28T15:40:30.757Z] memsearch-sync: index Milvus unreachable 31x consecutively — indexing may not be keeping up: 2026-09-28 10:38:48,906 [WARNING][_recover]: Connection recovery failed (connection_manager.py:672)
+Traceback (most recent call last):
+  File "C:\Users\eric_rash\AppData\Roaming\Python\Python314\sit
+[2026-09-28T15:52:03.238Z] memsearch-sync: index ETIMEDOUT 32x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T16:03:15.428Z] memsearch-sync: index ETIMEDOUT 33x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T16:18:29.278Z] memsearch-sync: index ETIMEDOUT 34x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T17:48:25.548Z] memsearch-sync: index ETIMEDOUT 35x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT

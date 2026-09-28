@@ -12,8 +12,8 @@
 - **FB matchups (9/23)**: EPA = PFF via `scripts/pff_epa_profile.py`. Wk4 COLO: EPA layer only, full profile? →`MatchupAnalysis_FB2026/docs/`
 - **PP Recruiting (9/26)**: 013 built; size Q + 011 await Mauro (asst GM). →`PP_Recruiting/docs/`
 - **Sleep sched (9/16)**: R1 merged; NEXT night/early-kickoff. →`sleep-scheduler/`
-- **TypeSafe (9/26)**: gate log-only, review ~10/6; Drive-triage prereg #30. NEXT: Y/Ns 22 surgeries. →`TypeSafe_Sandbox/docs/`
-- **Flint (9/26)**: sport-sci KB, side lane. Harries in vault; 7 staged, fixes pending. →`Flint/docs/STATUS.md`
+- **TypeSafe (9/28)**: Drive triage FAIL 76.5%; Jev>Haiku, used for Flint. PR #31 draft; Eric audit. →`TypeSafe_Sandbox/docs/`
+- **Flint (9/28)**: interview done+applied. NEXT Eric: shortlists, primer, CVASPS. →`Flint/docs/STATUS.md`
 - **PFF DB (9/22)**: swap Parquet on Drive, never the DB. Both: 2026 thru wk3 + video. →`PFF_Data_Project/docs/`
 
 ## Environment Notes
