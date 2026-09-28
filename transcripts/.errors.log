@@ -49,3 +49,17 @@ Traceback (most recent call last):
 [2026-09-28T16:03:15.428Z] memsearch-sync: index ETIMEDOUT 33x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
 [2026-09-28T16:18:29.278Z] memsearch-sync: index ETIMEDOUT 34x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
 [2026-09-28T17:48:25.548Z] memsearch-sync: index ETIMEDOUT 35x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-23T01:01:35.997003+00:00] compiler-backlog: 2 log(s) backlogged, compiling newest 2 this run - run compile.py manually to catch up
+[2026-09-23T01:01:35.997435+00:00] compiler-stale-lock: reclaimed compile lock held 1531min by pid 59036 (compile.py --auto)
+[2026-09-23 07:53] daily-backup: 1 error(s): repo-behind-blocked:global-memory - see ~/.claude/scripts/logs/daily-backup.log
+[2026-09-24 09:01] daily-backup: 1 error(s): repo-behind-blocked:global-memory - see ~/.claude/scripts/logs/daily-backup.log
+[2026-09-25T00:47:13.718670+00:00] compiler-backlog: 3 log(s) backlogged, compiling newest 2 this run - run compile.py manually to catch up
+[2026-09-24 21:18] daily-backup: 1 error(s): manifest-unmanaged:RunningTheRoom - see ~/.claude/scripts/logs/daily-backup.log
+[2026-09-25T02:25:56.465559+00:00] compiler-backlog: 2 log(s) backlogged, compiling newest 2 this run - run compile.py manually to catch up
+[2026-09-26 11:38] daily-backup: 2 error(s): repo-behind-blocked:global-memory, manifest-unmanaged:RunningTheRoom - see ~/.claude/scripts/logs/daily-backup.log
+[2026-09-26T16:26:03-0500] perch-pull: error exit=1 after 3 attempt(s) — see /Users/kristinarash/DEV/PlayerProfiles_FB_03-28-2026/logs/last_run.json
+[2026-09-27T00:34:58-0500] perch-pull: error exit=1 after 3 attempt(s) — see /Users/kristinarash/DEV/PlayerProfiles_FB_03-28-2026/logs/last_run.json
+[2026-09-27 11:05] daily-backup: 2 error(s): repo-behind-blocked:global-memory, manifest-unmanaged:RunningTheRoom - see ~/.claude/scripts/logs/daily-backup.log
+[2026-09-27T16:06:31.154337+00:00] adjudicate-budget-tripped: stopped after 315,063 / 250,000 tokens
+[2026-09-27T17:32:19.698737+00:00] compiler-flush-failed: memory-compiler flush failed (session 5a33a7ad-69b0-4a38-a3df-3a1b420dd536): FLUSH_ERROR: ResultError: Claude Code returned an error result: You've hit your session limit · resets 12:40pm (America/Chicago) (exit code: 1) | a single failure is usually transient session-end contention (retries exhausted) — check scripts/flush.log; only if it repeats across sessions suspect bundled-CLI version skew — fix: cd ~/.claude/claude-memory-compiler && uv lock --upgrade-package claude-agent-sdk && uv sync
+[2026-09-27 23:43] daily-backup: 4 error(s): repo-behind-blocked:SecondBrain, repo-behind-blocked:global-memory, repo-behind-blocked:skills, manifest-unmanaged:RunningTheRoom - see ~/.claude/scripts/logs/daily-backup.log
