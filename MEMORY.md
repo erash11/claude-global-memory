@@ -10,7 +10,7 @@
 - **Machine split (9/24)**: Win=day, Mac=eve; Mac sole writer GPS/Perch/VALD. →handoff 2026-09-24-machine-split
 - **Ship queue (9/25)**: K-B self-audit done. Ship to a named user q2wk: RI5 #002 (`_v2` only) wk 9/28, intern M1 10/9, AP Digest ch1 10/23. →`RunningTheRoom/docs/STATUS.md`
 - **FB matchups (9/23)**: EPA = PFF via `scripts/pff_epa_profile.py`. Wk4 COLO: EPA layer only, full profile? →`MatchupAnalysis_FB2026/docs/`
-- **PP Recruiting (9/26)**: 013 built; size Q + 011 await Mauro (asst GM). →`PP_Recruiting/docs/`
+- **PP Recruiting (9/29)**: 015 shipped; 2026 pull tool fixed, rerun pending. →`PP_Recruiting/docs/`
 - **Sleep sched (9/16)**: R1 merged; NEXT night/early-kickoff. →`sleep-scheduler/`
 - **TypeSafe (9/28)**: Drive triage FAIL 76.5%; Jev>Haiku, used for Flint. PR #31 draft; Eric audit. →`TypeSafe_Sandbox/docs/`
 - **Flint (9/29)**: Waves 1+2 queued; Jev pass done. NEXT Eric: OneDrive keep/drop, 2 verify. →`Flint/docs/STATUS.md`
