@@ -65,3 +65,4 @@ Traceback (most recent call last):
 [2026-09-27 23:43] daily-backup: 4 error(s): repo-behind-blocked:SecondBrain, repo-behind-blocked:global-memory, repo-behind-blocked:skills, manifest-unmanaged:RunningTheRoom - see ~/.claude/scripts/logs/daily-backup.log
 [2026-09-28T10:50:08.9533700-05:00] stack-doctor weekly: 1 issue(s): handoff-behind:SecondBrain — details in ~/.claude/skills/claude-stack-doctor/scripts/last-weekly-run.log; run /claude-stack-doctor to fix
 [2026-09-28T19:02:22-0500] vald-pull: error exit=1 after 2 attempt(s) — see /Users/kristinarash/DEV/ForcePlate_DecisionSystem/logs/last_run.json
+[2026-09-30 07:51] daily-backup: 1 error(s): repo-behind-blocked:global-memory - see ~/.claude/scripts/logs/daily-backup.log
