@@ -10,7 +10,7 @@
 - **Machine split (9/24)**: Win=day, Mac=eve; Mac sole writer GPS/Perch/VALD. →handoff 2026-09-24-machine-split
 - **Ship queue (9/25)**: q2wk to a named user: RI5 #002 (`_v2`) wk 9/28, intern M1 10/9, AP Digest ch1 10/23. →`RunningTheRoom/docs/STATUS.md`
 - **FB matchups (9/23)**: EPA = PFF via `scripts/pff_epa_profile.py`. →`MatchupAnalysis_FB2026/docs/`
-- **PP Recruiting (9/30)**: 017 shipped (Codex ok); 2026 FBS+FCS/G6 test load clean. NEXT Mauro. →`PP_Recruiting/docs/`
+- **PP Recruiting (9/30)**: 017 sent-ready; 018 (DeJean fix, same numbers) Sonnet SHIP. OG/OT as-is. NEXT send 018, walkthrough. →`PP_Recruiting/docs/`
 - **Sleep sched (9/16)**: R1 merged; NEXT night/early-kickoff. →`sleep-scheduler/`
 - **TypeSafe (9/28)**: triage FAIL 76.5%; Jev>Haiku. PR #31 draft; Eric audit. →`TypeSafe_Sandbox/docs/`
 - **Flint (9/29)**: Waves 1+2 queued; Jev pass done. NEXT Eric: OneDrive keep/drop, 2 verify. →`Flint/docs/STATUS.md`
