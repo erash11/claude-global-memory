@@ -12,7 +12,7 @@
 - **FB matchups (9/23)**: EPA = PFF via `scripts/pff_epa_profile.py`. →`MatchupAnalysis_FB2026/docs/`
 - **PP Recruiting (9/30)**: 017 sent-ready; 018 (DeJean fix) SHIP. NEXT send 018, walkthrough. →`PP_Recruiting/docs/`
 - **Sleep sched (9/16)**: R1 merged; NEXT night/early-kickoff. →`sleep-scheduler/`
-- **TypeSafe (9/30)**: triage FAIL 76.5%; Jev>Haiku. PR #31 draft. Video-check prereg drafted, bars pending; Win key saved empty. →`TypeSafe_Sandbox/docs/`
+- **TypeSafe (9/30)**: triage FAIL 76.5%; Jev>Haiku. PR #31 draft. Video-check prereg drafted, bars pending; Win key+SDK OK 10/1. →`TypeSafe_Sandbox/docs/`
 - **Flint (9/29)**: Waves 1+2 queued. NEXT Eric: OneDrive keep/drop, 2 verify. →`Flint/docs/STATUS.md`
 - **42Analytics (9/30)**: YouTube channel→Flint. Tier A 122/139 summarized; 12 429-stalled. NEXT finish fetch, verify baseline claims. →`42Analytics/docs/STATUS.md`
 - **PFF DB (9/22)**: swap Parquet on Drive, never the DB. →`PFF_Data_Project/docs/`
