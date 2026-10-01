@@ -6,7 +6,7 @@
 - **Status report**: biweekly to 12/18. →Tier A supervisor-log-pipeline
 - **Personal site (9/2)**: host or local? →Tier A personal-site-build-routes
 - **RTP CLA (9/26)**: L1–2 built. NEXT Tim/Jacob export; Joe → L3. →`RTP_Constraints_Course/docs/`
-- **ATH Tech**: shipped; ITS pending; final run due. →Tier A tech-inventory-refresh
+- **SW/Tech Review (10/1)**: Erin asked; NEXT Teams 10/2, ET by 11/30. →`SoftwareTech_Review/docs/`
 - **Machine split (9/24)**: Win=day, Mac=eve; Mac sole writer GPS/Perch/VALD. →handoff 2026-09-24-machine-split
 - **Ship queue (9/25)**: q2wk to a named user: RI5 #002 wk 9/28, intern M1 10/9, AP Digest ch1 10/23. →`RunningTheRoom/docs/STATUS.md`
 - **FB matchups (9/23)**: EPA = PFF via `scripts/pff_epa_profile.py`. →`MatchupAnalysis_FB2026/docs/`
