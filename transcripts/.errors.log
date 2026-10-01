@@ -1,2 +1,1 @@
-[2026-10-01 05:58] daily-backup: 2 error(s): repo-behind-blocked:global-memory, repo-behind-blocked:dotclaude - see ~/.claude/scripts/logs/daily-backup.log
 [2026-10-01T02:06:16.520894+00:00] compiler-backlog: 1 log(s) backlogged, compiling newest 2 this run - run compile.py manually to catch up
