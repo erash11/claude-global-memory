@@ -14,7 +14,7 @@
 - **Sleep sched (9/16)**: R1 merged; NEXT night/early-kickoff. →`sleep-scheduler/`
 - **TypeSafe (9/30)**: triage FAIL 76.5%; Jev>Haiku. PR #31 draft. Video-check prereg drafted, bars pending; Win key+SDK OK 10/1. →`TypeSafe_Sandbox/docs/`
 - **Flint (9/29)**: Waves 1+2 queued. NEXT Eric: OneDrive keep/drop, 2 verify. →`Flint/docs/STATUS.md`
-- **42Analytics (9/30)**: YouTube channel→Flint. Tier A 122/139 summarized; 12 429-stalled. NEXT finish fetch, verify baseline claims. →`42Analytics/docs/STATUS.md`
+- **42Analytics (9/30)**: YouTube channel→Flint. Tier A 128/139; 23 supported atomized to Flint (152 entries, staged). NEXT 2nd review then promote. →`42Analytics/docs/STATUS.md`
 - **PFF DB (9/22)**: swap Parquet on Drive, never the DB. →`PFF_Data_Project/docs/`
 
 ## Environment Notes
