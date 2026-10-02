@@ -4,7 +4,7 @@
 ## Active Threads
 - **Prioritization slate (9/14)**: LIVE, 5/5. →Tier A prioritization-slate
 - **Status report**: biweekly to 12/18. →Tier A supervisor-log-pipeline
-- **Personal site (9/2)**: host or local? →Tier A personal-site-build-routes
+- **Personal site (10/2)**: scroll-craft stays LOCAL; Artifact is live site. →Tier A personal-site-build-routes
 - **RTP CLA (9/26)**: L1–2 built. NEXT Tim/Jacob export; Joe → L3. →`RTP_Constraints_Course/docs/`
 - **SW/Tech Review (10/1)**: Erin asked; NEXT Teams 10/2, ET by 11/30. →`SoftwareTech_Review/docs/`
 - **Machine split (9/24)**: Win=day, Mac=eve; Mac sole writer GPS/Perch/VALD. →handoff 2026-09-24-machine-split
