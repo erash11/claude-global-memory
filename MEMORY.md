@@ -10,11 +10,12 @@
 - **Machine split (9/24)**: Win=day, Mac=eve; Mac sole writer GPS/Perch/VALD. →handoff 2026-09-24-machine-split
 - **Ship queue (9/25)**: q2wk to a named user: RI5 #002 wk 9/28, intern M1 10/9, AP Digest ch1 10/23. →`RunningTheRoom/docs/STATUS.md`
 - **FB matchups (9/23)**: EPA = PFF via `scripts/pff_epa_profile.py`. →`MatchupAnalysis_FB2026/docs/`
-- **PP Recruiting (9/30)**: 017 sent-ready; 018 (DeJean fix) SHIP. NEXT send 018, walkthrough. →`PP_Recruiting/docs/`
+- **PP Recruiting (9/30)**: 017 sent-ready; 018 SHIP. NEXT send 018, walkthrough. →`PP_Recruiting/docs/`
 - **Sleep sched (9/16)**: R1 merged; NEXT night/early-kickoff. →`sleep-scheduler/`
-- **TypeSafe (9/30)**: triage FAIL 76.5%; Jev>Haiku. PR #31 draft. Video-check prereg drafted, bars pending; Win key+SDK OK 10/1. →`TypeSafe_Sandbox/docs/`
+- **TypeSafe (9/30)**: triage FAIL 76.5%; Jev>Haiku. PR #31 draft. Video-check prereg drafted, bars pending; →`TypeSafe_Sandbox/docs/`
 - **Flint (9/29)**: Waves 1+2 queued. NEXT Eric: OneDrive keep/drop, 2 verify. →`Flint/docs/STATUS.md`
-- **42Analytics (9/30)**: YouTube channel→Flint. Tier A 128/139; 23 supported atomized to Flint (152 entries, staged). NEXT 2nd review then promote. →`42Analytics/docs/STATUS.md`
+- **42Analytics (9/30)**: YouTube channel→Flint. 23 supported atomized to Flint. NEXT 2nd review then promote. →`42Analytics/docs/STATUS.md`
+- **VB GRID (10/2)**: fix in Box; await Mike, then merge. →`Volleyball_GRID/docs/`
 - **PFF DB (9/22)**: swap Parquet on Drive, never the DB. →`PFF_Data_Project/docs/`
 
 ## Environment Notes
