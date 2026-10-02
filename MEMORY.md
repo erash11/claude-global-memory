@@ -14,7 +14,7 @@
 - **Sleep sched (9/16)**: R1 merged; NEXT night/early-kickoff. →`sleep-scheduler/`
 - **TypeSafe (10/2)**: MAINTENANCE (Eric's call). Router, Zotero classify, verifier kept; no new Jev hunting. →`TypeSafe_Sandbox/docs/`
 - **Flint (9/29)**: Waves 1+2 queued. NEXT Eric: OneDrive keep/drop, 2 verify. →`Flint/docs/STATUS.md`
-- **42Analytics (10/2)**: 152 entries PROMOTED to vault. NEXT captions (429s) on Mac. →`42Analytics/docs/STATUS.md`
+- **42Analytics (10/2)**: 151 entries PROMOTED (gate closed). NEXT captions (429s) on Mac. →`42Analytics/docs/STATUS.md`
 - **VB GRID (10/2)**: fix in Box; await Mike, then merge. →`Volleyball_GRID/docs/`
 - **PFF DB (9/22)**: swap Parquet on Drive, never the DB. →`PFF_Data_Project/docs/`
 
