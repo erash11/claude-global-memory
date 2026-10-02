@@ -23,7 +23,7 @@
 - daily-backup: manifest entries alone copy nothing; sweep nested ~/.claude repos →handoff 09-19.
 - `DEV/Linda Projects` = private I-983 repo; folder has a space, repo an underscore.
 - `~/DEV` = THIN repo; `.gitignore` starts `/*` — never remove. →Tier A github-consolidation.
-- Win: `Desktop\DEV` syncs via Drive (robocopy retired 9/22). No large DBs/junctions: renv via `RENV_PATHS_LIBRARY_ROOT`, PFF via `PFF_DB`.
+- Win: Drive sync, junction and renv traps →machine.md. PFF DB via `PFF_DB`.
 - Schedules →automation-cadence. CFB capture Mac only. Dashboard →command-centre.
 - Post-merge: delete merged branches unasked (verify) →Tier A post-merge-cleanup.
 
