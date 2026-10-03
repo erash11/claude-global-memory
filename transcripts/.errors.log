@@ -1,1 +1,0 @@
-[2026-10-02T22:00:12.551Z] memsearch-sync: index exit 1: grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with: (full output: C:\Users\eric_rash\.claude\global-memory\transcripts\.memsearch-index.log)
