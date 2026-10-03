@@ -49,7 +49,7 @@ Ran `/claude-stack-doctor` on Windows. It found 3 issues: errors-log non-empty,
 
 ## Next (Mac, tonight)
 0. Delete the hardcoded dcg hook entry on the Mac and see what re-adds it.
-1. Read `~/DEV/PlayerProfiles_FB_03-28-2026/logs/last_run.json` — perch-pull failed 10/1.
+1. ~~perch-pull failed 10/1~~ — DONE: fixed on the Mac 10/2, Eric confirmed complete 10/3.
 2. Add `42Analytics` to `backup-manifest.json` — `manifest-unmanaged:42Analytics`.
 3. Confirm the `/Users/kristinarash/.local/bin/dcg` hook line does not reappear after
    `dev-sync`; if it does, find what dcg install step writes it.
