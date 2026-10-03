@@ -9,7 +9,7 @@
 - **RTP CLA (9/26)**: L1–2 built. NEXT Tim/Jacob export; Joe → L3. →`RTP_Constraints_Course/docs/`
 
 ## Parked (NEXT lives in each STATUS.md; `where-was-i.py` lists them)
-- Slate CLEARED 10/3; registry 171 rows, 7-day rule, /landed; NEXT design PM system →`project-triage/docs/STATUS.md`
+- PM system BUILT 10/3: live board `/pm`, resume cards, Friday sweep, card-check; slate cleared ; guide in PR #3 →`project-triage/docs/STATUS.md`
 - Personal site: scroll-craft LOCAL, Artifact live →Tier A personal-site-build-routes
 - FB matchups: W5 ASU done, W1-4 backfilled; `pff_game_result.py`; bye wk = mid-season →`MatchupAnalysis_FB2026`
 - Flint: Supertraining Ch1-7 in vault (10/3); NEXT Ch8 on Mac →`Flint`
