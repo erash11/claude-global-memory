@@ -1,3 +1,4 @@
+{"root": "DEV", "path": "KeystoneOS/docs/STATUS.md", "when": "2026-10-03T18:27:35-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DRIVE", "path": "00_INBOX/Untitled document (1).gdoc", "when": "2026-10-03T18:20:49-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DRIVE", "path": "05_SYSTEMS/AI_Sessions_Backup/BU-1979FJ4/_backup_log.txt", "when": "2026-10-03T18:02:59-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DRIVE", "path": "05_SYSTEMS/AI_Sessions_Backup/BU-1979FJ4/claude-code/C--Users-eric-rash-Desktop-DEV-project-triage--claude-worktrees-pm-stage1-board-polling/656f29d6-7ef9-48b1-b4f8-c27dd84a5bb4.jsonl", "when": "2026-10-03T18:02:54-05:00", "how": "new", "machine": "BU-1979FJ4"}
@@ -435,7 +436,6 @@
 {"root": "DRIVE", "path": "05_SYSTEMS/AI_Sessions_Backup/BU-1979FJ4/claude-code/C--Users-eric-rash-Desktop-DEV/3189d0ed-8be4-4c04-8d43-2200dde425a8/tool-results/hook-3d7bc0e1-7e17-4a30-a2d5-9ca22f1f3336-7-additionalContext.txt", "when": "2026-10-03T08:43:42-05:00", "how": "new", "machine": "BU-1979FJ4"}
 {"root": "DRIVE", "path": "05_SYSTEMS/AI_Sessions_Backup/BU-1979FJ4/claude-code/C--Users-eric-rash-Desktop-DEV/c3a93208-1acc-42c6-9752-7d3d4fa7fc86.jsonl", "when": "2026-10-03T08:43:21-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "Flint/docs/QUEUE.md", "when": "2026-10-03T08:42:43-05:00", "how": "changed", "machine": "BU-1979FJ4"}
-{"root": "DEV", "path": "KeystoneOS/docs/STATUS.md", "when": "2026-10-03T08:24:02-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DRIVE", "path": "05_SYSTEMS/AI_Sessions_Backup/BU-1979FJ4/claude-code/C--Users-eric-rash-Desktop-DEV/c988a5dd-27b7-4679-92d0-0cba2397611f/subagents/agent-ac8f087c453c518a2.jsonl", "when": "2026-10-03T08:14:31-05:00", "how": "new", "machine": "BU-1979FJ4"}
 {"root": "DRIVE", "path": "05_SYSTEMS/AI_Sessions_Backup/BU-1979FJ4/claude-code/C--Users-eric-rash-Desktop-DEV/c988a5dd-27b7-4679-92d0-0cba2397611f/subagents/agent-ac8f087c453c518a2.meta.json", "when": "2026-10-03T08:12:20-05:00", "how": "new", "machine": "BU-1979FJ4"}
 {"root": "DRIVE", "path": "05_SYSTEMS/AI_Sessions_Backup/BU-1979FJ4/claude-code/C--Users-eric-rash-Desktop-DEV/40ed68fa-91c9-45b8-af38-38be4988347e.jsonl", "when": "2026-10-03T08:05:33-05:00", "how": "new", "machine": "BU-1979FJ4"}
