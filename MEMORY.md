@@ -9,9 +9,9 @@
 - **RTP CLA (9/26)**: L1–2 built. NEXT Tim/Jacob export; Joe → L3. →`RTP_Constraints_Course/docs/`
 
 ## Parked (NEXT lives in each STATUS.md; `where-was-i.py` lists them)
-- Prioritization slate LIVE 5/5 →Tier A prioritization-slate
+- Slate CLEARED 10/3; registry 171 rows, 7-day rule, /landed; NEXT design PM system →`project-triage/docs/STATUS.md`
 - Personal site: scroll-craft LOCAL, Artifact live →Tier A personal-site-build-routes
-- FB matchups: EPA = PFF via `scripts/pff_epa_profile.py` →`MatchupAnalysis_FB2026`
+- FB matchups: W5 ASU done, W1-4 backfilled; `pff_game_result.py`; bye wk = mid-season →`MatchupAnalysis_FB2026`
 - Flint: NEXT Eric: OneDrive keep/drop, 2 verify →`Flint`
 - 42Analytics: NEXT captions (429s) on Mac →`42Analytics`
 - VB GRID: fix merged 10/2 (#2); await Mike's reply →`Volleyball_GRID`

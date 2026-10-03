@@ -1,5 +1,7 @@
-{"root": "DEV", "path": "project-triage/landed.py", "when": "2026-10-03T15:00:48-05:00", "how": "new, uncommitted", "machine": "BU-1979FJ4"}
-{"root": "DEV", "path": "project-triage/tests/test_landed.py", "when": "2026-10-03T15:00:08-05:00", "how": "new, uncommitted", "machine": "BU-1979FJ4"}
+{"root": "DEV", "path": "project-triage/docs/handoffs/2026-10-03-organization-pass-and-pm-pieces.md", "when": "2026-10-03T15:03:59-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DEV", "path": "project-triage/docs/STATUS.md", "when": "2026-10-03T15:02:34-05:00", "how": "changed", "machine": "BU-1979FJ4"}
+{"root": "DEV", "path": "project-triage/landed.py", "when": "2026-10-03T15:02:15-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DEV", "path": "project-triage/tests/test_landed.py", "when": "2026-10-03T15:02:15-05:00", "how": "new", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "LibraryProject/ZoteroInjestion", "when": "2026-10-03T14:58:51-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "project-triage/portfolio.json", "when": "2026-10-03T14:52:51-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "project-triage/board_ops.py", "when": "2026-10-03T14:52:51-05:00", "how": "changed", "machine": "BU-1979FJ4"}
@@ -38,7 +40,6 @@
 {"root": "DEV", "path": "project-triage/docs/inventory/drive_step8.py", "when": "2026-10-03T13:05:42-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "Flint/config/roots.json", "when": "2026-10-03T13:05:21-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "Flint/docs/STATUS.md", "when": "2026-10-03T13:05:21-05:00", "how": "changed", "machine": "BU-1979FJ4"}
-{"root": "DEV", "path": "project-triage/docs/STATUS.md", "when": "2026-10-03T13:02:32-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DRIVE", "path": "README.md", "when": "2026-10-03T13:02:18-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "Flint/staging/library/strength-and-conditioning/block-periodization--issurin/case-study--concurrent-training-interference-and-decay.md", "when": "2026-10-03T12:16:02-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "Flint/staging/library/strength-and-conditioning/block-periodization--issurin/claim--residual-training-effect-durations-by-motor-ability.md", "when": "2026-10-03T12:16:02-05:00", "how": "changed", "machine": "BU-1979FJ4"}
