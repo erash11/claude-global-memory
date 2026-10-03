@@ -12,7 +12,7 @@
 - Prioritization slate LIVE 5/5 →Tier A prioritization-slate
 - Personal site: scroll-craft LOCAL, Artifact live →Tier A personal-site-build-routes
 - FB matchups: EPA = PFF via `scripts/pff_epa_profile.py` →`MatchupAnalysis_FB2026`
-- Flint: NEXT Eric: OneDrive keep/drop, 2 verify →`Flint`
+- Flint: Supertraining Ch1-7 in vault (10/3); NEXT Ch8 on Mac →`Flint`
 - 42Analytics: NEXT captions (429s) on Mac →`42Analytics`
 - VB GRID: fix merged 10/2 (#2); await Mike's reply →`Volleyball_GRID`
 - Sleep sched: NEXT night/early-kickoff →`sleep-scheduler`
