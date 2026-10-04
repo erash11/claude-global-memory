@@ -1,2 +1,3 @@
 [2026-10-03T18:02:53.9680276-05:00] stack-doctor weekly: 2 issue(s): handoff-memory-stale, handoff-unpushed:skills — details in ~/.claude/skills/claude-stack-doctor/scripts/last-weekly-run.log; run /claude-stack-doctor to fix
 [2026-10-03T23:16:13.886336+00:00] compiler-backlog: 1 log(s) backlogged, compiling newest 2 this run - run compile.py manually to catch up
+[2026-10-03T23:46:15.872439+00:00] compiler-stale-lock: reclaimed compile lock held 30min by pid 24752 (compile.py --auto)
