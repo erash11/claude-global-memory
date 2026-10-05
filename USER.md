@@ -11,6 +11,7 @@ Eric Rash, Director of Applied Performance, Baylor Athletics. Builds football GP
 - Staff-facing text: Athletic Performance (not S&C), Athletic Medicine (not sports medicine), Applied Performance (not sport science).
 
 ## Working Style
+- Usage-sensitive: few subagents, no parallel fan-outs or review agents unless asked.
 - Direct; says "stop" when done. Challenge vague or rehearsed reasoning: "sharpened, not soothed."
 - Decide standard technical details, state the choice, and move on.
 - Build in small steps. Do not break mid-season work.
