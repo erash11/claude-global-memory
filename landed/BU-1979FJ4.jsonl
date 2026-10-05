@@ -1,8 +1,13 @@
-{"root": "DEV", "path": "cmj-traffic-light/docs/handoffs/2026-10-05-share-package.md", "when": "2026-10-05T13:23:06-05:00", "how": "new, uncommitted", "machine": "BU-1979FJ4"}
-{"root": "DEV", "path": "cmj-traffic-light/docs/STATUS.md", "when": "2026-10-05T13:23:05-05:00", "how": "changed, uncommitted", "machine": "BU-1979FJ4"}
+{"root": "DEV", "path": "NCAA_BestPractices_Doc/docs/STATUS.md", "when": "2026-10-05T13:57:46-05:00", "how": "changed, uncommitted", "machine": "BU-1979FJ4"}
+{"root": "DEV", "path": "NCAA_BestPractices_Doc/docs/handoffs/2026-10-05-decisions-v2-and-kenny-look.md", "when": "2026-10-05T13:57:31-05:00", "how": "new, uncommitted", "machine": "BU-1979FJ4"}
+{"root": "DEV", "path": "claude-global-memory/transcripts/.memsearch-last-run", "when": "2026-10-05T13:24:59-05:00", "how": "changed", "machine": "BU-1979FJ4"}
+{"root": "DEV", "path": "claude-global-memory/transcripts/2026-10-05.md", "when": "2026-10-05T13:24:59-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DEV", "path": "claude-global-memory/landed/BU-1979FJ4.jsonl", "when": "2026-10-05T13:24:59-05:00", "how": "changed", "machine": "BU-1979FJ4"}
+{"root": "DEV", "path": "cmj-traffic-light/docs/handoffs/2026-10-05-share-package.md", "when": "2026-10-05T13:24:11-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DEV", "path": "cmj-traffic-light/docs/STATUS.md", "when": "2026-10-05T13:24:11-05:00", "how": "changed", "machine": "BU-1979FJ4"}
+{"root": "DEV", "path": "project-triage/portfolio.json", "when": "2026-10-05T13:24:05-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "cmj-traffic-light/.gitignore", "when": "2026-10-05T13:14:41-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "cmj-traffic-light/scripts/build_share_package.py", "when": "2026-10-05T13:14:41-05:00", "how": "new", "machine": "BU-1979FJ4"}
-{"root": "DEV", "path": "NCAA_BestPractices_Doc/docs/STATUS.md", "when": "2026-10-05T11:31:26-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "NCAA_BestPractices_Doc/deliverables/SSI_BestPractices_GUIDE_DRAFTv2_KENNY_ER_2026-10-05.docx", "when": "2026-10-05T11:31:26-05:00", "how": "new", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "NCAA_BestPractices_Doc/deliverables/SSI_BestPractices_GUIDE_DRAFTv2_KENNY_ER_2026-10-05.pdf", "when": "2026-10-05T11:31:26-05:00", "how": "new", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "NCAA_BestPractices_Doc/scripts/build_guide_kenny.py", "when": "2026-10-05T11:31:26-05:00", "how": "new", "machine": "BU-1979FJ4"}
@@ -39,8 +44,12 @@
 {"root": "DEV", "path": "NCAA_BestPractices_Doc/docs/OPEN_ITEMS.md", "when": "2026-10-05T09:49:02-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "NCAA_BestPractices_Doc/docs/SSI_CROSSWALK.md", "when": "2026-10-05T09:49:02-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "NCAA_BestPractices_Doc/docs/PLAN.md", "when": "2026-10-05T09:00:32-05:00", "how": "new", "machine": "BU-1979FJ4"}
-{"root": "DEV", "path": "project-triage/portfolio.json", "when": "2026-10-05T08:59:54-05:00", "how": "changed, uncommitted", "machine": "BU-1979FJ4"}
-{"root": "DEV", "path": "project-triage/docs/STATUS.md", "when": "2026-10-05T08:21:35-05:00", "how": "changed", "machine": "BU-1979FJ4"}
+{"root": "DEV", "path": "claude-global-memory/transcripts/.errors.log", "when": "2026-10-05T08:46:08-05:00", "how": "changed", "machine": "BU-1979FJ4"}
+{"root": "DEV", "path": "claude-global-memory/landed/Kristinas-MacBook.local.jsonl", "when": "2026-10-05T08:46:08-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DEV", "path": "claude-global-memory/transcripts/.errors.log.archived-2026-10-05", "when": "2026-10-05T08:46:08-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DEV", "path": "project-triage/docs/handoffs/2026-10-05-mac-startup-and-board-icon.md", "when": "2026-10-05T08:45:51-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DEV", "path": "LibraryProject/docs/STATUS.md", "when": "2026-10-05T08:45:31-05:00", "how": "changed", "machine": "BU-1979FJ4"}
+{"root": "DEV", "path": "project-triage/docs/STATUS.md", "when": "2026-10-05T08:31:54-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "project-triage/docs/GUIDE.md", "when": "2026-10-05T08:21:28-05:00", "how": "new", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "project-triage/board.py", "when": "2026-10-05T08:21:01-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "project-triage/tests/test_board_server.py", "when": "2026-10-05T08:21:01-05:00", "how": "changed", "machine": "BU-1979FJ4"}
@@ -56,9 +65,7 @@
 {"root": "DEV", "path": "LibraryProject/ZoteroInjestion", "when": "2026-10-05T08:12:50-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "CATES/.gitignore", "when": "2026-10-05T08:09:20-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "Performance_Playbook/.gitignore", "when": "2026-10-05T08:09:20-05:00", "how": "changed", "machine": "BU-1979FJ4"}
-{"root": "DEV", "path": "claude-global-memory/transcripts/.memsearch-last-run", "when": "2026-10-05T08:06:54-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "claude-global-memory/transcripts/2026-10-04.md", "when": "2026-10-05T08:06:54-05:00", "how": "new", "machine": "BU-1979FJ4"}
-{"root": "DEV", "path": "claude-global-memory/transcripts/2026-10-05.md", "when": "2026-10-05T08:06:54-05:00", "how": "new", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "graphify-out/.graphify_extract.json", "when": "2026-10-05T07:48:35-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "graphify-out/.graphify_gemini.json", "when": "2026-10-05T07:48:35-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "graphify-out/.graphify_semantic.json", "when": "2026-10-05T07:48:35-05:00", "how": "changed", "machine": "BU-1979FJ4"}
@@ -69,13 +76,10 @@
 {"root": "DEV", "path": "graphify-out/graphify-out/cache/stat-index.json", "when": "2026-10-05T07:48:35-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "graphify-out/manifest.json", "when": "2026-10-05T07:48:35-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "graphify-out/rotate_log.txt", "when": "2026-10-05T07:48:35-05:00", "how": "changed", "machine": "BU-1979FJ4"}
-{"root": "DEV", "path": "claude-global-memory/transcripts/.errors.log", "when": "2026-10-05T07:47:05-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "claude-global-memory/transcripts/2026-10-03.md", "when": "2026-10-05T07:47:05-05:00", "how": "new", "machine": "BU-1979FJ4"}
-{"root": "DEV", "path": "claude-global-memory/landed/Kristinas-MacBook.local.jsonl", "when": "2026-10-05T07:47:05-05:00", "how": "new", "machine": "BU-1979FJ4"}
 {"root": "DRIVE", "path": "05_SYSTEMS/AI_Sessions_Backup/BU-1979FJ4/_backup_log.txt", "when": "2026-10-05T00:30:56-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DRIVE", "path": "05_SYSTEMS/AI_Sessions_Backup/BU-1979FJ4/claude-code/C--Users-eric-rash-Desktop-DEV-NCAA-BestPractices-Doc/60606f5c-b113-4905-bad5-295fea4e05a0.jsonl", "when": "2026-10-04T23:57:02-05:00", "how": "new", "machine": "BU-1979FJ4"}
 {"root": "DRIVE", "path": "05_SYSTEMS/AI_Sessions_Backup/BU-1979FJ4/claude-code/C--Users-eric-rash-Desktop-DEV-NCAA-BestPractices-Doc/4b43e191-defa-4f77-b4e8-85c7e8be3c7a.jsonl", "when": "2026-10-04T23:39:31-05:00", "how": "new", "machine": "BU-1979FJ4"}
-{"root": "DEV", "path": "claude-global-memory/landed/BU-1979FJ4.jsonl", "when": "2026-10-04T23:24:12-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "claude-global-memory/MEMORY.md", "when": "2026-10-04T23:24:12-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "claude-global-memory/USER.md", "when": "2026-10-04T23:24:12-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "Education_Alignment_Initiative/docs/STATUS.md", "when": "2026-10-04T23:20:46-05:00", "how": "changed", "machine": "BU-1979FJ4"}
@@ -745,7 +749,6 @@
 {"root": "DEV", "path": "TechEd_Prop/docs/STATUS.md", "when": "2026-10-03T11:08:58-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "LibraryProject/ZoteroInjestion/docs/STATUS.md", "when": "2026-10-03T11:08:56-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "ZoteroInjestion/docs/STATUS.md", "when": "2026-10-03T11:08:56-05:00", "how": "changed", "machine": "BU-1979FJ4"}
-{"root": "DEV", "path": "LibraryProject/docs/STATUS.md", "when": "2026-10-03T11:08:54-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "Flint/staging/_scope_supertraining_ch5b.txt", "when": "2026-10-03T11:08:52-05:00", "how": "new", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "Flint/staging/_scope_supertraining_ch5c.txt", "when": "2026-10-03T11:08:52-05:00", "how": "new", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "Flint/staging/library/strength-and-conditioning/supertraining--verkhoshansky/case-study--alternate-leg-bounding-with-thigh-cuffs-for-sprinters.md", "when": "2026-10-03T11:08:52-05:00", "how": "new", "machine": "BU-1979FJ4"}
