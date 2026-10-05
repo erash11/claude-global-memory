@@ -1,6 +1,7 @@
 # STATUS
 
 ## Current state
+- 2026-10-05: Routine only. The Windows sync merged the Mac's transcripts (`.memsearch-last-run` conflict resolved to the newer timestamp), plus the landed ledger and today's transcript. No project work in this repo.
 - 2026-10-04: Routine only: transcripts, landed ledger, a resolved line cleared from `.errors.log`, handoff `handoffs/2026-10-04-windows-recall-digest-ssi-plan.md`. No project work in this repo.
 - 2026-09-24: Sportsmith Part 2 video, transcript, and summary are saved in Drive. The automated transcript was compared with Vimeo captions and corrected; a human audio-listening pass remains open.
 - This closeout handoff records the workflow, deliverables, and next steps for another harness.
