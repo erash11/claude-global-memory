@@ -1,0 +1,3 @@
+[2026-10-03 23:53] daily-backup: 1 error(s): repo-behind-blocked:global-memory - see ~/.claude/scripts/logs/daily-backup.log
+[2026-10-04T13:00:32.332976+00:00] adjudicate-budget-tripped: stopped after 335,350 / 250,000 tokens
+[2026-10-04 23:20] daily-backup: 2 error(s): repo-behind-blocked:global-memory, repo-push:dotclaude - see ~/.claude/scripts/logs/daily-backup.log
