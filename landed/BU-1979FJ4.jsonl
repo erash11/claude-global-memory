@@ -1,5 +1,14 @@
+{"root": "DRIVE", "path": "02_SPORTS/Football/PP_Recruiting/Send/018. BAYLOR - TELEMETRY x STAQS UNIFIED GRADING (HONORS BENCHMARK).xlsx", "when": "2026-10-06T12:29:02-05:00", "how": "changed", "machine": "BU-1979FJ4"}
+{"root": "DRIVE", "path": "03_REPORTS/DEPARTMENT_ANNUAL_REPORT/2026-10-06_Applied_Annual_Report_2025_2026_Executive.pdf", "when": "2026-10-06T12:24:15-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DRIVE", "path": "03_REPORTS/DEPARTMENT_ANNUAL_REPORT/2026-10-06_Applied_Annual_Report_2025_2026_Executive.docx", "when": "2026-10-06T12:23:56-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DRIVE", "path": "03_REPORTS/DEPARTMENT_ANNUAL_REPORT/2026-10-06_Applied_Annual_Report_2025_2026_COVER_NOTE.md", "when": "2026-10-06T12:23:31-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DRIVE", "path": "03_REPORTS/DEPARTMENT_ANNUAL_REPORT/build/build_annual_report_2025_2026.py", "when": "2026-10-06T12:23:28-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DRIVE", "path": "02_SPORTS/Football/PP_Recruiting/Send/~$018. BAYLOR - TELEMETRY x STAQS UNIFIED GRADING (HONORS BENCHMARK).xlsx", "when": "2026-10-06T12:22:50-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DRIVE", "path": "03_REPORTS/DEPARTMENT_ANNUAL_REPORT/2026-10-06_Applied_Annual_Report_2025_2026_Executive_SOURCES.md", "when": "2026-10-06T12:20:33-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "VAULT", "path": "output/_ledger.md", "when": "2026-10-06T12:15:35-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DRIVE", "path": "03_REPORTS/DEPARTMENT_ANNUAL_REPORT/2026-10-06_AnnualReport_2025_2026_GOAL_PROMPT.md", "when": "2026-10-06T11:42:44-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DEV", "path": "project-triage/portfolio.json", "when": "2026-10-06T11:41:17-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "Performance_Playbook/docs/STATUS.md", "when": "2026-10-06T11:39:56-05:00", "how": "changed", "machine": "BU-1979FJ4"}
-{"root": "DRIVE", "path": "03_REPORTS/DEPARTMENT_ANNUAL_REPORT/2026-10-06_AnnualReport_2025_2026_GOAL_PROMPT.md", "when": "2026-10-06T10:09:55-05:00", "how": "new", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "Education_Alignment_Initiative/decks/index.html", "when": "2026-10-06T10:06:36-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "Education_Alignment_Initiative/decks/manifest.md", "when": "2026-10-06T10:06:36-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "Education_Alignment_Initiative/docs/LIBRARY_PLAN.md", "when": "2026-10-06T10:06:36-05:00", "how": "changed", "machine": "BU-1979FJ4"}
@@ -101,7 +110,6 @@
 {"root": "DEV", "path": "claude-global-memory/transcripts/.memsearch-last-run", "when": "2026-10-05T13:24:59-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "cmj-traffic-light/docs/handoffs/2026-10-05-share-package.md", "when": "2026-10-05T13:24:11-05:00", "how": "new", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "cmj-traffic-light/docs/STATUS.md", "when": "2026-10-05T13:24:11-05:00", "how": "changed", "machine": "BU-1979FJ4"}
-{"root": "DEV", "path": "project-triage/portfolio.json", "when": "2026-10-05T13:24:05-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DRIVE", "path": "05_SYSTEMS/AI_Sessions_Backup/BU-1979FJ4/claude-code/C--Users-eric-rash-Desktop-DEV-NCAA-BestPractices-Doc/4b43e191-defa-4f77-b4e8-85c7e8be3c7a.jsonl", "when": "2026-10-05T13:22:28-05:00", "how": "new", "machine": "BU-1979FJ4"}
 {"root": "DRIVE", "path": "05_SYSTEMS/AI_Sessions_Backup/BU-1979FJ4/claude-code/C--Users-eric-rash-Desktop-DEV-NCAA-BestPractices-Doc/4b43e191-defa-4f77-b4e8-85c7e8be3c7a/tool-results/hook-31ef4c6d-1609-4c7e-a206-bb4903137244-8-additionalContext.txt", "when": "2026-10-05T13:21:04-05:00", "how": "new", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "cmj-traffic-light/.gitignore", "when": "2026-10-05T13:14:41-05:00", "how": "changed", "machine": "BU-1979FJ4"}
