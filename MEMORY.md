@@ -10,7 +10,7 @@
 
 ## Parked (NEXT lives in each STATUS.md; `where-was-i.py` lists them)
 - 5S5M (10/4): 40 decks, branch `5s5m-library`; NEXT check 11-25 →EAI STATUS
-- PM system BUILT 10/3: live board `/pm`, resume cards, Friday sweep, card-check; slate cleared; guide merged (`docs/GUIDE.md`); NEXT restart CC, `pm`, GUIDE walkthrough →`project-triage/docs/STATUS.md`
+- PM system (10/3): board `/pm`, Friday sweep; NEXT `docs/GUIDE.md` walkthrough →`project-triage`
 - Personal site: scroll-craft LOCAL, Artifact live →Tier A personal-site-build-routes
 - FB matchups: W5 ASU done, W1-4 backfilled; `pff_game_result.py`; bye wk = mid-season →`MatchupAnalysis_FB2026`
 - Flint: Supertraining Ch1-7 in vault (10/3); NEXT Ch8 on Mac →`Flint`
@@ -20,13 +20,13 @@
 - TypeSafe: MAINTENANCE; PR #31 merged as record →`TypeSafe_Sandbox`
 
 ## Environment Notes
-- Machine split (9/24): Win=day, Mac=eve; Mac sole writer GPS/Perch/VALD.
+- Mac is sole writer for GPS/Perch/VALD (9/24).
 - Hooks: patch both copies for shared events. →Tier A hook-two-copies-trap.
 - daily-backup: manifest entries alone copy nothing; sweep nested ~/.claude repos →handoff 09-19.
 - `DEV/Linda Projects` = private I-983 repo; folder has a space, repo an underscore.
 - `~/DEV` = THIN repo; `.gitignore` starts `/*` — never remove. →Tier A github-consolidation.
 - Win: Drive sync, junction and renv traps →machine.md. PFF: swap Parquet on Drive, never the DB; `PFF_DB`.
-- Schedules →automation-cadence. CFB capture Mac only. Dashboard →command-centre.
+- Schedules →automation-cadence. CFB capture Mac only.
 - Post-merge: delete merged branches unasked (verify) →Tier A post-merge-cleanup.
 - Sessions: start `where-was-i.py`, prune with `session-sweep.py` →Tier A session-hygiene.
 
