@@ -1,3 +1,15 @@
+{"root": "DRIVE", "path": "04_RESEARCH/TOS_Case_Review_2026-10/TOS_CASE_REVIEW_ER_2026-10-07.pdf", "when": "2026-10-07T17:01:31-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DRIVE", "path": "04_RESEARCH/TOS_Case_Review_2026-10/TOS_ONEPAGER_ER_2026-10-07.docx", "when": "2026-10-07T17:01:31-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DRIVE", "path": "04_RESEARCH/TOS_Case_Review_2026-10/TOS_ONEPAGER_ER_2026-10-07.pdf", "when": "2026-10-07T17:01:31-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DRIVE", "path": "04_RESEARCH/TOS_Case_Review_2026-10/TOS_CASE_REVIEW_ER_2026-10-07.docx", "when": "2026-10-07T17:01:30-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DEV", "path": "project-triage/portfolio.json", "when": "2026-10-07T16:58:35-05:00", "how": "changed, uncommitted", "machine": "BU-1979FJ4"}
+{"root": "VAULT", "path": "Inbox/meetings/2026-10-07_CarrieCatchUp_10072026.md", "when": "2026-10-07T16:51:40-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DRIVE", "path": "07_EDUCATION/Research_in_5/001_alignment-jumpers-knee/RI5-001_alignment-jumpers-knee_social_v1.mp4", "when": "2026-10-07T16:41:42-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DEV", "path": "SpecialRequests/.gitignore", "when": "2026-10-07T16:27:06-05:00", "how": "changed", "machine": "BU-1979FJ4"}
+{"root": "DEV", "path": "SpecialRequests/TOS_ES/TOS_CASE_REVIEW_ER_2026-10-07.pdf", "when": "2026-10-07T16:03:43-05:00", "how": "new, uncommitted", "machine": "BU-1979FJ4"}
+{"root": "DEV", "path": "SpecialRequests/TOS_ES/TOS_CASE_REVIEW_ER_2026-10-07.docx", "when": "2026-10-07T16:03:40-05:00", "how": "new, uncommitted", "machine": "BU-1979FJ4"}
+{"root": "DEV", "path": "SpecialRequests/TOS_ES/TOS executive summary.docx", "when": "2026-10-07T15:22:31-05:00", "how": "new, uncommitted", "machine": "BU-1979FJ4"}
+{"root": "DEV", "path": "Weekly_Research_Review/docs/STATUS.md", "when": "2026-10-07T10:09:58-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DRIVE", "path": "05_SYSTEMS/AI_Sessions_Backup/BU-1979FJ4/_backup_log.txt", "when": "2026-10-07T00:30:28-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DRIVE", "path": "05_SYSTEMS/AI_Sessions_Backup/BU-1979FJ4/claude-code/G--My-Drive-00-Primary-Storage-Drive-02-SPORTS-Football-PP-Recruiting/d1673601-88f7-4fb0-b59a-00f5414c1656.jsonl", "when": "2026-10-06T17:55:13-05:00", "how": "new", "machine": "BU-1979FJ4"}
 {"root": "DRIVE", "path": "05_SYSTEMS/AI_Sessions_Backup/BU-1979FJ4/claude-code/G--My-Drive-00-Primary-Storage-Drive-02-SPORTS-Football-PP-Recruiting/93f57870-1e24-424e-a7b8-5a765845ed0f.jsonl", "when": "2026-10-06T17:06:21-05:00", "how": "new", "machine": "BU-1979FJ4"}
@@ -74,7 +86,6 @@
 {"root": "DRIVE", "path": "05_SYSTEMS/AI_Sessions_Backup/BU-1979FJ4/claude-code/C--Users-eric-rash-Desktop-DEV/88b14149-9edc-46f7-a327-3a6a0fb9f408.jsonl", "when": "2026-10-06T14:27:55-05:00", "how": "new", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "Performance_Playbook/docs/STATUS.md", "when": "2026-10-06T14:26:38-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DRIVE", "path": "05_SYSTEMS/AI_Sessions_Backup/BU-1979FJ4/claude-code/C--Users-eric-rash-Desktop-DEV/c389638f-382a-4e36-b153-8ff3a4121f42.jsonl", "when": "2026-10-06T14:18:52-05:00", "how": "new", "machine": "BU-1979FJ4"}
-{"root": "DEV", "path": "project-triage/portfolio.json", "when": "2026-10-06T14:16:35-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "VAULT", "path": "Knowledge/library/strength-and-conditioning/velocity-based-training-implementation-guide-from-texas-am.md", "when": "2026-10-06T14:07:07-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "VAULT", "path": "Knowledge/library/strength-and-conditioning/transfer-of-training-in-sports--bondarchuk/claim--sprint-jump-exercises-most-transferable-assistance.md", "when": "2026-10-06T14:07:07-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "VAULT", "path": "Knowledge/library/strength-and-conditioning/transfer-of-training-in-sports--bondarchuk/claim--sprint-strength-exercise-transfer-ceiling.md", "when": "2026-10-06T14:07:07-05:00", "how": "changed", "machine": "BU-1979FJ4"}
@@ -354,7 +365,6 @@
 {"root": "VAULT", "path": "Knowledge/library/research-papers/issurin-2016-benefits-and-limitations-of-block-periodized-training-approaches-to-athletes-preparation-a.md", "when": "2026-10-06T14:07:06-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "VAULT", "path": "Knowledge/library/research-papers/petrakos-2016-resisted-sled-sprint-training-to-improve-sprint-performance-a-systematic-review.md", "when": "2026-10-06T14:07:06-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "VAULT", "path": "Inbox/weekly-slate/2026-10-02.md", "when": "2026-10-06T14:07:06-05:00", "how": "new", "machine": "BU-1979FJ4"}
-{"root": "DEV", "path": "Weekly_Research_Review/docs/STATUS.md", "when": "2026-10-06T14:03:50-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "RTP_Constraints_Course/docs/STATUS.md", "when": "2026-10-06T14:03:44-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "Tech_Inventory_Analysis/docs/STATUS.md", "when": "2026-10-06T14:03:35-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DRIVE", "path": "05_SYSTEMS/AI_Sessions_Backup/BU-1979FJ4/claude-code/C--Users-eric-rash-Desktop-DEV/c389638f-382a-4e36-b153-8ff3a4121f42/tool-results/pdf-f892a7e7-6a50-4cd4-afcc-852517182f27/page-2.jpg", "when": "2026-10-06T14:02:06-05:00", "how": "new", "machine": "BU-1979FJ4"}
