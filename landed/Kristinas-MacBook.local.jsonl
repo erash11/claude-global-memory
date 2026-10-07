@@ -1,4 +1,8 @@
-{"root": "DEV", "path": "NCAA_BestPractices_Doc/docs/STATUS.md", "when": "2026-10-07T10:41:05-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "NCAA_BestPractices_Doc/docs/STATUS.md", "when": "2026-10-07T10:58:22-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "NCAA_BestPractices_Doc/scripts/build_plan.py", "when": "2026-10-07T10:58:22-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "NCAA_BestPractices_Doc/docs/PLAN.md", "when": "2026-10-07T10:58:22-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "NCAA_BestPractices_Doc/deliverables/SSI_BestPractices_PLAN_ER_2026-10-07.docx", "when": "2026-10-07T10:58:22-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "NCAA_BestPractices_Doc/deliverables/SSI_BestPractices_PLAN_ER_2026-10-07.pdf", "when": "2026-10-07T10:58:22-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "NCAA_BestPractices_Doc/scripts/forms.py", "when": "2026-10-07T10:41:05-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "NCAA_BestPractices_Doc/scripts/build_guide.py", "when": "2026-10-07T10:41:05-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "NCAA_BestPractices_Doc/deliverables/SSI_BestPractices_APPX_A_Consent_ER_2026-10-07.docx", "when": "2026-10-07T10:41:05-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
@@ -290,8 +294,6 @@
 {"root": "DEV", "path": "NCAA_BestPractices_Doc/docs/GOAL_PROMPT.md", "when": "2026-10-04T18:11:38-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "NCAA_BestPractices_Doc/deliverables/SSI_BestPractices_PLAN_ER_2026-10-04.docx", "when": "2026-10-04T16:24:21-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "NCAA_BestPractices_Doc/deliverables/SSI_BestPractices_PLAN_ER_2026-10-04.pdf", "when": "2026-10-04T16:24:21-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "NCAA_BestPractices_Doc/scripts/build_plan.py", "when": "2026-10-04T16:24:21-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "NCAA_BestPractices_Doc/docs/PLAN.md", "when": "2026-10-04T16:02:57-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "NCAA_BestPractices_Doc/docs/SOURCES.md", "when": "2026-10-04T16:02:57-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "project-triage/README.md", "when": "2026-10-04T15:47:52-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "05_SYSTEMS/AI_Sessions_Backup/BU-1979FJ4/claude-code/C--Users-eric-rash-Desktop-DEV-42Analytics/19043f0d-1f5f-4547-b866-477df56e6bfa/subagents/agent-ad1d35e753a647ab2.jsonl", "when": "2026-10-03T18:07:29-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
