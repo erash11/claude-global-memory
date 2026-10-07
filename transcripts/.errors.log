@@ -1,0 +1,2 @@
+[2026-10-06T12:57:01-0500] perch-pull: error exit=1 after 3 attempt(s) — see /Users/kristinarash/DEV/PlayerProfiles_FB_03-28-2026/logs/last_run.json
+[2026-10-07 07:53] daily-backup: 1 error(s): repo-behind-blocked:global-memory - see ~/.claude/scripts/logs/daily-backup.log
