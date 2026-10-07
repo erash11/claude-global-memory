@@ -1,8 +1,15 @@
-{"root": "DRIVE", "path": "04_RESEARCH/TOS_Case_Review_2026-10/TOS_CASE_REVIEW_ER_2026-10-07.pdf", "when": "2026-10-07T17:01:31-05:00", "how": "new", "machine": "BU-1979FJ4"}
-{"root": "DRIVE", "path": "04_RESEARCH/TOS_Case_Review_2026-10/TOS_ONEPAGER_ER_2026-10-07.docx", "when": "2026-10-07T17:01:31-05:00", "how": "new", "machine": "BU-1979FJ4"}
-{"root": "DRIVE", "path": "04_RESEARCH/TOS_Case_Review_2026-10/TOS_ONEPAGER_ER_2026-10-07.pdf", "when": "2026-10-07T17:01:31-05:00", "how": "new", "machine": "BU-1979FJ4"}
-{"root": "DRIVE", "path": "04_RESEARCH/TOS_Case_Review_2026-10/TOS_CASE_REVIEW_ER_2026-10-07.docx", "when": "2026-10-07T17:01:30-05:00", "how": "new", "machine": "BU-1979FJ4"}
-{"root": "DEV", "path": "project-triage/portfolio.json", "when": "2026-10-07T16:58:35-05:00", "how": "changed, uncommitted", "machine": "BU-1979FJ4"}
+{"root": "DEV", "path": "TOS_Evidence_Brief/docs/STATUS.md", "when": "2026-10-07T17:05:33-05:00", "how": "changed", "machine": "BU-1979FJ4"}
+{"root": "DEV", "path": "TOS_Evidence_Brief/docs/handoffs/2026-10-07-tos-case-review.md", "when": "2026-10-07T17:05:33-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DEV", "path": "SpecialRequests/docs/STATUS.md", "when": "2026-10-07T17:05:29-05:00", "how": "changed", "machine": "BU-1979FJ4"}
+{"root": "DEV", "path": "project-triage/portfolio.json", "when": "2026-10-07T17:05:27-05:00", "how": "changed", "machine": "BU-1979FJ4"}
+{"root": "DEV", "path": "project-triage/docs/STATUS.md", "when": "2026-10-07T17:05:27-05:00", "how": "changed", "machine": "BU-1979FJ4"}
+{"root": "DRIVE", "path": "04_RESEARCH/TOS_Case_Review_2026-10/TOS_CASE_REVIEW_ER_2026-10-07.pdf", "when": "2026-10-07T17:03:29-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DRIVE", "path": "04_RESEARCH/TOS_Case_Review_2026-10/TOS_ONEPAGER_ER_2026-10-07.pdf", "when": "2026-10-07T17:03:29-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DRIVE", "path": "04_RESEARCH/TOS_Case_Review_2026-10/TOS_ONEPAGER_ER_2026-10-07.docx", "when": "2026-10-07T17:03:28-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DRIVE", "path": "04_RESEARCH/TOS_Case_Review_2026-10/TOS_CASE_REVIEW_ER_2026-10-07.docx", "when": "2026-10-07T17:03:28-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DRIVE", "path": "04_RESEARCH/TOS_Case_Review_2026-10/TOS executive summary.docx", "when": "2026-10-07T17:03:27-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DRIVE", "path": "04_RESEARCH/TOS_Case_Review_2026-10/scripts/build_tos_onepager.py", "when": "2026-10-07T17:03:27-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DRIVE", "path": "04_RESEARCH/TOS_Case_Review_2026-10/scripts/build_tos_case_review.py", "when": "2026-10-07T17:03:26-05:00", "how": "new", "machine": "BU-1979FJ4"}
 {"root": "VAULT", "path": "Inbox/meetings/2026-10-07_CarrieCatchUp_10072026.md", "when": "2026-10-07T16:51:40-05:00", "how": "new", "machine": "BU-1979FJ4"}
 {"root": "DRIVE", "path": "07_EDUCATION/Research_in_5/001_alignment-jumpers-knee/RI5-001_alignment-jumpers-knee_social_v1.mp4", "when": "2026-10-07T16:41:42-05:00", "how": "new", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "SpecialRequests/.gitignore", "when": "2026-10-07T16:27:06-05:00", "how": "changed", "machine": "BU-1979FJ4"}
@@ -600,7 +607,6 @@
 {"root": "DEV", "path": "claude-global-memory/transcripts/.errors.log.archived-2026-10-05", "when": "2026-10-05T08:46:08-05:00", "how": "new", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "project-triage/docs/handoffs/2026-10-05-mac-startup-and-board-icon.md", "when": "2026-10-05T08:45:51-05:00", "how": "new", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "LibraryProject/docs/STATUS.md", "when": "2026-10-05T08:45:31-05:00", "how": "changed", "machine": "BU-1979FJ4"}
-{"root": "DEV", "path": "project-triage/docs/STATUS.md", "when": "2026-10-05T08:31:54-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "project-triage/docs/GUIDE.md", "when": "2026-10-05T08:21:28-05:00", "how": "new", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "project-triage/board.py", "when": "2026-10-05T08:21:01-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "project-triage/tests/test_board_server.py", "when": "2026-10-05T08:21:01-05:00", "how": "changed", "machine": "BU-1979FJ4"}
@@ -1489,7 +1495,6 @@
 {"root": "DEV", "path": "project-triage/docs/inventory/archive_audit.py", "when": "2026-10-03T11:20:23-05:00", "how": "new", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "Football/FaceComps/docs/STATUS.md", "when": "2026-10-03T11:09:12-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "Weekly_Matchups_2026/docs/STATUS.md", "when": "2026-10-03T11:09:09-05:00", "how": "changed", "machine": "BU-1979FJ4"}
-{"root": "DEV", "path": "TOS_Evidence_Brief/docs/STATUS.md", "when": "2026-10-03T11:09:06-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "CLI_Dev/docs/STATUS.md", "when": "2026-10-03T11:09:03-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "Ath_Medicine/docs/STATUS.md", "when": "2026-10-03T11:09:01-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "TechEd_Prop/docs/STATUS.md", "when": "2026-10-03T11:08:58-05:00", "how": "changed", "machine": "BU-1979FJ4"}
@@ -1533,7 +1538,6 @@
 {"root": "DEV", "path": "Flint/staging/library/strength-and-conditioning/supertraining--verkhoshansky/heuristic--setchinov-alternation-for-circuit-station-sequencing.md", "when": "2026-10-03T11:08:52-05:00", "how": "new", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "Flint/staging/library/strength-and-conditioning/supertraining--verkhoshansky/heuristic--strength-endurance-under-demanding-sport-like-conditions.md", "when": "2026-10-03T11:08:52-05:00", "how": "new", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "Flint/staging/library/strength-and-conditioning/supertraining--verkhoshansky/principle--converging-partial-effects-of-strength-training-means.md", "when": "2026-10-03T11:08:52-05:00", "how": "new", "machine": "BU-1979FJ4"}
-{"root": "DEV", "path": "SpecialRequests/docs/STATUS.md", "when": "2026-10-03T11:08:51-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "Baylor_Doc_Style/docs/STATUS.md", "when": "2026-10-03T11:08:49-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "agent-skills/docs/STATUS.md", "when": "2026-10-03T11:08:47-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "CFB_Forecast_Archive/docs/STATUS.md", "when": "2026-10-03T11:08:44-05:00", "how": "changed", "machine": "BU-1979FJ4"}
