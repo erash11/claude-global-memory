@@ -1,3 +1,10 @@
+{"root": "DEV", "path": "Football/PFF_Data_Project/docs/STATUS.md", "when": "2026-10-08T18:03:10-05:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "Football/PFF_Data_Project/AGENTS.md", "when": "2026-10-08T18:02:14-05:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "Football/PFF_Data_Project/CLAUDE.md", "when": "2026-10-08T18:02:14-05:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
+{"root": "VAULT", "path": "Inbox/weekly-review/2026-10-08-review.md", "when": "2026-10-08T17:51:25-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "VAULT", "path": "Inbox/meetings/2026-10-08_StaffMeet_10082026.md", "when": "2026-10-08T17:17:48-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "VAULT", "path": "Inbox/meetings/2026-10-08_KB_TechSync_10082026.md", "when": "2026-10-08T17:17:48-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "CFB_Forecast_Archive/docs/STATUS.md", "when": "2026-10-08T16:17:54-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "graphify-out/.graphify_extract.json", "when": "2026-10-08T16:16:07-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "graphify-out/.graphify_gemini.json", "when": "2026-10-08T16:16:07-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "graphify-out/.graphify_semantic.json", "when": "2026-10-08T16:16:07-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
