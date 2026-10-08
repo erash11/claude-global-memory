@@ -20,7 +20,7 @@
 - TypeSafe: MAINTENANCE; PR #31 merged as record →`TypeSafe_Sandbox`
 
 ## Environment Notes
-- Machine split (9/24): Win=day, Mac=eve; Mac sole writer GPS/Perch/VALD.
+- Win laptop hands-off 10/8, no automation →Tier A. Mac sole writer GPS/Perch/VALD.
 - Hooks: patch both copies for shared events. →Tier A hook-two-copies-trap.
 - daily-backup: manifest entries alone copy nothing; sweep nested ~/.claude repos →handoff 09-19.
 - `DEV/Linda Projects` = private I-983 repo; folder has a space, repo an underscore.
