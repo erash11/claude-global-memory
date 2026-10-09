@@ -13,7 +13,7 @@
 - PM system BUILT 10/3: live board `/pm`, resume cards, Friday sweep, card-check; slate cleared; guide merged (`docs/GUIDE.md`); NEXT restart CC, `pm`, GUIDE walkthrough →`project-triage/docs/STATUS.md`
 - Personal site: scroll-craft LOCAL, Artifact live →Tier A personal-site-build-routes
 - FB matchups: W5 ASU done, W1-4 backfilled; `pff_game_result.py`; bye wk = mid-season →`MatchupAnalysis_FB2026`
-- Flint: Supertraining Ch1-7 in vault (10/3); NEXT Ch8 on Mac →`Flint`
+- Flint: PR#6 (10/9) backlinks+W1 check; Haiku=mech only; NEXT Mac apply, Ch8 →`Flint`
 - 42Analytics: NEXT captions (429s) on Mac →`42Analytics`
 - VB GRID: fix merged 10/2 (#2); await Mike's reply →`Volleyball_GRID`
 - Sleep sched: NEXT night/early-kickoff →`sleep-scheduler`
