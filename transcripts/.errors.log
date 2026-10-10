@@ -5,3 +5,4 @@
 [2026-10-09T17:07:26-0500] gps-pull: error exit=4 API listing failed for all 1 window(s) — see /Users/kristinarash/DEV/DataBase_GPS_Reporting/gps_report/logs/last_run.json
 [2026-10-10T07:13:42.052443-05:00] claude-files-digest: send failed for 2026-10-09 - see ~/.claude/scripts/logs/claude-files-digest.log
 [2026-10-10 09:54] daily-backup: 2 error(s): repo-behind-blocked:global-memory, repo-diverged:dotclaude - see ~/.claude/scripts/logs/daily-backup.log
+[2026-10-10T10:39:50.672391-05:00] claude-files-digest: send failed for 2026-10-09 - see ~/.claude/scripts/logs/claude-files-digest.log
