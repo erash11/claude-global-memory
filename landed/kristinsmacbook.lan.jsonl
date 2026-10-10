@@ -1,0 +1,13 @@
+{"root": "DEV", "path": "graphify-out/.graphify_analysis.json", "when": "2026-10-10T09:23:55-05:00", "how": "changed", "machine": "kristinsmacbook.lan"}
+{"root": "DEV", "path": "graphify-out/.graphify_extract.json", "when": "2026-10-10T09:23:55-05:00", "how": "changed", "machine": "kristinsmacbook.lan"}
+{"root": "DEV", "path": "graphify-out/.graphify_gemini.json", "when": "2026-10-10T09:23:55-05:00", "how": "changed", "machine": "kristinsmacbook.lan"}
+{"root": "DEV", "path": "graphify-out/.graphify_labels.json", "when": "2026-10-10T09:23:55-05:00", "how": "changed", "machine": "kristinsmacbook.lan"}
+{"root": "DEV", "path": "graphify-out/.graphify_semantic.json", "when": "2026-10-10T09:23:55-05:00", "how": "changed", "machine": "kristinsmacbook.lan"}
+{"root": "DEV", "path": "graphify-out/GRAPH_REPORT.md", "when": "2026-10-10T09:23:55-05:00", "how": "changed", "machine": "kristinsmacbook.lan"}
+{"root": "DEV", "path": "graphify-out/cost.json", "when": "2026-10-10T09:23:55-05:00", "how": "changed", "machine": "kristinsmacbook.lan"}
+{"root": "DEV", "path": "graphify-out/daily_extract.log", "when": "2026-10-10T09:23:55-05:00", "how": "changed", "machine": "kristinsmacbook.lan"}
+{"root": "DEV", "path": "graphify-out/graph.html", "when": "2026-10-10T09:23:55-05:00", "how": "changed", "machine": "kristinsmacbook.lan"}
+{"root": "DEV", "path": "graphify-out/graph.json", "when": "2026-10-10T09:23:55-05:00", "how": "changed", "machine": "kristinsmacbook.lan"}
+{"root": "DEV", "path": "graphify-out/graphify-out/cache/stat-index.json", "when": "2026-10-10T09:23:55-05:00", "how": "changed", "machine": "kristinsmacbook.lan"}
+{"root": "DEV", "path": "graphify-out/manifest.json", "when": "2026-10-10T09:23:55-05:00", "how": "changed", "machine": "kristinsmacbook.lan"}
+{"root": "DEV", "path": "graphify-out/rotate_log.txt", "when": "2026-10-10T09:23:55-05:00", "how": "changed", "machine": "kristinsmacbook.lan"}
