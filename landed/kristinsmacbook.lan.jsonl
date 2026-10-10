@@ -1,12 +1,16 @@
+{"root": "DEV", "path": "project-triage/portfolio.json", "when": "2026-10-10T10:30:20-05:00", "how": "changed", "machine": "kristinsmacbook.lan"}
+{"root": "DEV", "path": "SportScienceResearchRepo/docs/STATUS.md", "when": "2026-10-10T10:18:38-05:00", "how": "changed", "machine": "kristinsmacbook.lan"}
+{"root": "DEV", "path": "SportScienceResearchRepo/docs/handoffs/2026-10-10-mac-batch-96-103.md", "when": "2026-10-10T10:18:38-05:00", "how": "new", "machine": "kristinsmacbook.lan"}
+{"root": "DEV", "path": "SportScienceResearchRepo/docs/pilot-expansion-shortlist.json", "when": "2026-10-10T10:18:38-05:00", "how": "changed", "machine": "kristinsmacbook.lan"}
+{"root": "DEV", "path": "SportScienceResearchRepo/docs/pilot-expansion-shortlist.md", "when": "2026-10-10T10:18:38-05:00", "how": "changed", "machine": "kristinsmacbook.lan"}
+{"root": "DEV", "path": "SportScienceResearchRepo/scripts/audit-pilot-shortlist.mjs", "when": "2026-10-10T10:18:38-05:00", "how": "changed", "machine": "kristinsmacbook.lan"}
 {"root": "DEV", "path": "Flint/docs/STATUS.md", "when": "2026-10-10T10:14:02-05:00", "how": "changed", "machine": "kristinsmacbook.lan"}
 {"root": "VAULT", "path": "Knowledge/library/advisors/sport-science.md", "when": "2026-10-10T10:13:54-05:00", "how": "new", "machine": "kristinsmacbook.lan"}
 {"root": "DEV", "path": "SportScienceResearchRepo/scripts/haiku-batch/drafting-instructions.md", "when": "2026-10-10T10:01:00-05:00", "how": "changed", "machine": "kristinsmacbook.lan"}
-{"root": "DEV", "path": "SportScienceResearchRepo/docs/STATUS.md", "when": "2026-10-10T10:01:00-05:00", "how": "changed", "machine": "kristinsmacbook.lan"}
 {"root": "DEV", "path": "SportScienceResearchRepo/docs/library-coverage-manifest.json", "when": "2026-10-10T10:01:00-05:00", "how": "changed", "machine": "kristinsmacbook.lan"}
 {"root": "DEV", "path": "SportScienceResearchRepo/docs/needs-eric.md", "when": "2026-10-10T10:01:00-05:00", "how": "changed", "machine": "kristinsmacbook.lan"}
 {"root": "DEV", "path": "SportScienceResearchRepo/paper-taxonomy.json", "when": "2026-10-10T10:01:00-05:00", "how": "changed", "machine": "kristinsmacbook.lan"}
 {"root": "DEV", "path": "SportScienceResearchRepo/papers.json", "when": "2026-10-10T10:01:00-05:00", "how": "changed", "machine": "kristinsmacbook.lan"}
-{"root": "DEV", "path": "SportScienceResearchRepo/docs/handoffs/2026-10-10-mac-batch-96-103.md", "when": "2026-10-10T10:01:00-05:00", "how": "new", "machine": "kristinsmacbook.lan"}
 {"root": "DEV", "path": "SportScienceResearchRepo/docs/pilot-screening/batch-100-nutrition-hydration.json", "when": "2026-10-10T10:01:00-05:00", "how": "new", "machine": "kristinsmacbook.lan"}
 {"root": "DEV", "path": "SportScienceResearchRepo/docs/pilot-screening/batch-101-brain-health-psychology.json", "when": "2026-10-10T10:01:00-05:00", "how": "new", "machine": "kristinsmacbook.lan"}
 {"root": "DEV", "path": "SportScienceResearchRepo/docs/pilot-screening/batch-102-athlete-wellbeing.json", "when": "2026-10-10T10:01:00-05:00", "how": "new", "machine": "kristinsmacbook.lan"}
@@ -74,8 +78,6 @@
 {"root": "DEV", "path": "graphify-out/manifest.json", "when": "2026-10-10T09:23:55-05:00", "how": "changed", "machine": "kristinsmacbook.lan"}
 {"root": "DEV", "path": "SportScienceResearchRepo/CLAUDE.md", "when": "2026-10-10T00:57:33Z", "how": "changed", "machine": "kristinsmacbook.lan"}
 {"root": "DEV", "path": "SportScienceResearchRepo/docs/handoffs/2026-10-10-cloud-batches-88-95.md", "when": "2026-10-10T00:57:33Z", "how": "new", "machine": "kristinsmacbook.lan"}
-{"root": "DEV", "path": "SportScienceResearchRepo/docs/pilot-expansion-shortlist.json", "when": "2026-10-10T00:57:33Z", "how": "changed", "machine": "kristinsmacbook.lan"}
-{"root": "DEV", "path": "SportScienceResearchRepo/docs/pilot-expansion-shortlist.md", "when": "2026-10-10T00:57:33Z", "how": "changed", "machine": "kristinsmacbook.lan"}
 {"root": "DEV", "path": "SportScienceResearchRepo/docs/pilot-screening/batch-88-training-performance.json", "when": "2026-10-10T00:57:33Z", "how": "new", "machine": "kristinsmacbook.lan"}
 {"root": "DEV", "path": "SportScienceResearchRepo/docs/pilot-screening/batch-90-rehabilitation-return-to-sport.json", "when": "2026-10-10T00:57:33Z", "how": "new", "machine": "kristinsmacbook.lan"}
 {"root": "DEV", "path": "SportScienceResearchRepo/docs/pilot-screening/batch-91-recovery-readiness.json", "when": "2026-10-10T00:57:33Z", "how": "new", "machine": "kristinsmacbook.lan"}
