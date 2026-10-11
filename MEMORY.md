@@ -9,26 +9,26 @@
 - **RTP CLA (9/26)**: L1–2 built. NEXT Tim/Jacob export; Joe → L3. →`RTP_Constraints_Course/docs/`
 
 ## Parked (NEXT lives in each STATUS.md; `where-was-i.py` lists them)
-- 5S5M (10/6): all 45 decks on main; NEXT fill referral path [ADD] 18/20/39/42/43 →EAI STATUS
-- PM system BUILT 10/3: live board `/pm`, resume cards, Friday sweep, card-check; slate cleared; guide merged (`docs/GUIDE.md`); NEXT restart CC, `pm`, GUIDE walkthrough →`project-triage/docs/STATUS.md`
+- 5S5M (10/6): 45 decks on main; NEXT fill referral path [ADD] 18/20/39/42/43 →EAI STATUS
+- PM system BUILT 10/3: `/pm` board, resume cards, Friday sweep, card-check; guide `docs/GUIDE.md`; NEXT restart CC, `pm`, GUIDE walkthrough →`project-triage/docs/STATUS.md`
 - Personal site: scroll-craft LOCAL, Artifact live →Tier A personal-site-build-routes
 - FB matchups: W5 ASU done, W1-4 backfilled; `pff_game_result.py`; bye wk = mid-season →`MatchupAnalysis_FB2026`
 - Flint: PR#6+#7 (10/9) Issurin I2 done, 233 staged; NEXT promote, Mac Ch8 →`Flint`
 - 42Analytics: NEXT captions (429s) on Mac →`42Analytics`
-- VB GRID: fix merged 10/2 (#2); await Mike's reply →`Volleyball_GRID`
+- VB GRID: fix merged 10/2 (#2); await Mike →`Volleyball_GRID`
 - Sleep sched: NEXT night/early-kickoff →`sleep-scheduler`
 - TypeSafe: MAINTENANCE; PR #31 merged as record →`TypeSafe_Sandbox`
 
 ## Environment Notes
 - Win laptop hands-off 10/8, no automation →Tier A. Mac sole writer GPS/Perch/VALD.
-- Hooks: patch both copies for shared events. →Tier A hook-two-copies-trap.
+- Hooks: patch both copies for shared events →Tier A hook-two-copies-trap.
 - daily-backup: manifest entries alone copy nothing; sweep nested ~/.claude repos →handoff 09-19.
 - `DEV/Linda Projects` = private I-983 repo; folder has a space, repo an underscore.
-- `~/DEV` = THIN repo; `.gitignore` starts `/*` — never remove. →Tier A github-consolidation.
-- Win: Drive sync, junction and renv traps →machine.md. PFF: swap Parquet on Drive, never the DB; `PFF_DB`.
+- `~/DEV` = THIN repo; `.gitignore` starts `/*` — never remove →Tier A github-consolidation.
+- Win: Drive sync, junction, renv traps →machine.md. PFF: swap Parquet on Drive, never the DB; `PFF_DB`.
 - Schedules →automation-cadence. CFB capture Mac only. Dashboard →command-centre.
 - Post-merge: delete merged branches unasked (verify) →Tier A post-merge-cleanup.
-- Sessions: start `where-was-i.py`, prune with `session-sweep.py` →Tier A session-hygiene.
+- Sessions: start `where-was-i.py`, prune `session-sweep.py` →Tier A session-hygiene.
 
 ## Pending Decisions
 - None open.
