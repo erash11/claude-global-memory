@@ -1,0 +1,608 @@
+
+## 07:12:02 [5776ba96] (/Users/kristinarash/DEV)
+Handoff written.
+
+```
+/var/folders/gw/8qg6y2bj7rvdqzttmxfl9lx00000gn/T/handoff-command-centre-os-2026-09-02.md
+```
+
+It points at your existing docs (`DESIGN.md`, the reference README, project memory) instead of repeating them.
+
+**First, the thing you need to know.** Your errors log escalated while we worked:
+
+```
+memsearch-sync: index ETIMEDOUT 6x  →  7x consecutively
+```
+
+I timed it twice, an hour apart. A small query went **5.5s → 8.4s**. It still answers, but it is getting slower, not better.
+
+## 07:13:59 [fac21fab] (/Users/kristinarash/DEV)
+Backup is mid-flight, copying the big DEV projects to the SSD. Nothing for me to do but wait — it takes about 6 minutes.
+
+Status so far:
+- SSD is mounted with 439 GB free.
+- Drive snapshots all finished OK in under a minute.
+- SSD capture is running now (AgentAssist through ForcePlate done).
+- Two problems already logged, which I will hand you at the end: three GitHub pushes failed, and one DEV folder is not in the manifest.
+
+I will report when it finishes.
+
+## 07:20:14 [bc7454ea] (/Users/kristinarash/DEV/project-triage)
+Done. Here is what happened.
+
+**What I made**
+
+One file: `/Users/kristinarash/DEV/COMMANDS.md` (409 lines).
+
+It has two halves:
+- **Part A** — commands you run in Terminal. No Claude.
+- **Part B** — slash commands, plus 4 skills you can fire headless with `skill-button.sh`.
+
+I also added a row to `/Users/kristinarash/DEV/CLAUDE.md` so it is findable.
+
+**Did it work**
+
+Yes. I ran every path through a check. Nothing points at a missing file.
+
+I found and fixed 4 wrong things while checking:
+1. `ke
+
+## 07:21:22 [b4935e8b] (/Users/kristinarash/DEV)
+Here is where things stand.
+
+**What I did**
+- Read your career context, personal constitution, DEV area maps, and the live project registry (`project-triage/portfolio.json`).
+- Wrote a full design brief: `/Users/kristinarash/DEV/Website/personal/BRIEF.md`
+- Handed the build to Fable 5.1. It is running now.
+
+**Design choices I made for you**
+- Look: a lab-report / spec-sheet layout. Stone grey and petrol teal, with one clay accent. Not Baylor green and gold — this is *your* brand, not the departm
+
+## 07:36:11 [b4935e8b] (/Users/kristinarash/DEV)
+**Sanity check:** I rendered the page in Chrome and looked at it. The name, the lead line, the jump trace, and all seven sections draw right. I checked the theme tokens, the 17 project cards, and that no outside files load except Google Fonts and your GitHub link.
+
+**Your site is live**
+https://claude.ai/code/artifact/4bb58c5d-70c6-4459-baea-1e192e716f2a
+
+It is private. Share it from the page's share menu when you want.
+
+**Where the files are**
+- `~/DEV/Website/personal/index.html` — the site
+- 
+
+## 07:36:24 [00fe7fc2] (/Users/kristinarash/DEV)
+Checked the archive — the 4th line was just the backup summary I already read. Nothing new. Writing the report.
+
+## What was wrong
+
+**1. Memory compiler — nothing to fix.** It already caught up on its own last night. Six sessions ended between 21:09 and 21:56. Each one compiled 2 logs. That ate the whole 7-log backlog. `compile.py --dry-run` now says "all daily logs are up to date." The error line was stale.
+
+**2. memsearch — this was real, and it was silent.** The session-end hook gives the ind
+
+## 07:41:53 [fac21fab] (/Users/kristinarash/DEV)
+Second run is going. Recap while it works:
+
+- First run finished and **the SSD capture is verified** — receipt `run-20260902-070855`.
+- I pushed the 3 repos that failed. All three now match GitHub.
+- I added `DEV/RTP_Constraints_Course` to the manifest as **personal**, SSD only.
+
+This second run captures that new folder and should push the manifest change. Back when it lands.
+
+## 07:46:30 [b4935e8b] (/Users/kristinarash/DEV)
+Fable is building v2 now. Here is what is going in.
+
+**The hero becomes a live console**
+- The jump trace gets a real instrument frame, grid lines, and force axis labels.
+- A playhead sweeps the curve on a loop.
+- A readout next to it shows `PHASE`, `FORCE`, `T` and updates as the playhead moves.
+- **You can drag across the trace to scrub it.** Mouse, touch, or arrow keys. Drag left to right and you walk an athlete through the jump.
+
+**The page becomes an instrument**
+- Faint grid in the backgro
+
+## 07:47:15 [fac21fab] (/Users/kristinarash/DEV)
+Everything checks out. Here is where things stand.
+
+**What I did**
+
+A backup was already running when you asked (started 07:08 by KeystoneOS `keystone-reconcile.ps1`, not the 09:00 timer). I let it finish, then fixed its 5 errors and ran it again clean.
+
+**Did it work — yes**
+
+- SSD capture verified twice today: `run-20260902-070855` and `run-20260902-074149`.
+- Second run ended `OK (0 errors)`.
+- SSD now at 27 GB used, 439 GB free.
+
+**The 5 errors, all cleared**
+
+1. Three GitHub pushes failed (
+
+## 07:48:44 [bc7454ea] (/Users/kristinarash/DEV/CFB_Victory_Model)
+Verified everything. Here is the report.
+
+**You asked me to check first. Good call — both were already fixed.**
+
+- **memsearch:** not broken. The 7 timeouts were from **before** a fix that landed at **12:33 today** (the hook now runs detached, returns in 42ms). `.errors.log` is empty. Index has 11,447 chunks.
+- **Compiler:** not backlogged. `--dry-run` says *"Nothing to compile - all daily logs are up to date."* Zero dead flush files.
+
+I changed nothing. There was nothing to change.
+
+**I was wro
+
+## 08:04:55 [b4935e8b] (/Users/kristinarash/DEV/Website/personal)
+**Sanity check:** I rendered v2 in Chrome, in both light and dark. The console panel, the readout, the grid, the flow rail, the work cards with lane marks, and the filter count all draw correctly. I checked all 5 new colour tokens exist in all 3 theme blocks, only 1 animation loop runs, and no readable text is hidden at load.
+
+**Same link, updated**
+https://claude.ai/code/artifact/4bb58c5d-70c6-4459-baea-1e192e716f2a
+
+**Try these first**
+1. **Drag your mouse across the jump trace.** The readout 
+
+## 08:29:53 [bc7454ea] (/Users/kristinarash/DEV)
+Done. Used the `CreateSkill` → `UpdateSkill` workflow, as your `skills/CLAUDE.md` requires.
+
+**What changed in `/Users/kristinarash/.claude/skills/forecast-capture/SKILL.md`**
+
+1. **Run block** — `python3 weekly_capture.py` → `uv run --with playwright python weekly_capture.py`. That was the break.
+2. **Multi-team block** — same fix. It had the same bug.
+3. **New `## Gotchas` section**, 4 items. The skill had none, which `CreateSkill` requires. It now records: why `--with playwright` must stay, t
+
+## 08:31:49 [7d4e7ff3] (/Users/kristinarash/DEV)
+Every path in the doc checks out.
+
+**Handoff written:**
+`/var/folders/gw/8qg6y2bj7rvdqzttmxfl9lx00000gn/T/handoff-memlint-2026-09-02.md`
+
+**What's in it:** what the session did, where the real detail lives (I pointed at the vault note and the lint report instead of copying them), the design choices worth not re-arguing, 6 open items, 2 gaps not built, how to run the tool, the environment traps that cost me time, and a suggested-skills list.
+
+**Top of the suggested list:** `memory-write` — a fres
+
+## 08:31:58 [b4935e8b] (/Users/kristinarash/DEV/Website/personal)
+Fable is building v3. Here is the plan.
+
+**Much darker, and dark for everyone**
+- New palette "Night Field": near-black blue ground `#070A0E`, instrument cyan, ember amber.
+- The page now loads dark no matter what your computer is set to. The toggle still gives you a daylight version if you need it.
+
+**Texas — done as survey work, not souvenirs**
+- Your coordinates in the header: `31.5493°N 97.1467°W`. That is Waco.
+- A 1px wireframe outline of Texas in the Contact block, with a crosshair and a 
+
+## 08:50:58 [b4935e8b] (/Users/kristinarash/DEV/Website/personal)
+**Sanity check:** I rendered v3 in Chrome, normal and with motion off. The dark palette, the horizon glow, the starfield, the header coordinates, the amber trace, and the Texas plate with the star on Waco all draw correctly. I confirmed all 19 colour tokens sit in both theme blocks and the `prefers-color-scheme` block is gone.
+
+**Same link**
+https://claude.ai/code/artifact/4bb58c5d-70c6-4459-baea-1e192e716f2a
+
+**What is different**
+- Much darker. Ground is near-black blue `#070A0E`. Structure is
+
+## 13:35:55 [addf172c] (/Users/kristinarash/.claude/claude-memory-compiler)
+**Context:** Post-session memory-hygiene work — building/running `memlint.py`, cleaning the memory tier, then producing a handoff doc via `/mattpocock-skills:handoff`.
+
+**Key Exchanges:**
+- User chose option **A** (clean up stale memories) over B (fix broken `[[links]]`), because the stale files were actively feeding Claude wrong facts.
+- Handoff doc requested and written to `/var/folders/gw/8qg6y2bj7rvdqzttmxfl9lx00000gn/T/handoff-memlint-2026-09-02.md`; all referenced paths verified, no secret
+
+## 13:39:02 [51e60872] (/Users/kristinarash/DEV)
+All checks done. Here is the picture.
+
+## What is already fixed
+
+**memsearch timeouts (item 3) — done.** Another session fixed it today. The session-end index used to time out every time. Now it runs in the background. It takes 42ms instead of 45+ seconds.
+File: `~/.claude/projects/-Users-kristinarash-DEV/memory/project_memsearch-hook-timeout-cap.md`
+
+Your error log is empty. Nothing is broken right now.
+
+## What is still open
+
+**1. Compiler backlog is real.** 8 old days never got compiled. They
+
+## 13:55:32 [a6dfb3da] (/Users/kristinarash/DEV)
+Both jobs are done. Here is what happened.
+
+## What I did
+
+**1. Installed scroll-craft.**
+I used the `skills` tool your machine already uses. The skill lives at `~/.agents/skills/scroll-craft/`.
+
+- Claude Code — works. It is already in this session.
+- Codex — works. The installer skipped it, so I made the link by hand: `~/.codex/skills/scroll-craft`.
+- Cowork — Cowork gets its skills from the server. I cannot drop a folder in. I made you an upload file instead: `~/Downloads/scroll-craft.zip`.
+
+*
+
+## 13:57:17 [dacc0dd3] (/Users/kristinarash/DEV)
+Capture is done and saved. Here is what happened.
+
+**The capture worked.** 12 games. Zero played. Baylor's first game is Saturday, Sept 5, vs Auburn in Atlanta.
+
+**Nothing moved.** Today's numbers are exactly the same as the July 31 capture — every row is identical. Expected wins: **5.86**, unchanged.
+
+**No weeks were missed.** The old note in the skill said the Aug 24 and Aug 31 weeks were lost forever. That was wrong. Baylor had no games then, so no forecast got overwritten. I fixed that note 
+
+## 14:02:22 [51e60872] (/Users/kristinarash/DEV)
+All done. Here is what happened.
+
+## Did it work
+
+Yes. The memory checker went from **4 index errors + 37 broken links** to **0 errors, 0 warnings**. I proved the new check is not fake by breaking a file on purpose, watching it get caught, then putting it back.
+
+## What I changed
+
+**Names (option A).** 68 files renamed, 64 links repointed. The rule: `name:` is the filename minus the front tag. So `project_automation-cadence.md` gets `name: automation-cadence`. Only the *front* tag comes off, so 
+
+## 14:09:02 [3ba15b10] (/Users/kristinarash/DEV/RTP_Constraints_Course)
+Both fixes are in. Here is what I found and what I did.
+
+## Alex Sarama — the short answer
+
+He is real and he is big. But not for what you need.
+
+**Yes, he is an authority on the constraints-led approach.** He is the Head Coach of the Portland Fire (WNBA). Before that he was an assistant coach at the Cleveland Cavaliers. He wrote a book called *Transforming Basketball*. He wrote a second book for **Routledge** — a real academic publisher — with **Dr Alex Lascu**, who has a PhD. That second book 
+
+## 14:11:21 [dacc0dd3] (/Users/kristinarash/DEV/CFB_Victory_Model)
+All done and checked. Here is what happened.
+
+**The run.** All 16 Big 12 teams captured in one go, about 10 minutes, exit code 0. Every team name matched the site's dropdown on the first try — including the risky ones, "Kansas State" and "Oklahoma State". Nothing failed.
+
+**Nothing moved.** No team's forecast changed since July. Expected wins run from **3.20 (Oklahoma State)** up to **9.86 (Texas Tech)**. The full table is in the archive.
+
+**One real result — and a surprise.** TCU already played
+
+## 14:21:05 [dacc0dd3] (/Users/kristinarash/DEV/CFB_Victory_Model)
+Both pulled. Checked: no leftover code, no leftover text, and all 32 archive files regenerated clean.
+
+**Gone:**
+- The `no freeze` feature in `compare_snapshots.py` — the two helper functions, the extra rollup column, and the "PLAYED WITH NO FROZEN FORECAST" block.
+- The "overwrite kills probability, not points" writeup in `SKILL.md` and in project memory.
+
+**Still there** (your three asks):
+- All 16 Big 12 teams, every week — `weekly_capture.py`
+- Archive copies — `~/DEV/CFB_Forecast_Archive/20
+
+## 14:21:17 [3ba15b10] (/Users/kristinarash/DEV/RTP_Constraints_Course)
+Install is running in the background. It pulls a lot — tesseract, ghostscript, qpdf, and their dependencies — so give it a few minutes. I'll tell you when it finishes and confirm it works.
+
+## 14:22:22 [3ba15b10] (/Users/kristinarash/DEV/RTP_Constraints_Course)
+Done. It installed clean and I checked it runs.
+
+## What you have now
+
+- `ocrmypdf` **17.11.0** at `/opt/homebrew/bin/ocrmypdf`
+- `tesseract` **5.5.3** at `/opt/homebrew/bin/tesseract`
+- English language pack is there (`eng`). That is all the book needs.
+
+Brew also pulled in ghostscript, qpdf, unpaper, and it upgraded ffmpeg along the way. All normal dependencies.
+
+## One file I updated
+
+`NOTES.md` said "no OCR tool is installed on this machine." That is now wrong, so I fixed it. The next sessio
+
+## 14:31:12 [51e60872] (/Users/kristinarash/DEV)
+Both repos are pushed and in sync. Zero unpushed commits on each.
+
+**claude-memory-compiler** — branch `memlint-memory-tier-checks`, 2 commits.
+https://github.com/erash11/claude-memory-compiler
+
+**SecondBrain** — `main`, 1 commit, working tree clean.
+https://github.com/erash11/SecondBrain
+
+I still did **not** touch the 3 files another session had changed (`hooks/session-start.py`, `scripts/flush.py`, `uv.lock`) or the `.bak` file. They stay in your working tree, as the handoff asked.
+
+## One thi
+
+## 14:33:23 [98c97a06] (/Users/kristinarash/DEV)
+Renames landed. Waiting on the 4-minute sync delay before I export — I will report when it finishes.
+
+Progress so far:
+- 8 meetings in the last 14 days, 3 were new and unnamed.
+- All 3 renamed in Fireflies, each one verified by reading it back.
+
+Next: re-sync, export to `Inbox/meetings/`, then add the 5-section header to each file.
+
+## 14:33:34 [51e60872] (/Users/kristinarash/DEV)
+PR is open and clean.
+
+**PR #9** — https://github.com/erash11/claude-memory-compiler/pull/9
+Open, `memlint-memory-tier-checks` → `main`, 5 files, +609/−1, **mergeable**.
+
+The body explains the seven checks, the 34→17 then 4+37→0 numbers, and why each odd choice was made (the retired-slug exclusion, the measured 0.45 threshold, the `--structural-only` footgun).
+
+Your open PR list is now: **#9** here, plus SpeedProfiling #9, KeystoneOS #17, and the two reprinted-CLI PRs (#1667, #1668).
+
+Nothing is
+
+## 14:37:54 [98c97a06] (/Users/kristinarash/DEV)
+Checked: each file has exactly one header copy, sections in the right order, Fireflies summary intact below, and all 3 IDs are in the sync ledger so they will not re-export.
+
+**What I did**
+- Found 8 meetings in the last 14 days. 3 were new.
+- Renamed all 3 in Fireflies (they were date-only names). Each rename was verified by reading it back.
+- Exported all 3 to `/Users/kristinarash/SecondBrain/Inbox/meetings/` and added the 5-section header.
+
+**New files**
+- `2026-09-02_Football__Recruiting_Bud
+
+## 14:41:44 [51e60872] (/Users/kristinarash/DEV)
+Merged and verified.
+
+**PR #9 is MERGED.** Your local repo switched back to `main`, in sync with origin, and the branch is deleted. I re-ran memlint from merged `main`: **0 errors, 0 warnings**. It works from the real branch, not just my working copy.
+
+The Sunday 02:30 job now runs all seven checks, including the new Name form guard.
+
+The 3 files another session had changed are still sitting uncommitted in your tree, exactly as before. They followed you to `main` as I warned. They are not mine t
+
+## 15:18:00 [3ba15b10] (/Users/kristinarash/DEV/RTP_Constraints_Course)
+```
+/Users/kristinarash/DEV/RTP_Constraints_Course/scans/
+```
+
+When you are done, tell me and I will merge them and run OCR. Or do it yourself:
+
+```
+cd /Users/kristinarash/DEV/RTP_Constraints_Course/scans
+qpdf --empty --pages part-*.pdf -- merged.pdf
+ocrmypdf --skip-text merged.pdf ../myszka-book.pdf
+```
+
+## Four rules while you scan
+
+1. **Do not skip pages.** Not the blank ones, not the picture ones. One missing page shifts every page number after it, and my citations go wrong from there on.
+2.
+
+## 15:20:49 [a6dfb3da] (/Users/kristinarash/DEV)
+Fixed and verified end to end.
+
+## What I did
+
+Checked upstream first. The repo (`bradautomates/claude-video`) still has the bug. Last commit was June 30. So no update to pull — I patched it here.
+
+**The bug:** ffmpeg deleted the `-vsync` flag. You run ffmpeg 9. The skill still used `-vsync`, so ffmpeg refused and you got 0 frames with no clear error.
+
+**The fix:** `-vsync` → `-fps_mode`. Same meaning, current name. Two lines, in two copies:
+
+- `~/.agents/skills/watch/scripts/frames.py` (lines 2
+
+## 15:29:07 [e94e87f8] (/Users/kristinarash/DEV)
+Yes. It is ready.
+
+## What I checked
+
+**The server is up.** PID 90651. All three routes answer 200:
+- `http://localhost:7373/` (old status page, unchanged)
+- `http://localhost:7373/os` (the new board)
+- `http://localhost:7373/api/state.json` (0.39s)
+
+**The board draws correctly with today's real data.** I rendered it myself just now: 17 active projects, 149 skills, 841 notes, 9 routines, 40 of 4,524 artifacts in the ring. Nothing is stale.
+
+**The safety rules still hold.** No CORS header on the 
+
+## 16:52:03 [3ba15b10] (/Users/kristinarash/DEV/RTP_Constraints_Course)
+You said not to get hung up on it being rehab content — the constraints-led approach covers practice design, training and drill design, for player development and rehab alike. That reframe was right, and it changed the answer.
+
+## The new split
+
+Think of it as two layers, not one question.
+
+- **Design layer** — what does the drill look like, and which knob do I turn? **Sarama's team is strong here.**
+- **Dosage layer** — how much can *this* athlete take today, 12 weeks after surgery? **That is T
+
+## 17:00:08 [a6dfb3da] (/Users/kristinarash/DEV/Website/scrollcraft/builds/eric-rash)
+It's built. **Look at it now:** http://localhost:4500 (the server is already running).
+
+## What I made
+
+A new site at `~/DEV/Website/scrollcraft/builds/eric-rash/`.
+
+Your old site is untouched. Same file, same Artifact link, not one byte changed.
+
+## The idea
+
+The skill made me pick one of eight page shapes. I picked **split stage**: two columns fighting for the whole page, one wins at the end.
+
+I picked it because your own sentence already has two sides:
+
+> **Left:** "Most performance problems 
+
+## 17:14:49 [3ba15b10] (/Users/kristinarash/DEV/RTP_Constraints_Course)
+Done. You told me twice to stop screening for "does it mention rehab" — the spine is **drill design**, and return to performance is just where Joe uses it. I've written that rule into both files so the next session doesn't repeat my mistake.
+
+## Rob Gray's site is the best free thing found all session
+
+**Eight free guides.** Two matter most:
+
+- **[Comparative Training Studies](https://perceptionaction.com/comparative/)** — old-style coaching vs ecological, head to head. **This is the page Joe br
+
+## 17:18:48 [3ba15b10] (/Users/kristinarash/DEV/RTP_Constraints_Course)
+Both files written. Here's the video.
+
+## What the video is
+
+**"A Call for More Clarity on How to Use the CLA: The 3 Questions Paper"**
+Rob Gray · 17 Sep 2024 · 47 minutes · [link](https://www.youtube.com/watch?v=Z0pLFDG-I78)
+
+It is him reviewing a paper that attacks his approach. The paper says: *you never tell us which constraint to use, how much, or for how long.* Three questions. He answers all three.
+
+I picked it because that is Joe's exact complaint waiting to happen.
+
+## The one thing wor
+
+## 17:24:24 [3ba15b10] (/Users/kristinarash/DEV/RTP_Constraints_Course)
+Watched it. Here's what it is and the one thing I got wrong.
+
+## The video
+
+**"489 – Interview with Alex Sarama, Transforming Basketball"**
+Rob Gray's podcast · 23 Apr 2024 · 51 minutes · [link](https://www.youtube.com/watch?v=iTXMVsSu1Q0)
+
+Gray interviewing Sarama, the week Sarama's book came out. He was at the Trail Blazers' G League team then.
+
+## I have to correct myself
+
+I told you Sarama has **no rehab content anywhere**. That was based on his website. In this interview he says that in Ita
+
+## 17:27:38 [3ba15b10] (/Users/kristinarash/DEV/RTP_Constraints_Course)
+Watched it. This one is the best of the three.
+
+## The video
+
+**"Constraints-Led Approach (CLA) 2024"**
+Rob Gray · 22 Apr 2024 · **25 minutes** · his most-viewed, 4,649 views · [link](https://www.youtube.com/watch?v=gEMSjM1VS3c)
+
+It is a preview of a talk he gave the **Netherlands Olympic team**. The other two videos defend the method. **This one just explains it.** Joe should watch this one first.
+
+## The example you want
+
+A pitcher's arm swings away from his body too early. Two problems at onc
+
+## 17:33:13 [3ba15b10] (/Users/kristinarash/DEV/RTP_Constraints_Course)
+Both done. Here's the video, then the library sweep.
+
+## The video
+
+**"How Effective are Coaches at Designing and Adapting Practice in the CLA?"** · 13 min · [link](https://www.youtube.com/watch?v=xu39gkvGuVw)
+
+**This is the only one of the four backed by a real study.** Three soccer coaches ran the same game four ways: leave it alone, talk only, change the game only, or anything goes.
+
+**In two of the three coaches, talking changed nothing you could measure. Changing the game did.**
+
+And the mo
+
+## 17:38:33 [3ba15b10] (/Users/kristinarash/DEV/RTP_Constraints_Course)
+Done, but not the way you asked — because two of the five were already there.
+
+## What I got wrong
+
+My sweep searched by **Zotero key**. Lots of entries in your file cite by **DOI or library path** and have no key. So the search walked right past them.
+
+**The Taberner High Chaos paper was already in your file.** It has been the anchor of the return-to-performance section the whole time. Calling it "the biggest omission" was wrong, and I've written that correction into the file.
+
+**The Young agil
+
+## 17:40:49 [3ba15b10] (/Users/kristinarash/DEV/RTP_Constraints_Course)
+Honest answer: **it depends which kind of context you mean.** There are three, and they're in very different shape.
+
+## 1. What the CLA is and how to run it — full
+
+This is done. You have Gray's four goals, his four-step cycle, the success-rate band, transition feedback, Sarama's rate limiters, scripted-start-live-finish.
+
+**I could write lessons 1 through 3 tonight and need nothing else.**
+
+## 2. What football actually demands — thin
+
+I have to correct a number here. My grep said "football: 33 
+
+## 17:47:04 [3ba15b10] (/Users/kristinarash/DEV/RTP_Constraints_Course)
+Amazon blocks automated reads, so the Kindle question stays open — but it's flagged in both files as a check-before-scanning.
+
+## The big one
+
+**Football Beyond The Stats** — [footballbeyondthestats.wordpress.com](https://footballbeyondthestats.wordpress.com/)
+
+Shawn Myszka has run this since **2013**. It is **free, public, and still going** — last post January 2026.
+
+Every week of the NFL season he takes **one real play** and breaks it down as **a movement problem the player had to solve**. Plu
+
+## 17:53:09 [3ba15b10] (/Users/kristinarash/DEV/RTP_Constraints_Course)
+Interview guide written. Now the book.
+
+## The interview questions
+
+**`/Users/kristinarash/DEV/RTP_Constraints_Course/INTERVIEW.md`** — 25 questions, 45 minutes.
+
+**Part 1 is the one that matters, and it's the one you'll want to skip.** It asks whether Joe actually wants this niche. Right now `MISSION.md` says he does — but **that is your guess, not his words.** Every line in it is inferred from your spoken brief.
+
+So the first five questions are things like *"What do you want to be known for in
+
+## 17:55:01 [3ba15b10] (/Users/kristinarash/DEV/RTP_Constraints_Course)
+That one I can't help with — stripping DRM means breaking a copy protection, and I won't write instructions for it even on a book you paid for.
+
+Here's what actually gets you the content, roughly in order of how well it works.
+
+## 1. Email Rob Gray and ask
+
+**This is the best option and people forget it exists.**
+
+He runs a podcast specifically to get research to practitioners. He sells courses to people exactly like you. You are a **Director of Applied Performance at a Power 4 school** building
+
+## 17:57:06 [3ba15b10] (/Users/kristinarash/DEV/RTP_Constraints_Course)
+Email drafted. And no on the EPUB — converting a Kindle book means stripping the DRM first, so it's the same request in a different shape.
+
+## The email
+
+**`/Users/kristinarash/DEV/RTP_Constraints_Course/email-rob-gray.md`**
+
+**To: `robgray@asu.edu`** — verified from his ASU profile, not guessed.
+
+Three things it asks, in one short message:
+
+1. A **DRM-free EPUB or PDF** of the coaching book, with your receipt offered.
+2. Whether the **football textbook has a digital edition** — if yes, no scann
+
+## 18:03:20 [98c97a06] (/Users/kristinarash/DEV)
+## Closeout — 2026-09-02
+
+**Committed:** `SecondBrain` @ `6bb8637` — 3 meeting files + updated sync ledger. Working tree clean. **Not pushed** (only KeystoneOS is standing-authorized). KeystoneOS had nothing to commit.
+
+**Memory:** captured ✓ — `.errors.log` is empty, today's transcript is fresh (17:57). Appended the new CLI lesson to `/Users/kristinarash/.claude/projects/-Users-kristinarash-DEV/memory/project_fireflies-cli-broken-on-mac.md`.
+
+**Handoff:** `/Users/kristinarash/.claude/global-mem
+
+## 18:03:36 [3ba15b10] (/Users/kristinarash/DEV/RTP_Constraints_Course)
+## Closeout — 2026-09-02
+
+**Committed & pushed:** nothing to commit — `~/DEV/RTP_Constraints_Course` is not a git repo, and KeystoneOS is clean on `main`. No other repo was touched.
+
+**Memory:** captured ✓ — `.errors.log` empty, today's transcript present (17:57). Added an **RTP CLA course** thread to `MEMORY.md`; consolidated the closed Backup/sync and dormant Tezino lines to stay under cap (2301 → 2417 of 2500).
+
+**Handoff:** `/Users/kristinarash/DEV/RTP_Constraints_Course/docs/handoffs/2026-0
+
+## 18:04:04 [e94e87f8] (/Users/kristinarash/DEV/KeystoneOS)
+All five checks are done and verified: git clean, memory intact, handoff written, server still up.
+
+## Closeout — 2026-09-02
+
+**Committed & pushed:**
+- KeystoneOS — nothing to commit, clean on `main`, 0 ahead.
+- `~/.claude/claude-memory-compiler` — commit `a078b1c` on new branch `session-start-progressive-disclosure`. Three files that had been running live since Aug 29 but were never in git: `hooks/session-start.py`, `scripts/flush.py`, `uv.lock`. **Not pushed** (not KeystoneOS).
+- `~/DEV/Comman
+
+## 18:05:16 [d9b60349] (/Users/kristinarash/DEV/project-triage)
+## Closeout — 2026-09-02
+
+**Committed:** `project-triage` → `6fa5e27` "Add Baseball_PerformanceProfiles to the job lane" on `master`. **Not pushed** — not KeystoneOS, so I need your OK. KeystoneOS is clean, nothing to commit.
+
+**Memory:** captured ✓
+- `.errors.log` empty. Today's transcript exists, written 18:03.
+- `MEMORY.md` was 2445 of 2500 chars — no room. I consolidated: dropped the closed backup/sync line (already in Tier A) and merged the two dormant threads (Tezino + FaceComps) into one.
+
+## 18:06:05 [fac21fab] (/Users/kristinarash/DEV)
+## Closeout — 2026-09-02
+
+**Committed & pushed:** KeystoneOS clean, nothing to push. Earlier in the session I pushed SecondBrain, global-memory and dotclaude as part of the backup. Since then, three repos each have **1 new local commit, not pushed** (closeout only auto-pushes KeystoneOS):
+- `~/.claude` → `9b0ccdb` manifest entry for `DEV/CFB_Forecast_Archive`
+- `~/.claude/global-memory` → `c42c964` the handoff doc
+- `~/SecondBrain` → `6bb8637` 3 Fireflies meetings, committed by another session, 
+
+## 18:07:38 [a6dfb3da] (/Users/kristinarash/DEV/Website)
+Everything checked. Here is the verdict.
+
+## Closeout — 2026-09-02
+
+**Committed & pushed:**
+`~/DEV/Website` → commit `ddf74ad`, **local only, not pushed** (not KeystoneOS, needs your approval). 13 files, 304 KB.
+KeystoneOS: nothing to commit. `~/.claude`: clean.
+
+**Memory:** captured ✓
+`.errors.log` empty. Today's transcript fresh (17:57). Three new Tier A files + index pointers. Tier B was at 2498/2500 — I consolidated it to **2474**, keeping all 13 threads and every NEXT action.
+
+**Handoff:** 
+
+## 21:09:51 [fac21fab] (/Users/kristinarash/DEV)
+Two of three are up:
+
+- `dotclaude` → `2d21c65..9b0ccdb`
+- `claude-global-memory` → `5e3da75..c42c964`
+
+SecondBrain is still uploading. I will confirm when it lands.

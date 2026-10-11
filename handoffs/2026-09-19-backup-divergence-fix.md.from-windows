@@ -1,0 +1,288 @@
+# 2026-09-19 — daily-backup false "diverged" errors, and two unbacked DEV repos
+
+Machine: Mac (`~/DEV`). Third session of the day. The two earlier sessions are covered by
+`2026-09-19-mac-dev-sync-and-typesafe-setup.md`; this one does not overlap it except that
+both touch `scripts/backup-manifest.json`.
+
+## What was being worked on and why
+
+Started as "run the Python smoke test from the TypeSafe project". That passed, which left the
+three `daily-backup` errors from the startup banner as the real work: `repo-diverged:global-memory`,
+`repo-diverged:dotclaude`, and `manifest-unmanaged:AppliedPerformance-Site|Linda_Projects`.
+
+## Decisions made, with the reasoning
+
+- **The two `repo-diverged` errors were not divergence at all, and the script was wrong to
+  call them that.** `daily-backup.ps1` line 52 used to read:
+
+  ```powershell
+  if ($behind -gt 0 -and ($ahead -gt 0 -or $dirty -gt 0)) {   # OLD
+  ```
+
+  Being *behind* with a dirty tree is not divergence. `dotclaude` and `global-memory` are
+  **permanently dirty**, because live session transcripts and `.jsonl` logs are written into
+  them while a session runs. So every single day the other machine pushed, the pre-check
+  produced a false error and returned before syncing at all. It fired on 09-18 and 09-19.
+
+- **Fix: let git decide instead of guessing.** `DIVERGED` now means behind AND ahead.
+  Behind-only attempts `git pull --ff-only` and records an error (`repo-behind-blocked:<name>`)
+  only if git itself refuses, logging git's own message so the blocking file is named.
+
+  Verified empirically against throwaway repos, not assumed:
+  - behind + dirty, dirty file does **not** overlap the incoming commit → `--ff-only` exits 0,
+    fast-forwards, and the uncommitted edit survives.
+  - behind + dirty, dirty file **does** overlap → git exits 1 with
+    "Your local changes to the following files would be overwritten by merge", and the edit
+    also survives. So nothing is ever lost by trying.
+
+  This keeps the original intent of the line ("never merge blindly from automation") while
+  removing the false positives.
+
+- **`AppliedPerformance-Site` and `Linda_Projects` classified `institutional`.** Both are
+  Baylor work: the Applied Performance department site, and supervision planning for Linda
+  Mungai (Applied Performance Specialist). Both are `isRepo: true` with **private** GitHub
+  remotes, confirmed with `gh repo view`. That matters for `Linda_Projects`, which holds
+  `02_SupervisorPlan_I983_CONFIDENTIAL.md`.
+  Destinations `["ssd", "github"]` — **not** `baylor`, which the manifest has deprecated
+  (the log says "TARGET baylor deprecated in manifest - snapshots to it SKIPPED").
+
+- **`Linda_Projects` turned out to be a redundant clone, and the `manifest-unmanaged` error
+  for it was a symptom, not a real coverage gap.** `~/DEV` holds **two** folders for the one
+  GitHub repo `erash11/Linda_Projects`:
+  - `~/DEV/Linda Projects` — with a **space**. The original. Already in the manifest all
+    along, at line 787. Always backed up.
+  - `~/DEV/Linda_Projects` — with an **underscore**. Cloned by this morning's `/dev-sync`,
+    which matched local folders by repo name, did not find `Linda_Projects`, and concluded
+    the repo was missing locally.
+
+  The two are byte-identical outside `.git` and sit on the same commit `031f96a`. Default-deny
+  then flagged the new clone as unmanaged, which is what produced the error. The manifest now
+  carries **two entries for one repo**, at lines 787 and 799. Left that way on purpose: while
+  the duplicate folder exists on disk, an entry for it is what keeps the health check quiet.
+  The clean end state is to delete `~/DEV/Linda_Projects` and remove the line-799 entry —
+  that needs Eric, because the folder holds confidential personnel files, so it is not
+  something to delete unasked.
+
+  **The general trap: `/dev-sync` matches DEV folders to GitHub repos by name, so a folder
+  whose name differs from its repo name looks missing and gets cloned a second time.** Check
+  `git remote get-url origin` before believing a repo is absent locally. `AppliedPerformance-Site`
+  was checked the same way and has no space-named twin, so its entry is a genuine new one.
+
+- **Inserted the manifest entries, did not re-sort the file.** A full alphabetical sort of the
+  `DEV/` block churned 7 unrelated entries, because the file is not globally sorted — some
+  `DEV/` entries were appended after the non-`DEV` block. Reverted that and inserted each entry
+  at its alphabetical spot inside the existing run instead. Diff is 30 lines.
+  `json.dumps(d, indent=1, ensure_ascii=False) + "\n"` round-trips this file byte-identically,
+  which is what makes a minimal diff possible — check that before rewriting it.
+
+- **TypeSafe STATUS: merged both machines' records rather than picking one.** A concurrent
+  session on this machine had pushed the Windows verification to `TypeSafe_Sandbox` while this
+  session was proving the Mac side. Rebase conflicted on `docs/STATUS.md`; resolved by keeping
+  both dated bullets.
+
+## Files created or modified
+
+- `/Users/kristinarash/.claude/scripts/daily-backup.ps1` — the line-52 rewrite.
+  Backup at `daily-backup.ps1.bak-2026-09-19`.
+- `/Users/kristinarash/.claude/scripts/backup-manifest.json` — +2 entries, `generated` → 2026-09-19.
+  Backup at `backup-manifest.json.bak-2026-09-19`.
+- `/Users/kristinarash/DEV/TypeSafe_Sandbox/docs/STATUS.md` — Mac smoke test passes; restart
+  gotcha narrowed.
+- `/Users/kristinarash/.claude/global-memory/handoffs/2026-09-19-backup-divergence-fix.md` — this file.
+
+Commits: `bd6b451` (dotclaude), `b7d2d00` (TypeSafe_Sandbox). Both pushed.
+
+## Resolution, later the same day (and a privacy finding)
+
+Eric approved deleting the duplicate. Done in two halves:
+
+- **Manifest entry removed.** `DEV/Linda_Projects` is gone from `backup-manifest.json`;
+  138 paths now. Backup at `backup-manifest.json.bak-2026-09-19b`.
+- **Folder deletion handed to Eric.** `dcg` blocks recursive force-delete on any home path
+  (`core.filesystem:rm-rf-root-home`) and says to have the user run it. Not worked around; a
+  guard on destructive actions is not something to route past. Eric runs a recursive force
+  delete on `/Users/kristinarash/DEV/Linda_Projects`. Until he does, the backup logs one
+  harmless `manifest-unmanaged:Linda_Projects` line.
+
+**The surviving `DEV/Linda Projects` entry was left exactly as it is, on purpose.** Its note,
+written 2026-08-19 by stack-doctor, reads: *"the most restrictive routing available: SSD only.
+Contains a file marked CONFIDENTIAL (I-983). Deliberately NOT routed to github or baylor.
+Eric to confirm classification."* It is `class: personal`, `isRepo: false`, `remote: null`,
+`destinations: ["ssd"]`.
+
+**But that intent no longer matches reality, and this predates this session.** On 2026-09-09 the
+folder was put under git and pushed to `github.com/erash11/Linda_Projects`, and the pushed commit
+`031f96a` contains `02_SupervisorPlan_I983_CONFIDENTIAL.md`, `source/I983_page3.png` and
+`source/I983_page5.png`. The repo is **private**, confirmed with `gh repo view`.
+
+So the manifest says "deliberately not on GitHub" while the I-983 material has been on GitHub
+since 2026-09-09. The entry's `isRepo: false` / `remote: null` are now factually wrong too.
+**Left unchanged deliberately** — correcting them to `isRepo: true` plus a `github` destination
+would quietly bless a routing decision the note explicitly reserved for Eric. His call:
+
+**Eric chose to accept it, same day.** The entry now reads `isRepo: true`, carries the remote
+`https://github.com/erash11/Linda_Projects.git`, routes to `["ssd", "github"]`, and turns on
+`captureOrphans` / `captureWorkingTree` like every other repo entry. Its note records the
+supersession, names the three I-983 files, and states the standing requirement that the GitHub
+repo **stay private** (verified PRIVATE again at the time of the edit). Commit `58a24f2`,
+previous file at `backup-manifest.json.bak-2026-09-19c`.
+
+`class` was left as `personal` on purpose: no script reads it — checked `daily-backup.ps1` and
+the other scripts, only `destinations` drives routing — and Eric has never classified it, which
+the original note had flagged as his to decide.
+
+The standing "keep it private" constraint is also in `global-memory/MEMORY.md` under Environment
+Notes, so it survives without anyone opening this handoff.
+
+## Double-logging bug, also fixed
+
+Every `daily-backup` line was written to `daily-backup.log` **twice**. Proven on the 09:1x run:
+36 lines, 18 unique — an exact 2x.
+
+Two writers, one file:
+
+1. `daily-backup.ps1`'s `Log` function does `Add-Content -Path $LogFile` **and** `Write-Output`.
+2. `com.keystone.dailybackup.plist` had `StandardOutPath` pointing at that same
+   `daily-backup.log`, so launchd wrote the stdout copy into it as well.
+
+**Fix:** `StandardOutPath` now points at `logs/daily-backup.out`. The script's own append is the
+single copy in `.log`; launchd's capture lands in `.out` and still catches anything printed
+outside `Log`. The script was not changed for this — `Write-Output` is what makes a manual run
+visible.
+
+Done with `plutil -replace StandardOutPath -string ... <plist>`, then reloaded:
+`launchctl bootout gui/$(id -u)/com.keystone.dailybackup` and
+`launchctl bootstrap gui/$(id -u) <plist>`. **A plist edit does nothing until it is reloaded.**
+Verified afterwards that the agent is loaded, stdout path is the new one, and the 09:00 schedule
+survived. Plist backup: `~/Library/LaunchAgents/com.keystone.dailybackup.plist.bak-2026-09-19`.
+
+**Verified by a real launchd run**, not a dry run: `launchctl kickstart` produced 28 log lines,
+28 unique, zero duplicates, and the stdout copy appeared in `.out` as intended.
+
+**New finding while doing this: `~/Library/LaunchAgents` is not backed up.** It is absent from
+`backup-manifest.json` and no snapshot copies it. Every launchd job definition on this machine
+exists in exactly one place. Not fixed — adding it is a routing decision for Eric.
+
+## The "no-op push" bug does not exist
+
+Asked to fix it; there was nothing to fix, and the 2026-09-17 diagnosis was wrong.
+
+A genuine no-op `git push` prints `Everything up-to-date` **to stderr and exits 0**. Verified on
+a throwaway repo. `daily-backup.ps1` records an error only on a non-zero exit, so a no-op push
+is silent. It never miscounted anything.
+
+What actually happened on 2026-09-17 was a real push failure. The full block:
+
+```
+PUSH ERR | error: RPC failed; curl 55 Recv failure: Can't assign requested address
+PUSH ERR | send-pack: unexpected disconnect while reading sideband packet
+PUSH ERR | fatal: the remote end hung up unexpectedly
+PUSH ERR | Everything up-to-date
+```
+
+`Everything up-to-date` was the **last of git's four stderr lines**, not the whole story. The
+earlier read took that one line as the cause. The double-logging bug made that block eight lines
+instead of four, which made it easier to misread.
+
+**Method note worth keeping:** a first attempt at this test asserted "bug confirmed" off exit 1,
+but the failure was `src refspec main does not match any` — the throwaway repo's branch was
+`master`. The test was broken, not git. Read the error text before believing the exit code.
+
+**What the 09-17 failure does reveal:** the job has **no push retry**. A transient network error
+means no push until the next day's run. Not fixed; nobody asked, and adding retries to an
+unattended job deserves its own decision.
+
+## LaunchAgents coverage, and the push retry
+
+**`~/Library/LaunchAgents` now gets backed up.** It had no coverage of any kind. Two halves were
+needed, and this is the thing to remember about this manifest: **a manifest entry alone copies
+nothing.** For non-DEV paths the `ssd` destination is served by the loop in section 2b, which
+only runs when CRASHBOX is mounted, and `drive` is served by hardcoded `Snapshot` lines in
+section 2a. So the entry was added *and* a `Snapshot "$U/Library/LaunchAgents"` line with it.
+Verified on a real run: 19 plists at `My Drive/Backups/Machine/launchagents`, including
+`com.keystone.dailybackup.plist` carrying the corrected `StandardOutPath`.
+
+**Push retries now.** Up to 3 attempts, 5s then 15s, and only for transient failures. Output
+matching `[rejected]`, `non-fast-forward`, `fetch first`, `Updates were rejected`,
+`Permission denied`, `403 Forbidden`, `Authentication failed`, `does not match any` or
+`Repository not found` bails on attempt 1 — those fail identically every time, so retrying just
+buries the real error under a longer log block. The log names the attempt it won on, so a flaky
+remote is visible instead of silent.
+
+Control flow was tested against a stubbed push, not assumed: succeeds first time (1 attempt, no
+suffix), transient twice then succeeds (3 attempts, logged), transient always (gives up after 3),
+rejected (fails on attempt 1, no retry). The real 2026-09-17 error text is classed transient, so
+that lost push would have been retried.
+
+## "Indexed 0 chunks" — not a bug, but it led somewhere
+
+**The log line was correct.** The nightly index scanned at 09:16:15. `/dev-sync` pulled the
+Windows work down at ~09:17–09:27, *after* that scan. So nothing on the Mac had changed since the
+previous night, and 0 was the honest answer. The next run indexed 97 chunks — that backlog plus
+the day's work. Index health confirmed independently: two phrases unique to `daily/2026-09-19.md`
+came back from `memsearch` at 0.99 and 0.98.
+
+**Also not a bug:** `daily/` is gitignored, so daily logs never cross machines. Missing 09-17 and
+09-18 on the Mac is expected — those were Windows days.
+
+**What was real:** two stranded `session-flush-*.md` files from 09-16, ~29 KB. Recovered into
+`daily/2026-09-16.md`. One produced a full Session section; the other returned `FLUSH_OK`
+("nothing worth saving") and wrote a `### Memory Flush` marker instead. Originals preserved at
+`~/.claude/claude-memory-compiler/leftover-backup-2026-09-19/` and that path is now gitignored,
+because the nightly `git add -A` would otherwise have pushed raw session context to GitHub.
+
+## claude-memory-compiler: main was not what ran
+
+The repo sat on `session-start-progressive-disclosure`, **3 ahead and 2 behind `main`**, with no
+open PR — including the backfill-date feature used for the recovery above. Eleven branches
+existed; nine were already fully merged.
+
+Merged in the order that matters: **`main` into the branch first, test, then the branch into
+`main`.** That order paid for itself — the merge conflicted on `uv.lock`, where the branch pinned
+`claude-agent-sdk` 0.2.136 and `main` had refreshed to 0.2.152. A lockfile is generated, so it was
+resolved by taking `main`'s side and validating with `uv lock --check` (35 packages) rather than
+hand-editing, then `uv sync` installed 0.2.152, then a real end-to-end flush was run to prove the
+pipeline still works on the new SDK. Only then was it merged to `main`, pushed, and `main` checked
+out. End state: one branch, local and remote, and it is the code that runs.
+
+**Method correction worth keeping:** a pre-merge `git merge-tree` check reported "clean" and it
+was wrong — the real merge conflicted. Do not trust that check; merge into a throwaway or into
+the feature branch and look.
+
+## The sweep had a blind spot
+
+Closeout's repo sweep walked `~/DEV` plus three named config repos. It never looked at
+`~/.claude/claude-memory-compiler`, which is why closeout said "clear to sign off" while that repo
+sat on an unmerged branch for 17 days. The sweep now also walks nested git repos under
+`~/.claude` and flags any repo not on `main`/`master`.
+
+That wider sweep immediately found five more repos parked on feature branches — all pushed and
+clean, so nothing is lost, but `main` is not what they are: `AgentAssist` (`curriculum`),
+`PT_Dash` (`claude/cmj-performance-report-…`), `Football/SpeedProfiling` (`add-2025-smu`),
+`CFB_Analytics_Lab` (`foundation`), and `LibraryProject/ZoteroInjestion` (detached HEAD, commit
+already on `origin/main`).
+
+## Next actions, most important first
+
+1. **Watch tomorrow's 09:0x `daily-backup` run.** Expect no `repo-diverged` line and no manifest
+   error. The fix's success path was proven on test repos, but the real job has not yet run a
+   day where it is genuinely behind. Log: `~/.claude/scripts/logs/daily-backup.log`.
+2. **`INDEX full set: Indexed 0 chunks` on 09-19**, against 91 chunks on 09-18. Not counted as an
+   error by the script, so it is silent. Flagged to Eric; not investigated. See Tier A
+   `project_memory-compiler-pipeline` — "Indexed 0 chunks" is a known dead-flush tell.
+3. **Decide on the duplicate `Linda_Projects` clone** (see above). Recommended: delete
+   `~/DEV/Linda_Projects`, keep `~/DEV/Linda Projects`, then remove the line-799 manifest entry.
+   Nothing is lost — identical content, same commit, pushed.
+4. Nothing is built on top of the TypeSafe API yet on either machine. The API answers; no Baylor
+   workflow uses it.
+
+## Anything mid-flight
+
+- Two pre-existing `daily-backup.ps1` bugs found on 09-17 are **still unfixed** and were out of
+  scope here: it counts a no-op push (`Everything up-to-date`) as an error, and it writes every
+  log line twice.
+- `TARGET SSD /Volumes/CRASHBOX` was not mounted on the 09-19 run, so orphan and working-tree
+  capture was skipped. Not an error, but the `ssd` destination on the two new manifest entries
+  is unexercised until the drive is plugged in.
+- Two sessions were writing to `~/.claude` at the same time today. Both pushes landed cleanly and
+  nothing was lost, but check `git log` before assuming a change is yours.

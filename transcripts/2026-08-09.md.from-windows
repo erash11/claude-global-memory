@@ -1,0 +1,40 @@
+
+## 17:44:59 [bf5a671e] (/Users/kristinarash/DEV)
+I'll start by loading the skills that apply here.
+
+## 17:49:03 [bf5a671e] (/Users/kristinarash/DEV)
+**Found it: Logitech M720 Triathlon**, paired over Bluetooth. That's a specific and consequential answer. Let me verify one thing before you finish that download.
+
+## 17:57:18 [bf5a671e] (/Users/kristinarash/DEV)
+Good call — that gets you what you described with nothing to maintain.
+
+Here's the setup so it actually lands:
+
+**Bind the button (Options+)**
+1. Open Logi Options+, select the M720.
+2. Click the button you want in the mouse diagram — the thumb gesture button is the natural one; tilt-left/tilt-right are also free and easy to hit.
+3. Look for a **Screen Capture** action in the list. If it's not offered for this device, choose **Keystroke Assignment** and record `Cmd+Shift+4` — same result.
+4. Opt
+
+## 17:58:45 [bf5a671e] (/Users/kristinarash/DEV)
+Done. It was never set before, which is why everything landed on the Desktop by default.
+
+- Created `~/Desktop/Screenshots`
+- Set it as the save location (confirmed: `/Users/kristinarash/Desktop/Screenshots`)
+
+Take a shot with your mouse button to confirm it lands there.
+
+## 18:02:19 [bf5a671e] (/Users/kristinarash/DEV)
+The CLI needs an explicit path, so that test was inconclusive. But the **filename is a strong clue**: `Screen Shot 2026-08-09 at 18.00.00 PM.png`.
+
+macOS 26 names its own screenshots `Screenshot 2026-08-09 at 6.00.00 PM.png` — one word, 12-hour. Yours is two words with a 24-hour time *and* a "PM" suffix, which no Apple format produces. That file was very likely not written by macOS's screenshot service — which would explain why it ignores the macOS pref.
+
+## 18:06:28 [bf5a671e] (/Users/kristinarash/DEV)
+Found it. **Logi Options+ is writing that file itself — macOS never sees the capture.**
+
+Evidence:
+- `logioptionsplus_agent` is running, and Options+ is the only capture utility installed
+- The PNG contains **Adobe XMP metadata** and an EXIF block — macOS's own screenshots don't embed XMP
+- The filename format isn't Apple's
+
+So you bound the button to Options+'s built-in **Screen Capture** action, which is Logitech's own capture implementation with its own save location. It has no reason to resp

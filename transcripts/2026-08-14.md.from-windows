@@ -1,0 +1,539 @@
+
+## 08:31:26 [67276f14] (/Users/kristinarash/.claude/claude-memory-compiler)
+FLUSH_OK
+
+## 08:34:48 [05f058aa] (/Users/kristinarash/DEV)
+Both repos are pushed and clean, and the routing decision is recorded.
+
+**Pushed** — both now in sync with origin, nothing ahead:
+- `global-memory` → `a0c69e8..2c655cf`, then two follow-up commits (`82f0b11`, `b3090e1`)
+- `skills` → `91d7afe..f148fa9`
+
+That also clears two of the five `daily-backup` errors — `repo-push:global-memory` and `repo-push:skills` were failing precisely because those repos had unpushed commits. Still failing: `repo-diverged:SecondBrain`, `snapshot:sessions`, and `manife
+
+## 08:41:55 [05f058aa] (/Users/kristinarash/DEV)
+Don't bundle them. They're on completely different clocks, and one of them is genuinely urgent.
+
+**Send Micah's today.** Here's the line that decides it — Micah, in the meeting:
+
+> "What I'm going to do next after this meeting is kind of go through it and make a counter proposal of how I think we can do all of those things without creating a parallel framework or flow, **and send that to the same group.**"
+
+"After this meeting" means he may be writing it right now, and Kenny closed with "look fo
+
+## 09:08:37 [3db720f8] (/Users/kristinarash/DEV/Bucket)
+Done and verified.
+
+**`~/DEV/Bucket`** ↔ **`github.com/erash11/Bucket`**
+
+| | |
+|---|---|
+| Local branch | `main` → tracking `origin/main` |
+| Remote default | `main` (renamed from `claude/cross-platform-workflow-setup-sgmkfw`) |
+| Stale refs | pruned; `origin/HEAD` re-pointed to `main` |
+| Auth | osxkeychain, write confirmed |
+| State | clean at `61140c0`, no divergence |
+
+One caveat carried over from before: **sync is manual.** `git pull` before you start, `git commit && git push` when you fin
+
+## 09:21:13 [3db720f8] (/Users/kristinarash/DEV/Bucket)
+Fair question — let me verify rather than guess.
+
+## 09:24:41 [3d9e914d] (/Users/kristinarash/DEV/project-triage)
+Sanity check passed: valid JSON, 21 projects, the new entry carries the exact 11-key schema every other entry uses, side-lane ranks are 1–7 with no duplicates, `dev_folder` resolves, and the card renders in the dashboard.
+
+**One correction to the ask:** there is no file named `handoff-cfb-analytics-lab-2026-08-13.md` — not in `~/.claude/global-memory/handoffs/` (which uses `YYYY-MM-DD-<slug>.md` naming), not in the project, and not on disk via `mdfind`. I read the actual 2026-08-13 record instea
+
+## 09:48:20 [3db720f8] (/Users/kristinarash/DEV)
+Reviewed against live state. Nothing changed — read-only except `git fetch` in four repos. Report is at `~/DEV/Bucket/docs/FIX-STATUS-2026-08-14.md` (untracked).
+
+First, the file is `docs/SYSTEM-HEALTH-FINDINGS.md` with its companion `AGENT-FIX-PROMPT.md` — there's no `AGENTS.md` in the repo.
+
+**Two of the seven fixed themselves.** The nightly went from 5 errors to 3.
+
+| # | Item | Verdict |
+|---|---|---|
+| 1 | Second writer still firing | **OPEN** — root cause, Windows-only |
+| 2 | Can't push g
+
+## 10:26:24 [3d9e914d] (/Users/kristinarash/DEV/project-triage)
+Sanity check passed: valid JSON, 21 projects, the new entry carries the exact 11-key schema every other entry uses, side-lane ranks are 1–7 with no duplicates, `dev_folder` resolves, and the card renders in the dashboard.
+
+**One correction to the ask:** there is no file named `handoff-cfb-analytics-lab-2026-08-13.md` — not in `~/.claude/global-memory/handoffs/` (which uses `YYYY-MM-DD-<slug>.md` naming), not in the project, and not on disk via `mdfind`. I read the actual 2026-08-13 record instea
+
+## 10:41:56 [3db720f8] (/Users/kristinarash/DEV)
+Fixes applied. The nightly's acceptance test now passes: **`daily-backup end: OK (0 errors)`, exit 0** — down from 5 errors on 08-13.
+
+**Morning brief — retired**
+`com.keystone.morningbriefing` booted out and disabled (persists across logins). Removed from stack-doctor's checked jobs and venvs so it won't nag weekly. The plist, the `~/DEV/morning-briefing` project, and its manifest backup entry are all **kept** — discontinued, not deleted, and re-enable instructions are in the code comment. `com
+
+## 10:59:46 [05f058aa] (/Users/kristinarash/DEV)
+Timing is right — this is the one that shouldn't wait. Updating the meeting request file with a send-ready version.
+
+## 11:06:30 [3db720f8] (/Users/kristinarash/DEV)
+Let me make the memory durable and check the live run.
+
+## 11:09:26 [05f058aa] (/Users/kristinarash/DEV)
+Both done. The email is humanized and staged in Gmail drafts as `r-1467170420815929116` — verified DRAFT, no SENT label.
+
+**What the pass removed,** confirmed programmatically as absent from the draft:
+- The rule of three ("settles what data is involved, confirms the rest of Athletics knows..., and records who reviewed it here") — now two items
+- Negative parallelism ("better formed, not that there's another step in front of it")
+- Mild sycophancy ("that was the most useful part of the meeting f
+
+## 11:18:07 [b16eaa4b] (/Users/kristinarash/DEV)
+Both files are on disk in the same folder. The `.docx` uploaded here; the PDF upload timed out (0.9 MB, network), so grab it from the path below rather than this thread.
+
+## What Kenny asked for, and what's now built
+
+He wants the five NCAA Perf Tech components provably "spoken for," ideally as an appendix that reuses your existing chart with a column added for the policy reference number. That's what I built.
+
+**`Software_and_Tech_Management_ER_2026-08-14.docx`** (+ `.pdf`) in `.../SoftwareTech
+
+## 11:24:20 [05f058aa] (/Users/kristinarash/DEV)
+Noting it as sent and updating what's next.
+
+## 11:38:58 [b16eaa4b] (/Users/kristinarash/DEV)
+Both files uploaded successfully this time, and both are confirmed on disk in the OneDrive folder — `.docx` 699,651 bytes and `.pdf` 973,116 bytes, both written 11:35, both fully materialized (not cloud-only placeholders). OneDrive is running, and there are no conflict copies or `~$` lock files in the folder.
+
+Changes applied: Phase 1.4 now reads "…This is the second control point. The Athletics steps described in this framework feed that review; they do not create a separate ITS workflow." A.2 
+
+## 11:51:52 [3db720f8] (/Users/kristinarash/DEV)
+Three things resolved themselves while I was checking. Here's the real state.
+
+## 12:08:17 [3db720f8] (/Users/kristinarash/DEV)
+Prompt 1 is done, so you're clear to run this. Here's the updated Prompt 2 — I rewrote it because the original carried a stale `behind=27` figure that would make an agent think something was wrong when it saw a much bigger number.
+
+## The prompt
+
+Boot the Windows box, open Claude Code from your home directory, and paste this:
+
+```text
+This Windows machine was migrated to a Mac on 2026-08-05, but its scheduled tasks
+still run nightly and are fighting the Mac over shared git repos — that second
+wr
+
+## 12:39:21 [3db720f8] (/Users/kristinarash/DEV)
+Prompt 1 is done, so you're clear to run this. Here's the updated Prompt 2 — I rewrote it because the original carried a stale `behind=27` figure that would make an agent think something was wrong when it saw a much bigger number.
+
+## The prompt
+
+Boot the Windows box, open Claude Code from your home directory, and paste this:
+
+```text
+This Windows machine was migrated to a Mac on 2026-08-05, but its scheduled tasks
+still run nightly and are fighting the Mac over shared git repos — that second
+wr
+
+## 13:47:42 [b16eaa4b] (/Users/kristinarash/DEV)
+Done. Here's the state of the folder.
+
+## Brought onto disk
+
+One file was cloud-only: `Software_and_Tech_Management_ER_2026-08-12__.pdf` (size on record but zero blocks allocated). It's now fully downloaded. Every file in the folder and the new archive is materialized locally — nothing is a placeholder anymore, so you can work offline and I can read all of it.
+
+## Archive created
+
+`SoftwareTechDocs/_Archive/2026-08-12/` — four superseded framework files moved in, verified by MD5 before and after
+
+## 13:55:22 [3db720f8] (/Users/kristinarash/DEV/Bucket)
+Pushed — `ce94371`. Now let me settle the `codex/sessions` question properly instead of guessing at exit codes.
+
+## 13:57:36 [3db720f8] (/Users/kristinarash/DEV/Bucket)
+Done — and the SSD changes the picture more than the docs do.
+
+**Bucket docs pushed** (`ce94371`). You can now `git pull` on the Windows box and read the prompt from `docs/AGENT-FIX-PROMPT.md` rather than copying it out of this terminal. It's the corrected version, with the manual PowerShell fallback appended in case Claude Code isn't installed there.
+
+**CRASHBOX is live.** Mounted, `AssistantBackup` present, writable, 447 GB free. That directory hadn't been touched since Aug 6 — so tonight's ru
+
+## 14:08:31 [3db720f8] (/Users/kristinarash/DEV/Bucket)
+Yes — run it as-is. The text I pasted in that message is byte-identical to what I committed; the push was only so you'd have the option of pulling it there instead. Nothing changed between the two.
+
+Timing is good right now, too. The Mac's git phase is idle — the only thing running here is that `codex/sessions` rsync to Drive, which doesn't touch any repo. So there's no risk of the two machines pushing into each other while you go.
+
+Two things to watch for, both by design:
+
+- **A large "behind" 
+
+## 14:18:34 [b16eaa4b] (/Users/kristinarash/DEV)
+Assuming you mean on the open items — here's what I'd do, in priority order.
+
+**1. Reply to Kenny today, before v1 is finished.** This is the highest-value move and it's time-sensitive. He asked a yes/no question — are the five components spoken for? — and you now have a document that answers it precisely. Jon's concern about drift away from NCAA compliance is exactly what Appendix A defuses, and it defuses it better *today* as a draft than in three weeks as a finished v1. Send the 08-14 PDF, sa
+
+## 14:29:31 [3db720f8] (/Users/kristinarash/DEV/Bucket)
+`du` misled me — I need to correct something I told you.
+
+## 14:34:33 [3db720f8] (/Users/kristinarash/DEV/Bucket)
+Here's the honest state of play.
+
+## Closed
+
+**The root cause is gone.** The Windows box no longer writes — that was the thing manufacturing `repo-diverged:SecondBrain` every night, and it's the only fix that couldn't be done from here. All four repos are at 0/0 on both machines.
+
+**The SSD layer is back.** CRASHBOX mounted, 447 GB free. Tonight is the first orphan/working-tree capture since Aug 5 — that's `forceplate.db`, the Risk_Stratification outputs, and every uncommitted edit, none of whic
+
+## 14:43:23 [3db720f8] (/Users/kristinarash/DEV)
+Both done. Here's what each one is.
+
+## #3 — fixed and pushed (`ac2af1d`)
+
+I went with a **platform guard rather than a Windows port**, because the danger was never "Windows isn't backed up" — that machine is retired. The danger was that it *lied*: `/usr/bin/rsync` and `$HOME/DEV` are both wrong there, but `Invoke-Rsync` returned a stale `$LASTEXITCODE`, so runs logged `SNAP OK` while copying zero bytes. A false receipt is worse than no receipt.
+
+So the script now aborts on any non-macOS host wi
+
+## 14:48:51 [b16eaa4b] (/Users/kristinarash/DEV)
+Both done, and #3 turned out to touch three documents rather than one.
+
+## What changed
+
+**§3 rewrite (framework).** The alignment section now reads:
+
+> "…That guidance sets the expectations each institution is to meet and leaves the method of implementation to the institution, according to its own structure and resources. This framework is Baylor Athletics' implementation. **Appendix A maps each NCAA recommendation to the section of this framework that carries it.**"
+
+The "high-level by design"
+
+## 15:01:28 [3db720f8] (/Users/kristinarash/DEV)
+Both done. Here's what each one is.
+
+## #3 — fixed and pushed (`ac2af1d`)
+
+I went with a **platform guard rather than a Windows port**, because the danger was never "Windows isn't backed up" — that machine is retired. The danger was that it *lied*: `/usr/bin/rsync` and `$HOME/DEV` are both wrong there, but `Invoke-Rsync` returned a stale `$LASTEXITCODE`, so runs logged `SNAP OK` while copying zero bytes. A false receipt is worse than no receipt.
+
+So the script now aborts on any non-macOS host wi
+
+## 15:03:02 [b16eaa4b] (/Users/kristinarash/DEV)
+That plan lines up with where the documents now stand. Two things worth flagging while you're in motion:
+
+**The Monday email is the one with tone risk.** An inventory request to admin leaders can very easily read as "we've discovered you've been buying software without oversight" — which is exactly the register Kenny has cut from this project before. Framing it as building forward visibility rather than uncovering a problem will matter more than the form itself, since these are the people you ne
+
+## 15:09:00 [b16eaa4b] (/Users/kristinarash/DEV)
+MEMORY.md came in at 2,578 — over the 2,500 cap. Trimming further.
+
+## 15:24:11 [330c1f71] (/Users/kristinarash/DEV)
+Good catch — the hang sits mid-Drive-SNAP, which runs *before* the SSD capture, so CRASHBOX is never reached. Adding that consequence.
+
+## 15:49:25 [3db720f8] (/Users/kristinarash/DEV)
+The nightly is running. Here's what changed, including two things I got wrong.
+
+**I was wrong about `codex/sessions` twice.** Not a slow seed, not slow enumeration — it's a **genuine hang**. The measurements: client and `--server` receiver both alive at ~0.02 seconds of CPU across 85 minutes of wall clock, against an already-complete 256/256 mirror, on a mount where `find` and `touch` both return instantly. Nothing to copy, nothing wrong with the destination, zero progress. Dry runs pass clean, 
+
+## 16:07:54 [3db720f8] (/Users/kristinarash/DEV)
+**It worked.** The watchdog fired at exactly 900s, killed the wedge, and the run kept going — which is the whole point.
+
+```
+16:03:55  RSYNC TIMEOUT after 900s, killed (-9): .codex/sessions -> ...
+16:03:55  SNAP ... codex/sessions : FAILED (rsync exit 124)
+16:05:48  RECEIPT ssd : verified run=20260814-154848
+16:06:16  ===== daily-backup end: ERROR (2 errors) =====
+```
+
+**Your SSD layer is live for the first time since August 6.** 53,533 files, ~24 GB, receipt verified. The things that had no bac
+
+## 17:03:36 [3db720f8] (/Users/kristinarash/DEV)
+Root cause found — and **it isn't rsync**. Here's the chain.
+
+Running the copy unpiped with `-avv` printed ~99 lines of `is uptodate` and froze mid-filename. From there:
+
+- `sample` on the receiver showed it blocked in **`__mmap`** — a single frame, not moving.
+- `lsof` showed FD 5 open on a specific **destination** file: `codex/sessions/2026/05/08/rollout-2026-05-08T17-14-58-*.jsonl`.
+- **`head -c 512` on that file hangs on its own**, with zero rsync processes running. Not a lock, not contentio
+
+## 17:04:24 [330c1f71] (/Users/kristinarash/DEV)
+Understood — the backup items are being actively worked in another session, so I'll leave them alone and won't write to `project_backup-sync-system.md` again.
+
+One correction to my report, since that session moved past what I reported. They added an `Invoke-Rsync` watchdog (900s ceiling, hard SIGKILL, commit `8863a37`) and ran the acceptance test at 15:48. It fired as designed, killed the wedge, and **the run continued** — so:
+
+- **CRASHBOX did capture**, for the first time since 08-06: ~53,533 
+
+## 17:17:31 [3db720f8] (/Users/kristinarash/DEV)
+No scriptable pin — Google exposes no CLI for offline access, and the only marker is a read-only `com.google.drivefs.item-id`. So this one's yours to click, but it's about 20 seconds.
+
+## 17:26:29 [330c1f71] (/Users/kristinarash/DEV)
+I could not find a `CONTEXT.md` that covers this work. The `~/DEV` folder has 10 such files, but they belong to other projects (FaceComps, S2_Evaluation, Tezino). None describes the automation stack. So I use the words that this stack itself defines, and I list them below.
+
+Text follows ASD-STE100 rules: short sentences, active voice, one idea per sentence.
+
+## Words in this text
+
+- **Issue code** — a short name for one fault. The check tool prints these codes.
+- **Tier A memory** — permanent fa
+
+## 17:32:31 [330c1f71] (/Users/kristinarash/DEV)
+Verified across every layer that has evidence available. **Your data is in a good spot. The health codes are not clean, and that's correct.**
+
+## Data safety — verified
+
+- **Tier A memory (highest risk — not in git):** 11 of 12 files are byte-identical triples across source, Drive, and SSD. Both files I created today are among them.
+- **Tier B memory:** committed and pushed, empty diff vs `origin/main`. All 4 memory repos at `ahead=0`.
+- **Athlete data:** 39,868 files across the three SSD DEV la
+
+## 17:33:59 [3db720f8] (/Users/kristinarash/DEV)
+Verified — and the headline is better than the symptom suggests.
+
+**Your backup is provably good.** Drive's server-side `md5Checksum` for that file is `c70768b4a93c009d9149057183ecdba1`. The md5 of your local source file is `c70768b4a93c009d9149057183ecdba1`. Byte-identical, confirmed without downloading anything. The file is 769,208 bytes on Google's servers, matching the source exactly. **The data made it. Nothing is missing.**
+
+**But the offline pin has not taken effect.** Still 134 placehold
+
+## 17:38:45 [3db720f8] (/Users/kristinarash/DEV)
+Queues are **flat over 90 seconds** — no new activity, so nothing is actively processing. But I don't yet trust the xattr as a pending-upload signal, so let me test it directly:
+
+## 17:39:25 [3db720f8] (/Users/kristinarash/DEV)
+Confirmed: **nothing is pending.**
+
+Three independent checks:
+
+- **Queue counters are flat.** `modifiedLocalItem=35`, `failedChange=17`, `downloadQueue=7` — identical across 90 seconds. Nothing is being processed.
+- **The xattr signal was a red herring**, and I checked rather than assumed. 774 files in `Backups` lack `com.google.drivefs.item-id`, which looked like 774 un-uploaded files. Sampling them against the server: `.DS_Store`, `google_accounts.json`, `installation_id` — all three **already
+
+## 17:51:07 [3db720f8] (/Users/kristinarash/DEV)
+**Fixed — and the answer is that nothing was ever broken except the way we were checking.**
+
+```
+$ verify-drive-backup.sh ~/.codex/sessions
+local files: 256
+verified : 256
+mismatch : 0
+missing  : 0
+ALL VERIFIED — server bytes match source, confirmed without reading through DriveFS
+```
+
+The snapshot that has been logging `FAILED` for days was **complete and byte-correct the entire time.**
+
+## What was actually happening
+
+Files Drive evicts from local cache become placeholders. Fetching one throug
+
+## 17:53:39 [3db720f8] (/Users/kristinarash/DEV)
+The scan finished and it removes the last of the mystery.
+
+**33 of 256 files stalled, and they're simply the bigger ones** — averaging **2,301 KB against 1,156 KB for the set overall**, topping out at 15.8 MB. Nothing file-specific, nothing corrupt. It's fetch latency scaling with size. My 6-second cutoff was arbitrary; a longer one would have shown fewer.
+
+The scan also demonstrated the mechanism directly: it moved the mirror from **122 → 230 materialized** (48.5 MB → 161.8 MB local), purely by
+
+## 18:25:49 [330c1f71] (/Users/kristinarash/DEV)
+## Closeout — 2026-08-14
+
+**Committed & pushed:** Nothing pushed. KeystoneOS had no work this session (only `.DS_Store` noise — left alone). Committed locally to `global-memory` as `9b9bb34`: the handoff file only, deliberately excluding `transcripts/*` since the nightly backup owns those and I won't create a second writer.
+
+**Memory:** captured ✓ — with one deliberate exception.
+- `.errors.log` is **not empty** (7 lines, 1,426 bytes). Left as-is on purpose: `project_backup-sync-system.md` recor
+
+## 18:27:07 [3db720f8] (/Users/kristinarash/DEV)
+What would you like to clarify?
+
+I'll add the context I'd want in your position, in case it's useful:
+
+**On whether removing `~/DEV` from Drive is safe.** Your nightly covers it three ways — tracked code to GitHub, gitignored data to the SSD, uncommitted working-tree edits to the SSD. It excludes `.git` deliberately and denied credential files in 6 projects on today's run. Drive's device mirror has none of that logic; it just uploads everything, credentials included. Removing it drops a redundan
+
+## 18:28:15 [3db720f8] (/Users/kristinarash/DEV)
+Then it's the first one, and I'd skip the others entirely.
+
+**Remove `~/DEV` from Drive's device backup. Leave `git.autofetch` alone.**
+
+Here's the reasoning, since "best long-term" is the right frame for this:
+
+**The autofetch toggle treats a symptom.** Turning it off stops the 180-second storm, but Drive would still be mirroring 3,470 `.git` files — so every commit, checkout, branch switch, and fetch you ever do still churns them. You'd have given up a genuinely useful feature and left the act
+
+## 18:29:33 [3db720f8] (/Users/kristinarash/DEV)
+Then it's the first one, and I'd skip the others entirely.
+
+**Remove `~/DEV` from Drive's device backup. Leave `git.autofetch` alone.**
+
+Here's the reasoning, since "best long-term" is the right frame for this:
+
+**The autofetch toggle treats a symptom.** Turning it off stops the 180-second storm, but Drive would still be mirroring 3,470 `.git` files — so every commit, checkout, branch switch, and fetch you ever do still churns them. You'd have given up a genuinely useful feature and left the act
+
+## 18:29:38 [330c1f71] (/Users/kristinarash/DEV)
+Pushing `global-memory` now.
+
+## 18:33:43 [a344e278] (/Users/kristinarash/DEV)
+Using the meeting-sync skill. Running Phase A (list pending transcripts) now.
+
+## 18:36:35 [3db720f8] (/Users/kristinarash/DEV)
+Strong signal. Let me confirm it holds and test the thing that actually mattered:
+
+## 18:47:36 [3db720f8] (/Users/kristinarash/DEV)
+**It worked, and the end-to-end test is the one that matters.**
+
+**Churn decoupled.** Server-side `FETCH_HEAD` frozen at `23:28:12Z` while your local copies keep updating (18:32:28). VS Code is still autofetching exactly as before — Drive just isn't listening anymore. That's the right outcome: you kept the feature, lost the damage.
+
+**Drive's error classes are gone:**
+
+| signal | before | after |
+|---|---|---|
+| `PRECONDITION_FAILED` | 14 | **0** |
+| `ProcessDownloadEvent` errors | 11 | **0** |
+
+
+## 19:30:38 [a344e278] (/Users/kristinarash/DEV)
+Ledger audit is clean — all 254 entries are relative filenames, every file exists on disk, zero stale or Windows-style paths. Now your follow-up: **does it need to move to `~/DEV`?** Short answer, no — but let me price out what a move would actually cost before I recommend either way.
+
+## 19:58:12 [fa062f93] (/Users/kristinarash/DEV)
+## Stack doctor — run complete
+
+Started with 3 issue codes, all tracing to the daily backup. Root cause found and fixed; one new issue surfaced during verification and turned out to be a trap.
+
+### Fixed: `codex/sessions` re-uploading 252 MB every night
+
+The Google Drive mount stores an mtime 1–2s below what rsync sets. rsync's quick-check is size+mtime, so **134 of 256 byte-identical files read as changed and were re-sent on every run, forever**. That perpetual write load into FUSE is what fed 
+
+## 20:34:23 [fa062f93] (/Users/kristinarash/DEV/morning-briefing)
+I'll hold off on the removal — what would you like to clarify?
+
+For reference, here's what I found, in case it helps frame it:
+
+**The two schedules are separate things** — I'd only be touching the 7:20 AM one:
+- `com.keystone.morningbriefing` (7:20 AM) → the email briefing, the thing you're retiring
+- `com.keystone.morning` (6:00 AM) → KeystoneOS `morning-cadence`, untouched
+
+**Where it's wired into the system:**
+
+| Surface | What's there |
+|---|---|
+| launchd | `com.keystone.morningbriefing.pli
+
+## 20:37:55 [a344e278] (/Users/kristinarash/DEV)
+All 3 are non-live: a log file and two May-2026 design docs containing the original Windows paths (`C:/Users/eric_rash/...`) — records, not config. Zero live references remain. One of those log lines is useful corroboration: `STATE-SSD Desktop/SecondBrain -> SecondBrain : OK` confirms the SSD destination was already `SecondBrain`, matching what the new code path produces — so the backup target did not fork.
+
+## Done — vault moved to `~/SecondBrain`
+
+**The move.** Copied with `ditto`, verified, t
+
+## 20:40:17 [fa062f93] (/Users/kristinarash/DEV/KeystoneOS)
+Adding the retirement record to the brief itself:
+
+## 20:45:51 [a344e278] (/Users/kristinarash/DEV/KeystoneOS)
+Committed and verified.
+
+**`0832947` on `main`** — working tree is now clean, and the keystone test passes against the committed state.
+
+I committed directly to `main` rather than branching, because this repo's automation (`chore: daily backup sync [auto]`) commits straight to `main` — a side branch would have stranded the changes outside that flow.
+
+**What went in:** the 8 path-migration files (four `data/*.json`, three `scripts/*.ps1`, and the test kept in lockstep), plus the `{HOME}/Desktop/D
+
+## 20:59:25 [fa062f93] (/Users/kristinarash/DEV/KeystoneOS)
+Confirmed sufficient: `keystone-reconcile.ps1` dot-sources `run-ledger.ps1`, which reads `data/jobs.json` live at runtime — no cache. Removing the entry stops it.
+
+Correcting the memory note so a future session doesn't read "indexed" as already-done:
+
+## 21:00:40 [75381393] (/Users/kristinarash/DEV)
+No — Milvus is **not** in Docker on this Mac, and the Windows container stack didn't come over. But you do have the same engine running, just embedded.
+
+**Docker:** Docker Desktop is installed and the daemon is up (v29.7.2, `desktop-linux` context), but it's completely empty — 0 containers, 0 images, 0 volumes. Nothing was ever pulled or run here.
+
+**Vector retrieval — yes, and it's live:** `memsearch` (`~/.local/bin/memsearch`) backed by **Milvus Lite** — `milvus-lite 3.1.1` + `pymilvus 3.0.1`,
+
+## 21:04:44 [75381393] (/Users/kristinarash/DEV)
+Two decisive facts surfaced. Verifying the hardware reading, since it's the crux.
+
+## 21:04:53 [9b0032a4] (/Users/kristinarash/DEV)
+Checked `/Users/kristinarash/SecondBrain/Knowledge/library/advisors/` — there is no `fable.md` persona. The only advisor persona in your library is **strength-and-conditioning**. (The library subtree itself holds `strength-and-conditioning/` and `research-papers/`.)
+
+Per the advisor skill's rules I won't answer from general knowledge under an advisor's name, so I've stopped here rather than improvising a "Fable advisor."
+
+Two likely readings of `fable`, and they go different places:
+
+1. **You me
+
+## 21:05:40 [91ba3ad1] (/Users/kristinarash/.claude/claude-memory-compiler)
+**Context:** User invoked `/advisor fable` — attempting to consult a domain advisor from their curated SecondBrain book library.
+
+**Key Exchanges:**
+- No `advisors/fable.md` persona exists. The only advisor persona in the library is **strength-and-conditioning**; the library subtree contains `strength-and-conditioning/` and `research-papers/`.
+- Flagged the likely name collision: `fable-mode` is a *skill* (Fable 5's five-gate task loop), not a library advisor domain.
+- Also noted the invocation 
+
+## 21:08:06 [75381393] (/Users/kristinarash/DEV)
+Short answer: **no — Docker Milvus would be a downgrade on this machine.** Here's the reasoning, strongest point first.
+
+**It doesn't fix what's actually slow.** The reindex WAL grew 59 KB in 20 seconds. That's a trickle for a vector store — meaning the 2-hour rebuild is bound by ONNX `bge-m3-int8` embedding generation on 2 performance cores, not by Milvus write throughput. Containerizing the store leaves the bottleneck untouched and then adds a Docker Desktop VM competing for those same 6 cores
+
+## 21:17:05 [75381393] (/Users/kristinarash/DEV)
+Done — and safely. No database file was touched and no process was killed; the reindex (PID 99775) is still running undisturbed at 1h21m.
+
+## What I found first
+
+The "single-writer" problem turned out to have a concrete root cause, not just contention. `memsearch-sync.js` read its path config from `~/Desktop/DEV/KeystoneOS/...` — a **Windows-era path that doesn't exist on this Mac** — so it silently fell through to a hardcoded legacy fallback and had been indexing **4 paths instead of 10** since
+
+## 21:23:29 [546da30f] (/Users/kristinarash/.claude/claude-memory-compiler)
+FLUSH_OK
+
+## 21:23:48 [e1c8c491] (/Users/kristinarash/.claude/claude-memory-compiler)
+**Context:** End-of-session closeout for the Claude memory/backup stack after verifying backup health across all layers.
+
+**Key Exchanges:**
+- Backup verification: Tier A memory files byte-identical across source, Drive, and SSD (11 of 12); Tier B pushed with empty diff vs `origin/main`; 39,868 files across the three SSD DEV layers, including a spot-checked `Risk_Stratification_Engine` (1,612 files). SSD receipt `run-20260814-154848` closed the 8-day gap since 2026-08-06 (~24 GB).
+- User said "p
+
+## 21:29:24 [75381393] (/Users/kristinarash/DEV)
+Memory updated. Both notes are durable and verified.
+
+## What I wrote
+
+**Updated `project_milvus-lock-misdiagnosis.md`** — added a "Tooling mitigation" section recording the point that matters: the note *already existed* when a session ran `memsearch reset --yes` tonight and triggered the 2-hour rebuild. Prose guidance didn't survive contact with the scary error, so the guard is now in code. Documents `ms-search` (retry signatures, exit 75, why it deliberately does *not* match the "may not be co
+
+## 21:36:40 [fa062f93] (/Users/kristinarash/DEV/KeystoneOS)
+Index is running (10 min in — it's re-embedding after the full DB rebuild another session triggered). Setting a waiter so I catch the verification:
+
+## 21:39:06 [fa062f93] (/Users/kristinarash/DEV/KeystoneOS)
+Both halves verified. Updating the memory note, which currently carries a caveat that's no longer true:
+
+## 21:47:16 [fa062f93] (/Users/kristinarash/DEV/KeystoneOS)
+**Rescan found something real — and it corrects a claim I made an hour ago.**
+
+## The doctor was lying about backups
+
+I reported "`backup-error` cleared — last backup: OK (29 targets)." That was **false**, and my own diagnostic caused it.
+
+`daily-backup.ps1` writes `backup-state.json` unconditionally — including under `-DryRun` (line ~484). My 20:54 dry run overwrote the 20:38 real-run ERROR with `"status": "OK", "dryRun": true`, and stack-check read it blindly. **A dry run was masking a real ba
+
+## 21:47:58 [fa062f93] (/Users/kristinarash/DEV/KeystoneOS)
+Yes — with one wrinkle worth knowing.
+
+**Two models are involved:**
+
+| Layer | Model | How it got chosen |
+|---|---|---|
+| Codex CLI (does the actual review reasoning) | `gpt-5.6-sol`, `reasoning_effort = high` | Your `~/.codex/config.toml` default |
+| `codex-rescue` wrapper agent (builds the prompt, relays results) | `sonnet` | Hardcoded in the agent definition |
+
+I didn't pick either. The wrapper's own instructions say *"Leave model unset by default. Only add `--model` when the user explicitly
+
+## 21:56:55 [fa062f93] (/Users/kristinarash/DEV/KeystoneOS)
+Confirming the stack is now clean while Codex works:
+
+## 21:58:49 [fa062f93] (/Users/kristinarash/DEV/KeystoneOS)
+Waiter is set — it'll strip the ANSI codes and surface just the final verdict block when Codex finishes.
+
+**Current state while that runs:**
+
+Stack doctor reads **ALL CLEAR**, and that verdict is now trustworthy in a way none of the earlier ones were — the real backup run (exit 0, `dryRun: false`, 29 targets, sessions snapshot OK) is what cleared it, not a diagnostic artifact.
+
+**Still genuinely open, independent of Codex:**
+
+- **Outlook auth** is gone with the retirement, so no action needed th
+
+## 22:03:18 [fa062f93] (/Users/kristinarash/DEV)
+**Empirically confirmed — and fixed.** The demonstration is unambiguous:
+
+| Flags | Files copied | Meaning |
+|---|---|---|
+| `--modify-window=5` alone | **0** | silent data loss |
+| `--modify-window=5 --checksum` | **1** | caught |
+
+Dry-run backup passes, sqlite snapshot OK. Recording it:
+
+## 23:08:00 [fa062f93] (/Users/kristinarash/DEV)
+Real run confirms `--checksum` on the sqlite snapshot works. Waiting for it to finish:
+
+## 23:12:17 [fa062f93] (/Users/kristinarash/DEV)
+**ALL CLEAR — on a real run.** Exit code 0, `dryRun: false`, 29 targets, 0 errors, with `--checksum` on the sqlite snapshot exercised end-to-end.
+
+## Final state
+
+**Fixed and verified this session:**
+
+| Issue | Verification |
+|---|---|
+| rsync re-uploading 252 MB nightly on Drive mtime skew | 125 → 0 resends; sessions snapshot OK in real runs |
+| SQLite silent-skip blind spot in that fix | reproduced (0 files copied), `--checksum` catches it (1 file) |
+| Reconciler resurrecting the retired brief

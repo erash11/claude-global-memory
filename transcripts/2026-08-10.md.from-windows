@@ -1,0 +1,25 @@
+
+## 08:58:29 [6cbc0874] (/Users/kristinarash/.claude/claude-memory-compiler)
+FLUSH_OK
+
+## 08:59:53 [ad151557] (/Users/kristinarash/.claude/claude-memory-compiler)
+FLUSH_OK
+
+## 09:00:02 [669aae0c] (/Users/kristinarash/.claude/claude-memory-compiler)
+Based on the conversation, here's the daily log entry:
+
+**Context:** User configured their Logitech M720 Triathlon mouse (Bluetooth) for one-button screenshots on macOS 26, and set up a saved-screenshots folder.
+
+**Key Exchanges:**
+- User initially considered building a custom project (chord detector / screenshot router) but chose the zero-code path: bind mouse buttons via Logi Options+ instead. No project built; nothing created in `~/DEV`.
+- User wanted screenshots saved to a folder instead of 
+
+## 09:09:01 [856bd54e] (/Users/kristinarash/DEV/S2_Evaluation)
+State verified — and one finding matters for how I do this: **the previous handoff is gone.** `$TMPDIR` on macOS gets swept, and two days was enough. The skill says to write outside the workspace, so I'll honor that, but you should know the file has a shelf life.
+
+Otherwise nothing has moved: no CSV yet, same commit, stage still `grilled`.
+
+## 09:28:13 [856bd54e] (/Users/kristinarash/DEV/COG_S2_Position_Reports)
+**The design survives — and that check was worth doing.** All 16 OL reports use an identical reference group (`FOOTBALL OL [NFL PROSPECTS - ALL POSITIONS]`), and the `[NFL PROSPECTS - ALL POSITIONS]` bracket is constant across every position. So norming is against a common population, not within-position. Percentiles aren't pre-centered, and ADR 0004's z-space approach works as designed.
+
+Two side findings: report templates don't always match folders (a WR-template report in CB, two OL-templates

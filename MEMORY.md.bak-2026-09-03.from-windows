@@ -1,0 +1,23 @@
+<!-- Cap: 2,500 chars. Working scratchpad; writes take effect next session. -->
+# Working Memory
+
+## Active Threads
+- **Personal site (9/2)**: scroll-craft in (CC+Codex; Cowork needs zip upload from `~/Downloads`). Build #1 `DEV/Website/scrollcraft/builds/eric-rash/`, local commit, UNPUSHED. NEXT: real-phone check; host or keep local. →Tier A personal-site-build-routes.
+- **Baseball profiles (9/2)**: `DEV/Baseball_PerformanceProfiles` — Excel-only coach. 3 prototype .xlsx shapes, mock data. NEXT: coach picks one + real tests.
+- **ATH Tech framework (8/14)**: 08-14 set shipped (framework + Appendix A NCAA crosswalk, workflow, exec summary); old versions `_Archive/`. Gaps: Education, Working Group, transfer-SA, consent template, annual survey. NEXT: Micah mtg (need ITS intake path); inventory email.
+- **OKR/JD 2026 (7/17)**: JD accepted; OKR v3 = semester cycles, Aug-31 closeout. Blake LEFT, AJ owns FB. Ruf email (7 Qs) ready; Fri reports from 7/20. →SecondBrain JD-2026.
+- **Kinexon volleyball (8/1)**: API email→CSM, awaiting docs. `DEV/Kinexon_Volleyball` (private). Plan: sync→SQLite→dashboards; CSV interim.
+- **Open PRs**: CLIs #1667+#1668 green await merge; SpeedProfiling #9; KeystoneOS #17. Drafts: ForcePlate #2, cmj-traffic-light #1. Deferred: FA26 camp regex.
+- **Dormant**: Tezino CampPrep (6/17 — FC25 P4-P9 gap, DL weight, surgery date, Tier-2 thresholds); FaceComps sim (LOCKED 6/15 — day color templates).
+- **CLI lessons (8/16)**: `DEV/Terminal_Fluency` 01-03 done. Resume: `cd` there, "continue my CLI lessons". OPEN: rotate Fireflies key. →Tier A terminal-fluency-workspace + path-shadowing-and-cleanup.
+- **RTP CLA course (9/2)**: `DEV/RTP_Constraints_Course` — constraints-led RTP for ATC Joe Smith. Research DONE (RESOURCES.md, INTERVIEW.md). NEXT: interview Joe, then `/teach`.
+- **Child dental (6/25)**: 4yo cavities. NEXT: ped. dentist, SDF/n-HAp.
+
+## Environment Notes
+- **Portfolio dashboard** LIVE: `DEV/project-triage/portfolio.json`; `/project` re-renders+republishes; pulse.md→briefing.
+- Ritual/reindex/audit schedules + gws & Gmail limits →Tier A automation-cadence.
+- CFB forecast capture: Monday-anchored, season 8/24-1/23 →Tier A cfb-forecast-capture.
+
+## Pending Decisions
+- **≥2026-08-31**: OKR Q1 gate — re-evaluate AI integration (buy-in) + data governance (Anthony's proposal); dormant until then.
+- **Myelin (startup AMS)**: intro'd at ~half Kitman's cost while buying Kitman API access. Not pursued; Kitman stays.

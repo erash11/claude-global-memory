@@ -1,0 +1,224 @@
+
+## 07:05:19 [75960c5c] (/Users/kristinarash/DEV)
+Backup done. It worked.
+
+- **Status: OK, 0 errors, 31 jobs.** That 31 means the CRASHBOX SSD was plugged in, so your uncommitted and gitignored files got saved too.
+- **Nothing was skipped** that matters. Only the old `baylor` target, which is turned off on purpose.
+- **Nothing for you to do.** The error log is already empty.
+
+## 07:07:09 [75960c5c] (/Users/kristinarash/DEV)
+Stack check done. **6 things healthy, 2 flags.** One flag is fake, one is real.
+
+**Healthy:** all launchd jobs, the Python venv, memsearch, the memory flush pipeline (15h ago), backups (0h ago, 31 targets, Drive receipt verified), all 4 repos pushed.
+
+**Flag 1 — fake alarm.** `com.keystone.dailybackup` shows exit code 1. That is a leftover from yesterday's 09:05 scheduled run, the one killed by the DNS blip. My manual runs do not reset that number. Today's 09:00 run will clear it. Nothing to do.
+
+## 07:10:53 [75960c5c] (/Users/kristinarash/DEV)
+Trimmed and verified. **MEMORY.md: 2472 → 2133 chars (99% → 85%).** The `memfile-full` flag is gone.
+
+**To undo, one command:**
+```
+cp ~/.claude/global-memory/MEMORY.md.bak-2026-09-05 ~/.claude/global-memory/MEMORY.md
+```
+(You said "trim it," so I wrote it instead of showing a preview first. That backup is your escape hatch.)
+
+**What moved out:**
+- **ATH Tech framework** — the long detail (which files are the shipped set, the 5 missing sections, the ITS blocker) now lives at `~/.claude/projects/
+
+## 07:16:04 [75960c5c] (/Users/kristinarash/DEV)
+Checkup done. **Nothing changed yet** — findings first, as the skill requires.
+
+## Part 1 — built-in `claude doctor`
+
+Clean install, native 2.1.261, no installation issues. **One thing:** `Last update attempt: failed (install_failed) — 2026-09-04`. The install you have is fine; the auto-update yesterday did not land.
+
+## Part 2 — the 6 shifts
+
+| # | Shift | Verdict | Worst offender | Fix |
+|---|---|---|---|---|
+| 1 | Judgement over rules | **PASS** | Only hard rule in `~/DEV/CLAUDE.md:40` is "ne
+
+## 07:38:07 [75960c5c] (/Users/kristinarash/DEV)
+You're right. I read both files in full now, and **#4 was overstated. Most of it is not an issue.**
+
+**Why I was wrong on the big part:** the two SSD rules are not in conflict. They do different jobs.
+
+- **`backup`** runs the script and reads the fresh log it just made. Looking for a `NOT MOUNTED` line in your own output is correct there.
+- **`claude-stack-doctor`** audits a run from hours ago. launchd threw away that output, so the receipt file is the only proof left. Also correct.
+
+Same fact, 
+
+## 07:40:14 [75960c5c] (/Users/kristinarash/DEV)
+Both changes are in. Done.
+
+**What I changed — two files:**
+
+1. **`~/.claude/skills/backup/SKILL.md`** — added the job-count tell in two spots:
+   - At the "read the verdict" step: `status: OK` does not mean everything was saved.
+   - In the SSD gotcha: **~31 jobs = SSD captured. ~9–10 jobs = SSD was missing.** The `CAPTURE` and `STATE-SSD` job types only exist when the drive is plugged in, so the count is the tell. The error count cannot see this.
+
+2. **Deleted** `~/.claude/skills/claude-stack-
+
+## 07:52:33 [75960c5c] (/Users/kristinarash/DEV)
+Done. **`~/DEV/CLAUDE.md` fixed.**
+
+| Was | Now | Real number |
+|---|---|---|
+| 150 skills | ~155 skills | 155 |
+| 185 compiled articles | ~230 compiled articles | 230 |
+| 842 notes | ~850 notes | 849 |
+| ~38.5k of ~53.9k files | ~39k, about two thirds of DEV | 38,832 of 56,707 |
+
+**Two were already right, so I left them alone:** 8 custom CLIs, and 18 projects with their own `CLAUDE.md`.
+
+**I added a `~` to each and one line explaining why.** The old numbers were exact, so ordinary growth made t
+
+## 07:56:09 [75960c5c] (/Users/kristinarash/DEV)
+Done. `CLAUDE.md` now has the same shape as `AGENTS.md`.
+
+**Three files changed, one created:**
+
+- **`~/.claude/TOOLPATHS.md`** (new) — the path table, plus the Keychain command and the Docker/`usr/local/bin` history. Stamped "Verified 2026-09-05," and I actually ran `which -a` on all 8 tools before writing it.
+- **`~/.claude/CLAUDE.md`** — table swapped for a pointer. Kept every trap: PEP 668, the `uv` location and don't-move-it rule, no `timeout`, Homebrew owns `/opt/homebrew/bin`, Keychain, `
+
+## 07:58:15 [75960c5c] (/Users/kristinarash/DEV)
+Clean, except one leftover I already told you about.
+
+**Everything I fixed today verifies:**
+
+| Check | Result |
+|---|---|
+| `MEMORY.md` | 2133/2500, **85% — OK** (was 99%) |
+| `.errors.log` | clean |
+| Memory flush | OK, 16h ago |
+| Backup | OK, 1h ago, **31 targets** (SSD captured) |
+| Cloud receipt | verified on Google's servers |
+| All 4 repos | synced |
+| venv, memsearch | OK |
+| Skill tax | 75%, OK |
+
+**The one flag left is the same stale one:** `com.keystone.dailybackup` still shows exit 
+
+## 08:00:23 [4597514e] (/Users/kristinarash/DEV)
+Checked three things: the handoff doc, the actual scan folder, and your Gmail.
+
+**Start scanning at printed page 102.**
+
+- Last page in hand: **p101.jpg**
+- Files live in: `/Users/kristinarash/Downloads/vFlat/iPhone 15/`
+- You have 88 pages so far (p014–p101), no gaps.
+- No scans were added on 9/4. The plan said "more on 9/4" — that did not happen.
+- Myszka has not replied. No PDF. So keep scanning.
+
+Three rules for this batch (learned the hard way last time):
+
+1. Do not trust the file names for
+
+## 08:47:28 [4597514e] (/Users/kristinarash/DEV/RTP_Constraints_Course/sources)
+Here's the full picture while the reviewer finishes.
+
+## What's done
+
+**The book is complete.** Printed pages 14–253, 240 pages, no gaps.
+
+| Thing | Where |
+|---|---|
+| The book | `sources/Myszka-Enhancing-Skill-in-American-Football.pdf` |
+| Text sidecar | `sources/myszka-enhancing-skill.txt` (100,028 words) |
+| All 119 references | `sources/myszka-references.md` |
+| 113 to import | `sources/myszka-references-new.ris` |
+| Handoff | `docs/handoffs/2026-09-05-book-scan-complete.md` |
+| Reusable pi
+
+## 09:58:00 [4597514e] (/Users/kristinarash/DEV)
+Everything checked and clean. Vault committed, memory under cap, all 84 entries validated.
+
+## What I did
+
+**1. Merged your new scans.** 157 photos → the book is now **printed pages 14–253, 240 pages, no gaps.**
+
+Five duplicate re-shoots found (p152, p170–173) and resolved by measured OCR quality, not by eye. Losers kept in `_superseded/` — nothing deleted.
+
+**2. Built the book.**
+`sources/Myszka-Enhancing-Skill-in-American-Football.pdf` — 240 pages, OCR'd.
+**PDF page 1 = printed page 14. Add 13
+
+## 10:04:22 [4597514e] (/Users/kristinarash/DEV)
+No new files — the folder hasn't changed since 08:17.
+
+**I can't do this one.** Scanning means physically photographing a page of the paper book. I have no camera and no hands. That part is yours.
+
+**What to do — same as before:**
+
+1. Open **vFlat Scan** on your iPhone.
+2. Shoot the **contents page**.
+3. While you're in the front matter, also shoot the **copyright page** (usually the back of the title page). One extra photo.
+4. Files land in `~/Downloads/vFlat/iPhone 15/`. Tell me when they're t
+
+## 10:15:26 [4597514e] (/Users/kristinarash/DEV)
+You scanned the whole front matter, not just the contents page — that turned out to matter.
+
+## What the contents page settled
+
+**Page order is confirmed by the publisher.** All thirteen landmarks match what I worked out from the scans alone:
+
+Chapters at **15, 37, 63, 77, 111, 133, 181, 195, 209, 221**. Preface 7. Glossary 233. References 237. Appendix 249.
+
+**Zero discrepancies.** That's a fifth check, and the only one with an outside source of truth.
+
+**Copyright 2025 by Emergence, LLC.** Fil
+
+## 10:23:05 [4597514e] (/Users/kristinarash/DEV/KeystoneOS)
+## Closeout — 2026-09-05
+
+**Committed:** `~/SecondBrain` — 3 commits (`090d6ef` 84 library entries + `_domain.md` + `_book.md`; `8b27c2e` schema fixes; `434b504` front-matter findings). `~/.claude/global-memory` — 1 commit (`9243302`, RTP thread rewritten). All trees clean. **Not pushed** — neither repo is KeystoneOS, so per the rule I left the push to you. KeystoneOS and `skills`: nothing to commit.
+
+**Memory:** captured ✓ — `feedback_ingest-review-gate.md` (new), `project_book-scan-page-orderi
+
+## 10:28:04 [4597514e] (/Users/kristinarash/DEV)
+Done. `~/DEV/skill-audit-2026-09-05` is now covered.
+
+**What I added** to `~/.claude/scripts/backup-manifest.json`:
+
+```json
+{
+  "path": "DEV/skill-audit-2026-09-05",
+  "class": "personal",
+  "isRepo": false,
+  "destinations": ["ssd"],
+  ...
+}
+```
+
+**Why `personal` / SSD only:** it's an audit of *your own* Claude Code and Codex skill tree — agent tooling, not Baylor work. Same call as `CLI_Dev` and `Terminal_Fluency`. `institutional` would have pushed it to the Baylor target, which is the wrong 
+
+## 10:39:33 [4597514e] (/Users/kristinarash/DEV)
+All pushed and backed up. **Full backup, not a partial one.**
+
+## Pushed
+
+| Repo | |
+|---|---|
+| `~/.claude` | `7423fae..3753d46` |
+| `~/.claude/global-memory` | `b6cb375..4e9455d` |
+| `~/SecondBrain` | `9d859a3..434b504` |
+
+Nothing needed committing first — it was all committed already.
+
+## Backup
+
+**`status: OK`, 0 errors, `okCount: 31`.**
+
+That 31 is the number that matters. **CRASHBOX was plugged in**, so the working-tree capture and SSD state jobs both ran. Under 10 would have meant a silen
+
+## 14:10:59 [d6ada169] (/Users/kristinarash/DEV)
+Done reading. Here is the directive. I wrote nothing to disk, as you asked.
+
+**One thing you should know first:** your own project memory (`project_vendored-skill-install.md`) says the real files live in `~/.agents/skills/` and `~/.claude/skills/<name>` is already a **symlink pointing into it**. The plan says the opposite — make `.agents` the symlink and `.claude` the canonical. That flip must be checked before anything moves. I put it as a stop-gate below, not a decision I made.
+
+---
+
+# EXECUTI
+
+## 14:11:11 [43ff395a] (/Users/kristinarash/.claude/claude-memory-compiler)
+FLUSH_OK

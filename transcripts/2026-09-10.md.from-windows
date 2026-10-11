@@ -1,0 +1,230 @@
+
+## 06:06:24 [b8143861] (/Users/kristinarash/DEV/PlayCalls_SuccessRate_EPA)
+Codex review is running. Here's where things stand.
+
+## Phase 2 is done. EPA agrees.
+
+**You asked if PPA is really EPA. It is.** I proved it three ways: CFBD's glossary says so, the signs match football (passing TD +3.26, interception −2.09), and — the real test — it **reconciles to points**. Touchdown drives sum to +5.09, field goals +2.00, punts −0.80. Theory says +5.5, +1.8, −1.4. A fake metric cannot do that.
+
+**The answer to the Phase 2 question: EPA agrees on every cut.**
+
+| Cut | Success 
+
+## 06:07:03 [b8143861] (/Users/kristinarash/DEV/PlayCalls_SuccessRate_EPA)
+Codex review is running in the background. I'll report its findings when it lands.
+
+While waiting — one thing from Phase 4 I have not acted on, and it's your call:
+
+**Phase 4 found a real defect in Phase 1's tables.** `UNBALANCED` (2024) and `UNBAL` (2025) are the same formation charted under two names, but Phase 1 counts them as two separate families — 46 plays at 62.2% and 39 at 56.4%. Merged, it's 85 plays at 59.5%. Same problem with personnel: `12` and `12S` are split.
+
+This is exactly the b
+
+## 06:26:14 [b8143861] (/Users/kristinarash/DEV/PlayCalls_SuccessRate_EPA)
+Done and verified. Your correction changed a published conclusion.
+
+## What your push-back caught
+
+You were right that `12` and `12S` are different groupings, so I did **not** merge them. But checking the data showed something worse than a naming slip.
+
+**In 2024 nobody wrote a suffix.** 67 plays tagged plain `12`, zero variants. In 2025 the same family splits into 18 plain plus 31 suffixed. So the published table compared a wide 2024 bucket against a narrow 2025 one:
+
+| | Published | Truth (fam
+
+## 06:46:50 [b8143861] (/Users/kristinarash/DEV/PlayCalls_SuccessRate_EPA)
+Clean tree, 16 commits, everything rebuilt and verified.
+
+## Codex found nine real defects. All nine are fixed.
+
+The tests were green the whole time — same as Phase 1. The review earned its keep.
+
+### The one that mattered most
+
+**Score state was measured *after* the play, not before.** CFBD's score column already includes the points the play just scored. Baylor's 2024 opening touchdown row reads 7–0; the snap before it reads 0–0.
+
+So every scoring play was filed under **the situation it created
+
+## 07:34:10 [a2d1f472] (/Users/kristinarash/DEV/PlayCalls_SuccessRate_EPA)
+Done and pushed. 249 tests pass.
+
+## Merges are in
+
+Phase 2 and Phase 4 are both on `main` and pushed. Three collisions surfaced that neither branch could have seen alone:
+
+- **Two normalisers, opposite answers.** Both phases independently found `UNBALANCED`/`UNBAL` are one family. Phase 2 folded to `UNBALANCED`, Phase 4 to `UNBAL`. Same family under two names in different tables — the exact bug both folds exist to stop. One owner now.
+- **I was deleting your evidence.** Phase 2 overwrote the ra
+
+## 09:17:30 [a2d1f472] (/Users/kristinarash/DEV/project-triage)
+Done. Dashboard is live at your existing URL.
+
+## What I added
+
+`PlayCalls_SuccessRate_EPA` wasn't in the registry at all — `PlayerProfiles_FB` is a different project (force plate bodyweight fallback). So this went in as new, not an update.
+
+**side lane, rank 9, building.** Three updates logged: Phase 1 shipping, the Phase 2+4 build and merge, and the Phase 3 groundwork. Next action names all three blockers with the readiness doc.
+
+## One thing you should know
+
+**Your full dashboard render is br
+
+## 11:05:59 [a2d1f472] (/Users/kristinarash/DEV/PlayCalls_SuccessRate_EPA)
+Handoff written and verified.
+
+**`/var/folders/gw/8qg6y2bj7rvdqzttmxfl9lx00000gn/T/handoff-playcalls-2026-09-10.md`**
+
+222 lines. It supersedes yesterday's Phase 1 handoff in the same folder.
+
+## What's in it
+
+It **points at** your specs, `CLAUDE.md`, `PHASE3-READINESS.md` and the git log rather than repeating them. What it adds is the stuff that lives nowhere else:
+
+- **The findings table** — both lenses side by side, including that early-down running went below zero
+- **What's yours to run** —
+
+## 12:18:05 [d7dac692] (/Users/kristinarash/DEV/PlayCalls_SuccessRate_EPA/.claude/worktrees/phase5-opponent-adjustment)
+Monitor armed. Waiting on Codex before I touch any files.
+
+**Summary of where Phase 5 stands while we wait:**
+
+Everything is committed and pushed to `worktree-phase5-opponent-adjustment` on your private repo. 304 tests pass, `run.py` still passes all three gates.
+
+**The answer to the question the handoff called the strongest open alternative:**
+
+Your 2025 opponents really were better defences — they allowed **+0.131** EPA (CFBD PPA) per play to other FBS teams vs **+0.180** for the 2024 schedule
+
+## 13:01:02 [d7dac692] (/Users/kristinarash/DEV/PlayCalls_SuccessRate_EPA/.claude/worktrees/phase5-opponent-adjustment)
+Done. Final checks: **313 tests pass**, `run.py` passes all three gates with numbers identical to before I touched anything (98.6% match, 1.6% shortfall, 96.7% join quality), tree is clean, everything pushed.
+
+---
+
+## First: Phase 3 is still blocked
+
+You asked me to do the next phase. I checked all three blockers on disk today. **All three are still real**, and none is this repo's to fix.
+
+```bash
+# 1. Your PFF export. Drop 2026_All_Games.csv in the repo root.
+
+# 2. CFBD plays (repo has 2019-202
+
+## 13:26:43 [d7dac692] (/Users/kristinarash/DEV/PlayCalls_SuccessRate_EPA)
+Everything is merged, pushed, and clean. Here's where things landed.
+
+## Done
+
+**1. Phase 5 is merged into `main` and pushed.** 313 tests pass. All three gates pass with numbers identical to before — match rate 98.55%, 15 perfect games of 25.
+
+**2. Both worktrees are gone.** `.worktrees/phase4-alignment` and `.claude/worktrees/phase5-opponent-adjustment` removed. I also added `.claude/worktrees/` to `.gitignore`, which was missing.
+
+**3. I found one more overclaim and fixed it.** The Phase 5 hea
+
+## 14:46:10 [d7dac692] (/Users/kristinarash/DEV/PlayCalls_SuccessRate_EPA)
+I got half of it done. GitHub is now clean — `origin/main` is the only remote branch.
+
+**The local deletes are a hard block.** I tried; `dcg` rejects the tool call itself, so your approval in chat can't get past it. That guard only fires on local branch deletion — remote deletes went through fine, which is why I could finish that half.
+
+One command left, and it's yours:
+
+```bash
+cd ~/DEV/PlayCalls_SuccessRate_EPA
+git branch -d phase1-playcall-analysis phase2-epa phase4-alignment worktree-phase5-
+
+## 14:47:29 [d7dac692] (/Users/kristinarash/DEV/PlayCalls_SuccessRate_EPA)
+Clean. `main` only, local and remote in sync at `601f061`, no worktrees, nothing uncommitted.
+
+## Everything from this session is done
+
+- **Phase 5 merged** into `main` and pushed. 313 tests pass, all three gates unchanged.
+- **All branches gone** — 4 local (you), 2 remote (me). Both worktrees removed.
+- **project-triage render fixed** and re-run.
+
+## One thing still yours
+
+The project-triage fix is uncommitted in your own checkout — I don't commit there without asking:
+
+```bash
+cd ~/DEV/project
+
+## 14:49:36 [d7dac692] (/Users/kristinarash/DEV/project-triage)
+Committed and pushed. Both repos are clean and in sync now.
+
+**What I checked before committing:** ran `render.py` *and* `render.py --no-scan` — both write `dashboard.html` and `pulse.md` successfully. I also fixed one inaccuracy in my own docstring (it said the bulk dates are "returned" when they're printed to stderr).
+
+One detail worth knowing: `--no-scan` overwrote the dashboard with a less-informed version while I was testing, so I re-ran the full scan last. Your `dashboard.html` is the good
+
+## 17:14:47 [d7dac692] (/Users/kristinarash/DEV/PlayCalls_SuccessRate_EPA)
+Handoff written and checked — every referenced path exists, no secrets, no personal identifiers.
+
+**Where it is:**
+```
+/var/folders/gw/8qg6y2bj7rvdqzttmxfl9lx00000gn/T/handoff-playcalls-2026-09-10-phase5.md
+```
+
+It supersedes both earlier handoffs in that folder. I said so at the top, because the old one's numbers are now **wrong**, not just incomplete — it pairs 57.4% with 49.1%, and 49.1% is the 11-personnel rate, not the overall one.
+
+**What's in it that isn't already in the repo:**
+
+- Which 
+
+## 17:32:53 [5f2ac916] (/Users/kristinarash/DEV/PlayCalls_SuccessRate_EPA)
+Do **not** run `dcg install`. The hook was already there. The real problem was a hidden character.
+
+**What was wrong**
+
+Your file `~/.claude/settings.json` started with a BOM. A BOM is 3 invisible bytes at the start of a file. Claude Code ignores it. `dcg` does not. `dcg` could not read the file, so it thought the hook was missing.
+
+**What I did**
+
+1. Made a backup: `~/.claude/settings.json.bak-bom`
+2. Removed the 3 invisible bytes.
+
+**Did it work**
+
+Yes. I checked two things:
+- The file is vali
+
+## 17:34:38 [5f2ac916] (/Users/kristinarash/DEV/PlayCalls_SuccessRate_EPA)
+Good. That is done.
+
+One small clean-up when you want it:
+
+```
+rm ~/.claude/settings.json.bak-bom
+```
+
+That deletes the backup I made. No rush.
+
+result: Confirmed fixed — the `[dcg]` warning is gone after stripping the BOM from ~/.claude/settings.json.
+
+## 17:34:50 [5f2ac916] (/Users/kristinarash/DEV/PlayCalls_SuccessRate_EPA)
+Backup deleted. I checked after: `~/.claude/settings.json` is still valid JSON.
+
+Nothing left to do.
+
+result: Deleted ~/.claude/settings.json.bak-bom; settings.json verified still valid JSON.
+
+## 17:38:38 [5f2ac916] (/Users/kristinarash/DEV/PlayCalls_SuccessRate_EPA)
+Saved — will be active from next session.
+
+I put it in the `~/DEV` memory, not this project's. It is a machine trap, not a PlayCalls fact. That is where the other tooling traps live.
+
+File: `~/.claude/projects/-Users-kristinarash-DEV/memory/project_settings-json-bom-trap.md`
+
+I checked two things after writing: the index line is in `MEMORY.md`, and neither file starts with a BOM.
+
+result: BOM trap saved as Tier A memory `project_settings-json-bom-trap.md` in the ~/DEV slug, with an index pointer
+
+## 17:48:36 [5f2ac916] (/Users/kristinarash/DEV/PlayCalls_SuccessRate_EPA)
+## Closeout — 2026-09-10
+
+**Committed & pushed:** `~/.claude` (repo `erash11/dotclaude`, PRIVATE) — commit `bf06f9e`, BOM fix plus the new memory. Branch now level with `origin/main`.
+
+**Files touched:**
+- `/Users/kristinarash/.claude/settings.json` — 3 BOM bytes removed
+- `/Users/kristinarash/.claude/projects/-Users-kristinarash-DEV/memory/project_settings-json-bom-trap.md` — new
+- `/Users/kristinarash/.claude/projects/-Users-kristinarash-DEV/memory/MEMORY.md` — one index line added
+- `~/.claud
+
+## 17:53:18 [75f4cb83] (/Users/kristinarash/.claude/claude-memory-compiler)
+FLUSH_OK
+
+## 18:18:36 [b3bbb2a2] (/Users/kristinarash/.claude/claude-memory-compiler)
+FLUSH_OK

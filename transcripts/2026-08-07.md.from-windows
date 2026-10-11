@@ -1,0 +1,105 @@
+
+## 11:05:17 [deddf953] (/Users/kristinarash/DEV/morning-briefing)
+```json
+{
+  "needs_reply": [
+    {"who": "SOC", "subject": "Suspicious PowerShell command line", "source": "outlook", "age_days": 4, "context": "Security incident; requires investigation"},
+    {"who": "Tompkins, Courteney", "subject": "Fall Student Athlete Slideshow", "source": "outlook", "age_days": 0, "context": "Awaiting your input on slideshow details"},
+    {"who": "Angus Walsh", "subject": "VALD | Baylor", "source": "outlook", "age_days": 2, "context": "VALD integration follow-up"},
+    {
+
+## 11:05:48 [2da8ca3c] (/Users/kristinarash/.claude/claude-memory-compiler)
+**Context:** Inbox/communications triage — compiled a structured backlog of pending replies, follow-ups, meetings to schedule, and forms owed (Baylor Applied Performance role).
+
+**Key Exchanges:**
+- Produced triage JSON of outstanding Outlook items needing reply: SOC suspicious PowerShell security incident (4 days old — highest urgency), Courteney Tompkins re: Fall Student Athlete Slideshow (today), Angus Walsh re: VALD | Baylor integration (2d), Jason Riddell re: season prep checklist (1d), Cod
+
+## 11:27:16 [2b3a524a] (/Users/kristinarash/DEV)
+I'll change to the DEV folder.
+
+## 11:30:27 [b40d47af] (/Users/kristinarash/DEV)
+You're right — it's `SoftwareTech_Mgmt_Framework`, and I found it at `/Users/kristinarash/DEV/SoftwareTech_Mgmt_Framework`. Let me look inside.
+
+## 11:30:47 [b40d47af] (/Users/kristinarash/DEV)
+The background home-directory search finished. Let me check whether it turned up any other copies beyond the one I already found.
+
+## 11:40:12 [ea226332] (/Users/kristinarash)
+Re-deriving the unused set programmatically (no hand-typed lists), and validating every name is safe to write as JSON:
+
+## 14:01:36 [ea226332] (/Users/kristinarash)
+## Done — here's what changed
+
+I verified after applying: no skill with any recorded use was disabled. `code-review`, `to-spec`, `graphify` and all 31 used skills are untouched, and all 30 Tier B skills are held as agreed.
+
+**Backup, taken before any edit:** `~/.claude/doctor-backup-20260807-135924/` — contains the original `settings.json`, `settings.local.json`, and `CLAUDE.md`. A full revert is `cp` of those three files back.
+
+### 1. `~/.claude/settings.json` — 72 skills off, 12 plugins off
+
+M
+
+## 14:06:39 [ea226332] (/Users/kristinarash/.claude/claude-memory-compiler)
+Both pushes landed and verified in sync with origin. Now checking on the compiler:
+
+## 14:09:14 [ea226332] (/Users/kristinarash/.claude/claude-memory-compiler)
+Run 1 done: **9 compiled, 0 failed**, stopped by the 600k token guardrail at 678k. 45 logs remain, `$5.66` reported for the batch. That pace means ~5 more runs and roughly `$28` more to clear the backlog. Chaining them now with a hard cap and stop-on-failure:
+
+## 14:11:37 [ea226332] (/Users/kristinarash/.claude/global-memory)
+Repo is **private**, and this matches your existing daily-backup pattern (transcripts are already committed there), so pushing today's is consistent with what you already do.
+
+One new thing in `.errors.log` worth noting before I commit it — my compile run added a line:
+
+```
+[2026-08-07T19:08:29Z] compiler-budget-tripped: stopped after 678,486 / 600,000 tokens; 45 log(s) deferred
+```
+
+That's expected from the guardrail, not a fault. Creating the `.gitignore`:
+
+## 14:14:35 [ea226332] (/Users/kristinarash/.claude/global-memory)
+## Committed and pushed
+
+**`a0e58c9` → `erash11/claude-global-memory`**, verified in sync with `origin/main`, working tree now clean.
+
+| File | Action |
+|---|---|
+| `transcripts/2026-08-07.md` | added — today's transcript is now backed up |
+| `transcripts/.errors.log` | updated (includes the new budget-tripped line from my compile run) |
+| `.gitignore` | **new** |
+| `transcripts/.memsearch-index.lock` | untracked |
+| `transcripts/.memsearch-index.log` | untracked, **still on disk** |
+
+### On the
+
+## 14:18:53 [ea226332] (/Users/kristinarash/.claude/global-memory)
+Routine progress, no action needed.
+
+**Catch-up run 1: 8 compiled, 0 failed, `$5.45`.** Running total **17 of 54 done, 37 remaining**, `$11.11` spent. Run 2 of 6 is starting automatically.
+
+At ~8.5 logs per run, the 5 remaining runs in the cap give ~42 logs of capacity against 37 left — so it should clear the backlog without me needing to re-arm it. Still zero failures and zero quarantines.
+
+I'll stay quiet unless something fails or it finishes.
+
+## 14:23:53 [ea226332] (/Users/kristinarash/.claude/global-memory)
+**Run 2: 8 compiled, 0 failed, `$5.24`.** Total **25 of 54**, 29 left, `$16.35` spent. 4 runs remain in the cap against ~34 logs of capacity — still on track to clear. Staying quiet until it finishes or something fails.
+
+## 14:26:15 [ea226332] (/Users/kristinarash/.claude/global-memory)
+**Run 3: 8 compiled, 0 failed, `$5.30`.** Total **33 of 54**, 21 left, `$21.65` spent. 3 runs remain against ~25 logs of capacity — still clears.
+
+## 14:29:55 [ea226332] (/Users/kristinarash/.claude/global-memory)
+**Run 4: 8 compiled, 0 failed, `$4.95`.** Total **41 of 54**, 13 left, `$26.60` spent. 2 runs remain against ~17 logs of capacity — should finish inside the cap.
+
+## 14:32:33 [ea226332] (/Users/kristinarash)
+Backlog cleared. Verifying independently rather than trusting the script's own exit:
+
+## 15:04:37 [ea226332] (/Users/kristinarash)
+Caught one on the way in — `git add -A` swept up a file that shouldn't be tracked. It's a 1-byte counter that `daily-backup.ps1` deletes on every successful index run (line 394), so it's the same ephemeral class as the lock. Untracking it:
+
+## 15:10:13 [ea226332] (/Users/kristinarash/.claude/global-memory)
+Fix verified across every dimension. Updating the durable record, which currently says this bug is unfixed:
+
+## 16:20:52 [b40d47af] (/Users/kristinarash/DEV)
+All 8 edits applied, workflow diagram survived. Verifying the round-trip shows exactly my 8 changes and nothing else.
+
+## 23:23:37 [ea226332] (/Users/kristinarash/.agents/skills)
+Now I understand the failure completely — and it's worse than a bad restore.
+
+`origin/main` has the `~/.claude/skills` **symlinks committed into the `~/.agents/skills` repo** (mode `120000`, content `../../.agents/skills/<name>` — which points at itself). And this checkout has `core.symlinks=false` inherited from Windows, so git wrote them as 29-byte text files. All 21 mattpocock skills are broken right now. Recovering:

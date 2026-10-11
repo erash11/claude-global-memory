@@ -1,0 +1,134 @@
+
+## 07:35:19 [3cbd7684] (/Users/kristinarash/DEV/CFB_Victory_Model)
+The capture is still running. It takes about 10 minutes. When it ends, I get a message. Then I read the results and report them to you.
+
+## 07:41:44 [cff39a60] (C:\Users\eric_rash\Desktop\DEV\Football\PFF_Data_Project)
+I synced this laptop from `C:\Users\eric_rash\Desktop\DEV` and it now matches GitHub. There were no merge conflicts, nothing was deleted, and there are no uncommitted or unpushed changes left.
+
+**Config repos**
+- **`~/.claude`:** pulled 1 Mac commit ("mac closeout 2026-09-22 (late)").
+- **`skills`:** already current. I also copied the 40 shared skills over for Codex.
+- **`global-memory`:** pulled 1 Mac commit, the same late closeout. Your memory moved.
+- **The Mac was syncing at the same moment.
+
+## 07:44:44 [cff39a60] (C:\Users\eric_rash\Desktop\DEV\Football\PFF_Data_Project)
+Team codes are state-prefixed (`GASO`, `NJRU`), so Baylor is probably `TX…`.
+
+## 09:48:22 [58af9c23] (C:\Users\eric_rash\Desktop\DEV\Football\PFF_Data_Project)
+Tests pass. The Drive copies came before these fixes, and the rule is never overwrite, so I'm filing corrected `-v2` copies beside the originals. Then committing both repos.
+## 07:36:09 [3cbd7684] (/Users/kristinarash/DEV/CFB_Victory_Model)
+The second run has started. A Chrome window will open. It takes about 10 minutes. I report back when it ends.
+
+## 07:41:23 [3cbd7684] (/Users/kristinarash/DEV/CFB_Victory_Model)
+I ran the weekly Big 12 capture. All 16 teams saved, with 12 games each. No week was missed, because the last full capture was 9/16.
+
+**Problems I fixed**
+- The first run failed. Playwright (the browser driver) updated itself and wanted a newer Chrome build. I installed it (`chromium-1243`). The second run worked.
+- Windows also captured Baylor this morning. That caused a git merge conflict. Another session fixed it in commit `5bebba8`. The two Baylor files had the same numbers, so nothing was l
+
+## 07:43:06 [45c8cd30] (/Users/kristinarash/DEV/CFB_Forecast_Archive)
+Sync is done. I re-checked all 141 repos plus `~/.claude`, `skills`, `global-memory` and the `~/DEV` root. All are clean and match GitHub.
+
+**What I did**
+- Pulled config, skills and memory. Skills are synced to Codex.
+- Memory got 1 Windows commit. The 9/22 transcript clashed. I kept every line from both machines.
+- The weekly forecast capture was running on this Mac when I started. I waited for it to end. All 16 Big 12 teams were captured.
+- Windows also ran today's capture and pushed it at 07
+
+## 07:43:12 [3cbd7684] (/Users/kristinarash/DEV/CFB_Victory_Model)
+I fixed the wrapper. If the capture fails, the script now stops. It does not run the comparison or copy anything to the archive. It prints `=== comparison SKIPPED: capture failed ===` and exits with the error code.
+
+**Did it work?** Yes. I ran the script with a fake `uv`, so it did not open Chrome or contact the website.
+- When the capture failed, the comparison was skipped. Exit code 1.
+- When the capture worked, the comparison ran. Exit code 0.
+
+**One change in behavior:** before, if one team
+
+## 07:43:36 [3cbd7684] (/Users/kristinarash/DEV/CFB_Victory_Model)
+The wrapper fix is committed and pushed to `main` as commit `3619c54`.
+
+Before I committed, I pulled the latest changes. There were no conflicts. After the push, git shows `main...origin/main` with no commits ahead or behind, so your Mac copy and GitHub are the same.
+
+**What you do now:** on the Windows laptop, run `git pull` before its next capture. If you do not, it will still use the old wrapper.
+
+result: The fix that skips the comparison after a failed capture is pushed to CFB_Victory_Model
+
+## 07:44:57 [224aed7d] (/Users/kristinarash/DEV)
+The backup is still running. I will wait for it to finish.
+
+What is done so far:
+- All the copy steps finished with **OK**.
+- CRASHBOX was plugged in, so uncommitted files were saved too.
+- Both receipts (proof the copies arrived) passed for the SSD and for Drive.
+
+What is still going:
+- The search index step (`memsearch index`) has run for about 4+ minutes. A normal run takes about 75 seconds. It is using a lot of CPU, so it is working, not stuck.
+
+When it ends, I will check `backup-state.json`
+
+## 07:45:37 [3cbd7684] (/Users/kristinarash/DEV/CFB_Victory_Model)
+The one dirty file is this session's own log in `~/.claude`. It changes with every message, so it can never be clean while the session is running. The nightly backup will commit it.
+
+## Closeout — 2026-09-23
+
+**Committed & pushed:**
+- `CFB_Victory_Model`: commit `3619c54` (wrapper fix) and commit `2e82045` (STATUS and handoff).
+- `~/.claude/global-memory`: today's transcript and the docs harvest.
+- `~/.claude`: session logs.
+- No other repo in DEV has work left to commit or push.
+
+**STATUS.md:**
+
+## 07:53:41 [224aed7d] (/Users/kristinarash/DEV)
+The backup ran, but it reports **1 error**.
+
+**What went wrong:**
+- `global-memory` could not pull at 07:34. The Windows laptop had changed the same transcript file (`transcripts/2026-09-22.md`).
+- That error is **already fixed**. At 07:36 a merge kept the lines from both machines, and that merge was pushed. `global-memory` now matches GitHub. Nothing was lost.
+
+**Everything else worked:**
+- 91 jobs finished OK.
+- CRASHBOX was plugged in, so uncommitted files were saved too. Nothing was skipped.
+
+## 15:04:19 [3cbd7684] (/Users/kristinarash/DEV)
+Memory is 2,430 characters, which is under the limit. Now I commit and push all three repos.
+## 18:07:33 [fb16a0be] (C:\Users\eric_rash\.claude\claude-memory-compiler)
+**Context:** Windows session — ran `$dev-sync` in Codex, fixed failing hooks, then went looking for a player-grading system across DEV and Google Drive.
+
+**Key Exchanges:**
+- "Why are these hooks failing?" → 49 `PreToolUse` errors this session traced to a hard-coded **Mac path in the shared `~/.claude/settings.json`**. Removed the duplicate hook, pushed the fix, verified the remaining guarded hook exits 0. Already-open Claude Code sessions need a restart to stop showing the old error.
+- Asked fo
+
+## 18:46:08 [5e2eb962] (C:\Users\eric_rash\.claude\claude-memory-compiler)
+FLUSH_OK
+
+## 19:02:15 [cdb4e2eb] (C:\Users\eric_rash\Desktop\DEV)
+**Sync: clean.** DEV root is `C:\Users\eric_rash\Desktop\DEV`.
+
+**Config and memory pulled**
+- **`~/.claude`:** your `/config` changes were saved as a snapshot and pushed. Nothing new came down.
+- **Skills:** one new commit from the Mac updates the forecast-capture skill. Skills are re-synced to Codex.
+- **Global memory:** one new commit from the Mac (`e6ff191`, "Mac owns the weekly CFB forecast capture"). That explains this morning's `repo-behind-blocked:global-memory` backup error.
+
+**Repos**
+
+
+## 19:03:18 [58af9c23] (C:\Users\eric_rash\Desktop\DEV)
+## Closeout — 2026-09-23
+
+**Committed & pushed:**
+- **MatchupAnalysis_FB2026:** the EPA script, its tests, the Week 4 Colorado readout and tables, and today's handoff.
+- **PFF_Data_Project:** STATUS now records the 2026 play-by-play pull.
+- **CFB_Forecast_Archive and CFB_Victory_Model:** this morning's forecast output, committed and pushed during the morning sync.
+- **Config repos:** `global-memory` and `~/.claude` are pushed; `skills` had nothing to commit.
+- The final sweep also found two repo
+
+## 19:06:05 [cdb4e2eb] (C:\Users\eric_rash\Desktop\DEV)
+The task is disabled. Next I'll record the answer in the repo's STATUS so the Mac sees it.
+
+## 19:07:01 [cdb4e2eb] (C:\Users\eric_rash\Desktop\DEV)
+The `worktree-eval-all-games` branch is gone, and deleting it lost nothing. All five of its files were already on `main` with identical content: the eval write-up, `evaluate_all_games.py`, the reply draft, the email screenshot, and the 2019–2026 xlsx.
+
+When I went to delete it, GitHub no longer had the branch; it was probably removed from the Mac after my earlier check. I only had to clear the leftover reference on this machine, so the branch is now gone everywhere.
+
+I took this off the Next lis
