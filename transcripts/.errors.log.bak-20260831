@@ -1,1 +1,5 @@
 [2026-08-31 13:44] daily-backup: 1 error(s): manifest-unmanaged:CommandCentre - see ~/.claude/scripts/logs/daily-backup.log
+
+
+# ---- imported from Windows copy (.errors.log.bak-20260831.from-windows) ----
+[2026-08-31 13:44] daily-backup: 1 error(s): manifest-unmanaged:CommandCentre - see ~/.claude/scripts/logs/daily-backup.log

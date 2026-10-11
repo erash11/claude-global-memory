@@ -2,3 +2,10 @@
 [2026-09-13 09:01] daily-backup: 1 error(s): manifest-unmanaged:Claude outputs - see ~/.claude/scripts/logs/daily-backup.log
 [2026-09-14 10:10] daily-backup: 3 error(s): repo-diverged:global-memory, repo-diverged:dotclaude, manifest-unmanaged:Claude outputs - see ~/.claude/scripts/logs/daily-backup.log
 [2026-09-14T10:34:13.6800730-05:00] stack-doctor weekly: 2 issue(s): handoff-memory-stale, handoff-behind:.claude — details in ~/.claude/skills/claude-stack-doctor/scripts/last-weekly-run.log; run /claude-stack-doctor to fix
+
+
+# ---- imported from Windows copy (.errors.log.archived-2026-09-14.from-windows) ----
+[2026-09-13T04:30:44.946298+00:00] compiler-stale-lock: reclaimed compile lock held 1550min by pid 47899 (compile.py --auto)
+[2026-09-13 09:01] daily-backup: 1 error(s): manifest-unmanaged:Claude outputs - see ~/.claude/scripts/logs/daily-backup.log
+[2026-09-14 10:10] daily-backup: 3 error(s): repo-diverged:global-memory, repo-diverged:dotclaude, manifest-unmanaged:Claude outputs - see ~/.claude/scripts/logs/daily-backup.log
+[2026-09-14T10:34:13.6800730-05:00] stack-doctor weekly: 2 issue(s): handoff-memory-stale, handoff-behind:.claude — details in ~/.claude/skills/claude-stack-doctor/scripts/last-weekly-run.log; run /claude-stack-doctor to fix

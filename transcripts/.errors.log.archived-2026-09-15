@@ -1,3 +1,9 @@
 [2026-09-15 06:03] daily-backup: 4 error(s): repo-diverged:global-memory, repo-diverged:dotclaude, manifest-unmanaged:PP_Recruiting|PythonScripts_2024|RTP_ProgressReport|Supervisor_Reviews|VALD_Performance|VALD_Release, snapshot-ssd:.codex - see ~/.claude/scripts/logs/daily-backup.log
 [2026-09-15 06:23] daily-backup: 1 error(s): snapshot-ssd:.codex - see ~/.claude/scripts/logs/daily-backup.log
 [2026-09-15 06:28] daily-backup: 1 error(s): snapshot-ssd:.codex - see ~/.claude/scripts/logs/daily-backup.log
+
+
+# ---- imported from Windows copy (.errors.log.archived-2026-09-15.from-windows) ----
+[2026-09-15 06:03] daily-backup: 4 error(s): repo-diverged:global-memory, repo-diverged:dotclaude, manifest-unmanaged:PP_Recruiting|PythonScripts_2024|RTP_ProgressReport|Supervisor_Reviews|VALD_Performance|VALD_Release, snapshot-ssd:.codex - see ~/.claude/scripts/logs/daily-backup.log
+[2026-09-15 06:23] daily-backup: 1 error(s): snapshot-ssd:.codex - see ~/.claude/scripts/logs/daily-backup.log
+[2026-09-15 06:28] daily-backup: 1 error(s): snapshot-ssd:.codex - see ~/.claude/scripts/logs/daily-backup.log

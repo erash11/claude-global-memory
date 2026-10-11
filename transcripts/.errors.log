@@ -13,3 +13,15 @@
 [2026-10-11T20:55:10.835Z] memsearch-sync: index index busy (lock held) 6x consecutively — indexing may not be keeping up: Failed to start MilvusLite server for /Users/kristinarash/.memsearch/milvus.db
 Traceback (most recent call last):
   File "/Users/kristinarash/.local/share/uv/tools/memsearch/lib/python3.12/site-packag
+
+
+# ---- imported from Windows copy (.errors.log.from-windows) ----
+[2026-10-06T19:02:01.313Z] memsearch-sync: index Milvus unreachable 6x consecutively — indexing may not be keeping up: 2026-10-06 13:59:14,103 [WARNING][_recover]: Connection recovery failed (connection_manager.py:672)
+Traceback (most recent call last):
+  File "C:\Users\eric_rash\AppData\Roaming\Python\Python314\sit
+[2026-10-06T19:33:46.174Z] memsearch-sync: index Milvus unreachable 7x consecutively — indexing may not be keeping up: 2026-10-06 14:31:28,643 [WARNING][_recover]: Connection recovery failed (connection_manager.py:672)
+Traceback (most recent call last):
+  File "C:\Users\eric_rash\AppData\Roaming\Python\Python314\sit
+[2026-10-06T16:54:03.805528-05:00] nightly-digest: send failed for 2026-10-06 - see ~/.claude/scripts/logs/nightly-digest.log
+[2026-10-07T18:17:00.165Z] memsearch-sync: index ETIMEDOUT 8x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-10-07T19:10:14.237Z] memsearch-sync: index ETIMEDOUT 9x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT

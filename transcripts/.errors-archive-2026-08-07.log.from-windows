@@ -1,3 +1,0 @@
-[2026-08-07T02:28:43.751366+00:00] compiler-backlog: 53 log(s) backlogged, compiling newest 2 this run - run compile.py manually to catch up
-[2026-08-07 11:02] daily-backup: 2 error(s): repo-push:global-memory, repo-push:skills - see ~/.claude/scripts/logs/daily-backup.log
-[2026-08-07T19:08:29.212539+00:00] compiler-budget-tripped: stopped after 678,486 / 600,000 tokens; 45 log(s) deferred

@@ -1,1 +1,5 @@
 [2026-10-05T10:55:44.3920700-05:00] stack-doctor weekly: 3 issue(s): recall-coverage, memfile-full:USER.md, memfile-full:MEMORY.md — details in ~/.claude/skills/claude-stack-doctor/scripts/last-weekly-run.log; run /claude-stack-doctor to fix
+
+
+# ---- imported from Windows copy (.errors.log.archived-2026-10-06.from-windows) ----
+[2026-10-05T10:55:44.3920700-05:00] stack-doctor weekly: 3 issue(s): recall-coverage, memfile-full:USER.md, memfile-full:MEMORY.md — details in ~/.claude/skills/claude-stack-doctor/scripts/last-weekly-run.log; run /claude-stack-doctor to fix

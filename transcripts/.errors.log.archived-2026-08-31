@@ -3,3 +3,11 @@
 [2026-08-31 07:00] daily-backup: 1 error(s): manifest-unmanaged:Baseball_PerformanceProfiles|Baylor_Doc_Style|Tech_Inventory_Analysis - see ~/.claude/scripts/logs/daily-backup.log
 [2026-08-31 09:00] daily-backup: 1 error(s): manifest-unmanaged:Baseball_PerformanceProfiles|Baylor_Doc_Style|Tech_Inventory_Analysis - see ~/.claude/scripts/logs/daily-backup.log
 [2026-08-31T10:30:17.8120920-05:00] stack-doctor weekly: 3 issue(s): task:com.keystone.dailybackup, errors-log, backup-error — details in ~/.claude/skills/claude-stack-doctor/scripts/last-weekly-run.log; run /claude-stack-doctor to fix
+
+
+# ---- imported from Windows copy (.errors.log.archived-2026-08-31.from-windows) ----
+[2026-08-30 07:02] daily-backup: 1 error(s): manifest-unmanaged:Baseball_PerformanceProfiles|Tech_Inventory_Analysis - see ~/.claude/scripts/logs/daily-backup.log
+[2026-08-30 09:00] daily-backup: 1 error(s): manifest-unmanaged:Baseball_PerformanceProfiles|Tech_Inventory_Analysis - see ~/.claude/scripts/logs/daily-backup.log
+[2026-08-31 07:00] daily-backup: 1 error(s): manifest-unmanaged:Baseball_PerformanceProfiles|Baylor_Doc_Style|Tech_Inventory_Analysis - see ~/.claude/scripts/logs/daily-backup.log
+[2026-08-31 09:00] daily-backup: 1 error(s): manifest-unmanaged:Baseball_PerformanceProfiles|Baylor_Doc_Style|Tech_Inventory_Analysis - see ~/.claude/scripts/logs/daily-backup.log
+[2026-08-31T10:30:17.8120920-05:00] stack-doctor weekly: 3 issue(s): task:com.keystone.dailybackup, errors-log, backup-error — details in ~/.claude/skills/claude-stack-doctor/scripts/last-weekly-run.log; run /claude-stack-doctor to fix

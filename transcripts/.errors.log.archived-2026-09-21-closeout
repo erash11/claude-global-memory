@@ -2,3 +2,10 @@
 [2026-09-20 15:24] daily-backup: 1 error(s): repo-behind-blocked:global-memory - see ~/.claude/scripts/logs/daily-backup.log
 [2026-09-21 10:02] daily-backup: 2 error(s): repo-behind-blocked:global-memory, repo-push:dotclaude - see ~/.claude/scripts/logs/daily-backup.log
 [2026-09-21T10:49:11.2202500-05:00] stack-doctor weekly: 4 issue(s): handoff-fetch:global-memory, handoff-fetch:.claude, handoff-fetch:skills, handoff-fetch:SecondBrain — details in ~/.claude/skills/claude-stack-doctor/scripts/last-weekly-run.log; run /claude-stack-doctor to fix
+
+
+# ---- imported from Windows copy (.errors.log.archived-2026-09-21-closeout.from-windows) ----
+[2026-09-20T12:15:32.730441+00:00] adjudicate-budget-tripped: stopped after 362,417 / 250,000 tokens
+[2026-09-20 15:24] daily-backup: 1 error(s): repo-behind-blocked:global-memory - see ~/.claude/scripts/logs/daily-backup.log
+[2026-09-21 10:02] daily-backup: 2 error(s): repo-behind-blocked:global-memory, repo-push:dotclaude - see ~/.claude/scripts/logs/daily-backup.log
+[2026-09-21T10:49:11.2202500-05:00] stack-doctor weekly: 4 issue(s): handoff-fetch:global-memory, handoff-fetch:.claude, handoff-fetch:skills, handoff-fetch:SecondBrain — details in ~/.claude/skills/claude-stack-doctor/scripts/last-weekly-run.log; run /claude-stack-doctor to fix

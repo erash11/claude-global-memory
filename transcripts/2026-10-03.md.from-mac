@@ -290,3 +290,298 @@ All 3 writers are done. All 3 first reviews are running now.
 
 **A possible error already in the vault**
 - One Bompa entry says Siff and Verkhoshansky put the gains from a hard, concentrated training block at "4 to 12 weeks after the
+
+
+# ---- imported from Windows copy (2026-10-03.md.from-mac.from-windows) ----
+
+## 07:31:51 [d0b85375] (C:\Users\eric_rash\Desktop\DEV)
+The leftovers from the skills pass are cleaned up, and the task list was already empty.
+
+- **PR #11:** merged into `main` on 2026-10-02 as squash commit `dc3e1b9`. I spot-checked your live `~/.claude/skills`: the contents lists are there, the new `references/automatic-learning.md` file is in place, `pp-zotero-research-library` is down to 388 lines, and `status-report` has the check-and-fix loop.
+- **Branch and worktree:** both were already gone, locally and on GitHub. `git worktree list` now sho
+
+## 07:33:27 [57696a0b] (C:\Users\eric_rash\Desktop\DEV\Volleyball_GRID)
+There's nothing left to merge: the branch was already merged yesterday at 4:03 PM as PR #2, probably from another session.
+
+- **Volleyball_GRID:** this laptop is on `main` and in sync with GitHub. The `fix/firewall-single-query` branch is deleted both here and on GitHub.
+- **Docs:** the merge includes the handoff and the email to Mike. `docs/STATUS.md` already records the merge.
+- **Mike:** still waiting on his reply.
+
+**A hook failed overnight:** `memsearch-sync` failed once at 22:00 UTC on 10/
+
+## 07:33:35 [d0b85375] (C:\Users\eric_rash\Desktop\DEV)
+The reindex is running in the background, and I'll be notified when it finishes.
+
+While checking I found something else: **"Backup AI Sessions to Drive" ended at 07:06 today with result -1073741510.** That's the same code as the 3221225786 in your backup-task sleep-kill memory, written as a negative number, so the backup was most likely killed when the laptop slept. It didn't fail on its own. Want me to rerun it after this reindex?
+
+## 07:35:26 [57696a0b] (C:\Users\eric_rash\Desktop\DEV)
+Search is working again now that Docker is up: a test search returned yesterday's volleyball notes.
+
+I've started the catch-up indexing in the background. It adds the transcripts that didn't get indexed during the failed 10/2 sync. When it finishes, I'll check the result and clear the error log, which still shows the failure until then.
+
+## 07:35:28 [1a0860c0] (C:\Users\eric_rash\.claude\claude-memory-compiler)
+**Context:** Finalizing two Baylor professional development request forms (FAST 2026 at Texas A&M, Nov 13; Databricks Data + AI World Tour Dallas, Oct 14) and the cover email to supervisor Erin, then running `/closeout`.
+
+**Key Exchanges:**
+- Eric had the "Reason for Attending" text rewritten, then decided the earlier wording was correct and asked for a rollback. Both PDFs were restored to the original text and verified by reading the text back from each PDF.
+- Asked where the email was — it exi
+
+## 09:19:19 [0949803b] (/Users/kristinarash/DEV/Flint)
+Flint is newest. Reading its state.
+
+## 09:22:20 [0949803b] (/Users/kristinarash/DEV)
+Picking up the next book step: *Supertraining* sections 4.3 and 4.4 (14 pages). I pulled the vault first, because the Mac copy was out of date. Now I am starting a writer agent.
+
+## 09:36:10 [15c824ea] (/Users/kristinarash/DEV)
+You are right. The last backup ran at 01:37 on 10/02. Nothing ran last night. I will check the schedule and the sleep times.
+
+## 09:39:02 [9d08ef48] (/Users/kristinarash/DEV)
+I sent the reviewer the new folder: `Flint/staging/_renders/`. Git ignores it.
+
+**Where things stand**
+- The writer is done. It made 23 new entries for *Supertraining* 4.3 and 4.4. Chapter 4 is now complete.
+- The writer had to fix the vault path for the Mac by hand to run the lint check. With the right path, the check is clean.
+- The first review is still running. I do not have its result yet.
+
+**Next steps**
+1. I apply what the review asks for, then a second reviewer checks again.
+2. Then I st
+
+## 09:41:45 [15c824ea] (/Users/kristinarash/DEV)
+The backup is running. It started at 09:41.
+
+A watcher is running in the background. It will tell me when the backup ends. Then I will report:
+- Did it pass?
+- Is the 42Analytics error gone?
+
+Keep the Mac open until then.
+
+## 09:43:20 [5814aa63] (/Users/kristinarash/DEV)
+DEV STATUS is pushed (`b5cf862`). The only thing still running is the 42Analytics caption fetch. I will report when it ends.
+
+So far:
+- **Skills pull + `sync-to-codex.sh`**: done. 42 skills linked for Codex and agents.
+- **dcg guard**: the duplicate hook came back in commit `e72c374`. I removed it, but the safety check blocked me from going further on the settings file. You must check it (see below).
+- **Baylor football analytics**: the repo is gone everywhere. SignalPlays now says "rebuild here
+
+## 09:47:46 [5814aa63] (/Users/kristinarash/DEV)
+Two hooks look likely: `HookHealer` and `IdentityToSettingsSync`. I check which ones are wired in and what they do.
+
+## 09:48:06 [9d08ef48] (/Users/kristinarash/DEV)
+The fixer agent is working now.
+
+**Review results**
+- 15 entries passed.
+- 8 entries need fixes. The biggest one: an entry about power gets the physics wrong but is rated "proven". Power at each moment is always force times speed. The real mistake is multiplying an average force by an average speed.
+- The other 7 fixes are small:
+  - Some lines need an "Inference:" label.
+  - One wrong reading of the source needs a fix.
+  - One table number (2.7) looks like a misprint and must be marked unclear.
+
+## 09:48:51 [5814aa63] (/Users/kristinarash/DEV)
+It reverted again, before my next step could even run. That is too fast for a normal write-back. Something watches this file and restores it when I change it. It may be Claude Code itself guarding its own settings from agent edits, or the other open window. I cannot tell which from here.
+
+I will stop trying. Trying again the same way will not work.
+
+**What you do (takes 1 minute):**
+1. Close all Claude Code windows, including this one.
+2. Open `~/.claude/settings.json` in a text editor. Go to ab
+
+## 09:51:18 [5814aa63] (/Users/kristinarash/DEV/42Analytics)
+Nothing saved yet. YouTube is rate-limiting the Mac too. I leave the job running. It stops by itself and marks any video it cannot get as `todo` for later.
+
+**What I did**
+- Removed the hard-coded dcg hook and committed it. GitHub has the fix: `f17531c`.
+- I checked GitHub: it has 1 dcg hook (correct).
+- On this Mac, the file flipped back to 2 hooks. An open Claude Code process keeps writing its old copy over the file.
+
+**What you do (once, when you are done for the day)**
+1. Close all Claude Co
+
+## 09:53:06 [c1678cb4] (/Users/kristinarash/.claude/claude-memory-compiler)
+**Context:** Cleaning up session-start hook errors on the Mac: perch-pull failure, the `.errors.log` backlog, and the daily-backup manifest error for 42Analytics.
+
+**Key Exchanges:**
+- Asked whether perch-pull needed a rerun. It did not: the 10/01 11:55 AM failure was followed by a good run today at 4:35 PM (13,826 rows, newest test date 10/02, Google Drive copy to `athlete-snapshots/perch` succeeded). The failure self-healed.
+- Asked to fix the 42Analytics manifest error. It was already fixed —
+
+## 09:53:41 [5814aa63] (/Users/kristinarash/DEV/42Analytics)
+I set a watcher on the caption job. When it ends, I will close the 9:10 AM Claude window and redo the settings fix.
+
+## 09:54:54 [15c824ea] (/Users/kristinarash/DEV)
+Yes, it is still running, and it is healthy.
+
+**Where it is**
+- The quick parts are done. Your repos were pushed and the Drive copies say OK.
+- Now it is rebuilding the search index for your memory files. That part is slow.
+- The index step works hard (about 3 CPU cores busy). It is not stuck.
+- On past nights this step took 4.5 to 8 hours. So it may run into this afternoon.
+
+**The 42Analytics fix worked**
+- Last time the "unmanaged" error came just before the index step.
+- This time no such err
+
+## 09:57:15 [9d08ef48] (/Users/kristinarash/DEV/Flint)
+All 8 fixes are in, and round 2 of the review is running now.
+
+**What I did**
+- The fixer checked each of the 8 fixes against the book pages first, then applied them. Every point the first reviewer raised held up.
+- The fixer added no new entry for the optional OBLA idea (the blood-lactate threshold). Two existing entries already cover it.
+- The power entry had the wrong physics in its file name. I renamed it to `claim--average-or-peak-force-times-velocity-is-not-power.md`. I also fixed the one 
+
+## 10:04:22 [9d08ef48] (/Users/kristinarash/DEV/Flint)
+The review gate is passed, and the test promotion is clean. I need your OK before anything goes into the vault.
+
+**What is ready**
+- 23 new entries for *Supertraining* 4.3 and 4.4. With these, Chapter 4 is complete.
+- Round 1 review found 8 entries to fix. All 8 are fixed.
+- Round 2 review says PROMOTE: 23 pass, 0 need fixes, 0 fail.
+- The test promotion shows 23 new files and 1 changed file. The changed file is `_book.md`, which is the expected map update. No existing entry gets overwritten, an
+
+## 10:16:17 [15c824ea] (/Users/kristinarash/DEV)
+Yes, it is still running, and it is healthy.
+
+**Where it is**
+- The quick parts are done. Your repos were pushed and the Drive copies say OK.
+- Now it is rebuilding the search index for your memory files. That part is slow.
+- The index step works hard (about 3 CPU cores busy). It is not stuck.
+- On past nights this step took 4.5 to 8 hours. So it may run into this afternoon.
+
+**The 42Analytics fix worked**
+- Last time the "unmanaged" error came just before the index step.
+- This time no such err
+
+## 10:23:41 [15c824ea] (/Users/kristinarash/DEV)
+`perch-pull` already ran on its own at 10:05 today, and it passed. You asked for another run, so I will start it now.
+
+## 10:23:43 [5814aa63] (/Users/kristinarash/DEV/42Analytics)
+I set a watcher on the caption job. When it ends, I will close the 9:10 AM Claude window and redo the settings fix.
+
+## 10:27:20 [5814aa63] (/Users/kristinarash/DEV)
+`superpowers-quiet` only edits plugin files, not settings. The context-mode "cache-heal" code does write files atomically. I check what it writes.
+
+## 10:33:12 [5814aa63] (/Users/kristinarash/DEV)
+I stopped the caption job and closed the 9:10 AM window. The dcg fix is still not stuck on this Mac.
+
+**What worked**
+- **Caption job:** stopped. Nothing was lost. 6 videos are still `todo`, because YouTube blocks the Mac too right now.
+- **9:10 AM window:** closed.
+- **Fix in git:** the commit with one dcg hook is on GitHub (`f17531c`).
+
+**What did not work**
+- The fix held for 60 seconds. Then the duplicate came back at 10:26, right when a new Claude window opened (10:25).
+- Most likely cause:
+
+## 10:33:19 [9d08ef48] (/Users/kristinarash/DEV)
+The promotion is done and pushed.
+
+**What I did**
+- I copied the 23 new entries into the vault. The test run before it showed 0 broken links and no overwritten entries.
+- I saved and pushed the vault. The commit is `8d0909e`.
+
+**Still running**
+- An agent is building the list of links from older entries to the new ones. It checks each pair against the real files. I do not have its result yet.
+
+**What happens next**
+1. I do a test run of the links, then apply them, then save the vault again.
+2. I
+
+## 10:34:47 [15c824ea] (/Users/kristinarash/DEV)
+## Closeout — 2026-10-03
+
+**Committed and pushed**
+- `~/.claude` (dotclaude): `971c569` and `999e01b` add 42Analytics to the backup list. `4597969` saves session transcripts.
+- `~/.claude/global-memory`: `df92f22` adds the handoff, the transcripts, and the docs copy.
+- `~/DEV/graphify-out`: `6d7889f` saves its scheduled index refresh. Another job made these changes, not this session.
+- All other DEV repos were already clean and pushed.
+
+**STATUS.md:** not needed. No DEV project repo was changed.
+
+## 10:39:53 [9d08ef48] (/Users/kristinarash/DEV/Flint)
+I promoted *Supertraining* 4.3 and 4.4 into the vault, and Chapter 4 is now complete. The search re-index is still running in the background.
+
+**What changed**
+- **The 23 new entries are in the vault.** Both reviews passed first. Vault commit: `8d0909e`.
+- **15 older entries now link to the new ones.** I also made 4 small text edits by hand. One of them removed a stray `</content>` line from an Evans entry. Vault commit: `104eb0e`.
+- **Flint matches the vault.** I copied the vault versions back 
+
+## 10:41:13 [786ccf63] (/Users/kristinarash/DEV)
+The guard blocked a write to a variable path. I will use the literal job path instead.
+
+## 10:42:10 [9d08ef48] (/Users/kristinarash/DEV/Flint)
+The search re-index finished, and it worked: it indexed 217 chunks with no errors. I tested it with a search on parachute resistance, and a new *Supertraining* entry came back first.
+
+I updated `docs/STATUS.md` to say the re-index is done, then committed and pushed it (`e2b0733`). The *Supertraining* 4.3 to 4.4 work is now fully closed.
+
+Two things are still open from my last message:
+
+1. **Delete the merged branch.** The safety guard blocks me, so run this yourself:
+   `! cd ~/DEV/Flint && git 
+
+## 10:45:00 [9d08ef48] (/Users/kristinarash/DEV/Flint)
+First I am mapping the sections of Chapter 5 so I can split it.
+
+## 10:47:13 [786ccf63] (/Users/kristinarash/DEV)
+I checked two things: git commits in all your repos, and Claude session logs, both for the last 60 days.
+
+**My best guess: about 55% system work, 45% real work.** Roughly half your time goes to the machine and half to the work it is for.
+
+**What the numbers say:**
+- There were about 1,970 commits in total.
+- About 670 are in system repos: `~/.claude`, KeystoneOS, project-triage, printing-press, the DEV root, _INBOX and graphify.
+- The other 1,300 are in work repos, but about 620 of those are upk
+
+## 10:49:37 [786ccf63] (/Users/kristinarash/DEV)
+I'll put a reminder on your Google Calendar for November 2, 2026. The event notes will hold the method, so the check runs the same way.
+
+## 10:51:09 [786ccf63] (/Users/kristinarash/DEV)
+I'll add a repeating Friday event, starting next Friday, October 9. You didn't give a time, so I picked 1:00–2:00 PM Central. You can move it.
+
+## 10:52:20 [786ccf63] (/Users/kristinarash/DEV)
+Now I'll run the verification gate: read back, check uniqueness, and check that the pointer works.
+
+## 11:00:16 [786ccf63] (/Users/kristinarash/DEV)
+Next I commit only my files: the list, the allow-list line, and today's memory note. Then I push so the Windows laptop gets them.
+
+## 11:02:40 [9d08ef48] (/Users/kristinarash/DEV/Flint)
+Part 5a is written: 19 new entries, and the lint check passes. Its first review is running now. Parts 5b and 5c are still being written.
+
+**What the 5a writer did**
+- It read every table and number from the page pictures, not from the error-filled text layer.
+- It recorded the places where the book contradicts itself, with page numbers for both sides. One example: the book gives 3 different percentages for the same repetition maximum (the most weight you can lift that many times).
+- It rated one
+
+## 11:04:59 [9d08ef48] (/Users/kristinarash/DEV/Flint)
+Part 5b is done: 30 entries, and the lint check passes. Its first review is running now.
+
+**What 5b found in the book**
+- It covers depth jumps and plyometrics. Here the book often contradicts itself:
+  - **Rest between sets:** in one place 10 to 12 minutes, in another "1-15" minutes.
+  - **Main method or not:** one page says plyometrics should be the main method for top athletes. Another page says relying mostly on plyometrics is futile.
+- The writer marked 8 entries "contested" (the book disag
+
+## 11:05:48 [786ccf63] (/Users/kristinarash/DEV/CommandCentre)
+While I wait, I'll update the fix list with the results so far.
+
+## 11:08:46 [786ccf63] (/Users/kristinarash/DEV)
+## Closeout — 2026-10-03
+
+**Committed and pushed:**
+- `~/DEV/CommandCentre`: git no longer tracks `server.out`.
+- `~/.claude`: the fix list, STATUS, memory notes and session logs. `settings.json` was left out on purpose.
+- `~/.claude/global-memory`: today's transcript, the handoff and the harvested repo docs.
+- `~/.claude/claude-memory-compiler`: one old flush file that an earlier session left behind.
+
+**STATUS.md:** updated in `~/.claude/docs/STATUS.md`.
+
+**Memory:** saved and checked. The erro
+
+## 11:09:00 [9d08ef48] (/Users/kristinarash/DEV/Flint)
+All 3 writers are done. All 3 first reviews are running now.
+
+**Part 5c**
+- It covers sections 5.3 to 5.6: sequencing, the conjugate system and circuit training. It has 26 entries, and the lint check passes.
+- 9 entries are marked "contested". Two of those are contested because Issurin's 2016 paper disagrees with this chapter.
+
+**A possible error already in the vault**
+- One Bompa entry says Siff and Verkhoshansky put the gains from a hard, concentrated training block at "4 to 12 weeks after the

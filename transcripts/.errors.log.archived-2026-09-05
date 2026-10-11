@@ -1,1 +1,5 @@
 [2026-09-05 09:10] daily-backup: 1 error(s): manifest-unmanaged:skill-audit-2026-09-05 - see ~/.claude/scripts/logs/daily-backup.log
+
+
+# ---- imported from Windows copy (.errors.log.archived-2026-09-05.from-windows) ----
+[2026-09-05 09:10] daily-backup: 1 error(s): manifest-unmanaged:skill-audit-2026-09-05 - see ~/.claude/scripts/logs/daily-backup.log
