@@ -1,3 +1,5 @@
+{"root": "DEV", "path": "KeystoneOS/docs/handoffs/2026-10-11-hook-failure-triage.md", "when": "2026-10-11T15:24:48-05:00", "how": "new, uncommitted", "machine": "kristinsmacbook.lan"}
+{"root": "DEV", "path": "KeystoneOS/docs/STATUS.md", "when": "2026-10-11T15:24:40-05:00", "how": "changed, uncommitted", "machine": "kristinsmacbook.lan"}
 {"root": "DEV", "path": "graphify-out/.graphify_analysis.json", "when": "2026-10-11T15:05:42-05:00", "how": "changed", "machine": "kristinsmacbook.lan"}
 {"root": "DEV", "path": "graphify-out/.graphify_extract.json", "when": "2026-10-11T15:05:42-05:00", "how": "changed", "machine": "kristinsmacbook.lan"}
 {"root": "DEV", "path": "graphify-out/.graphify_gemini.json", "when": "2026-10-11T15:05:42-05:00", "how": "changed", "machine": "kristinsmacbook.lan"}
