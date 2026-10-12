@@ -1,6 +1,7 @@
 # STATUS
 
 ## Current state
+- 2026-10-12 (closeout 2): backup index step ran clean at 18:09 (263 chunks). The only backup error was the manifest entry above, now fixed. Error log archived to `transcripts/.errors.log.archived-2026-10-12b` and cleared. Open items fixed: three archived projects (`project-triage` `af79a87`), 22 dated STATUS lines, `.gitignore` for the stranded flush archive.
 - 2026-10-12 (Mac closeout): `MEMORY.md` trimmed from 2438 to 2264 chars (cap 2500). All 5 Active Threads and all 10 Parked items kept; parked lines now carry only the NEXT step and a pointer. `.errors.log` archived to `transcripts/.errors.log.archived-2026-10-12` and cleared. The memsearch index database opens (43,452 chunks, no lock holder), so the rebuild is not needed.
 - 2026-10-12: House-model state and handoff saved. MEMORY.md is 2438 bytes. Docs harvested from 110 repos; today's transcript exists. One compiler-flush-failed entry remains. The model's full handoff is `handoffs/2026-10-12-house-model-closeout.md`.
 - 2026-10-11: Nightly backup still fails on `memsearch-index:full-set`. The memory index database is incompatible with Milvus Lite 3.x. Eric chose to wait before rebuilding it. `MEMORY.md` is compressed to 2440 of 2500 chars, so there is only about 60 chars of room. Details: `handoffs/2026-10-11-backup-index-and-memory-cap.md`.
