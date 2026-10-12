@@ -1,6 +1,7 @@
 # STATUS
 
 ## Current state
+- 2026-10-12: House-model state and handoff saved. MEMORY.md is 2438 bytes. Docs harvested from 110 repos; today's transcript exists. One compiler-flush-failed entry remains. The model's full handoff is `handoffs/2026-10-12-house-model-closeout.md`.
 - 2026-10-11: Nightly backup still fails on `memsearch-index:full-set`. The memory index database is incompatible with Milvus Lite 3.x. Eric chose to wait before rebuilding it. `MEMORY.md` is compressed to 2440 of 2500 chars, so there is only about 60 chars of room. Details: `handoffs/2026-10-11-backup-index-and-memory-cap.md`.
 - 2026-10-05: Routine only. The Windows sync merged the Mac's transcripts (`.memsearch-last-run` conflict resolved to the newer timestamp), plus the landed ledger and today's transcript. No project work in this repo.
 - 2026-10-04: Routine only: transcripts, landed ledger, a resolved line cleared from `.errors.log`, handoff `handoffs/2026-10-04-windows-recall-digest-ssi-plan.md`. No project work in this repo.

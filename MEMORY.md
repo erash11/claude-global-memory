@@ -9,6 +9,7 @@
 - **RTP CLA (9/26)**: L1–2 built. NEXT Tim/Jacob export; Joe → L3. →`RTP_Constraints_Course/docs/`
 
 ## Parked (NEXT lives in each STATUS.md; `where-was-i.py` lists them)
+- House model (10/12): Mac setup + wk7 done; blend v2, Baylor by 4.6 vs TCU (63%). PFF keys copied. NEXT await Eric →`house-model/docs/STATUS.md`
 - 5S5M (10/6): 45 decks on main; NEXT fill referral path [ADD] 18/20/39/42/43 →EAI STATUS
 - PM system (10/3): `/pm` built; NEXT GUIDE walkthrough →`project-triage/docs/STATUS.md`
 - Personal site: scroll-craft LOCAL, Artifact live →Tier A personal-site-build-routes
