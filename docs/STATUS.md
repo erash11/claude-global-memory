@@ -1,6 +1,7 @@
 # STATUS
 
 ## Current state
+- 2026-10-12 (Mac closeout): `MEMORY.md` trimmed from 2438 to 2264 chars (cap 2500). All 5 Active Threads and all 10 Parked items kept; parked lines now carry only the NEXT step and a pointer. `.errors.log` archived to `transcripts/.errors.log.archived-2026-10-12` and cleared. The memsearch index database opens (43,452 chunks, no lock holder), so the rebuild is not needed.
 - 2026-10-12: House-model state and handoff saved. MEMORY.md is 2438 bytes. Docs harvested from 110 repos; today's transcript exists. One compiler-flush-failed entry remains. The model's full handoff is `handoffs/2026-10-12-house-model-closeout.md`.
 - 2026-10-11: Nightly backup still fails on `memsearch-index:full-set`. The memory index database is incompatible with Milvus Lite 3.x. Eric chose to wait before rebuilding it. `MEMORY.md` is compressed to 2440 of 2500 chars, so there is only about 60 chars of room. Details: `handoffs/2026-10-11-backup-index-and-memory-cap.md`.
 - 2026-10-05: Routine only. The Windows sync merged the Mac's transcripts (`.memsearch-last-run` conflict resolved to the newer timestamp), plus the landed ledger and today's transcript. No project work in this repo.
@@ -13,7 +14,7 @@
 - If exact verbatim accuracy is required, listen to ambiguous passages and update the transcript with a human review note.
 
 ## Open questions
-- Rebuild the memsearch index now, or keep waiting? The nightly backup fails on `memsearch-index:full-set` until the index database is rebuilt (Milvus Lite 3.x cannot open the old file). Eric chose to wait on 2026-10-11. The rebuild moves the old `.db` aside, then runs `memsearch index`.
+ANSWERED 2026-10-12: no rebuild. The memsearch database opens and no process holds a lock. The `memsearch-index:full-set` error was stale. The 21:00 nightly backup should clear it. If that run still fails with the Milvus Lite 3.x message, check `lsof +D ~/.memsearch/milvus.db` first, then decide whether to rebuild.
 - Video processing skill: recorded as the next requested work item (see Next).
 
 ## Gotchas
