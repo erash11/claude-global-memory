@@ -10,10 +10,10 @@
 
 ## Parked (NEXT lives in each STATUS.md; `where-was-i.py` lists them)
 - 5S5M (10/6): 45 decks on main; NEXT fill referral path [ADD] 18/20/39/42/43 →EAI STATUS
-- PM system BUILT 10/3: `/pm` board, resume cards, Friday sweep, card-check; guide `docs/GUIDE.md`; NEXT restart CC, `pm`, GUIDE walkthrough →`project-triage/docs/STATUS.md`
+- PM system (10/3): `/pm` built; NEXT GUIDE walkthrough →`project-triage/docs/STATUS.md`
 - Personal site: scroll-craft LOCAL, Artifact live →Tier A personal-site-build-routes
-- FB matchups: W5 ASU done, W1-4 backfilled; `pff_game_result.py`; bye wk = mid-season →`MatchupAnalysis_FB2026`
-- Flint: PR#6+#7 (10/9) Issurin I2 done, 233 staged; NEXT promote, Mac Ch8 →`Flint`
+- FB matchups: W1-5 done; bye wk = mid-season →`Football/MatchupAnalysis_FB2026`
+- Flint (10/9): 233 staged; NEXT promote, Mac Ch8 →`Flint`
 - 42Analytics: NEXT captions (429s) on Mac →`42Analytics`
 - VB GRID: fix merged 10/2 (#2); await Mike →`Volleyball_GRID`
 - Sleep sched (10/11): 5 real wks tested; NEXT TCU itinerary →`sleep-scheduler`
@@ -26,7 +26,7 @@
 - `DEV/Linda Projects` = private I-983 repo; folder has a space, repo an underscore.
 - `~/DEV` = THIN repo; `.gitignore` starts `/*` — never remove →Tier A github-consolidation.
 - Win: Drive sync, junction, renv traps →machine.md. PFF: swap Parquet on Drive, never the DB; `PFF_DB`.
-- Schedules →automation-cadence. CFB capture Mac only. Dashboard →command-centre.
+- Schedules →automation-cadence. CFB capture Mac only.
 - Post-merge: delete merged branches unasked (verify) →Tier A post-merge-cleanup.
 - Sessions: start `where-was-i.py`, prune `session-sweep.py` →Tier A session-hygiene.
 
