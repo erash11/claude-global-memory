@@ -16,7 +16,7 @@
 - Flint: PR#6+#7 (10/9) Issurin I2 done, 233 staged; NEXT promote, Mac Ch8 →`Flint`
 - 42Analytics: NEXT captions (429s) on Mac →`42Analytics`
 - VB GRID: fix merged 10/2 (#2); await Mike →`Volleyball_GRID`
-- Sleep sched: NEXT night/early-kickoff →`sleep-scheduler`
+- Sleep sched (10/11): 5 real wks tested; NEXT TCU itinerary →`sleep-scheduler`
 - TypeSafe: MAINTENANCE; PR #31 merged as record →`TypeSafe_Sandbox`
 
 ## Environment Notes

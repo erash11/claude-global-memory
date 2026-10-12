@@ -1,8 +1,20 @@
-{"root": "DEV", "path": "sleep-scheduler/docs/STATUS.md", "when": "2026-10-11T18:49:38-05:00", "how": "changed", "machine": "kristinsmacbook.lan"}
+{"root": "DEV", "path": "sleep-scheduler/docs/STATUS.md", "when": "2026-10-11T19:56:04-05:00", "how": "changed, uncommitted", "machine": "kristinsmacbook.lan"}
+{"root": "DEV", "path": "sleep-scheduler/docs/handoffs/2026-10-11-fast-recovery-and-real-itineraries.md", "when": "2026-10-11T19:56:04-05:00", "how": "new, uncommitted", "machine": "kristinsmacbook.lan"}
+{"root": "DEV", "path": "project-triage/portfolio.json", "when": "2026-10-11T19:55:25-05:00", "how": "changed", "machine": "kristinsmacbook.lan"}
+{"root": "DEV", "path": "Website/docs/STATUS.md", "when": "2026-10-11T19:55:23-05:00", "how": "changed", "machine": "kristinsmacbook.lan"}
+{"root": "DEV", "path": "sleep-scheduler/research/lever_tests/departure_delay.py", "when": "2026-10-11T19:35:46-05:00", "how": "new", "machine": "kristinsmacbook.lan"}
+{"root": "DEV", "path": "sleep-scheduler/research/lever_tests/late_return.py", "when": "2026-10-11T19:34:43-05:00", "how": "new", "machine": "kristinsmacbook.lan"}
+{"root": "DEV", "path": "sleep-scheduler/research/lever_tests/run_levers.py", "when": "2026-10-11T19:34:43-05:00", "how": "changed", "machine": "kristinsmacbook.lan"}
+{"root": "DEV", "path": "project-triage/crosswalk.py", "when": "2026-10-11T19:29:26-05:00", "how": "changed", "machine": "kristinsmacbook.lan"}
+{"root": "DEV", "path": "sleep-scheduler/SLEEP-SCHEDULER-SPEC.md", "when": "2026-10-11T18:59:42-05:00", "how": "changed", "machine": "kristinsmacbook.lan"}
+{"root": "DEV", "path": "sleep-scheduler/src/sleep_scheduler/cli.py", "when": "2026-10-11T18:59:42-05:00", "how": "changed", "machine": "kristinsmacbook.lan"}
+{"root": "DEV", "path": "sleep-scheduler/src/sleep_scheduler/report_html.py", "when": "2026-10-11T18:59:42-05:00", "how": "changed", "machine": "kristinsmacbook.lan"}
+{"root": "DEV", "path": "sleep-scheduler/src/sleep_scheduler/weekend.py", "when": "2026-10-11T18:59:42-05:00", "how": "changed", "machine": "kristinsmacbook.lan"}
+{"root": "DEV", "path": "sleep-scheduler/tests/test_weekend_compare.py", "when": "2026-10-11T18:59:42-05:00", "how": "changed", "machine": "kristinsmacbook.lan"}
+{"root": "DEV", "path": "project-triage/docs/STATUS.md", "when": "2026-10-11T18:52:35-05:00", "how": "changed", "machine": "kristinsmacbook.lan"}
 {"root": "DEV", "path": "sleep-scheduler/research/fast_recon/SAFTER-COMPARISON.md", "when": "2026-10-11T18:08:13-05:00", "how": "changed", "machine": "kristinsmacbook.lan"}
 {"root": "DEV", "path": "sleep-scheduler/research/fast_recon/compare_safter.py", "when": "2026-10-11T18:08:13-05:00", "how": "new", "machine": "kristinsmacbook.lan"}
 {"root": "DEV", "path": "sleep-scheduler/research/fast_recon/run_safter.R", "when": "2026-10-11T18:08:13-05:00", "how": "new", "machine": "kristinsmacbook.lan"}
-{"root": "DEV", "path": "project-triage/portfolio.json", "when": "2026-10-11T18:01:14-05:00", "how": "changed", "machine": "kristinsmacbook.lan"}
 {"root": "DEV", "path": "sleep-scheduler/research/fast_recon/recovered_loop.py", "when": "2026-10-11T18:00:07-05:00", "how": "new", "machine": "kristinsmacbook.lan"}
 {"root": "DEV", "path": "sleep-scheduler/research/fast_recon/test_recovered_loop.py", "when": "2026-10-11T18:00:07-05:00", "how": "new", "machine": "kristinsmacbook.lan"}
 {"root": "DEV", "path": "SportScienceResearchRepo/docs/STATUS.md", "when": "2026-10-11T17:59:34-05:00", "how": "changed", "machine": "kristinsmacbook.lan"}
@@ -506,7 +518,6 @@
 {"root": "DEV", "path": "SportScienceResearchRepo/docs/pilot-screening/batch-97-training-performance.json", "when": "2026-10-10T10:35:57-05:00", "how": "new", "machine": "kristinsmacbook.lan"}
 {"root": "DEV", "path": "SportScienceResearchRepo/docs/pilot-screening/batch-99-rehabilitation-return-to-sport.json", "when": "2026-10-10T10:35:57-05:00", "how": "new", "machine": "kristinsmacbook.lan"}
 {"root": "DEV", "path": "SportScienceResearchRepo/docs/pilot-screening/batches-97-104-review.md", "when": "2026-10-10T10:35:57-05:00", "how": "new", "machine": "kristinsmacbook.lan"}
-{"root": "DEV", "path": "project-triage/docs/STATUS.md", "when": "2026-10-10T10:31:24-05:00", "how": "changed", "machine": "kristinsmacbook.lan"}
 {"root": "DEV", "path": "SportScienceResearchRepo/docs/handoffs/2026-10-10-mac-batch-96-103.md", "when": "2026-10-10T10:18:38-05:00", "how": "new", "machine": "kristinsmacbook.lan"}
 {"root": "DEV", "path": "SportScienceResearchRepo/scripts/audit-pilot-shortlist.mjs", "when": "2026-10-10T10:18:38-05:00", "how": "changed", "machine": "kristinsmacbook.lan"}
 {"root": "VAULT", "path": "Knowledge/library/advisors/sport-science.md", "when": "2026-10-10T10:13:54-05:00", "how": "new", "machine": "kristinsmacbook.lan"}
