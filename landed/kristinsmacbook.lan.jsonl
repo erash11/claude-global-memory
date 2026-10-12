@@ -1,9 +1,10 @@
-{"root": "DEV", "path": "project-triage/docs/handoffs/2026-10-11-open-items.md", "when": "2026-10-11T20:11:49-05:00", "how": "new, uncommitted", "machine": "kristinsmacbook.lan"}
-{"root": "DEV", "path": "project-triage/docs/STATUS.md", "when": "2026-10-11T20:11:41-05:00", "how": "changed, uncommitted", "machine": "kristinsmacbook.lan"}
+{"root": "DEV", "path": "project-triage/docs/STATUS.md", "when": "2026-10-11T20:13:11-05:00", "how": "changed", "machine": "kristinsmacbook.lan"}
+{"root": "DEV", "path": "Football/.gitignore", "when": "2026-10-11T20:13:08-05:00", "how": "new", "machine": "kristinsmacbook.lan"}
+{"root": "DEV", "path": "Football/docs/STATUS.md", "when": "2026-10-11T20:13:08-05:00", "how": "new", "machine": "kristinsmacbook.lan"}
+{"root": "DEV", "path": "project-triage/docs/handoffs/2026-10-11-open-items.md", "when": "2026-10-11T20:12:29-05:00", "how": "new", "machine": "kristinsmacbook.lan"}
+{"root": "DEV", "path": "project-triage/portfolio.json", "when": "2026-10-11T20:12:29-05:00", "how": "changed", "machine": "kristinsmacbook.lan"}
 {"root": "DEV", "path": "sleep-scheduler/docs/STATUS.md", "when": "2026-10-11T20:10:47-05:00", "how": "changed", "machine": "kristinsmacbook.lan"}
 {"root": "DEV", "path": "sleep-scheduler/docs/handoffs/2026-10-11-fast-recovery-and-real-itineraries.md", "when": "2026-10-11T20:10:47-05:00", "how": "new", "machine": "kristinsmacbook.lan"}
-{"root": "DEV", "path": "project-triage/portfolio.json", "when": "2026-10-11T20:06:39-05:00", "how": "changed", "machine": "kristinsmacbook.lan"}
-{"root": "DEV", "path": "Football/.gitignore", "when": "2026-10-11T20:06:15-05:00", "how": "new", "machine": "kristinsmacbook.lan"}
 {"root": "DEV", "path": "Football/README.md", "when": "2026-10-11T20:06:15-05:00", "how": "new", "machine": "kristinsmacbook.lan"}
 {"root": "DEV", "path": "project-triage/crosswalk.py", "when": "2026-10-11T19:58:42-05:00", "how": "changed", "machine": "kristinsmacbook.lan"}
 {"root": "DEV", "path": "project-triage/tests/test_crosswalk.py", "when": "2026-10-11T19:58:42-05:00", "how": "changed", "machine": "kristinsmacbook.lan"}
