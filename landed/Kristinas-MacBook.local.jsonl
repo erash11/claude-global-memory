@@ -1,5 +1,17 @@
+{"root": "DRIVE", "path": "08_ADMIN/Policy_Procedure/Data use acknowledgement/Pitt/Staff_Responsible_Use_Guidelines_LegalReview.docx", "when": "2026-10-12T21:56:40-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DRIVE", "path": "08_ADMIN/Policy_Procedure/Data use acknowledgement/Pitt/SA_Performance_Technology_Consent_LegalReview.docx", "when": "2026-10-12T21:56:40-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DRIVE", "path": "08_ADMIN/Policy_Procedure/Data use acknowledgement/Lousiville/v4_Guidelines to Responsible Use of Performance Technologies.docx", "when": "2026-10-12T21:56:40-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "SoftwareTech_Review/docs/handoffs/2026-10-12-teams-readme.md", "when": "2026-10-12T17:16:16-05:00", "how": "new, uncommitted", "machine": "Kristinas-MacBook.local"}
+{"root": "DRIVE", "path": "08_ADMIN/Policy_Procedure/Data use acknowledgement/Texas/SMED-8055 Performance Technologies Policy 2026.docx", "when": "2026-10-12T17:00:02-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DRIVE", "path": "08_ADMIN/Policy_Procedure/Data use acknowledgement/Texas/PROC-SMED-8055 Performance Technologies Procedures 2026.docx", "when": "2026-10-12T17:00:02-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DRIVE", "path": "08_ADMIN/Policy_Procedure/Data use acknowledgement/Texas/SMED-8110 Data Protection 2026.docx", "when": "2026-10-12T17:00:02-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DRIVE", "path": "08_ADMIN/Policy_Procedure/Data use acknowledgement/Texas/Human Performance Release.pdf", "when": "2026-10-12T17:00:01-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "SoftwareTech_Review/docs/STATUS.md", "when": "2026-10-12T15:48:33-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "SoftwareTech_Review/docs/TEAMS_PLAN.md", "when": "2026-10-12T15:48:33-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "SoftwareTech_Review/docs/TEAMS_README.md", "when": "2026-10-12T15:44:50-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "SportScienceResearchRepo/docs/STATUS.md", "when": "2026-10-12T10:05:19-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "SportScienceResearchRepo/docs/handoffs/2026-10-12-doi-lookup-and-backlog.md", "when": "2026-10-12T10:05:19-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Flint/docs/handoffs/2026-10-12-morris-w23-cloud.md", "when": "2026-10-12T10:04:04-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "SportScienceResearchRepo/docs/STATUS.md", "when": "2026-10-12T10:03:29-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "SportScienceResearchRepo/docs/doi-lookup/2026-10-12-accepted-dois.json", "when": "2026-10-12T10:03:29-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "SportScienceResearchRepo/docs/doi-lookup/2026-10-12-degraded-doi-candidates.json", "when": "2026-10-12T10:03:29-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Flint/docs/STATUS.md", "when": "2026-10-12T10:02:03-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
@@ -28,6 +40,7 @@
 {"root": "VAULT", "path": "Knowledge/library/strength-and-conditioning/optimizing-periodization--zourdos/framework--gas-frequency-theory-figure-from-overload-to-rebound.md", "when": "2026-10-12T09:35:24-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "VAULT", "path": "Knowledge/library/strength-and-conditioning/training-principles-and-theory--stone/framework--long-term-variation-traditional-intensity-predominant-and-volume-predominant.md", "when": "2026-10-12T09:35:24-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "VAULT", "path": "Knowledge/library/strength-and-conditioning/elite-sports-performance--evans/case-study--wide-receiver-preparatory-phase-weekly-loading-template.md", "when": "2026-10-12T09:35:24-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "Tech_Inventory_Analysis/docs/STATUS.md", "when": "2026-10-12T09:14:59-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "99_UNSORTED/From_Desktop/TECHNOLOGY/FAST/GAME_WEEK_ITINERARIES/2024/Game 7 - Texas Tech - Staff Itinerary.pdf", "when": "2026-10-12T09:14:32-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "99_UNSORTED/From_Desktop/TECHNOLOGY/FAST/GAME_WEEK_ITINERARIES/2024/Game 10 - West Virginia - Staff Itinerary.pdf", "when": "2026-10-12T09:14:32-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "99_UNSORTED/From_Desktop/TECHNOLOGY/FAST/GAME_WEEK_ITINERARIES/2024/Game 1 - Tarleton State - Staff Itinerary.pdf", "when": "2026-10-12T09:14:32-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
@@ -53,6 +66,14 @@
 {"root": "DRIVE", "path": "99_UNSORTED/From_Desktop/TECHNOLOGY/FAST/GAME_WEEK_ITINERARIES/2025/Game 7 - TCU - Staff Itinerary.pdf", "when": "2026-10-12T09:14:32-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "99_UNSORTED/From_Desktop/TECHNOLOGY/FAST/GAME_WEEK_ITINERARIES/2025/Game 2 - SMU - Staff Itinerary.pdf", "when": "2026-10-12T09:14:32-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "99_UNSORTED/From_Desktop/TECHNOLOGY/FAST/GAME_WEEK_ITINERARIES/2026/Game 3 - LATECH - Staff Itinerary.pdf", "when": "2026-10-12T09:14:29-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "Tech_Inventory_Analysis/deliverables/Tech_Inventory_EXEC_SUMMARY_ER_2026-10-01.docx", "when": "2026-10-12T09:13:16-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "Tech_Inventory_Analysis/deliverables/_SEND/Baylor Athletics Technology Inventory.docx", "when": "2026-10-12T09:13:16-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "Tech_Inventory_Analysis/deliverables/_SEND/Baylor Athletics Technology Inventory.pdf", "when": "2026-10-12T09:13:16-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "Tech_Inventory_Analysis/deliverables/_SEND/SEND_Tech_Inventory_BY_UNIT_ER_2026-10-01.docx", "when": "2026-10-12T09:13:16-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "Tech_Inventory_Analysis/deliverables/_SEND/SEND_Tech_Inventory_EXEC_SUMMARY_ER_2026-10-01.docx", "when": "2026-10-12T09:13:16-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "Tech_Inventory_Analysis/deliverables/_SEND/SEND_Tech_Inventory_TECH_LISTS_ER_2026-10-01.docx", "when": "2026-10-12T09:13:16-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "Tech_Inventory_Analysis/deliverables/_SEND/SEND_Tech_Inventory_TECH_LISTS_ER_2026-10-01.pdf", "when": "2026-10-12T09:13:16-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "Tech_Inventory_Analysis/raw/Quick_Inventory_export_2026-10-01.xlsx", "when": "2026-10-12T09:13:16-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "VAULT", "path": "Knowledge/library/strength-and-conditioning/_domain.md", "when": "2026-10-12T09:08:27-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Flint/staging/fixes_deload-to-reload-morris_applied.md", "when": "2026-10-12T09:07:46-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Flint/staging/library/strength-and-conditioning/deload-to-reload--morris/_book.md", "when": "2026-10-12T09:07:46-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
@@ -266,7 +287,6 @@
 {"root": "DEV", "path": "NCAA_BestPractices_Doc/deliverables/SSI_BestPractices_GUIDE_DRAFTv2_KENNY_ER_2026-10-07.pdf", "when": "2026-10-07T10:41:05-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "PP_Recruiting/docs/STATUS.md", "when": "2026-10-07T10:22:26-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "cmj-traffic-light/docs/STATUS.md", "when": "2026-10-07T10:16:42-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "Tech_Inventory_Analysis/docs/STATUS.md", "when": "2026-10-07T10:16:42-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "cmj-traffic-light/config/config.yaml", "when": "2026-10-07T10:16:42-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Education_Alignment_Initiative/docs/STATUS.md", "when": "2026-10-07T10:10:05-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "RTP_Constraints_Course/docs/STATUS.md", "when": "2026-10-07T10:10:00-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
