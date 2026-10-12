@@ -1,9 +1,20 @@
+{"root": "DEV", "path": "Tech_Inventory_Analysis/deliverables/_SEND/Baylor Athletics Technology Inventory.pdf", "when": "2026-10-12T09:13:16-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DEV", "path": "Tech_Inventory_Analysis/deliverables/_SEND/Baylor Athletics Technology Inventory.docx", "when": "2026-10-12T09:13:16-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DEV", "path": "Tech_Inventory_Analysis/deliverables/_SEND/SEND_Tech_Inventory_BY_UNIT_ER_2026-10-01.docx", "when": "2026-10-12T09:13:16-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DEV", "path": "Tech_Inventory_Analysis/deliverables/_SEND/SEND_Tech_Inventory_EXEC_SUMMARY_ER_2026-10-01.docx", "when": "2026-10-12T09:13:16-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DEV", "path": "Tech_Inventory_Analysis/raw/Quick_Inventory_export_2026-10-01.xlsx", "when": "2026-10-12T09:13:16-05:00", "how": "changed", "machine": "BU-1979FJ4"}
+{"root": "DEV", "path": "Tech_Inventory_Analysis/deliverables/_SEND/SEND_Tech_Inventory_TECH_LISTS_ER_2026-10-01.docx", "when": "2026-10-12T09:13:16-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DEV", "path": "Tech_Inventory_Analysis/deliverables/_SEND/SEND_Tech_Inventory_TECH_LISTS_ER_2026-10-01.pdf", "when": "2026-10-12T09:13:16-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DEV", "path": "Tech_Inventory_Analysis/deliverables/Tech_Inventory_EXEC_SUMMARY_ER_2026-10-01.docx", "when": "2026-10-12T09:13:16-05:00", "how": "changed", "machine": "BU-1979FJ4"}
+{"root": "DEV", "path": "project-triage/docs/STATUS.md", "when": "2026-10-12T08:08:21-05:00", "how": "changed", "machine": "BU-1979FJ4"}
+{"root": "DEV", "path": "project-triage/portfolio.json", "when": "2026-10-12T06:21:47-05:00", "how": "changed", "machine": "BU-1979FJ4"}
+{"root": "DEV", "path": "project-triage/docs/handoffs/2026-10-11-open-items.md", "when": "2026-10-11T20:12:29-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DEV", "path": "project-triage/crosswalk.py", "when": "2026-10-11T19:58:42-05:00", "how": "changed", "machine": "BU-1979FJ4"}
+{"root": "DEV", "path": "project-triage/tests/test_crosswalk.py", "when": "2026-10-11T19:58:42-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "VAULT", "path": "Projects/work-laptop-handoff-2026-10-08.md", "when": "2026-10-08T15:42:58-05:00", "how": "new", "machine": "BU-1979FJ4"}
-{"root": "DEV", "path": "project-triage/portfolio.json", "when": "2026-10-07T17:11:41-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "TOS_Evidence_Brief/docs/STATUS.md", "when": "2026-10-07T17:05:33-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "TOS_Evidence_Brief/docs/handoffs/2026-10-07-tos-case-review.md", "when": "2026-10-07T17:05:33-05:00", "how": "new", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "SpecialRequests/docs/STATUS.md", "when": "2026-10-07T17:05:29-05:00", "how": "changed", "machine": "BU-1979FJ4"}
-{"root": "DEV", "path": "project-triage/docs/STATUS.md", "when": "2026-10-07T17:05:27-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DRIVE", "path": "04_RESEARCH/TOS_Case_Review_2026-10/TOS_CASE_REVIEW_ER_2026-10-07.pdf", "when": "2026-10-07T17:03:29-05:00", "how": "new", "machine": "BU-1979FJ4"}
 {"root": "DRIVE", "path": "04_RESEARCH/TOS_Case_Review_2026-10/TOS_ONEPAGER_ER_2026-10-07.pdf", "when": "2026-10-07T17:03:29-05:00", "how": "new", "machine": "BU-1979FJ4"}
 {"root": "DRIVE", "path": "04_RESEARCH/TOS_Case_Review_2026-10/TOS_ONEPAGER_ER_2026-10-07.docx", "when": "2026-10-07T17:03:28-05:00", "how": "new", "machine": "BU-1979FJ4"}
@@ -1547,8 +1558,6 @@
 {"root": "DEV", "path": "Risk_Stratification_Engine/docs/STATUS.md", "when": "2026-10-03T11:08:36-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "project-triage/docs/inventory/2026-10-03-organization-decisions.md", "when": "2026-10-03T11:08:16-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "project-triage/docs/inventory/backfill_round4_2026-10-03.py", "when": "2026-10-03T11:08:16-05:00", "how": "new", "machine": "BU-1979FJ4"}
-{"root": "DEV", "path": "project-triage/crosswalk.py", "when": "2026-10-03T11:08:16-05:00", "how": "changed", "machine": "BU-1979FJ4"}
-{"root": "DEV", "path": "project-triage/tests/test_crosswalk.py", "when": "2026-10-03T11:08:16-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "claude-global-memory/handoffs/2026-10-03-harness-time-budget.md", "when": "2026-10-03T11:07:32-05:00", "how": "new", "machine": "BU-1979FJ4"}
 {"root": "DRIVE", "path": "05_SYSTEMS/AI_Sessions_Backup/BU-1979FJ4/claude-code/C--Users-eric-rash-Desktop-DEV/memory/project_prioritization-slate.md", "when": "2026-10-03T10:45:05-05:00", "how": "new", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "project-triage/docs/inventory/2026-10-03-backfill-preview.md", "when": "2026-10-03T10:40:06-05:00", "how": "new", "machine": "BU-1979FJ4"}
