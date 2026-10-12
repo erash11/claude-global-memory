@@ -1,12 +1,12 @@
 {"root": "DRIVE", "path": "08_ADMIN/Policy_Procedure/Data use acknowledgement/Pitt/Staff_Responsible_Use_Guidelines_LegalReview.docx", "when": "2026-10-12T21:56:40-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "08_ADMIN/Policy_Procedure/Data use acknowledgement/Pitt/SA_Performance_Technology_Consent_LegalReview.docx", "when": "2026-10-12T21:56:40-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "08_ADMIN/Policy_Procedure/Data use acknowledgement/Lousiville/v4_Guidelines to Responsible Use of Performance Technologies.docx", "when": "2026-10-12T21:56:40-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "SoftwareTech_Review/docs/handoffs/2026-10-12-teams-readme.md", "when": "2026-10-12T17:16:16-05:00", "how": "new, uncommitted", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "SoftwareTech_Review/docs/STATUS.md", "when": "2026-10-12T17:16:47-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "SoftwareTech_Review/docs/handoffs/2026-10-12-teams-readme.md", "when": "2026-10-12T17:16:35-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "08_ADMIN/Policy_Procedure/Data use acknowledgement/Texas/SMED-8055 Performance Technologies Policy 2026.docx", "when": "2026-10-12T17:00:02-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "08_ADMIN/Policy_Procedure/Data use acknowledgement/Texas/PROC-SMED-8055 Performance Technologies Procedures 2026.docx", "when": "2026-10-12T17:00:02-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "08_ADMIN/Policy_Procedure/Data use acknowledgement/Texas/SMED-8110 Data Protection 2026.docx", "when": "2026-10-12T17:00:02-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "08_ADMIN/Policy_Procedure/Data use acknowledgement/Texas/Human Performance Release.pdf", "when": "2026-10-12T17:00:01-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "SoftwareTech_Review/docs/STATUS.md", "when": "2026-10-12T15:48:33-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "SoftwareTech_Review/docs/TEAMS_PLAN.md", "when": "2026-10-12T15:48:33-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "SoftwareTech_Review/docs/TEAMS_README.md", "when": "2026-10-12T15:44:50-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "SportScienceResearchRepo/docs/STATUS.md", "when": "2026-10-12T10:05:19-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
