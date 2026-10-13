@@ -1,6 +1,8 @@
 # STATUS
 
 ## Current state
+- 2026-10-13: Sport Science Network processing closeout captured in Flint's dated handoff. Five replay packages are saved; Contorno and Weiss were verified online today. Today's transcript file exists and is recent; `.errors.log` is empty. Repo docs and the landed ledger are included in this closeout sync; live harness history remains local under Eric's rule.
+- The project remains paused; today's changes are routine handoff, harvest, and ledger maintenance. Pull the separate `~/DEV/claude-global-memory` checkout after this repo is pushed so the board card reads the same STATUS.
 - 2026-10-12 (closeout 2): backup index step ran clean at 18:09 (263 chunks). The only backup error was the manifest entry above, now fixed. Error log archived to `transcripts/.errors.log.archived-2026-10-12b` and cleared. Open items fixed: three archived projects (`project-triage` `af79a87`), 22 dated STATUS lines, `.gitignore` for the stranded flush archive.
 - 2026-10-12 (Mac closeout): `MEMORY.md` trimmed from 2438 to 2264 chars (cap 2500). All 5 Active Threads and all 10 Parked items kept; parked lines now carry only the NEXT step and a pointer. `.errors.log` archived to `transcripts/.errors.log.archived-2026-10-12` and cleared. The memsearch index database opens (43,452 chunks, no lock holder), so the rebuild is not needed.
 - 2026-10-12: House-model state and handoff saved. MEMORY.md is 2438 bytes. Docs harvested from 110 repos; today's transcript exists. One compiler-flush-failed entry remains. The model's full handoff is `handoffs/2026-10-12-house-model-closeout.md`.
@@ -11,16 +13,14 @@
 - This closeout handoff records the workflow, deliverables, and next steps for another harness.
 
 ## Next
-- Create a portable video processing and transcript review skill in the canonical `~/.claude/skills` repo; sync generated Codex and `.agents` views.
+- Open `~/DEV/Flint/docs/handoffs/2026-10-13-sport-science-network-closeout.md` for the verified video workflow and exact outputs; the existing requested portable processing skill is still pending.
+- Create a portable video processing and transcript review skill in the canonical `~/.claude/skills` repo when returning to that task; sync generated Codex and `.agents` views.
 - If exact verbatim accuracy is required, listen to ambiguous passages and update the transcript with a human review note.
 
 ## Open questions
 ANSWERED 2026-10-12: no rebuild. The memsearch database opens and no process holds a lock. The `memsearch-index:full-set` error was stale. The 21:00 nightly backup should clear it. If that run still fails with the Milvus Lite 3.x message, check `lsof +D ~/.memsearch/milvus.db` first, then decide whether to rebuild.
-- Video processing skill: recorded as the next requested work item (see Next).
 
 ## Gotchas
 - The stop hook can add one final transcript entry after closeout.
 - Push this repo at closeout so both laptops get the same memory.
-
-
 
