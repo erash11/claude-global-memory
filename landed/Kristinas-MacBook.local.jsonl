@@ -1,6 +1,12 @@
 {"root": "DRIVE", "path": "08_ADMIN/Policy_Procedure/Data use acknowledgement/Pitt/Staff_Responsible_Use_Guidelines_LegalReview.docx", "when": "2026-10-12T21:56:40-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "08_ADMIN/Policy_Procedure/Data use acknowledgement/Pitt/SA_Performance_Technology_Consent_LegalReview.docx", "when": "2026-10-12T21:56:40-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "08_ADMIN/Policy_Procedure/Data use acknowledgement/Lousiville/v4_Guidelines to Responsible Use of Performance Technologies.docx", "when": "2026-10-12T21:56:40-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "project-triage/portfolio.json", "when": "2026-10-12T18:32:32-05:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "project-triage/docs/STATUS.md", "when": "2026-10-12T18:29:29-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "project-triage/docs/handoffs/2026-10-12-cloud-copy-and-option-a.md", "when": "2026-10-12T18:29:29-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "Wilhelm_Brody_RTP/docs/STATUS.md", "when": "2026-10-12T18:28:41-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "Travel_Map/docs/STATUS.md", "when": "2026-10-12T18:28:38-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "Football/SpeedProfiling/docs/STATUS.md", "when": "2026-10-12T18:28:34-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Flint/docs/STATUS.md", "when": "2026-10-12T18:15:45-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Flint/docs/sources/2026-10-12-ward-applied-analysis.md", "when": "2026-10-12T18:15:45-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "Cloud_Copy/DEV/Flint/docs/STATUS.md", "when": "2026-10-12T18:15:44-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
@@ -10,7 +16,6 @@
 {"root": "DRIVE", "path": "09_PRO_DEV/Continuing_Education/SPORT SCIENCE NETWORK/Patrick Ward - Applied Analysis Measurement and Decision Making/patrick-ward-applied-analysis.vtt", "when": "2026-10-12T18:13:58-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "09_PRO_DEV/Continuing_Education/SPORT SCIENCE NETWORK/Patrick Ward - Applied Analysis Measurement and Decision Making/transcript.txt", "when": "2026-10-12T18:13:57-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "09_PRO_DEV/Continuing_Education/SPORT SCIENCE NETWORK/Patrick Ward - Applied Analysis Measurement and Decision Making/transcript.md", "when": "2026-10-12T18:13:57-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "project-triage/docs/STATUS.md", "when": "2026-10-12T18:12:38-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "Cloud_Copy/DEV/project-triage/docs/STATUS.md", "when": "2026-10-12T18:12:38-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "09_PRO_DEV/Continuing_Education/SPORT SCIENCE NETWORK/Patrick Ward - Applied Analysis Measurement and Decision Making/patrick-ward-applied-analysis.en.srt", "when": "2026-10-12T18:12:11-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "09_PRO_DEV/Continuing_Education/SPORT SCIENCE NETWORK/Patrick Ward - Applied Analysis Measurement and Decision Making/patrick-ward-applied-analysis.en.vtt.ytdl", "when": "2026-10-12T18:12:02-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
@@ -22,13 +27,9 @@
 {"root": "DRIVE", "path": "09_PRO_DEV/Continuing_Education/SPORT SCIENCE NETWORK/Ola Eriksrud - Multidirectional Speed/ola-eriksrud-multidirectional-speed.mp4", "when": "2026-10-12T18:01:52-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "09_PRO_DEV/Continuing_Education/SPORT SCIENCE NETWORK/Ola Eriksrud - Multidirectional Speed/transcript.txt", "when": "2026-10-12T18:01:25-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "09_PRO_DEV/Continuing_Education/SPORT SCIENCE NETWORK/Ola Eriksrud - Multidirectional Speed/transcript.md", "when": "2026-10-12T18:01:25-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "Travel_Map/docs/STATUS.md", "when": "2026-10-12T17:58:14-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "Cloud_Copy/DEV/Travel_Map/docs/STATUS.md", "when": "2026-10-12T17:58:14-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "Football/SpeedProfiling/docs/STATUS.md", "when": "2026-10-12T17:58:07-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "Cloud_Copy/DEV/Football/SpeedProfiling/docs/STATUS.md", "when": "2026-10-12T17:58:07-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "Wilhelm_Brody_RTP/docs/STATUS.md", "when": "2026-10-12T17:58:03-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "Cloud_Copy/DEV/Wilhelm_Brody_RTP/docs/STATUS.md", "when": "2026-10-12T17:58:02-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "project-triage/portfolio.json", "when": "2026-10-12T17:57:47-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "Cloud_Copy/DEV/project-triage/portfolio.json", "when": "2026-10-12T17:57:42-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "Cloud_Copy/DEV/project-triage/portfolio.json.bak", "when": "2026-10-12T17:57:41-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Tech_Inventory_Analysis/docs/STATUS.md", "when": "2026-10-12T17:48:29-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
