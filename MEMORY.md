@@ -14,7 +14,7 @@
 - PM system (10/3): NEXT GUIDE walkthrough →`project-triage/docs/STATUS.md`
 - Personal site: scroll-craft LOCAL →Tier A personal-site-build-routes
 - FB matchups: W1-5 done; bye wk = mid-season →`Football/MatchupAnalysis_FB2026`
-- Flint (10/9): NEXT promote, Mac Ch8 →`Flint`
+- Flint (10/13): 16 talks/4-file folders; Ch8/9a promotion pending →`Flint/docs/STATUS.md`
 - 42Analytics: NEXT captions (429s) on Mac →`42Analytics`
 - VB GRID: await Mike →`Volleyball_GRID`
 - Sleep sched (10/11): NEXT TCU itinerary →`sleep-scheduler`

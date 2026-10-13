@@ -1,7 +1,7 @@
 # STATUS
 
 ## Current state
-- 2026-10-13: Sport Science Network processing closeout captured in Flint's dated handoff. Five replay packages are saved; Contorno and Weiss were verified online today. Today's transcript file exists and is recent; `.errors.log` is empty. Repo docs and the landed ledger are included in this closeout sync; live harness history remains local under Eric's rule.
+- 2026-10-13: Sport Science Network finished: 16 talks, four files per active folder, 64 files verified online; original resources preserved in an archive. Final handoff: `Flint/docs/handoffs/2026-10-13-sport-science-network-final-closeout.md`. Today's transcript exists and is recent. A GPS coach-PDF timeout was recovered by local export retry; original error archived and active error log cleared. Private history remains local under Eric's rule.
 - The project remains paused; today's changes are routine handoff, harvest, and ledger maintenance. Pull the separate `~/DEV/claude-global-memory` checkout after this repo is pushed so the board card reads the same STATUS.
 - 2026-10-12 (closeout 2): backup index step ran clean at 18:09 (263 chunks). The only backup error was the manifest entry above, now fixed. Error log archived to `transcripts/.errors.log.archived-2026-10-12b` and cleared. Open items fixed: three archived projects (`project-triage` `af79a87`), 22 dated STATUS lines, `.gitignore` for the stranded flush archive.
 - 2026-10-12 (Mac closeout): `MEMORY.md` trimmed from 2438 to 2264 chars (cap 2500). All 5 Active Threads and all 10 Parked items kept; parked lines now carry only the NEXT step and a pointer. `.errors.log` archived to `transcripts/.errors.log.archived-2026-10-12` and cleared. The memsearch index database opens (43,452 chunks, no lock holder), so the rebuild is not needed.
@@ -13,7 +13,7 @@
 - This closeout handoff records the workflow, deliverables, and next steps for another harness.
 
 ## Next
-- Open `~/DEV/Flint/docs/handoffs/2026-10-13-sport-science-network-closeout.md` for the verified video workflow and exact outputs; the existing requested portable processing skill is still pending.
+- Open `/Users/kristinarash/DEV/Flint/docs/handoffs/2026-10-13-sport-science-network-final-closeout.md` for the final four-file layout, archive and resume steps; the existing requested portable processing skill is still pending.
 - Create a portable video processing and transcript review skill in the canonical `~/.claude/skills` repo when returning to that task; sync generated Codex and `.agents` views.
 - If exact verbatim accuracy is required, listen to ambiguous passages and update the transcript with a human review note.
 
