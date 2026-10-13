@@ -1,6 +1,7 @@
 # STATUS
 
 ## Current state
+- 2026-10-13 final sweep: replay work and PDF recovery are complete, but another Claude session is still writing the next Supertraining batch. Current drafts are checkpointed without review or promotion; full-workspace closeout remains partial until that writer finishes. Private histories remain local by instruction.
 - 2026-10-13: Sport Science Network finished: 16 talks, four files per active folder, 64 files verified online; original resources preserved in an archive. Final handoff: `Flint/docs/handoffs/2026-10-13-sport-science-network-final-closeout.md`. Today's transcript exists and is recent. A GPS coach-PDF timeout was recovered by local export retry; original error archived and active error log cleared. Private history remains local under Eric's rule.
 - The project remains paused; today's changes are routine handoff, harvest, and ledger maintenance. Pull the separate `~/DEV/claude-global-memory` checkout after this repo is pushed so the board card reads the same STATUS.
 - 2026-10-12 (closeout 2): backup index step ran clean at 18:09 (263 chunks). The only backup error was the manifest entry above, now fixed. Error log archived to `transcripts/.errors.log.archived-2026-10-12b` and cleared. Open items fixed: three archived projects (`project-triage` `af79a87`), 22 dated STATUS lines, `.gitignore` for the stranded flush archive.
