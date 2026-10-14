@@ -21,12 +21,12 @@
 - TypeSafe: MAINTENANCE →`TypeSafe_Sandbox`
 
 ## Environment Notes
-- Win laptop hands-off 10/8, no automation →Tier A. Mac sole writer GPS/Perch/VALD.
+- Win laptop RETIRED 10/14, Docker gone; Mac + Drive only →Tier A. Mac sole writer GPS/Perch/VALD.
 - Hooks: patch both copies for shared events →Tier A hook-two-copies-trap.
 - daily-backup: manifest entries alone copy nothing; sweep nested ~/.claude repos →handoff 09-19.
 - `DEV/Linda_Projects` = private I-983 repo (space-named twin parked 10-14). Drive reads hang →Tier A drive-fuse-read-hang.
 - `~/DEV` = THIN repo; `.gitignore` starts `/*` — never remove →Tier A github-consolidation.
-- Win: Drive sync, junction, renv traps →machine.md. PFF: swap Parquet on Drive, never the DB; `PFF_DB`.
+- PFF: swap Parquet on Drive, never the DB; `PFF_DB`.
 - Schedules →automation-cadence. CFB capture Mac only.
 - Post-merge: delete merged branches unasked (verify) →Tier A post-merge-cleanup.
 - Sessions: start `where-was-i.py`, prune `session-sweep.py` →Tier A session-hygiene.
