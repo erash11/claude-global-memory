@@ -6,7 +6,7 @@ Eric Rash, Director of Applied Performance, Baylor Athletics. Builds football GP
 
 ## Preferences
 - Python/R. Windows by day, Mac by evening; paths in machine.md.
-- Local SQLite/DuckDB, DuckDB never on Drive (sync locks). No cloud servers or schedulers without Baylor IT approval.
+- Local SQLite/DuckDB, DuckDB never on Drive (sync locks). Cloud servers/schedulers approved 10/14 (VPS, Cloudroom).
 - Tangible working examples over documentation.
 - Staff-facing text: Athletic Performance (not S&C), Athletic Medicine (not sports medicine), Applied Performance (not sport science).
 
