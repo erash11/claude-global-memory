@@ -19,6 +19,7 @@
 - VB GRID: await Mike →`Volleyball_GRID`
 - Sleep sched (10/11): NEXT TCU itinerary →`sleep-scheduler`
 - TypeSafe: MAINTENANCE →`TypeSafe_Sandbox`
+- File org (10/14): Tasks 1-3,5-7 done; Task 4 Areas after season →`DEV/docs/FILE-ORGANIZATION-PLAN.md`
 
 ## Environment Notes
 - Win laptop RETIRED 10/14, Docker gone; Mac + Drive only →Tier A. Mac sole writer GPS/Perch/VALD.
