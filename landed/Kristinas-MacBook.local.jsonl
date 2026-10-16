@@ -1,5 +1,6 @@
 {"root": "DEV", "path": "Football/CFB_Playoff_Benchmarks/docs/STATUS.md", "when": "2026-10-16T20:41:45Z", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Football/CFB_Playoff_Benchmarks/docs/handoffs/2026-10-16-phase2-wins-model.md", "when": "2026-10-16T20:41:45Z", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "Football/CFB_Playoff_Benchmarks/docs/handoffs/2026-10-16-phase1-one-season-verification.md", "when": "2026-10-16T20:14:14Z", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "MacEverything/docs/STATUS.md", "when": "2026-10-16T19:31:28Z", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "MacEverything/docs/handoffs/2026-10-16-real-mac-and-ui.md", "when": "2026-10-16T19:31:28Z", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Football/CFB_Playoff_Benchmarks/docs/reviews/2026-10-16-phase2-codex-brief.md", "when": "2026-10-16T19:28:13Z", "how": "new", "machine": "Kristinas-MacBook.local"}
@@ -38,6 +39,10 @@
 {"root": "DEV", "path": "Football/CFB_Playoff_Benchmarks/tests/test_config.py", "when": "2026-10-16T17:52:28Z", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "MacEverything/Sources/EverythingApp/EverythingApp.swift", "when": "2026-10-16T17:42:38Z", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "MacEverything/Sources/EverythingCore/Temp.swift", "when": "2026-10-16T17:29:11Z", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "BayCap/docs/handoffs/2026-10-16-baycap-setup.md", "when": "2026-10-16T17:28:08-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "BayCap/docs/STATUS.md", "when": "2026-10-16T17:28:08-05:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "project-triage/docs/STATUS.md", "when": "2026-10-16T17:28:08-05:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "project-triage/portfolio.json", "when": "2026-10-16T17:28:08-05:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "MacEverything/Tests/EverythingCoreTests/IndexTests.swift", "when": "2026-10-16T17:25:00Z", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "MacEverything/README.md", "when": "2026-10-16T17:25:00Z", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "MacEverything/Sources/EverythingCore/FileIndex.swift", "when": "2026-10-16T17:25:00Z", "how": "changed", "machine": "Kristinas-MacBook.local"}
@@ -47,6 +52,9 @@
 {"root": "DEV", "path": "MacEverything/Sources/EverythingCore/Service.swift", "when": "2026-10-16T17:23:26Z", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "MacEverything/Sources/everythingd/main.swift", "when": "2026-10-16T17:23:26Z", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "MacEverything/Sources/EverythingCore/Scope.swift", "when": "2026-10-16T17:18:16Z", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "BayCap/README.md", "when": "2026-10-16T17:00:31-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "BayCap/AGENTS.md", "when": "2026-10-16T17:00:31-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "BayCap/docs/DEVELOPMENT_PLAN.md", "when": "2026-10-16T17:00:31-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Football/CFB_Playoff_Benchmarks/cfb_benchmarks/render.py", "when": "2026-10-16T16:58:11Z", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Football/CFB_Playoff_Benchmarks/config/metrics.yaml", "when": "2026-10-16T16:58:11Z", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Football/CFB_Playoff_Benchmarks/scripts/run_phase1.py", "when": "2026-10-16T16:58:11Z", "how": "changed", "machine": "Kristinas-MacBook.local"}
@@ -79,17 +87,16 @@
 {"root": "DEV", "path": "Football/CFB_Playoff_Benchmarks/cfb_benchmarks/budget.py", "when": "2026-10-16T16:01:05Z", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Football/CFB_Playoff_Benchmarks/tests/fixtures/cfbd/teams_fbs_2024.json", "when": "2026-10-16T16:01:05Z", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Football/CFB_Playoff_Benchmarks/tests/test_budget.py", "when": "2026-10-16T16:01:05Z", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "Football/CFB_Playoff_Benchmarks/docs/reviews/2026-10-16-phase2-fixes-codex-review.md", "when": "2026-10-16T15:52:39-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "MacEverything/scripts/install.sh", "when": "2026-10-16T15:52:05Z", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "claude-global-memory/landed/Kristinas-MacBook.local.jsonl", "when": "2026-10-16T15:49:04-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "claude-global-memory/landed/Kristinas-MacBook.local.jsonl", "when": "2026-10-16T15:49:56-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "claude-global-memory/docs/STATUS.md", "when": "2026-10-16T15:49:04-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Football/CFB_Playoff_Benchmarks/docs/handoffs/2026-10-16-phase2-review-closeout.md", "when": "2026-10-16T15:48:36-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Football/CFB_Playoff_Benchmarks/docs/reviews/2026-10-16-phase2-fixes-codex-brief.md", "when": "2026-10-16T15:48:04-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "claude-global-memory/transcripts/2026-10-16.md", "when": "2026-10-16T15:42:58-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Football/CFB_Playoff_Benchmarks/docs/superpowers/plans/2026-10-16-phase1-metrics-thresholds.md", "when": "2026-10-16T15:42:53Z", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "MacEverything/docs/handoffs/2026-10-16-cloud-account-scopes.md", "when": "2026-10-16T15:42:43-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "BayCap/docs/handoffs/2026-10-16-baycap-setup.md", "when": "2026-10-16T15:41:10-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Football/docs/STATUS.md", "when": "2026-10-16T15:41:10-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "BayCap/docs/STATUS.md", "when": "2026-10-16T15:40:03-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "claude-global-memory/transcripts/.memsearch-last-run", "when": "2026-10-16T15:39:24-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "claude-global-memory/MEMORY.md", "when": "2026-10-16T15:39:24-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "graphify-out/.graphify_extract.json", "when": "2026-10-16T15:38:16-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
@@ -104,11 +111,7 @@
 {"root": "DEV", "path": "graphify-out/.graphify_labels.json", "when": "2026-10-16T15:38:16-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "graphify-out/graph.html", "when": "2026-10-16T15:38:16-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "graphify-out/docs/STATUS.md", "when": "2026-10-16T15:38:16-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "BayCap/README.md", "when": "2026-10-16T15:37:56-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "project-triage/docs/STATUS.md", "when": "2026-10-16T15:37:53-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "project-triage/portfolio.json", "when": "2026-10-16T15:37:52-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "BayCap/.gitignore", "when": "2026-10-16T15:34:08-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "BayCap/AGENTS.md", "when": "2026-10-16T15:34:08-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "BayCap/CLAUDE.md", "when": "2026-10-16T15:34:08-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Football/CFB_Playoff_Benchmarks/pyproject.toml", "when": "2026-10-16T15:33:05-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Football/CFB_Playoff_Benchmarks/requirements.txt", "when": "2026-10-16T15:33:05-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
@@ -140,8 +143,11 @@
 {"root": "DEV", "path": "Football/CFB_Playoff_Benchmarks/config/conferences.yaml", "when": "2026-10-16T14:13:37Z", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Football/CFB_Playoff_Benchmarks/requirements-dev.txt", "when": "2026-10-16T14:13:37Z", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Football/CFB_Playoff_Benchmarks/docs/superpowers/plans/2026-10-16-phase0-cohort-table.md", "when": "2026-10-16T13:41:46Z", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DRIVE", "path": "README.md", "when": "2026-10-16T12:52:49-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Football/CFB_Playoff_Benchmarks/AGENTS.md", "when": "2026-10-16T12:44:12Z", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Football/CFB_Playoff_Benchmarks/CLAUDE.md", "when": "2026-10-16T12:44:12Z", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DRIVE", "path": "02_SPORTS/Football/CFB_Playoff_Benchmarks/phase0_playoff_bar.md", "when": "2026-10-16T10:32:27-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DRIVE", "path": "10_ARCHIVE/_PARKED_COPIES/OneDrive-Import/00_Primary_Storage_Drive/XX_MIGRATION/From_Desktop/FB_TeamMeet_101023.pptx", "when": "2026-10-16T10:26:31-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Football/README.md", "when": "2026-10-16T09:52:10-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "graphify-out/manifest.json", "when": "2026-10-16T06:20:14-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "graphify-out/graphify-out/cache/stat-index.json", "when": "2026-10-16T06:20:14-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
@@ -3805,7 +3811,6 @@
 {"root": "VAULT", "path": "Knowledge/library/strength-and-conditioning/supertraining--verkhoshansky/heuristic--shock-microcycle-limits.md", "when": "2026-10-03T13:16:16-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "VAULT", "path": "Knowledge/library/strength-and-conditioning/supertraining--verkhoshansky/framework--sport-alone-vs-sport-plus-supplementary-training-and-adjunct-modes.md", "when": "2026-10-03T13:14:04-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "VAULT", "path": "Knowledge/library/strength-and-conditioning/supertraining--verkhoshansky/claim--seasonal-trainability-hettinger-muller-ultraviolet.md", "when": "2026-10-03T13:13:45-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DRIVE", "path": "README.md", "when": "2026-10-03T13:08:01-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "project-triage/docs/inventory/2026-10-03-archived-folders.txt", "when": "2026-10-03T13:05:42-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "project-triage/docs/inventory/2026-10-03-drive-step8-plan.md", "when": "2026-10-03T13:05:42-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "project-triage/docs/inventory/drive_step8.py", "when": "2026-10-03T13:05:42-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
