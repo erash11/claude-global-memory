@@ -1,3 +1,16 @@
+{"root": "DEV", "path": "PP_Recruiting/docs/STATUS.md", "when": "2026-10-17T17:31:18-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "PP_Recruiting/scripts/powerquery/Stage.m", "when": "2026-10-17T17:31:18-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "PP_Recruiting/docs/2026-10-17-new-telemetry-traits.md", "when": "2026-10-17T17:31:18-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "PP_Recruiting/docs/handoffs/2026-10-17-020-new-traits-mac-build.md", "when": "2026-10-17T17:31:18-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "PP_Recruiting/scripts/add_new_traits.py", "when": "2026-10-17T17:31:18-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "PP_Recruiting/scripts/patch_mashup.py", "when": "2026-10-17T17:31:18-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "project-triage/docs/STATUS.md", "when": "2026-10-17T15:13:17-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "claude-global-memory/landed/Kristinas-MacBook.local.jsonl", "when": "2026-10-17T15:12:49-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "claude-global-memory/transcripts/.memsearch-last-run", "when": "2026-10-17T15:12:49-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "claude-global-memory/transcripts/2026-10-16.md", "when": "2026-10-17T15:12:49-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "claude-global-memory/handoffs/2026-10-16-weekly-review.md", "when": "2026-10-17T15:12:49-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "house-model/docs/CHANGELOG_AND_STAGE1_PLAN_2026-10-17.md", "when": "2026-10-17T15:09:21-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "house-model/reports/frozen/2026-wk07-baylor-tcu-freeze.md", "when": "2026-10-17T10:58:53-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "02_SPORTS/Football/CFB_Playoff_Benchmarks/snapshots/thresholds.parquet", "when": "2026-10-16T23:06:23-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "02_SPORTS/Football/CFB_Playoff_Benchmarks/snapshots/team_game_metrics.parquet", "when": "2026-10-16T23:06:23-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "02_SPORTS/Football/CFB_Playoff_Benchmarks/snapshots/ratings.parquet", "when": "2026-10-16T23:06:23-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
@@ -22,7 +35,6 @@
 {"root": "DEV", "path": "MacEverything/docs/STATUS.md", "when": "2026-10-16T19:31:28Z", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "MacEverything/docs/handoffs/2026-10-16-real-mac-and-ui.md", "when": "2026-10-16T19:31:28Z", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Football/CFB_Playoff_Benchmarks/docs/reviews/2026-10-16-phase2-codex-brief.md", "when": "2026-10-16T19:28:13Z", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "project-triage/docs/STATUS.md", "when": "2026-10-16T18:48:20-05:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Football/CFB_Playoff_Benchmarks/cfb_benchmarks/config.py", "when": "2026-10-16T18:47:06-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Football/CFB_Playoff_Benchmarks/config/benchmarks.yaml", "when": "2026-10-16T18:47:06-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Football/CFB_Playoff_Benchmarks/cfb_benchmarks/report_coach.py", "when": "2026-10-16T18:47:06-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
@@ -92,11 +104,9 @@
 {"root": "DEV", "path": "Football/CFB_Playoff_Benchmarks/config/metrics.yaml", "when": "2026-10-16T17:34:01-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Football/CFB_Playoff_Benchmarks/tests/test_metrics.py", "when": "2026-10-16T17:34:01-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Football/CFB_Playoff_Benchmarks/cfb_benchmarks/metrics.py", "when": "2026-10-16T17:34:01-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "claude-global-memory/landed/Kristinas-MacBook.local.jsonl", "when": "2026-10-16T17:29:53-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "BayCap/docs/handoffs/2026-10-16-baycap-setup.md", "when": "2026-10-16T17:29:40-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "MacEverything/Sources/EverythingCore/Temp.swift", "when": "2026-10-16T17:29:11Z", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "claude-global-memory/docs/STATUS.md", "when": "2026-10-16T17:28:54-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "claude-global-memory/transcripts/.memsearch-last-run", "when": "2026-10-16T17:28:54-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "claude-global-memory/MEMORY.md", "when": "2026-10-16T17:28:54-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "BayCap/docs/STATUS.md", "when": "2026-10-16T17:28:36-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "MacEverything/Tests/EverythingCoreTests/IndexTests.swift", "when": "2026-10-16T17:25:00Z", "how": "changed", "machine": "Kristinas-MacBook.local"}
@@ -138,7 +148,6 @@
 {"root": "DEV", "path": "MacEverything/scripts/install.sh", "when": "2026-10-16T15:52:05Z", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Football/CFB_Playoff_Benchmarks/docs/handoffs/2026-10-16-phase2-review-closeout.md", "when": "2026-10-16T15:48:36-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Football/CFB_Playoff_Benchmarks/docs/reviews/2026-10-16-phase2-fixes-codex-brief.md", "when": "2026-10-16T15:48:04-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "claude-global-memory/transcripts/2026-10-16.md", "when": "2026-10-16T15:42:58-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Football/CFB_Playoff_Benchmarks/docs/superpowers/plans/2026-10-16-phase1-metrics-thresholds.md", "when": "2026-10-16T15:42:53Z", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "MacEverything/docs/handoffs/2026-10-16-cloud-account-scopes.md", "when": "2026-10-16T15:42:43-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Football/docs/STATUS.md", "when": "2026-10-16T15:41:10-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
@@ -2817,7 +2826,6 @@
 {"root": "DRIVE", "path": "Cloud_Copy/DEV/RunningTheRoom/docs/STATUS.md", "when": "2026-10-12T17:47:28-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Performance_Playbook/docs/STATUS.md", "when": "2026-10-12T17:47:26-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "Cloud_Copy/DEV/Performance_Playbook/docs/STATUS.md", "when": "2026-10-12T17:47:26-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "PP_Recruiting/docs/STATUS.md", "when": "2026-10-12T17:47:24-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "Cloud_Copy/DEV/PP_Recruiting/docs/STATUS.md", "when": "2026-10-12T17:47:24-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Football/MatchupAnalysis_FB2026/docs/STATUS.md", "when": "2026-10-12T17:47:22-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "Cloud_Copy/DEV/Football/MatchupAnalysis_FB2026/docs/STATUS.md", "when": "2026-10-12T17:47:22-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
@@ -3286,7 +3294,6 @@
 {"root": "DEV", "path": "PP_Recruiting/scripts/add_column_check.py", "when": "2026-10-06T16:41:04-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "PP_Recruiting/scripts/check_exports.py", "when": "2026-10-06T16:41:04-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "PP_Recruiting/scripts/powerquery/LoadStatus.m", "when": "2026-10-06T16:41:04-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "PP_Recruiting/scripts/powerquery/Stage.m", "when": "2026-10-06T16:41:04-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "PP_Recruiting/scripts/pull_week.bat", "when": "2026-10-06T16:41:04-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "PP_Recruiting/scripts/telemetry_pull.py", "when": "2026-10-06T16:41:04-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "02_SPORTS/Football/PP_Recruiting/019. BAYLOR - TELEMETRY x STAQS UNIFIED GRADING (COLUMN CHECK).xlsx", "when": "2026-10-06T16:37:39-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
