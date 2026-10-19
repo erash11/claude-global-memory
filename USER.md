@@ -5,15 +5,15 @@
 Eric Rash, Director of Applied Performance, Baylor Athletics. Builds football GPS and force-plate pipelines. Wife Kristina; kids Ames, Saylor, Rowan (5, 4, 10mo on 2026-09-01). Career target: analytics-first player-coach near Iowa, $90K+ floor, mid-2027. Read `~/DEV/ContextVault` before career/personal advice.
 
 ## Preferences
-- Python/R. Mac only since 2026-10-14 (Windows laptop retired); paths in machine.md.
-- Local SQLite/DuckDB, DuckDB never on Drive (sync locks). Cloud servers/schedulers approved 10/14 (VPS, Cloudroom).
-- Tangible working examples over documentation.
-- Staff-facing text: Athletic Performance (not S&C), Athletic Medicine (not sports medicine), Applied Performance (not sport science).
+- Python/R. Mac only since 10/14; paths in machine.md.
+- Local SQLite/DuckDB; DuckDB never on Drive (sync locks). Cloud servers/schedulers OK (10/14).
+- Tangible working examples over docs.
+- Staff text: Athletic Performance (not S&C), Athletic Medicine (not sports medicine), Applied Performance (not sport science).
 
 ## Working Style
-- Usage-sensitive: few subagents, no parallel fan-outs or review agents unless asked.
-- Direct; says "stop" when done. Challenge vague or rehearsed reasoning: "sharpened, not soothed."
-- Decide standard technical details, state the choice, and move on.
-- Build in small steps. Do not break mid-season work.
-- Sets direction when leadership doesn't; OKR-driven change agent in a status-quo group.
+- Usage-sensitive: few subagents; no fan-outs or review agents unless asked.
+- Direct; says "stop" when done. Challenge vague reasoning: "sharpened, not soothed."
+- Decide standard technical details, state the choice, move on.
+- Small steps. Do not break mid-season work.
+- OKR-driven change agent; sets direction when leadership doesn't.
 - Right question over downstream craft; Christian faith is his organizing frame.

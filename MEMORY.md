@@ -3,33 +3,22 @@
 
 ## Active Threads (max 5; park one to add one)
 - **Status report**: biweekly to 12/18. →Tier A supervisor-log-pipeline
-- **SW/Tech Review (10/1)**: Erin asked; NEXT Teams 10/2, ET by 11/30. →`SoftwareTech_Review/docs/`
-- **Ship queue (9/25)**: q2wk to a named user: RI5 #002 wk 9/28, intern M1 10/9, AP Digest ch1 10/23 (draft PR #1, Performance_Playbook). →`RunningTheRoom/docs/STATUS.md`
+- **SW/Tech Review (10/1)**: Erin asked; ET by 11/30. →`SoftwareTech_Review/docs/`
+- **Ship queue (9/25)**: q2wk to a named user: RI5 #002, intern M1, AP Digest ch1 10/23 (draft PR #1, Performance_Playbook). →`RunningTheRoom/docs/STATUS.md`
 - **PP Recruiting (10/19)**: 021 TEST on Drive; Mauro Win refresh →`PP_Recruiting/docs/`
 - **RTP CLA (9/26)**: L1–2 built. NEXT Tim/Jacob export; Joe → L3. →`RTP_Constraints_Course/docs/`
 
-## Parked (NEXT lives in each STATUS.md; `where-was-i.py` lists them)
-- BayCap: NODAL-style iOS plan; NEXT account setup →`BayCap/docs/`
-- House model (10/12): blend v2, Baylor by 4.6 vs TCU. NEXT await Eric →`house-model/docs/STATUS.md`
-- 5S5M (10/6): NEXT referral path [ADD] 18/20/39/42/43 →EAI STATUS
-- PM system (10/3): NEXT GUIDE walkthrough →`project-triage/docs/STATUS.md`
-- Personal site: scroll-craft LOCAL →Tier A personal-site-build-routes
-- FB matchups: W1-5 done; bye wk = mid-season →`Football/MatchupAnalysis_FB2026`
-- Flint (10/13): 16 talks/4-file folders; Ch8/9a promotion pending →`Flint/docs/STATUS.md`
-- 42Analytics: NEXT captions (429s) on Mac →`42Analytics`
-- VB GRID: await Mike →`Volleyball_GRID`
-- Sleep sched (10/11): NEXT TCU itinerary →`sleep-scheduler`
-- TypeSafe: MAINTENANCE →`TypeSafe_Sandbox`
-- File org (10/14): Tasks 1-3,5-7 done; Task 4 Areas after season →`DEV/docs/FILE-ORGANIZATION-PLAN.md`
+## Parked (NEXT in each repo's docs/STATUS.md; `where-was-i.py` lists them)
+BayCap · house-model (10/12) · 5S5M (EAI STATUS) · project-triage PM system · personal site (scroll-craft, Tier A) · Football/MatchupAnalysis_FB2026 · Flint (10/13) · 42Analytics (captions 429) · Volleyball_GRID (await Mike) · sleep-scheduler · TypeSafe_Sandbox (maint) · File org Task 4 after season →`DEV/docs/FILE-ORGANIZATION-PLAN.md`
 
 ## Environment Notes
-- Win laptop RETIRED 10/14, Docker gone; Mac + Drive only →Tier A. Mac sole writer GPS/Perch/VALD.
-- Hooks: patch both copies for shared events →Tier A hook-two-copies-trap.
-- daily-backup: manifest entries alone copy nothing; sweep nested ~/.claude repos →handoff 09-19.
-- `DEV/Linda_Projects` = private I-983 repo (space-named twin parked 10-14). Drive reads hang →Tier A drive-fuse-read-hang.
-- `~/DEV` = THIN repo; `.gitignore` starts `/*` — never remove →Tier A github-consolidation.
+- Win laptop RETIRED 10/14; Mac + Drive only. Mac sole writer GPS/Perch/VALD; GPS coach report archived 10/19.
+- Hooks: patch both copies →Tier A hook-two-copies-trap.
+- daily-backup: manifest entries alone copy nothing; sweep nested ~/.claude repos.
+- `DEV/Linda_Projects` = private I-983 repo. Drive reads hang →Tier A drive-fuse-read-hang.
+- `~/DEV` = THIN repo; `.gitignore` starts `/*`, never remove →Tier A github-consolidation.
 - PFF: swap Parquet on Drive, never the DB; `PFF_DB`.
-- Schedules →automation-cadence. CFB capture Mac only.
+- Schedules →Tier A automation-cadence. CFB capture Mac only.
 - Post-merge: delete merged branches unasked (verify) →Tier A post-merge-cleanup.
 - Sessions: start `where-was-i.py`, prune `session-sweep.py` →Tier A session-hygiene.
 
