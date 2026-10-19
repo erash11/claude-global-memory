@@ -5,8 +5,8 @@
 Eric Rash, Director of Applied Performance, Baylor Athletics. Builds football GPS and force-plate pipelines. Wife Kristina; kids Ames, Saylor, Rowan (5, 4, 10mo on 2026-09-01). Career target: analytics-first player-coach near Iowa, $90K+ floor, mid-2027. Read `~/DEV/ContextVault` before career/personal advice.
 
 ## Preferences
-- Python/R. Windows by day, Mac by evening; paths in machine.md.
-- Local SQLite/DuckDB, DuckDB never on Drive (sync locks). No cloud servers or schedulers without Baylor IT approval.
+- Python/R. Mac only since 2026-10-14 (Windows laptop retired); paths in machine.md.
+- Local SQLite/DuckDB, DuckDB never on Drive (sync locks). Cloud servers/schedulers approved 10/14 (VPS, Cloudroom).
 - Tangible working examples over documentation.
 - Staff-facing text: Athletic Performance (not S&C), Athletic Medicine (not sports medicine), Applied Performance (not sport science).
 

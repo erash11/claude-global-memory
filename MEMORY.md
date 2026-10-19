@@ -9,24 +9,26 @@
 - **RTP CLA (9/26)**: L1–2 built. NEXT Tim/Jacob export; Joe → L3. →`RTP_Constraints_Course/docs/`
 
 ## Parked (NEXT lives in each STATUS.md; `where-was-i.py` lists them)
-- House model (10/12): Mac setup + wk7 done; blend v2, Baylor by 4.6 vs TCU (63%). PFF keys copied. NEXT await Eric →`house-model/docs/STATUS.md`
-- 5S5M (10/6): 45 decks on main; NEXT fill referral path [ADD] 18/20/39/42/43 →EAI STATUS
-- PM system (10/3): `/pm` built; NEXT GUIDE walkthrough →`project-triage/docs/STATUS.md`
-- Personal site: scroll-craft LOCAL, Artifact live →Tier A personal-site-build-routes
+- BayCap: NODAL-style iOS plan; NEXT account setup →`BayCap/docs/`
+- House model (10/12): blend v2, Baylor by 4.6 vs TCU. NEXT await Eric →`house-model/docs/STATUS.md`
+- 5S5M (10/6): NEXT referral path [ADD] 18/20/39/42/43 →EAI STATUS
+- PM system (10/3): NEXT GUIDE walkthrough →`project-triage/docs/STATUS.md`
+- Personal site: scroll-craft LOCAL →Tier A personal-site-build-routes
 - FB matchups: W1-5 done; bye wk = mid-season →`Football/MatchupAnalysis_FB2026`
-- Flint (10/9): 233 staged; NEXT promote, Mac Ch8 →`Flint`
+- Flint (10/13): 16 talks/4-file folders; Ch8/9a promotion pending →`Flint/docs/STATUS.md`
 - 42Analytics: NEXT captions (429s) on Mac →`42Analytics`
-- VB GRID: fix merged 10/2 (#2); await Mike →`Volleyball_GRID`
-- Sleep sched (10/11): 5 real wks tested; NEXT TCU itinerary →`sleep-scheduler`
-- TypeSafe: MAINTENANCE; PR #31 merged as record →`TypeSafe_Sandbox`
+- VB GRID: await Mike →`Volleyball_GRID`
+- Sleep sched (10/11): NEXT TCU itinerary →`sleep-scheduler`
+- TypeSafe: MAINTENANCE →`TypeSafe_Sandbox`
+- File org (10/14): Tasks 1-3,5-7 done; Task 4 Areas after season →`DEV/docs/FILE-ORGANIZATION-PLAN.md`
 
 ## Environment Notes
-- Win laptop hands-off 10/8, no automation →Tier A. Mac sole writer GPS/Perch/VALD.
+- Win laptop RETIRED 10/14, Docker gone; Mac + Drive only →Tier A. Mac sole writer GPS/Perch/VALD.
 - Hooks: patch both copies for shared events →Tier A hook-two-copies-trap.
 - daily-backup: manifest entries alone copy nothing; sweep nested ~/.claude repos →handoff 09-19.
-- `DEV/Linda Projects` = private I-983 repo; folder has a space, repo an underscore.
+- `DEV/Linda_Projects` = private I-983 repo (space-named twin parked 10-14). Drive reads hang →Tier A drive-fuse-read-hang.
 - `~/DEV` = THIN repo; `.gitignore` starts `/*` — never remove →Tier A github-consolidation.
-- Win: Drive sync, junction, renv traps →machine.md. PFF: swap Parquet on Drive, never the DB; `PFF_DB`.
+- PFF: swap Parquet on Drive, never the DB; `PFF_DB`.
 - Schedules →automation-cadence. CFB capture Mac only.
 - Post-merge: delete merged branches unasked (verify) →Tier A post-merge-cleanup.
 - Sessions: start `where-was-i.py`, prune `session-sweep.py` →Tier A session-hygiene.
