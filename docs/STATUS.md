@@ -1,6 +1,7 @@
 # STATUS
 
 ## Current state
+- 2026-10-19 (offline catch-up closeout): GPS/Perch/VALD pulls re-run, all ok. daily-backup re-run with CRASHBOX: OK, 93 jobs. GPS coach report archived (Eric's call). Error log archived to `transcripts/.errors.log.archived-2026-10-19` and cleared after checking the compiler. USER.md 87%, MEMORY.md 75% after consolidation. Handoff: `handoffs/2026-10-19-offline-catchup-and-coach-archive.md`.
 - 2026-10-16 (BayCap development-plan closeout): Updated BayCap memory pointer to the standalone NODAL-style iOS goal; roadmap at BayCap/docs/DEVELOPMENT_PLAN.md is pushed. Account setup remains next. Project handoff and registry aligned. Today's transcript is recent; private histories stay local. Existing backup errors and 4 registry gaps remain open. DEV-only landed refresh used because the Drive mount previously stalled the full scan. This paused repo was touched for closeout maintenance only.
 - 2026-10-16 (Phase 2 closeout): CFB review and resume notes are in the repo. The combined branch passed 248 tests. Docs were harvested from 140 repos. Today's transcript is recent. Backup errors remain open. The full ledger scan stalled; a DEV-only refresh captured 480 files. Drive and vault walks remain unchecked. Private transcripts stay local by instruction. This paused repo was touched for closeout records only.
 - 2026-10-16 (BayCap closeout): BayCap pointer saved in MEMORY.md (2489 bytes, under 2500); OpenCap installed on both devices, guided account setup next. Handoff in BayCap/docs/handoffs/2026-10-16-baycap-setup.md. Docs harvested from 140 repos. Today's transcript exists and is recent; private transcript content stays local. Existing backup errors remain recorded; registry drift has 4 items, none introduced by BayCap.
@@ -17,6 +18,7 @@
 - This closeout handoff records the workflow, deliverables, and next steps for another harness.
 
 ## Next
+- Run `launchctl list | grep dailybackup` after tonight's 21:00 run; exit 0 clears stack-doctor `task:com.keystone.dailybackup`.
 - Open `/Users/kristinarash/DEV/Flint/docs/handoffs/2026-10-13-sport-science-network-final-closeout.md` for the final four-file layout, archive and resume steps; the existing requested portable processing skill is still pending.
 - Create a portable video processing and transcript review skill in the canonical `~/.claude/skills` repo when returning to that task; sync generated Codex and `.agents` views.
 - If exact verbatim accuracy is required, listen to ambiguous passages and update the transcript with a human review note.
