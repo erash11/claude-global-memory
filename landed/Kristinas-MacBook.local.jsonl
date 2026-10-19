@@ -1,3 +1,6 @@
+{"root": "DEV", "path": "project-triage/docs/STATUS.md", "when": "2026-10-19T16:59:45-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "BayCap/docs/STATUS.md", "when": "2026-10-19T16:59:43-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "Football/CFB_Playoff_Benchmarks/docs/STATUS.md", "when": "2026-10-19T16:59:41-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "PP_Recruiting/docs/STATUS.md", "when": "2026-10-19T16:55:37-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "PP_Recruiting/docs/2026-10-19-baylor-player-disagreement.md", "when": "2026-10-19T16:25:16-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "PP_Recruiting/docs/handoffs/2026-10-19-021-prior-season.md", "when": "2026-10-19T16:25:16-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
@@ -7,9 +10,6 @@
 {"root": "DRIVE", "path": "02_SPORTS/Football/PP_Recruiting/021. BAYLOR - TELEMETRY x STAQS UNIFIED GRADING (PRIOR SEASON, TEST).xlsx", "when": "2026-10-19T16:24:27-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "02_SPORTS/Football/FA2026/02_Raw_Tagging/Practice_Plans/05. 2026 In Season/Baylor Tackling Full Report Slides 2026.gslides", "when": "2026-10-19T16:03:10-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "02_SPORTS/Football/FA2026/02_Raw_Tagging/Practice_Plans/05. 2026 In Season/Baylor Tackling Slides 2026.gslides", "when": "2026-10-19T16:00:58-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "Football/CFB_Playoff_Benchmarks/docs/STATUS.md", "when": "2026-10-19T15:37:22-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "BayCap/docs/STATUS.md", "when": "2026-10-19T15:37:21-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "project-triage/docs/STATUS.md", "when": "2026-10-19T15:37:19-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "02_SPORTS/Football/FA2026/02_Raw_Tagging/Practice_Plans/05. 2026 In Season/Baylor Tackling One-Pager 2026.gdoc", "when": "2026-10-19T15:25:23-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "graphify-out/.graphify_extract.json", "when": "2026-10-19T15:23:39-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "graphify-out/.graphify_gemini.json", "when": "2026-10-19T15:23:39-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
