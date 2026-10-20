@@ -1,15 +1,56 @@
+{"root": "DEV", "path": "PP_Recruiting/docs/STATUS.md", "when": "2026-10-20T14:07:22-05:00", "how": "changed", "machine": "BU-1979FJ4"}
+{"root": "DEV", "path": "PP_Recruiting/scripts/check_workbook.py", "when": "2026-10-20T14:07:22-05:00", "how": "changed", "machine": "BU-1979FJ4"}
+{"root": "DEV", "path": "PP_Recruiting/scripts/add_wr_toughness.py", "when": "2026-10-20T14:07:22-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DRIVE", "path": "02_SPORTS/Football/PP_Recruiting/AGENTS.md", "when": "2026-10-20T14:07:00-05:00", "how": "changed", "machine": "BU-1979FJ4"}
+{"root": "DRIVE", "path": "02_SPORTS/Football/PP_Recruiting/LOG.md", "when": "2026-10-20T14:06:32-05:00", "how": "changed", "machine": "BU-1979FJ4"}
+{"root": "DRIVE", "path": "02_SPORTS/Football/PP_Recruiting/022. BAYLOR - TELEMETRY x STAQS UNIFIED GRADING (WR TOUGHNESS, TEST).xlsx", "when": "2026-10-20T14:04:13-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DEV", "path": "RTP_Constraints_Course/field-notes/2026-10-20-joe-field-notes-0001-0002.md", "when": "2026-10-20T13:58:23-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DRIVE", "path": "02_SPORTS/Football/FA2026/04_Outputs/05. 2026 In Season/Reports/Quarterback/Baylor Lagway Deep Dive 2026 v2_HUM.docx", "when": "2026-10-20T11:26:19-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DRIVE", "path": "02_SPORTS/Football/FA2026/04_Outputs/05. 2026 In Season/Reports/Quarterback/Baylor Lagway Deep Dive 2026 v2.docx", "when": "2026-10-20T11:06:17-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DRIVE", "path": "02_SPORTS/Football/PP_Recruiting/BU - Telemetry STAQS Position Grids.xlsx", "when": "2026-10-20T10:36:11-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DRIVE", "path": "02_SPORTS/Football/FA2026/04_Outputs/05. 2026 In Season/Reports/Quarterback/Baylor Lagway Deep Dive 2026 v4.gdoc", "when": "2026-10-20T10:28:21-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DRIVE", "path": "02_SPORTS/Football/FA2026/04_Outputs/05. 2026 In Season/Reports/Quarterback/Baylor Lagway Deep Dive 2026 v4.docx", "when": "2026-10-20T10:28:16-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DRIVE", "path": "02_SPORTS/Football/FA2026/04_Outputs/05. 2026 In Season/Reports/Quarterback/Baylor Lagway Deep Dive 2026 v4.pdf", "when": "2026-10-20T10:28:14-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DRIVE", "path": "02_SPORTS/Football/FA2026/04_Outputs/05. 2026 In Season/Reports/Quarterback/Baylor Lagway Deep Dive 2026 v4.html", "when": "2026-10-20T10:28:13-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DRIVE", "path": "02_SPORTS/Football/FA2026/04_Outputs/05. 2026 In Season/Reports/Quarterback/Baylor Lagway Deep Dive 2026 v3.gdoc", "when": "2026-10-20T10:25:25-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DRIVE", "path": "02_SPORTS/Football/FA2026/04_Outputs/05. 2026 In Season/Reports/Quarterback/Baylor Lagway Deep Dive 2026 v3.docx", "when": "2026-10-20T10:25:21-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DRIVE", "path": "02_SPORTS/Football/FA2026/04_Outputs/05. 2026 In Season/Reports/Quarterback/Baylor Lagway Deep Dive 2026 v3.pdf", "when": "2026-10-20T10:25:19-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DRIVE", "path": "02_SPORTS/Football/FA2026/04_Outputs/05. 2026 In Season/Reports/Quarterback/Baylor Lagway Deep Dive 2026 v3.html", "when": "2026-10-20T10:25:17-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DRIVE", "path": "02_SPORTS/Football/FA2026/04_Outputs/05. 2026 In Season/Reports/Quarterback/Baylor Lagway Deep Dive 2026 v2.gdoc", "when": "2026-10-20T10:18:48-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DRIVE", "path": "02_SPORTS/Football/FA2026/04_Outputs/05. 2026 In Season/Reports/Line Play/Baylor Line Deep Dive 2026 v2.gdoc", "when": "2026-10-20T10:18:44-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DRIVE", "path": "02_SPORTS/Football/FA2026/04_Outputs/05. 2026 In Season/Reports/Line Play/Baylor Line Deep Dive 2026 v2.docx", "when": "2026-10-20T10:18:38-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DRIVE", "path": "02_SPORTS/Football/FA2026/04_Outputs/05. 2026 In Season/Reports/Quarterback/LAGWAY, DJ REPORT (WEEK 7).docx", "when": "2026-10-20T10:05:47-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DRIVE", "path": "02_SPORTS/Football/FA2026/04_Outputs/05. 2026 In Season/Reports/Quarterback/Baylor Lagway Deep Dive 2026 v2.pdf", "when": "2026-10-20T10:00:22-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DRIVE", "path": "02_SPORTS/Football/FA2026/04_Outputs/05. 2026 In Season/Reports/Line Play/Baylor Line Deep Dive 2026 v2.pdf", "when": "2026-10-20T10:00:20-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DRIVE", "path": "02_SPORTS/Football/FA2026/04_Outputs/05. 2026 In Season/Reports/Line Play/Baylor Line Slides 2026 v2.pptx", "when": "2026-10-19T21:24:59-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DRIVE", "path": "02_SPORTS/Football/FA2026/04_Outputs/05. 2026 In Season/Reports/Quarterback/Baylor Lagway Deep Dive 2026 v2.html", "when": "2026-10-19T21:24:57-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DRIVE", "path": "02_SPORTS/Football/FA2026/04_Outputs/05. 2026 In Season/Reports/Line Play/Baylor Line Deep Dive 2026 v2.html", "when": "2026-10-19T21:24:55-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DRIVE", "path": "02_SPORTS/Football/FA2026/04_Outputs/05. 2026 In Season/Reports/Line Play/Baylor Line Slides 2026.pptx", "when": "2026-10-19T20:09:53-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DRIVE", "path": "02_SPORTS/Football/FA2026/04_Outputs/05. 2026 In Season/Reports/Quarterback/Baylor Lagway Deep Dive 2026.html", "when": "2026-10-19T20:09:51-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DRIVE", "path": "02_SPORTS/Football/FA2026/04_Outputs/05. 2026 In Season/Reports/Line Play/Baylor Line Deep Dive 2026.html", "when": "2026-10-19T20:09:45-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DEV", "path": "PP_Recruiting/docs/2026-10-19-baylor-player-disagreement.md", "when": "2026-10-19T16:25:16-05:00", "how": "changed", "machine": "BU-1979FJ4"}
+{"root": "DEV", "path": "PP_Recruiting/docs/handoffs/2026-10-19-021-prior-season.md", "when": "2026-10-19T16:25:16-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DEV", "path": "PP_Recruiting/scripts/add_prior_season.py", "when": "2026-10-19T16:25:16-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DEV", "path": "PP_Recruiting/scripts/prior_season.py", "when": "2026-10-19T16:25:16-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DRIVE", "path": "02_SPORTS/Football/PP_Recruiting/021. BAYLOR - TELEMETRY x STAQS UNIFIED GRADING (PRIOR SEASON, TEST).xlsx", "when": "2026-10-19T16:24:27-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DRIVE", "path": "02_SPORTS/Football/FA2026/02_Raw_Tagging/Practice_Plans/05. 2026 In Season/Baylor Tackling Full Report Slides 2026.gslides", "when": "2026-10-19T16:03:10-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DRIVE", "path": "02_SPORTS/Football/FA2026/04_Outputs/05. 2026 In Season/Reports/Tackling/Baylor Tackling Full Report Slides 2026.gslides", "when": "2026-10-19T16:03:10-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DRIVE", "path": "02_SPORTS/Football/FA2026/02_Raw_Tagging/Practice_Plans/05. 2026 In Season/Baylor Tackling Slides 2026.gslides", "when": "2026-10-19T16:00:58-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DRIVE", "path": "02_SPORTS/Football/FA2026/04_Outputs/05. 2026 In Season/Reports/Tackling/Baylor Tackling Slides 2026.gslides", "when": "2026-10-19T16:00:58-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DEV", "path": "Tech_Inventory_Analysis/docs/STATUS.md", "when": "2026-10-19T15:56:31-05:00", "how": "changed", "machine": "BU-1979FJ4"}
+{"root": "DEV", "path": "SoftwareTech_Review/docs/STATUS.md", "when": "2026-10-19T15:56:28-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "Tech_Inventory_Analysis/athletics-software-technology.png", "when": "2026-10-19T15:55:19-05:00", "how": "new", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "Tech_Inventory_Analysis/deliverables/_SEND/Inventory_Confirm_10122026.xlsx", "when": "2026-10-19T15:55:19-05:00", "how": "new", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "Tech_Inventory_Analysis/deliverables/_SEND/Baylor Athletics Technology Inventory.docx", "when": "2026-10-19T15:55:19-05:00", "how": "new", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "SoftwareTech_Review/templates/SoftwareTech_Cost_Request_2026-10-01.csv", "when": "2026-10-19T15:55:15-05:00", "how": "changed", "machine": "BU-1979FJ4"}
-{"root": "DRIVE", "path": "02_SPORTS/Football/FA2026/02_Raw_Tagging/Practice_Plans/05. 2026 In Season/Baylor Tackling Slides 2026.gslides", "when": "2026-10-19T15:29:49-05:00", "how": "new", "machine": "BU-1979FJ4"}
 {"root": "DRIVE", "path": "02_SPORTS/Football/FA2026/02_Raw_Tagging/Practice_Plans/05. 2026 In Season/Baylor Tackling One-Pager 2026.gdoc", "when": "2026-10-19T15:25:23-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DRIVE", "path": "02_SPORTS/Football/FA2026/04_Outputs/05. 2026 In Season/Reports/Tackling/Baylor Tackling One-Pager 2026.gdoc", "when": "2026-10-19T15:25:23-05:00", "how": "new", "machine": "BU-1979FJ4"}
 {"root": "DRIVE", "path": "02_SPORTS/Football/FA2026/02_Raw_Tagging/Practice_Plans/05. 2026 In Season/Baylor Tackling Deep Dive 2026.gdoc", "when": "2026-10-19T15:20:03-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DRIVE", "path": "02_SPORTS/Football/FA2026/04_Outputs/05. 2026 In Season/Reports/Tackling/Baylor Tackling Deep Dive 2026.gdoc", "when": "2026-10-19T15:20:03-05:00", "how": "new", "machine": "BU-1979FJ4"}
 {"root": "DRIVE", "path": "99_UNSORTED/From_Desktop/TECHNOLOGY/FAST/GAME_WEEK_ITINERARIES/2026/Game 6 - TCU - Staff Itinerary.pdf", "when": "2026-10-18T13:49:02-05:00", "how": "new", "machine": "BU-1979FJ4"}
 {"root": "DRIVE", "path": "02_SPORTS/Football/FA2026/02_Raw_Tagging/Practice_Plans/05. 2026 In Season/07. Kansas/baylor-kansas-early-look-watch-sheet-2026-10-16.md", "when": "2026-10-18T12:13:09-05:00", "how": "new", "machine": "BU-1979FJ4"}
 {"root": "DRIVE", "path": "02_SPORTS/Football/FA2026/02_Raw_Tagging/Practice_Plans/05. 2026 In Season/07. Kansas/baylor-kansas-early-look-2026-10-18.md", "when": "2026-10-18T12:13:08-05:00", "how": "new", "machine": "BU-1979FJ4"}
 {"root": "DRIVE", "path": "02_SPORTS/Football/PP_Recruiting/020. BAYLOR - TELEMETRY x STAQS UNIFIED GRADING (NEW TRAITS, TEST).xlsx", "when": "2026-10-17T17:30:36-05:00", "how": "new", "machine": "BU-1979FJ4"}
-{"root": "DEV", "path": "Tech_Inventory_Analysis/docs/STATUS.md", "when": "2026-10-12T09:14:59-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DRIVE", "path": "99_UNSORTED/From_Desktop/TECHNOLOGY/FAST/GAME_WEEK_ITINERARIES/2024/Game 2 - Utah - Staff Itinerary.pdf", "when": "2026-10-12T09:14:32-05:00", "how": "new", "machine": "BU-1979FJ4"}
 {"root": "DRIVE", "path": "99_UNSORTED/From_Desktop/TECHNOLOGY/FAST/GAME_WEEK_ITINERARIES/2024/Game 11 - Houston - Staff Itinerary.pdf", "when": "2026-10-12T09:14:32-05:00", "how": "new", "machine": "BU-1979FJ4"}
 {"root": "DRIVE", "path": "99_UNSORTED/From_Desktop/TECHNOLOGY/FAST/GAME_WEEK_ITINERARIES/2024/Game 7 - Texas Tech - Staff Itinerary.pdf", "when": "2026-10-12T09:14:32-05:00", "how": "new", "machine": "BU-1979FJ4"}
@@ -69,10 +110,7 @@
 {"root": "DRIVE", "path": "05_SYSTEMS/AI_Sessions_Backup/BU-1979FJ4/claude-code/G--My-Drive-00-Primary-Storage-Drive-02-SPORTS-Football-PP-Recruiting/d1673601-88f7-4fb0-b59a-00f5414c1656.jsonl", "when": "2026-10-06T17:55:13-05:00", "how": "new", "machine": "BU-1979FJ4"}
 {"root": "DRIVE", "path": "05_SYSTEMS/AI_Sessions_Backup/BU-1979FJ4/claude-code/G--My-Drive-00-Primary-Storage-Drive-02-SPORTS-Football-PP-Recruiting/93f57870-1e24-424e-a7b8-5a765845ed0f.jsonl", "when": "2026-10-06T17:06:21-05:00", "how": "new", "machine": "BU-1979FJ4"}
 {"root": "DRIVE", "path": "05_SYSTEMS/AI_Sessions_Backup/BU-1979FJ4/claude-code/G--My-Drive-00-Primary-Storage-Drive-02-SPORTS-Football-PP-Recruiting/0da1cc46-d99d-4a28-8623-6eb5f871437d.jsonl", "when": "2026-10-06T17:01:15-05:00", "how": "new", "machine": "BU-1979FJ4"}
-{"root": "DEV", "path": "PP_Recruiting/docs/STATUS.md", "when": "2026-10-06T16:59:41-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "PP_Recruiting/docs/handoffs/2026-10-06-weekly-pull-and-column-check.md", "when": "2026-10-06T16:59:41-05:00", "how": "new", "machine": "BU-1979FJ4"}
-{"root": "DRIVE", "path": "02_SPORTS/Football/PP_Recruiting/LOG.md", "when": "2026-10-06T16:55:35-05:00", "how": "changed", "machine": "BU-1979FJ4"}
-{"root": "DRIVE", "path": "02_SPORTS/Football/PP_Recruiting/AGENTS.md", "when": "2026-10-06T16:55:34-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DRIVE", "path": "02_SPORTS/Football/PP_Recruiting/Send/019. BAYLOR - TELEMETRY x STAQS UNIFIED GRADING (COLUMN CHECK).xlsx", "when": "2026-10-06T16:55:11-05:00", "how": "new", "machine": "BU-1979FJ4"}
 {"root": "DRIVE", "path": "05_SYSTEMS/AI_Sessions_Backup/BU-1979FJ4/claude-code/C--Users-eric-rash-Desktop-DEV/memory/project_automation-cadence.md", "when": "2026-10-06T16:54:53-05:00", "how": "new", "machine": "BU-1979FJ4"}
 {"root": "DRIVE", "path": "02_SPORTS/Football/PP_Recruiting/PULL WEEK.bat", "when": "2026-10-06T16:53:11-05:00", "how": "new", "machine": "BU-1979FJ4"}
