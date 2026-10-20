@@ -5,7 +5,7 @@
 - **Status report**: biweekly to 12/18. →Tier A supervisor-log-pipeline
 - **SW/Tech Review (10/1)**: Erin asked; ET by 11/30. →`SoftwareTech_Review/docs/`
 - **Ship queue (9/25)**: q2wk to a named user: RI5 #002, intern M1, AP Digest ch1 10/23 (draft PR #1, Performance_Playbook). →`RunningTheRoom/docs/STATUS.md`
-- **PP Recruiting (10/19)**: 021 TEST on Drive; Mauro Win refresh →`PP_Recruiting/docs/`
+- **PP Recruiting (10/20)**: 025 TEST (grid decisions); send 024 to colleague →`PP_Recruiting/docs/`
 - **RTP CLA (10/20)**: L3 built+exported; notes in Doc. NEXT Joe re-downloads, await L3 dial card → L4. →`RTP_Constraints_Course/docs/`
 
 ## Parked (NEXT in each repo's docs/STATUS.md; `where-was-i.py` lists them)
