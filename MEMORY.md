@@ -6,7 +6,7 @@
 - **SW/Tech Review (10/1)**: Erin asked; ET by 11/30. →`SoftwareTech_Review/docs/`
 - **Ship queue (9/25)**: q2wk to a named user: RI5 #002, intern M1, AP Digest ch1 10/23 (draft PR #1, Performance_Playbook). →`RunningTheRoom/docs/STATUS.md`
 - **PP Recruiting (10/19)**: 021 TEST on Drive; Mauro Win refresh →`PP_Recruiting/docs/`
-- **RTP CLA (9/26)**: L1–2 built. NEXT Tim/Jacob export; Joe → L3. →`RTP_Constraints_Course/docs/`
+- **RTP CLA (10/20)**: L3 built+exported; notes in Doc. NEXT Joe re-downloads, await L3 dial card → L4. →`RTP_Constraints_Course/docs/`
 
 ## Parked (NEXT in each repo's docs/STATUS.md; `where-was-i.py` lists them)
 BayCap · house-model (10/12) · 5S5M (EAI STATUS) · project-triage PM system · personal site (scroll-craft, Tier A) · Football/MatchupAnalysis_FB2026 · Flint (10/13) · 42Analytics (captions 429) · Volleyball_GRID (await Mike) · sleep-scheduler · TypeSafe_Sandbox (maint) · File org Task 4 after season →`DEV/docs/FILE-ORGANIZATION-PLAN.md`
