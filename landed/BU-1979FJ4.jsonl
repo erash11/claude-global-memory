@@ -1,9 +1,17 @@
-{"root": "DEV", "path": "RTP_Constraints_Course/docs/handoffs/2026-10-20-lesson-0003-built-and-shipped.md", "when": "2026-10-20T14:58:16-05:00", "how": "new, uncommitted", "machine": "BU-1979FJ4"}
-{"root": "DEV", "path": "PP_Recruiting/docs/STATUS.md", "when": "2026-10-20T14:51:59-05:00", "how": "changed", "machine": "BU-1979FJ4"}
+{"root": "DEV", "path": "PP_Recruiting/docs/STATUS.md", "when": "2026-10-20T16:39:04-05:00", "how": "changed", "machine": "BU-1979FJ4"}
+{"root": "DEV", "path": "PP_Recruiting/docs/handoffs/2026-10-20-position-grids-decisions.md", "when": "2026-10-20T16:39:04-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DEV", "path": "PP_Recruiting/scripts/check_workbook.py", "when": "2026-10-20T16:28:38-05:00", "how": "changed", "machine": "BU-1979FJ4"}
+{"root": "DEV", "path": "PP_Recruiting/scripts/add_grid_decisions.py", "when": "2026-10-20T16:28:38-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DRIVE", "path": "02_SPORTS/Football/PP_Recruiting/AGENTS.md", "when": "2026-10-20T16:28:25-05:00", "how": "changed", "machine": "BU-1979FJ4"}
+{"root": "DRIVE", "path": "02_SPORTS/Football/PP_Recruiting/LOG.md", "when": "2026-10-20T16:28:24-05:00", "how": "changed", "machine": "BU-1979FJ4"}
+{"root": "DRIVE", "path": "02_SPORTS/Football/PP_Recruiting/025. BAYLOR - TELEMETRY x STAQS UNIFIED GRADING (GRID DECISIONS, TEST).xlsx", "when": "2026-10-20T16:26:55-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DRIVE", "path": "02_SPORTS/Football/PP_Recruiting/024. BAYLOR - TELEMETRY x STAQS POSITION GRIDS (DECISIONS).xlsx", "when": "2026-10-20T16:17:32-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DEV", "path": "PP_Recruiting/scripts/decision_sheet.py", "when": "2026-10-20T15:06:45-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DRIVE", "path": "02_SPORTS/Football/FA2026/Football_CMJ_Monitoring_Implementation_Spec.gdoc", "when": "2026-10-20T15:06:04-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DEV", "path": "RTP_Constraints_Course/docs/handoffs/2026-10-20-lesson-0003-built-and-shipped.md", "when": "2026-10-20T14:59:11-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DEV", "path": "RTP_Constraints_Course/docs/STATUS.md", "when": "2026-10-20T14:59:11-05:00", "how": "changed", "machine": "BU-1979FJ4"}
+{"root": "DEV", "path": "project-triage/portfolio.json", "when": "2026-10-20T14:59:09-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "PP_Recruiting/scripts/review_position_grids.py", "when": "2026-10-20T14:51:59-05:00", "how": "changed", "machine": "BU-1979FJ4"}
-{"root": "DRIVE", "path": "02_SPORTS/Football/PP_Recruiting/AGENTS.md", "when": "2026-10-20T14:51:46-05:00", "how": "changed", "machine": "BU-1979FJ4"}
-{"root": "DRIVE", "path": "02_SPORTS/Football/PP_Recruiting/LOG.md", "when": "2026-10-20T14:51:46-05:00", "how": "changed", "machine": "BU-1979FJ4"}
-{"root": "DEV", "path": "RTP_Constraints_Course/docs/STATUS.md", "when": "2026-10-20T14:51:38-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DRIVE", "path": "07_EDUCATION/RTP Course - Joe Smith/Field notes - Joe Smith.gdoc", "when": "2026-10-20T14:51:26-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DRIVE", "path": "02_SPORTS/Football/PP_Recruiting/023. BAYLOR - TELEMETRY x STAQS POSITION GRIDS (REVIEWED).xlsx", "when": "2026-10-20T14:51:25-05:00", "how": "new", "machine": "BU-1979FJ4"}
 {"root": "DRIVE", "path": "07_EDUCATION/RTP Course - Joe Smith/index.html", "when": "2026-10-20T14:29:46-05:00", "how": "changed", "machine": "BU-1979FJ4"}
@@ -23,7 +31,6 @@
 {"root": "DEV", "path": "RTP_Constraints_Course/learning-records/0003-field-notes-0001-0002-and-lesson-0003.md", "when": "2026-10-20T14:13:44-05:00", "how": "new", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "RTP_Constraints_Course/reference/0003-three-constraint-classes.html", "when": "2026-10-20T14:13:44-05:00", "how": "new", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "RTP_Constraints_Course/reference/course-map.html", "when": "2026-10-20T14:13:44-05:00", "how": "changed", "machine": "BU-1979FJ4"}
-{"root": "DEV", "path": "PP_Recruiting/scripts/check_workbook.py", "when": "2026-10-20T14:07:22-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "PP_Recruiting/scripts/add_wr_toughness.py", "when": "2026-10-20T14:07:22-05:00", "how": "new", "machine": "BU-1979FJ4"}
 {"root": "DRIVE", "path": "02_SPORTS/Football/PP_Recruiting/022. BAYLOR - TELEMETRY x STAQS UNIFIED GRADING (WR TOUGHNESS, TEST).xlsx", "when": "2026-10-20T14:04:13-05:00", "how": "new", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "RTP_Constraints_Course/field-notes/2026-10-20-joe-field-notes-0001-0002.md", "when": "2026-10-20T13:58:23-05:00", "how": "new", "machine": "BU-1979FJ4"}
@@ -50,6 +57,7 @@
 {"root": "DRIVE", "path": "02_SPORTS/Football/FA2026/04_Outputs/05. 2026 In Season/Reports/Line Play/Baylor Line Slides 2026.pptx", "when": "2026-10-19T20:09:53-05:00", "how": "new", "machine": "BU-1979FJ4"}
 {"root": "DRIVE", "path": "02_SPORTS/Football/FA2026/04_Outputs/05. 2026 In Season/Reports/Quarterback/Baylor Lagway Deep Dive 2026.html", "when": "2026-10-19T20:09:51-05:00", "how": "new", "machine": "BU-1979FJ4"}
 {"root": "DRIVE", "path": "02_SPORTS/Football/FA2026/04_Outputs/05. 2026 In Season/Reports/Line Play/Baylor Line Deep Dive 2026.html", "when": "2026-10-19T20:09:45-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DEV", "path": "project-triage/docs/STATUS.md", "when": "2026-10-19T16:59:45-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "PP_Recruiting/docs/2026-10-19-baylor-player-disagreement.md", "when": "2026-10-19T16:25:16-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "PP_Recruiting/docs/handoffs/2026-10-19-021-prior-season.md", "when": "2026-10-19T16:25:16-05:00", "how": "new", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "PP_Recruiting/scripts/add_prior_season.py", "when": "2026-10-19T16:25:16-05:00", "how": "new", "machine": "BU-1979FJ4"}
@@ -105,8 +113,6 @@
 {"root": "DEV", "path": "Tech_Inventory_Analysis/deliverables/_SEND/SEND_Tech_Inventory_TECH_LISTS_ER_2026-10-01.docx", "when": "2026-10-12T09:13:16-05:00", "how": "new", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "Tech_Inventory_Analysis/deliverables/_SEND/SEND_Tech_Inventory_TECH_LISTS_ER_2026-10-01.pdf", "when": "2026-10-12T09:13:16-05:00", "how": "new", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "Tech_Inventory_Analysis/deliverables/Tech_Inventory_EXEC_SUMMARY_ER_2026-10-01.docx", "when": "2026-10-12T09:13:16-05:00", "how": "changed", "machine": "BU-1979FJ4"}
-{"root": "DEV", "path": "project-triage/docs/STATUS.md", "when": "2026-10-12T08:08:21-05:00", "how": "changed", "machine": "BU-1979FJ4"}
-{"root": "DEV", "path": "project-triage/portfolio.json", "when": "2026-10-12T06:21:47-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "project-triage/docs/handoffs/2026-10-11-open-items.md", "when": "2026-10-11T20:12:29-05:00", "how": "new", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "project-triage/crosswalk.py", "when": "2026-10-11T19:58:42-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "project-triage/tests/test_crosswalk.py", "when": "2026-10-11T19:58:42-05:00", "how": "changed", "machine": "BU-1979FJ4"}
