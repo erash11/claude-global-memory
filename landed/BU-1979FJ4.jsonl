@@ -1,3 +1,22 @@
+{"root": "DRIVE", "path": "07_EDUCATION/RTP Course - Joe Smith/Field notes - Joe Smith.gdoc", "when": "2026-10-20T14:46:38-05:00", "how": "changed", "machine": "BU-1979FJ4"}
+{"root": "DEV", "path": "RTP_Constraints_Course/docs/STATUS.md", "when": "2026-10-20T14:30:15-05:00", "how": "changed", "machine": "BU-1979FJ4"}
+{"root": "DRIVE", "path": "07_EDUCATION/RTP Course - Joe Smith/index.html", "when": "2026-10-20T14:29:46-05:00", "how": "changed", "machine": "BU-1979FJ4"}
+{"root": "DRIVE", "path": "07_EDUCATION/RTP Course - Joe Smith/START HERE.txt", "when": "2026-10-20T14:29:46-05:00", "how": "changed", "machine": "BU-1979FJ4"}
+{"root": "DRIVE", "path": "07_EDUCATION/RTP Course - Joe Smith/reference/0001-opposed-vs-unopposed.html", "when": "2026-10-20T14:29:46-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DRIVE", "path": "07_EDUCATION/RTP Course - Joe Smith/reference/0002-attentional-focus.html", "when": "2026-10-20T14:29:46-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DRIVE", "path": "07_EDUCATION/RTP Course - Joe Smith/reference/0003-three-constraint-classes.html", "when": "2026-10-20T14:29:46-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DRIVE", "path": "07_EDUCATION/RTP Course - Joe Smith/reference/course-map.html", "when": "2026-10-20T14:29:46-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DRIVE", "path": "07_EDUCATION/RTP Course - Joe Smith/reference/sprint-film-check.html", "when": "2026-10-20T14:29:46-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DRIVE", "path": "07_EDUCATION/RTP Course - Joe Smith/lessons/0001-opposed-vs-unopposed.html", "when": "2026-10-20T14:29:45-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DRIVE", "path": "07_EDUCATION/RTP Course - Joe Smith/lessons/0002-attention-goes-where-you-point-it.html", "when": "2026-10-20T14:29:45-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DRIVE", "path": "07_EDUCATION/RTP Course - Joe Smith/lessons/0003-what-exactly-am-i-changing.html", "when": "2026-10-20T14:29:45-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DEV", "path": "RTP_Constraints_Course/NOTES.md", "when": "2026-10-20T14:16:46-05:00", "how": "changed", "machine": "BU-1979FJ4"}
+{"root": "DEV", "path": "RTP_Constraints_Course/lessons/0003-what-exactly-am-i-changing.html", "when": "2026-10-20T14:16:46-05:00", "how": "changed", "machine": "BU-1979FJ4"}
+{"root": "DEV", "path": "RTP_Constraints_Course/CLAUDE.md", "when": "2026-10-20T14:13:44-05:00", "how": "changed", "machine": "BU-1979FJ4"}
+{"root": "DEV", "path": "RTP_Constraints_Course/GLOSSARY.md", "when": "2026-10-20T14:13:44-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DEV", "path": "RTP_Constraints_Course/learning-records/0003-field-notes-0001-0002-and-lesson-0003.md", "when": "2026-10-20T14:13:44-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DEV", "path": "RTP_Constraints_Course/reference/0003-three-constraint-classes.html", "when": "2026-10-20T14:13:44-05:00", "how": "new", "machine": "BU-1979FJ4"}
+{"root": "DEV", "path": "RTP_Constraints_Course/reference/course-map.html", "when": "2026-10-20T14:13:44-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "PP_Recruiting/docs/STATUS.md", "when": "2026-10-20T14:07:22-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "PP_Recruiting/scripts/check_workbook.py", "when": "2026-10-20T14:07:22-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DEV", "path": "PP_Recruiting/scripts/add_wr_toughness.py", "when": "2026-10-20T14:07:22-05:00", "how": "new", "machine": "BU-1979FJ4"}
@@ -458,7 +477,6 @@
 {"root": "VAULT", "path": "Knowledge/library/research-papers/issurin-2016-benefits-and-limitations-of-block-periodized-training-approaches-to-athletes-preparation-a.md", "when": "2026-10-06T14:07:06-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "VAULT", "path": "Knowledge/library/research-papers/petrakos-2016-resisted-sled-sprint-training-to-improve-sprint-performance-a-systematic-review.md", "when": "2026-10-06T14:07:06-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "VAULT", "path": "Inbox/weekly-slate/2026-10-02.md", "when": "2026-10-06T14:07:06-05:00", "how": "new", "machine": "BU-1979FJ4"}
-{"root": "DEV", "path": "RTP_Constraints_Course/docs/STATUS.md", "when": "2026-10-06T14:03:44-05:00", "how": "changed", "machine": "BU-1979FJ4"}
 {"root": "DRIVE", "path": "05_SYSTEMS/AI_Sessions_Backup/BU-1979FJ4/claude-code/C--Users-eric-rash-Desktop-DEV/c389638f-382a-4e36-b153-8ff3a4121f42/tool-results/pdf-f892a7e7-6a50-4cd4-afcc-852517182f27/page-2.jpg", "when": "2026-10-06T14:02:06-05:00", "how": "new", "machine": "BU-1979FJ4"}
 {"root": "DRIVE", "path": "05_SYSTEMS/AI_Sessions_Backup/BU-1979FJ4/claude-code/C--Users-eric-rash-Desktop-DEV/c389638f-382a-4e36-b153-8ff3a4121f42/tool-results/pdf-31aecb41-360a-4f84-8d80-13c490371679/page-1.jpg", "when": "2026-10-06T14:00:19-05:00", "how": "new", "machine": "BU-1979FJ4"}
 {"root": "DRIVE", "path": "05_SYSTEMS/AI_Sessions_Backup/BU-1979FJ4/claude-code/C--Users-eric-rash-Desktop-DEV/c389638f-382a-4e36-b153-8ff3a4121f42/tool-results/pdf-31aecb41-360a-4f84-8d80-13c490371679/page-2.jpg", "when": "2026-10-06T14:00:19-05:00", "how": "new", "machine": "BU-1979FJ4"}
