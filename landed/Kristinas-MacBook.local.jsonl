@@ -1,3 +1,38 @@
+{"root": "DEV", "path": "claude-global-memory/transcripts/.errors.log", "when": "2026-10-19T17:40:04-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "claude-global-memory/landed/Kristinas-MacBook.local.jsonl", "when": "2026-10-19T17:40:04-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "claude-global-memory/docs/STATUS.md", "when": "2026-10-19T17:40:04-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "claude-global-memory/handoffs/2026-10-19-offline-catchup-and-coach-archive.md", "when": "2026-10-19T17:40:04-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "claude-global-memory/transcripts/.errors.log.archived-2026-10-19", "when": "2026-10-19T17:40:04-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "claude-global-memory/transcripts/2026-10-19.md", "when": "2026-10-19T17:40:04-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "claude-global-memory/MEMORY.md", "when": "2026-10-19T17:37:18-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "claude-global-memory/USER.md", "when": "2026-10-19T17:37:18-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "DataBase_GPS_Reporting/docs/STATUS.md", "when": "2026-10-19T17:14:40-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "DataBase_GPS_Reporting/CLAUDE.md", "when": "2026-10-19T17:14:40-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "DataBase_GPS_Reporting/archive/coach_report/.gitignore", "when": "2026-10-19T17:14:40-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "DataBase_GPS_Reporting/archive/coach_report/coach_config.yaml", "when": "2026-10-19T17:14:40-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "DataBase_GPS_Reporting/archive/coach_report/coach_report.py", "when": "2026-10-19T17:14:40-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "DataBase_GPS_Reporting/archive/coach_report/plan_overrides.yaml", "when": "2026-10-19T17:14:40-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "DataBase_GPS_Reporting/archive/coach_report/src/__init__.py", "when": "2026-10-19T17:14:40-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "DataBase_GPS_Reporting/archive/coach_report/src/data.py", "when": "2026-10-19T17:14:40-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "DataBase_GPS_Reporting/archive/coach_report/src/day_types.py", "when": "2026-10-19T17:14:40-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "DataBase_GPS_Reporting/archive/coach_report/src/maxvel.py", "when": "2026-10-19T17:14:40-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "DataBase_GPS_Reporting/archive/coach_report/src/plan.py", "when": "2026-10-19T17:14:40-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "DataBase_GPS_Reporting/archive/coach_report/src/render.py", "when": "2026-10-19T17:14:40-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "DataBase_GPS_Reporting/archive/coach_report/src/spc.py", "when": "2026-10-19T17:14:40-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "DataBase_GPS_Reporting/archive/coach_report/templates/coach_report.html.j2", "when": "2026-10-19T17:14:40-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "DataBase_GPS_Reporting/archive/coach_report/tests/test_data.py", "when": "2026-10-19T17:14:40-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "DataBase_GPS_Reporting/archive/coach_report/tests/test_day_types.py", "when": "2026-10-19T17:14:40-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "DataBase_GPS_Reporting/archive/coach_report/tests/test_maxvel.py", "when": "2026-10-19T17:14:40-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "DataBase_GPS_Reporting/archive/coach_report/tests/test_plan.py", "when": "2026-10-19T17:14:40-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "DataBase_GPS_Reporting/archive/coach_report/tests/test_render.py", "when": "2026-10-19T17:14:40-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "DataBase_GPS_Reporting/archive/coach_report/tests/test_spc.py", "when": "2026-10-19T17:14:40-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "DataBase_GPS_Reporting/archive/coach_report/tests/test_true_pl.py", "when": "2026-10-19T17:14:40-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "DataBase_GPS_Reporting/gps_report/pull.sh", "when": "2026-10-19T17:14:40-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "DataBase_GPS_Reporting/gps_report/tests/test_pull_sh.py", "when": "2026-10-19T17:14:40-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "claude-global-memory/transcripts/.memsearch-last-run", "when": "2026-10-19T17:04:50-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "project-triage/docs/STATUS.md", "when": "2026-10-19T16:59:45-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "BayCap/docs/STATUS.md", "when": "2026-10-19T16:59:43-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "Football/CFB_Playoff_Benchmarks/docs/STATUS.md", "when": "2026-10-19T16:59:41-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "PP_Recruiting/docs/STATUS.md", "when": "2026-10-19T16:55:37-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "PP_Recruiting/docs/2026-10-19-baylor-player-disagreement.md", "when": "2026-10-19T16:25:16-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "PP_Recruiting/docs/handoffs/2026-10-19-021-prior-season.md", "when": "2026-10-19T16:25:16-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
@@ -7,9 +42,9 @@
 {"root": "DRIVE", "path": "02_SPORTS/Football/PP_Recruiting/021. BAYLOR - TELEMETRY x STAQS UNIFIED GRADING (PRIOR SEASON, TEST).xlsx", "when": "2026-10-19T16:24:27-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "02_SPORTS/Football/FA2026/02_Raw_Tagging/Practice_Plans/05. 2026 In Season/Baylor Tackling Full Report Slides 2026.gslides", "when": "2026-10-19T16:03:10-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "02_SPORTS/Football/FA2026/02_Raw_Tagging/Practice_Plans/05. 2026 In Season/Baylor Tackling Slides 2026.gslides", "when": "2026-10-19T16:00:58-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "Football/CFB_Playoff_Benchmarks/docs/STATUS.md", "when": "2026-10-19T15:37:22-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "BayCap/docs/STATUS.md", "when": "2026-10-19T15:37:21-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "project-triage/docs/STATUS.md", "when": "2026-10-19T15:37:19-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "claude-global-memory/landed/BU-1979FJ4.jsonl", "when": "2026-10-19T15:56:57-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "claude-global-memory/transcripts/2026-10-12.md", "when": "2026-10-19T15:54:38-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "claude-global-memory/handoffs/2026-10-19-prompt-audit.md", "when": "2026-10-19T15:54:38-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "02_SPORTS/Football/FA2026/02_Raw_Tagging/Practice_Plans/05. 2026 In Season/Baylor Tackling One-Pager 2026.gdoc", "when": "2026-10-19T15:25:23-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "graphify-out/.graphify_extract.json", "when": "2026-10-19T15:23:39-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "graphify-out/.graphify_gemini.json", "when": "2026-10-19T15:23:39-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
@@ -24,7 +59,6 @@
 {"root": "DEV", "path": "graphify-out/graph.html", "when": "2026-10-19T15:23:39-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "graphify-out/manifest.json", "when": "2026-10-19T15:23:39-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "graphify-out/graphify-out/cache/stat-index.json", "when": "2026-10-19T15:23:39-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "claude-global-memory/transcripts/.errors.log", "when": "2026-10-19T15:22:02-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "02_SPORTS/Football/FA2026/02_Raw_Tagging/Practice_Plans/05. 2026 In Season/Baylor Tackling Deep Dive 2026.gdoc", "when": "2026-10-19T15:20:03-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "TackleAnalytics/docs/pff-all-tackling-feed-and-definitions-2026-10-19.md", "when": "2026-10-19T13:54:25-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "TackleAnalytics/docs/pff-api-tackling-notes-2026-10-19.md", "when": "2026-10-19T13:36:18-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
@@ -34,8 +68,6 @@
 {"root": "DEV", "path": "PP_Recruiting/docs/handoffs/2026-10-17-020-new-traits-mac-build.md", "when": "2026-10-17T17:31:18-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "PP_Recruiting/scripts/add_new_traits.py", "when": "2026-10-17T17:31:18-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "PP_Recruiting/scripts/patch_mashup.py", "when": "2026-10-17T17:31:18-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "claude-global-memory/landed/Kristinas-MacBook.local.jsonl", "when": "2026-10-17T15:12:49-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "claude-global-memory/transcripts/.memsearch-last-run", "when": "2026-10-17T15:12:49-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "claude-global-memory/transcripts/2026-10-16.md", "when": "2026-10-17T15:12:49-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "claude-global-memory/handoffs/2026-10-16-weekly-review.md", "when": "2026-10-17T15:12:49-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "house-model/docs/CHANGELOG_AND_STAGE1_PLAN_2026-10-17.md", "when": "2026-10-17T15:09:21-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
@@ -134,8 +166,6 @@
 {"root": "DEV", "path": "Football/CFB_Playoff_Benchmarks/cfb_benchmarks/metrics.py", "when": "2026-10-16T17:34:01-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "BayCap/docs/handoffs/2026-10-16-baycap-setup.md", "when": "2026-10-16T17:29:40-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "MacEverything/Sources/EverythingCore/Temp.swift", "when": "2026-10-16T17:29:11Z", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "claude-global-memory/docs/STATUS.md", "when": "2026-10-16T17:28:54-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "claude-global-memory/MEMORY.md", "when": "2026-10-16T17:28:54-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "MacEverything/Tests/EverythingCoreTests/IndexTests.swift", "when": "2026-10-16T17:25:00Z", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "MacEverything/README.md", "when": "2026-10-16T17:25:00Z", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "MacEverything/Sources/EverythingCore/FileIndex.swift", "when": "2026-10-16T17:25:00Z", "how": "changed", "machine": "Kristinas-MacBook.local"}
@@ -1017,7 +1047,6 @@
 {"root": "DRIVE", "path": "Cloud_Copy/DEV/KeystoneOS/outputs/morning/2026-10-14.md", "when": "2026-10-14T06:00:24-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "Cloud_Copy/DEV/KeystoneOS/outputs/jobs/morning-cadence-2026-10-14.err.log", "when": "2026-10-14T06:00:10-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "Cloud_Copy/DEV/KeystoneOS/outputs/jobs/morning-cadence-2026-10-14.out.log", "when": "2026-10-14T06:00:10-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "DataBase_GPS_Reporting/docs/STATUS.md", "when": "2026-10-13T18:38:20-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "Cloud_Copy/DEV/DataBase_GPS_Reporting/docs/STATUS.md", "when": "2026-10-13T18:38:20-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Flint/docs/STATUS.md", "when": "2026-10-13T18:38:18-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "Cloud_Copy/DEV/Flint/docs/STATUS.md", "when": "2026-10-13T18:38:17-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
@@ -2776,7 +2805,6 @@
 {"root": "DRIVE", "path": "09_PRO_DEV/Continuing_Education/SPORT SCIENCE NETWORK/_Extraction Archive/Panel - Data Architecture for High-Performance Sport/transcript.txt", "when": "2026-10-13T05:46:32-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "09_PRO_DEV/Continuing_Education/SPORT SCIENCE NETWORK/Panel - Data Architecture for High-Performance Sport/data-architecture-panel.en.srt", "when": "2026-10-13T05:45:31-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "09_PRO_DEV/Continuing_Education/SPORT SCIENCE NETWORK/_Extraction Archive/Panel - Data Architecture for High-Performance Sport/data-architecture-panel.en.srt", "when": "2026-10-13T05:45:31-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "claude-global-memory/transcripts/2026-10-12.md", "when": "2026-10-12T22:29:33-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "08_ADMIN/Policy_Procedure/Data use acknowledgement/Pitt/Staff_Responsible_Use_Guidelines_LegalReview.docx", "when": "2026-10-12T21:56:40-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "08_ADMIN/Policy_Procedure/Data use acknowledgement/Pitt/SA_Performance_Technology_Consent_LegalReview.docx", "when": "2026-10-12T21:56:40-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "08_ADMIN/Policy_Procedure/Data use acknowledgement/Lousiville/v4_Guidelines to Responsible Use of Performance Technologies.docx", "when": "2026-10-12T21:56:40-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
@@ -2914,7 +2942,6 @@
 {"root": "VAULT", "path": "Knowledge/library/strength-and-conditioning/elite-sports-performance--evans/case-study--wide-receiver-preparatory-phase-weekly-loading-template.md", "when": "2026-10-12T09:35:24-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "Cloud_Copy/DEV/Flint/data/memsearch-index-2026-10-12.log", "when": "2026-10-12T09:22:03-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "claude-global-memory/handoffs/2026-10-12-windows-storage-cleanup.md", "when": "2026-10-12T09:15:02-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "claude-global-memory/landed/BU-1979FJ4.jsonl", "when": "2026-10-12T09:15:02-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "claude-global-memory/transcripts/2026-10-12.windows.md", "when": "2026-10-12T09:15:02-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "99_UNSORTED/From_Desktop/TECHNOLOGY/FAST/GAME_WEEK_ITINERARIES/2024/Game 7 - Texas Tech - Staff Itinerary.pdf", "when": "2026-10-12T09:14:32-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "99_UNSORTED/From_Desktop/TECHNOLOGY/FAST/GAME_WEEK_ITINERARIES/2024/Game 10 - West Virginia - Staff Itinerary.pdf", "when": "2026-10-12T09:14:32-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
