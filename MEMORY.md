@@ -12,7 +12,7 @@
 BayCap · house-model (10/12) · 5S5M (EAI STATUS) · project-triage PM system · personal site (scroll-craft, Tier A) · Football/MatchupAnalysis_FB2026 · Flint (10/13) · 42Analytics (captions 429) · Volleyball_GRID (await Mike) · sleep-scheduler · TypeSafe_Sandbox (maint) · File org Task 4 after season →`DEV/docs/FILE-ORGANIZATION-PLAN.md`
 
 ## Environment Notes
-- Win laptop RETIRED 10/14; Mac + Drive only. Mac sole writer GPS/Perch/VALD; GPS coach report archived 10/19.
+- Win laptop: no automation; desktop-app sessions only (10/21), push to GitHub to sync to Mac. Mac sole writer GPS/Perch/VALD; GPS coach report archived 10/19.
 - Hooks: patch both copies →Tier A hook-two-copies-trap.
 - daily-backup: manifest entries alone copy nothing; sweep nested ~/.claude repos.
 - `DEV/Linda_Projects` = private I-983 repo. Drive reads hang →Tier A drive-fuse-read-hang.
