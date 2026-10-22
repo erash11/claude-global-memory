@@ -1,2 +1,0 @@
-[2026-10-22 06:05] daily-backup: 5 error(s): repo-diverged:global-memory, snapshot:claude-projects.tgz, snapshot:codex-sessions.tgz, snapshot:gemini.tgz, snapshot:launchagents.tgz - see ~/.claude/scripts/logs/daily-backup.log
-[2026-10-22T11:05:23.070149+00:00] compiler-backlog: 3 log(s) backlogged, compiling newest 2 this run - run compile.py manually to catch up
