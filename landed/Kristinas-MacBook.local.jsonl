@@ -1,5 +1,8 @@
-{"root": "DEV", "path": "SoftwareTech_Review/docs/handoffs/2026-10-22-kenny-status-loop.md", "when": "2026-10-22T16:33:32-05:00", "how": "new, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "SoftwareTech_Review/docs/STATUS.md", "when": "2026-10-22T16:33:15-05:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "Flint/docs/7-DAY-PLAN-2026-10-22.md", "when": "2026-10-22T16:38:27-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "Flint/docs/STATUS.md", "when": "2026-10-22T16:38:27-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "Flint/config/roots.json", "when": "2026-10-22T16:38:27-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "SoftwareTech_Review/docs/handoffs/2026-10-22-kenny-status-loop.md", "when": "2026-10-22T16:34:10-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "SoftwareTech_Review/docs/STATUS.md", "when": "2026-10-22T16:34:10-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "graphify-out/.graphify_extract.json", "when": "2026-10-22T16:32:33-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "graphify-out/.graphify_gemini.json", "when": "2026-10-22T16:32:33-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "graphify-out/.graphify_semantic.json", "when": "2026-10-22T16:32:33-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
@@ -13,8 +16,9 @@
 {"root": "DEV", "path": "graphify-out/.graphify_analysis.json", "when": "2026-10-22T16:32:33-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "graphify-out/.graphify_labels.json", "when": "2026-10-22T16:32:33-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "graphify-out/graph.html", "when": "2026-10-22T16:32:33-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "Flint/docs/7-DAY-PLAN-2026-10-22.md", "when": "2026-10-22T12:37:49-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "Flint/docs/STATUS.md", "when": "2026-10-22T12:36:06-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DRIVE", "path": "01_PROJECTS/_STALLED/2026-05-23_PFF_Data_Project/CLAUDE.md", "when": "2026-10-22T13:33:47-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DRIVE", "path": "01_PROJECTS/_STALLED/2026-05-23_PFF_Data_Project/docs/STATUS.md", "when": "2026-10-22T13:33:47-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DRIVE", "path": "08_ADMIN/Policy_Procedure/Data use acknowledgement/Iowa/Universtiy Iowa Data Acknowledgment.docx", "when": "2026-10-22T12:46:32-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "VAULT", "path": "Inbox/weekly-review/2026-10-22-feedback-lookback.md", "when": "2026-10-22T12:05:21-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Performance_Playbook/docs/STATUS.md", "when": "2026-10-22T09:21:15-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Tech_Inventory_Analysis/docs/STATUS.md", "when": "2026-10-22T09:21:12-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
@@ -3996,7 +4000,6 @@
 {"root": "DEV", "path": "project-triage/docs/inventory/2026-10-03-archived-folders.txt", "when": "2026-10-03T13:05:42-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "project-triage/docs/inventory/2026-10-03-drive-step8-plan.md", "when": "2026-10-03T13:05:42-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "project-triage/docs/inventory/drive_step8.py", "when": "2026-10-03T13:05:42-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "Flint/config/roots.json", "when": "2026-10-03T13:05:21-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "01_PROJECTS/_STALLED/HighPerformanceInitative_RTP/Matt Jordan\u2019s Approach to Force Plate CMJ Metrics for ACL Return-to-Play (2026-04-14 1522).docx", "when": "2026-10-03T13:01:34-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "VAULT", "path": "Knowledge/library/strength-and-conditioning/supertraining--verkhoshansky/heuristic--apre-skill-learning-6rm-pyramid-test-and-rm-muscle-testing.md", "when": "2026-10-03T12:16:06-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "VAULT", "path": "Knowledge/library/strength-and-conditioning/supertraining--verkhoshansky/framework--two-force-regimes-overcoming-weight-vs-inertia.md", "when": "2026-10-03T12:16:06-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
