@@ -1,7 +1,27 @@
+{"root": "DEV", "path": "SoftwareTech_Review/docs/handoffs/2026-10-22-kenny-status-loop.md", "when": "2026-10-22T16:33:32-05:00", "how": "new, uncommitted", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "SoftwareTech_Review/docs/STATUS.md", "when": "2026-10-22T16:33:15-05:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "graphify-out/.graphify_extract.json", "when": "2026-10-22T16:32:33-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "graphify-out/.graphify_gemini.json", "when": "2026-10-22T16:32:33-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "graphify-out/.graphify_semantic.json", "when": "2026-10-22T16:32:33-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "graphify-out/GRAPH_REPORT.md", "when": "2026-10-22T16:32:33-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "graphify-out/cost.json", "when": "2026-10-22T16:32:33-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "graphify-out/daily_extract.log", "when": "2026-10-22T16:32:33-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "graphify-out/graph.json", "when": "2026-10-22T16:32:33-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "graphify-out/rotate_log.txt", "when": "2026-10-22T16:32:33-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "graphify-out/manifest.json", "when": "2026-10-22T16:32:33-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "graphify-out/graphify-out/cache/stat-index.json", "when": "2026-10-22T16:32:33-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "graphify-out/.graphify_analysis.json", "when": "2026-10-22T16:32:33-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "graphify-out/.graphify_labels.json", "when": "2026-10-22T16:32:33-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "graphify-out/graph.html", "when": "2026-10-22T16:32:33-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "Flint/docs/7-DAY-PLAN-2026-10-22.md", "when": "2026-10-22T12:37:49-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "Flint/docs/STATUS.md", "when": "2026-10-22T12:36:06-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "VAULT", "path": "Inbox/weekly-review/2026-10-22-feedback-lookback.md", "when": "2026-10-22T12:05:21-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "Performance_Playbook/docs/STATUS.md", "when": "2026-10-22T09:21:15-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "Tech_Inventory_Analysis/docs/STATUS.md", "when": "2026-10-22T09:21:12-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "project-triage/docs/STATUS.md", "when": "2026-10-22T09:21:10-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "TypeSafe_Sandbox/docs/STATUS.md", "when": "2026-10-22T08:33:40-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "TypeSafe_Sandbox/docs/handoffs/2026-10-22-jev-reopen.md", "when": "2026-10-22T08:33:40-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "project-triage/portfolio.json", "when": "2026-10-22T08:32:34-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "Tech_Inventory_Analysis/docs/STATUS.md", "when": "2026-10-22T08:16:55-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "TypeSafe_Sandbox/docs/JEV_CAPABILITY_MAP.md", "when": "2026-10-22T08:16:38-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "TypeSafe_Sandbox/tech_screen/disagreements.csv", "when": "2026-10-22T08:16:38-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "TypeSafe_Sandbox/tech_screen/results.md", "when": "2026-10-22T08:16:38-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
@@ -15,7 +35,6 @@
 {"root": "DEV", "path": "TypeSafe_Sandbox/video_check/runs/haiku.jsonl", "when": "2026-10-22T08:16:38-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "TypeSafe_Sandbox/video_check/runs/haiku_failures.jsonl", "when": "2026-10-22T08:16:38-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "TypeSafe_Sandbox/video_check/runs/jev.jsonl", "when": "2026-10-22T08:16:38-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "Performance_Playbook/docs/STATUS.md", "when": "2026-10-22T07:35:23-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "TypeSafe_Sandbox/.gitignore", "when": "2026-10-22T07:34:01-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "TypeSafe_Sandbox/docs/TECH_SCREEN_PREREG.md", "when": "2026-10-22T07:34:01-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "TypeSafe_Sandbox/docs/VIDEO_SUMMARY_CHECK_PREREG.md", "when": "2026-10-22T07:34:01-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
@@ -51,16 +70,6 @@
 {"root": "DEV", "path": "TypeSafe_Sandbox/zotero_classify/jev_client.py", "when": "2026-10-22T07:34:01-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "TypeSafe_Sandbox/zotero_classify/library.py", "when": "2026-10-22T07:34:01-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "VAULT", "path": "Inbox/meetings/2026-10-19_SA_Leadership_10192026.md", "when": "2026-10-22T05:59:44-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "graphify-out/.graphify_extract.json", "when": "2026-10-21T22:29:35Z", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "graphify-out/.graphify_gemini.json", "when": "2026-10-21T22:29:35Z", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "graphify-out/.graphify_semantic.json", "when": "2026-10-21T22:29:35Z", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "graphify-out/GRAPH_REPORT.md", "when": "2026-10-21T22:29:35Z", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "graphify-out/cost.json", "when": "2026-10-21T22:29:35Z", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "graphify-out/daily_extract.log", "when": "2026-10-21T22:29:35Z", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "graphify-out/graph.json", "when": "2026-10-21T22:29:35Z", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "graphify-out/rotate_log.txt", "when": "2026-10-21T22:29:35Z", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "graphify-out/manifest.json", "when": "2026-10-21T22:29:35Z", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "graphify-out/graphify-out/cache/stat-index.json", "when": "2026-10-21T22:29:35Z", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "02_SPORTS/Football/FA2026/04_Outputs/05. 2026 In Season/07. Kansas/kansas-staff-itinerary-candidate-2026-10-21.pdf", "when": "2026-10-21T16:59:04-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "PP_Recruiting/docs/STATUS.md", "when": "2026-10-21T11:31:59-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "PP_Recruiting/scripts/check_workbook.py", "when": "2026-10-21T11:31:59-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
@@ -79,9 +88,6 @@
 {"root": "DEV", "path": "ForcePlate_DecisionSystem/src/db.py", "when": "2026-10-20T16:29:11-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "ForcePlate_DecisionSystem/src/ingest/pipeline.py", "when": "2026-10-20T16:29:11-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "ForcePlate_DecisionSystem/tests/test_cmj_trials.py", "when": "2026-10-20T16:29:11-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "graphify-out/.graphify_analysis.json", "when": "2026-10-20T15:38:09-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "graphify-out/.graphify_labels.json", "when": "2026-10-20T15:38:09-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "graphify-out/graph.html", "when": "2026-10-20T15:38:09-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "claude-global-memory/transcripts/.errors.log", "when": "2026-10-20T15:36:24-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Football/football-cmj-monitoring/.gitignore", "when": "2026-10-20T15:30:23-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Football/football-cmj-monitoring/CLAUDE.md", "when": "2026-10-20T15:30:20-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
@@ -137,7 +143,6 @@
 {"root": "DEV", "path": "DataBase_GPS_Reporting/archive/coach_report/tests/test_true_pl.py", "when": "2026-10-19T17:14:40-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "DataBase_GPS_Reporting/gps_report/pull.sh", "when": "2026-10-19T17:14:40-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "DataBase_GPS_Reporting/gps_report/tests/test_pull_sh.py", "when": "2026-10-19T17:14:40-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "project-triage/docs/STATUS.md", "when": "2026-10-19T16:59:45-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "BayCap/docs/STATUS.md", "when": "2026-10-19T16:59:43-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Football/CFB_Playoff_Benchmarks/docs/STATUS.md", "when": "2026-10-19T16:59:41-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "PP_Recruiting/docs/2026-10-19-baylor-player-disagreement.md", "when": "2026-10-19T16:25:16-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
@@ -512,7 +517,6 @@
 {"root": "DEV", "path": "Football/FootballBodyWeightDevelopment/docs/absorbed/BodWeightWeb/TROUBLESHOOTING.md", "when": "2026-10-14T14:20:35-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Football/FootballBodyWeightDevelopment/docs/absorbed/BodWeightWeb/requirements.txt", "when": "2026-10-14T14:20:35-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "Cloud_Copy/DEV/Football/FootballBodyWeightDevelopment/docs/absorbed/BodWeightWeb/README.md", "when": "2026-10-14T14:20:35-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "SoftwareTech_Review/docs/STATUS.md", "when": "2026-10-14T14:20:26-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "SoftwareTech_Review/docs/absorbed/SoftwareTechDocs/.gitignore", "when": "2026-10-14T14:20:26-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "SoftwareTech_Review/docs/absorbed/SoftwareTechDocs/AGENTS.md", "when": "2026-10-14T14:20:26-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "SoftwareTech_Review/docs/absorbed/SoftwareTechDocs/CLAUDE.md", "when": "2026-10-14T14:20:26-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
@@ -1137,7 +1141,6 @@
 {"root": "DRIVE", "path": "Cloud_Copy/DEV/KeystoneOS/outputs/jobs/morning-cadence-2026-10-14.err.log", "when": "2026-10-14T06:00:10-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "Cloud_Copy/DEV/KeystoneOS/outputs/jobs/morning-cadence-2026-10-14.out.log", "when": "2026-10-14T06:00:10-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "Cloud_Copy/DEV/DataBase_GPS_Reporting/docs/STATUS.md", "when": "2026-10-13T18:38:20-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "Flint/docs/STATUS.md", "when": "2026-10-13T18:38:18-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "Cloud_Copy/DEV/Flint/docs/STATUS.md", "when": "2026-10-13T18:38:17-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Flint/docs/handoffs/2026-10-13-closeout-ch9-audit.md", "when": "2026-10-13T18:37:57-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "Cloud_Copy/DEV/Flint/docs/handoffs/2026-10-13-closeout-ch9-audit.md", "when": "2026-10-13T18:37:57-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
