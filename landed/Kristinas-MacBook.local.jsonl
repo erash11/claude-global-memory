@@ -1,4 +1,8 @@
-{"root": "DEV", "path": "project-triage/portfolio.json", "when": "2026-10-23T16:16:13-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "project-triage/tests/test_landed.py", "when": "2026-10-23T17:04:41-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "project-triage/landed.py", "when": "2026-10-23T17:04:41-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "project-triage/portfolio.json", "when": "2026-10-23T17:00:13-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "project-triage/docs/STATUS.md", "when": "2026-10-23T16:59:04-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "CFB_Forecast_Archive/docs/STATUS.md", "when": "2026-10-23T16:59:02-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "CFB_Victory_Model/docs/handoffs/2026-10-23-week8-capture.md", "when": "2026-10-23T15:29:41-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "graphify-out/.graphify_extract.json", "when": "2026-10-23T15:26:30-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "graphify-out/.graphify_gemini.json", "when": "2026-10-23T15:26:30-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
@@ -115,7 +119,6 @@
 {"root": "VAULT", "path": "Inbox/weekly-review/2026-10-22-feedback-lookback.md", "when": "2026-10-22T12:05:21-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Performance_Playbook/docs/STATUS.md", "when": "2026-10-22T09:21:15-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Tech_Inventory_Analysis/docs/STATUS.md", "when": "2026-10-22T09:21:12-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "project-triage/docs/STATUS.md", "when": "2026-10-22T09:21:10-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "TypeSafe_Sandbox/docs/handoffs/2026-10-22-jev-reopen.md", "when": "2026-10-22T08:33:40-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "TypeSafe_Sandbox/docs/JEV_CAPABILITY_MAP.md", "when": "2026-10-22T08:16:38-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "TypeSafe_Sandbox/tech_screen/disagreements.csv", "when": "2026-10-22T08:16:38-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
@@ -3381,7 +3384,6 @@
 {"root": "VAULT", "path": "Inbox/weekly-review/2026-10-08-review.md", "when": "2026-10-08T17:51:25-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "VAULT", "path": "Inbox/meetings/2026-10-08_StaffMeet_10082026.md", "when": "2026-10-08T17:17:48-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "VAULT", "path": "Inbox/meetings/2026-10-08_KB_TechSync_10082026.md", "when": "2026-10-08T17:17:48-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "CFB_Forecast_Archive/docs/STATUS.md", "when": "2026-10-08T16:17:54-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-07_arizona-state.csv", "when": "2026-10-08T16:16:04-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-07_arizona-state_compare.txt", "when": "2026-10-08T16:16:04-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-07_arizona.csv", "when": "2026-10-08T16:16:04-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
@@ -3864,8 +3866,6 @@
 {"root": "VAULT", "path": "Knowledge/library/research-papers/issurin-2016-benefits-and-limitations-of-block-periodized-training-approaches-to-athletes-preparation-a.md", "when": "2026-10-03T15:17:17-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "05_SYSTEMS/AI_Sessions_Backup/BU-1979FJ4/claude-code/C--Users-eric-rash-Desktop-DEV/c64d667f-ee47-48af-bcdc-1087bfc78faa.jsonl", "when": "2026-10-03T15:05:48-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "project-triage/docs/handoffs/2026-10-03-organization-pass-and-pm-pieces.md", "when": "2026-10-03T15:03:59-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "project-triage/landed.py", "when": "2026-10-03T15:02:15-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "project-triage/tests/test_landed.py", "when": "2026-10-03T15:02:15-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "project-triage/board_ops.py", "when": "2026-10-03T14:52:51-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "project-triage/portfolio.py", "when": "2026-10-03T14:52:51-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "project-triage/seven_day.py", "when": "2026-10-03T14:52:51-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
