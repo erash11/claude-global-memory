@@ -1,0 +1,794 @@
+
+## from transcripts/errors-archive-2026-08-to-09.log
+[2026-08-11T23:04:37.852189+00:00] compiler-backlog: 2 log(s) backlogged, compiling newest 2 this run - run compile.py manually to catch up
+[2026-08-12 10:39] daily-backup: 3 error(s): repo-diverged:SecondBrain, snapshot:sessions, manifest-unmanaged:COG_S2_Position_Reports|S2_Evaluation - see ~/.claude/scripts/logs/daily-backup.log
+[2026-08-13 01:26] daily-backup: 5 error(s): repo-diverged:SecondBrain, repo-push:global-memory, repo-push:skills, snapshot:sessions, manifest-unmanaged:COG_S2_Position_Reports|S2_Evaluation - see ~/.claude/scripts/logs/daily-backup.log
+[2026-08-13 07:03] daily-backup: 5 error(s): repo-diverged:SecondBrain, repo-push:global-memory, repo-push:skills, snapshot:sessions, manifest-unmanaged:COG_S2_Position_Reports|S2_Evaluation - see ~/.claude/scripts/logs/daily-backup.log
+[2026-08-14 07:23] daily-backup: 3 error(s): repo-diverged:SecondBrain, snapshot:sessions, manifest-unmanaged:CFB_Analytics_Lab|COG_S2_Position_Reports|Football_Data_DEV|S2_Evaluation|Terminal_Fluency - see ~/.claude/scripts/logs/daily-backup.log
+[2026-08-14 07:24] daily-backup: 3 error(s): repo-diverged:SecondBrain, snapshot:sessions, manifest-unmanaged:CFB_Analytics_Lab|COG_S2_Position_Reports|Football_Data_DEV|S2_Evaluation|Terminal_Fluency - see ~/.claude/scripts/logs/daily-backup.log
+[2026-09-05T14:01:59.510175+00:00] compiler-flush-failed: memory-compiler flush failed (session codex-019fa5a6-8494-7e02-84e3-6018c9f1d267): FLUSH_ERROR: Exception: Claude Code returned an error result: success | a single failure is usually transient session-end contention (retries exhausted) — check scripts/flush.log; only if it repeats across sessions suspect bundled-CLI version skew — fix: cd ~/.claude/claude-memory-compiler && uv lock --upgrade-package claude-agent-sdk && uv sync
+[2026-09-05T09:01:59.8543375-05:00] ERROR for session-end job C:\Users\eric_rash\.codex\state\session-end-memory\pending\session-end-20260905-090145-680-b2286adc.json: Claude compiler reported FLUSH_ERROR. | codex-session-end-memory
+[2026-09-05T14:02:27.996261+00:00] compiler-flush-failed: memory-compiler flush failed (session codex-01a02029-9a8f-7e33-8601-005f6ac7ad7c): FLUSH_ERROR: Exception: Claude Code returned an error result: success | a single failure is usually transient session-end contention (retries exhausted) — check scripts/flush.log; only if it repeats across sessions suspect bundled-CLI version skew — fix: cd ~/.claude/claude-memory-compiler && uv lock --upgrade-package claude-agent-sdk && uv sync
+[2026-09-05T09:02:28.2964006-05:00] ERROR for session-end job C:\Users\eric_rash\.codex\state\session-end-memory\pending\session-end-20260905-090220-671-cf2bd5d6.json: Claude compiler reported FLUSH_ERROR. | codex-session-end-memory
+[2026-09-05T14:10:59.893236+00:00] compiler-flush-failed: memory-compiler flush failed (session codex-01a06932-feb9-75d2-a80f-3fb61d17df4b): FLUSH_ERROR: Exception: Claude Code returned an error result: success | a single failure is usually transient session-end contention (retries exhausted) — check scripts/flush.log; only if it repeats across sessions suspect bundled-CLI version skew — fix: cd ~/.claude/claude-memory-compiler && uv lock --upgrade-package claude-agent-sdk && uv sync
+[2026-09-05T09:11:00.1877844-05:00] ERROR for session-end job C:\Users\eric_rash\.codex\state\session-end-memory\pending\session-end-20260905-091054-456-e1dbb835.json: Claude compiler reported FLUSH_ERROR. | codex-session-end-memory
+[2026-09-08T15:12:55.8045321-05:00] ERROR for session-end job C:\Users\eric_rash\.codex\state\session-end-memory\pending\session-end-20260908-151255-293-3a9289a0.json: Transcript not found: C:\Users\eric_rash\.codex\sessions\2026\09\08\rollout-2026-09-08T15-02-45-01a0829d-aa04-77a2-87bf-75cb5d92b6a8.jsonl | codex-session-end-memory
+[2026-09-08T15:13:02.5951004-05:00] ERROR for session-end job C:\Users\eric_rash\.codex\state\session-end-memory\pending\session-end-20260908-151302-136-da57f367.json: Transcript not found: C:\Users\eric_rash\.codex\sessions\2026\09\08\rollout-2026-09-08T15-03-01-01a0829d-e447-7e40-b85b-d77d56f4f072.jsonl | codex-session-end-memory
+[2026-09-08T15:13:25.8174542-05:00] ERROR for session-end job C:\Users\eric_rash\.codex\state\session-end-memory\pending\session-end-20260908-151325-293-b76bb92b.json: Transcript not found: C:\Users\eric_rash\.codex\sessions\2026\09\08\rollout-2026-09-08T15-03-24-01a0829e-40db-7732-8395-1ee2c2066aa2.jsonl | codex-session-end-memory
+
+
+# ---- imported from Windows copy (errors-archive-2026-08-to-09.log.from-windows) ----
+[2026-08-11T23:04:37.852189+00:00] compiler-backlog: 2 log(s) backlogged, compiling newest 2 this run - run compile.py manually to catch up
+[2026-08-12 10:39] daily-backup: 3 error(s): repo-diverged:SecondBrain, snapshot:sessions, manifest-unmanaged:COG_S2_Position_Reports|S2_Evaluation - see ~/.claude/scripts/logs/daily-backup.log
+[2026-08-13 01:26] daily-backup: 5 error(s): repo-diverged:SecondBrain, repo-push:global-memory, repo-push:skills, snapshot:sessions, manifest-unmanaged:COG_S2_Position_Reports|S2_Evaluation - see ~/.claude/scripts/logs/daily-backup.log
+[2026-08-13 07:03] daily-backup: 5 error(s): repo-diverged:SecondBrain, repo-push:global-memory, repo-push:skills, snapshot:sessions, manifest-unmanaged:COG_S2_Position_Reports|S2_Evaluation - see ~/.claude/scripts/logs/daily-backup.log
+[2026-08-14 07:23] daily-backup: 3 error(s): repo-diverged:SecondBrain, snapshot:sessions, manifest-unmanaged:CFB_Analytics_Lab|COG_S2_Position_Reports|Football_Data_DEV|S2_Evaluation|Terminal_Fluency - see ~/.claude/scripts/logs/daily-backup.log
+[2026-08-14 07:24] daily-backup: 3 error(s): repo-diverged:SecondBrain, snapshot:sessions, manifest-unmanaged:CFB_Analytics_Lab|COG_S2_Position_Reports|Football_Data_DEV|S2_Evaluation|Terminal_Fluency - see ~/.claude/scripts/logs/daily-backup.log
+[2026-09-05T14:01:59.510175+00:00] compiler-flush-failed: memory-compiler flush failed (session codex-019fa5a6-8494-7e02-84e3-6018c9f1d267): FLUSH_ERROR: Exception: Claude Code returned an error result: success | a single failure is usually transient session-end contention (retries exhausted) — check scripts/flush.log; only if it repeats across sessions suspect bundled-CLI version skew — fix: cd ~/.claude/claude-memory-compiler && uv lock --upgrade-package claude-agent-sdk && uv sync
+[2026-09-05T09:01:59.8543375-05:00] ERROR for session-end job C:\Users\eric_rash\.codex\state\session-end-memory\pending\session-end-20260905-090145-680-b2286adc.json: Claude compiler reported FLUSH_ERROR. | codex-session-end-memory
+[2026-09-05T14:02:27.996261+00:00] compiler-flush-failed: memory-compiler flush failed (session codex-01a02029-9a8f-7e33-8601-005f6ac7ad7c): FLUSH_ERROR: Exception: Claude Code returned an error result: success | a single failure is usually transient session-end contention (retries exhausted) — check scripts/flush.log; only if it repeats across sessions suspect bundled-CLI version skew — fix: cd ~/.claude/claude-memory-compiler && uv lock --upgrade-package claude-agent-sdk && uv sync
+[2026-09-05T09:02:28.2964006-05:00] ERROR for session-end job C:\Users\eric_rash\.codex\state\session-end-memory\pending\session-end-20260905-090220-671-cf2bd5d6.json: Claude compiler reported FLUSH_ERROR. | codex-session-end-memory
+[2026-09-05T14:10:59.893236+00:00] compiler-flush-failed: memory-compiler flush failed (session codex-01a06932-feb9-75d2-a80f-3fb61d17df4b): FLUSH_ERROR: Exception: Claude Code returned an error result: success | a single failure is usually transient session-end contention (retries exhausted) — check scripts/flush.log; only if it repeats across sessions suspect bundled-CLI version skew — fix: cd ~/.claude/claude-memory-compiler && uv lock --upgrade-package claude-agent-sdk && uv sync
+[2026-09-05T09:11:00.1877844-05:00] ERROR for session-end job C:\Users\eric_rash\.codex\state\session-end-memory\pending\session-end-20260905-091054-456-e1dbb835.json: Claude compiler reported FLUSH_ERROR. | codex-session-end-memory
+[2026-09-08T15:12:55.8045321-05:00] ERROR for session-end job C:\Users\eric_rash\.codex\state\session-end-memory\pending\session-end-20260908-151255-293-3a9289a0.json: Transcript not found: C:\Users\eric_rash\.codex\sessions\2026\09\08\rollout-2026-09-08T15-02-45-01a0829d-aa04-77a2-87bf-75cb5d92b6a8.jsonl | codex-session-end-memory
+[2026-09-08T15:13:02.5951004-05:00] ERROR for session-end job C:\Users\eric_rash\.codex\state\session-end-memory\pending\session-end-20260908-151302-136-da57f367.json: Transcript not found: C:\Users\eric_rash\.codex\sessions\2026\09\08\rollout-2026-09-08T15-03-01-01a0829d-e447-7e40-b85b-d77d56f4f072.jsonl | codex-session-end-memory
+[2026-09-08T15:13:25.8174542-05:00] ERROR for session-end job C:\Users\eric_rash\.codex\state\session-end-memory\pending\session-end-20260908-151325-293-b76bb92b.json: Transcript not found: C:\Users\eric_rash\.codex\sessions\2026\09\08\rollout-2026-09-08T15-03-24-01a0829e-40db-7732-8395-1ee2c2066aa2.jsonl | codex-session-end-memory
+
+## from transcripts/.errors-archive-2026-07-29.log
+[2026-07-28T13:19:14.569Z] memsearch-sync: index ETIMEDOUT 6x consecutively — indexing may not be keeping up: spawnSync C:\WINDOWS\system32\cmd.exe ETIMEDOUT
+[2026-07-28T13:26:42.424Z] memsearch-sync: index ETIMEDOUT 7x consecutively — indexing may not be keeping up: spawnSync C:\WINDOWS\system32\cmd.exe ETIMEDOUT
+[2026-07-28T13:35:35.815Z] memsearch-sync: index ETIMEDOUT 8x consecutively — indexing may not be keeping up: spawnSync C:\WINDOWS\system32\cmd.exe ETIMEDOUT
+[2026-07-28T13:36:51.966Z] memsearch-sync: index ETIMEDOUT 9x consecutively — indexing may not be keeping up: spawnSync C:\WINDOWS\system32\cmd.exe ETIMEDOUT
+[2026-07-28T13:45:11.743Z] memsearch-sync: index ETIMEDOUT 10x consecutively — indexing may not be keeping up: spawnSync C:\WINDOWS\system32\cmd.exe ETIMEDOUT
+[2026-07-28T13:45:53.270Z] memsearch-sync: index ETIMEDOUT 11x consecutively — indexing may not be keeping up: spawnSync C:\WINDOWS\system32\cmd.exe ETIMEDOUT
+[2026-07-28T14:06:16.355Z] memsearch-sync: index ETIMEDOUT 12x consecutively — indexing may not be keeping up: spawnSync C:\WINDOWS\system32\cmd.exe ETIMEDOUT
+[2026-07-28T14:13:09.073Z] memsearch-sync: index ETIMEDOUT 13x consecutively — indexing may not be keeping up: spawnSync C:\WINDOWS\system32\cmd.exe ETIMEDOUT
+[2026-07-28T14:24:58.085Z] memsearch-sync: index ETIMEDOUT 14x consecutively — indexing may not be keeping up: spawnSync C:\WINDOWS\system32\cmd.exe ETIMEDOUT
+[2026-07-28T14:25:43.927Z] memsearch-sync: index ETIMEDOUT 15x consecutively — indexing may not be keeping up: spawnSync C:\WINDOWS\system32\cmd.exe ETIMEDOUT
+[2026-07-28T09:50:03.7388278-05:00] stack-doctor weekly: 2 issue(s): errors-log, memfile-full:MEMORY.md — details in ~\.claude\skills\claude-stack-doctor\scripts\last-weekly-run.log; run /claude-stack-doctor to fix
+[2026-07-28T17:37:04.328Z] memsearch-sync: index ETIMEDOUT 16x consecutively — indexing may not be keeping up: spawnSync C:\WINDOWS\system32\cmd.exe ETIMEDOUT
+
+## from transcripts/.errors-archive-2026-08-05.log
+2026-08-03 08:19 morning-briefing: Outlook auth expired - brief sent with 0 email threads. Run DEV\morning-briefing\scripts\reauth.bat
+[2026-08-03T10:32:24.0378614-05:00] stack-doctor weekly: 1 issue(s): errors-log — details in ~\.claude\skills\claude-stack-doctor\scripts\last-weekly-run.log; run /claude-stack-doctor to fix
+[2026-08-03 15:02] daily-backup: 1 error(s): manifest-unmanaged:AssistantBackup|NCAA_BestPractices_Doc|OKRs_2026-27|SPA_Presentation - see ~\.claude\scripts\logs\daily-backup.log
+2026-08-05 14:51 daily-backup: failed 2 times today, giving up. See outputs\jobs\.
+2026-08-03 08:19 morning-briefing: Outlook auth expired - brief sent with 0 email threads. Run DEV\morning-briefing\scripts\reauth.bat
+[2026-08-03T10:32:24.0378614-05:00] stack-doctor weekly: 1 issue(s): errors-log — details in ~\.claude\skills\claude-stack-doctor\scripts\last-weekly-run.log; run /claude-stack-doctor to fix
+[2026-08-03 15:02] daily-backup: 1 error(s): manifest-unmanaged:AssistantBackup|NCAA_BestPractices_Doc|OKRs_2026-27|SPA_Presentation - see ~\.claude\scripts\logs\daily-backup.log
+[2026-08-05 07:42] daily-backup: 2 error(s): snapshot-ssd:.claude/global-memory, snapshot-ssd:.codex - see ~\.claude\scripts\logs\daily-backup.log
+[2026-08-05 07:42] daily-backup: 1 error(s): snapshot-ssd:.codex - see ~\.claude\scripts\logs\daily-backup.log
+
+
+# ---- imported from Windows copy (.errors-archive-2026-08-05.log.from-windows) ----
+2026-08-03 08:19 morning-briefing: Outlook auth expired - brief sent with 0 email threads. Run DEV\morning-briefing\scripts\reauth.bat
+[2026-08-03T10:32:24.0378614-05:00] stack-doctor weekly: 1 issue(s): errors-log — details in ~\.claude\skills\claude-stack-doctor\scripts\last-weekly-run.log; run /claude-stack-doctor to fix
+[2026-08-03 15:02] daily-backup: 1 error(s): manifest-unmanaged:AssistantBackup|NCAA_BestPractices_Doc|OKRs_2026-27|SPA_Presentation - see ~\.claude\scripts\logs\daily-backup.log
+2026-08-05 14:51 daily-backup: failed 2 times today, giving up. See outputs\jobs\.
+2026-08-03 08:19 morning-briefing: Outlook auth expired - brief sent with 0 email threads. Run DEV\morning-briefing\scripts\reauth.bat
+[2026-08-03T10:32:24.0378614-05:00] stack-doctor weekly: 1 issue(s): errors-log — details in ~\.claude\skills\claude-stack-doctor\scripts\last-weekly-run.log; run /claude-stack-doctor to fix
+[2026-08-03 15:02] daily-backup: 1 error(s): manifest-unmanaged:AssistantBackup|NCAA_BestPractices_Doc|OKRs_2026-27|SPA_Presentation - see ~\.claude\scripts\logs\daily-backup.log
+[2026-08-05 07:42] daily-backup: 2 error(s): snapshot-ssd:.claude/global-memory, snapshot-ssd:.codex - see ~\.claude\scripts\logs\daily-backup.log
+[2026-08-05 07:42] daily-backup: 1 error(s): snapshot-ssd:.codex - see ~\.claude\scripts\logs\daily-backup.log
+
+## from transcripts/.errors-archive-2026-08-07.log
+[2026-08-07T02:28:43.751366+00:00] compiler-backlog: 53 log(s) backlogged, compiling newest 2 this run - run compile.py manually to catch up
+[2026-08-07 11:02] daily-backup: 2 error(s): repo-push:global-memory, repo-push:skills - see ~/.claude/scripts/logs/daily-backup.log
+[2026-08-07T19:08:29.212539+00:00] compiler-budget-tripped: stopped after 678,486 / 600,000 tokens; 45 log(s) deferred
+
+
+# ---- imported from Windows copy (.errors-archive-2026-08-07.log.from-windows) ----
+[2026-08-07T02:28:43.751366+00:00] compiler-backlog: 53 log(s) backlogged, compiling newest 2 this run - run compile.py manually to catch up
+[2026-08-07 11:02] daily-backup: 2 error(s): repo-push:global-memory, repo-push:skills - see ~/.claude/scripts/logs/daily-backup.log
+[2026-08-07T19:08:29.212539+00:00] compiler-budget-tripped: stopped after 678,486 / 600,000 tokens; 45 log(s) deferred
+
+## from transcripts/.errors-archive-2026-08-11.log
+# Resolved error-log entries, archived 2026-08-11
+# Moved out of .errors.log so the live file surfaces only OPEN items at session start.
+
+[2026-08-08 00:51] daily-backup: 1 error(s): repo-diverged:SecondBrain - see ~/.claude/scripts/logs/daily-backup.log
+    -> RESOLVED 8/11 - skills: untracked last-weekly-run.log + __pycache__ (the churn source), commit a259114. SecondBrain: pulled to 40851e8, 4 local briefing variants preserved in doctor-backup-20260807-135924/secondbrain-local-briefings/.
+
+[2026-08-08 11:11] daily-backup: 1 error(s): repo-diverged:SecondBrain - see ~/.claude/scripts/logs/daily-backup.log
+    -> RESOLVED 8/11 - skills: untracked last-weekly-run.log + __pycache__ (the churn source), commit a259114. SecondBrain: pulled to 40851e8, 4 local briefing variants preserved in doctor-backup-20260807-135924/secondbrain-local-briefings/.
+
+[2026-08-08T16:17:49.885204+00:00] compiler-flush-failed: memory-compiler flush failed (session 7e69ce43-75ae-4883-b456-2158f2259787): FLUSH_ERROR: Exception: Claude Code returned an error result: success | a single failure is usually transient session-end contention (retries exhausted) — check scripts/flush.log; only if it repeats across sessions suspect bundled-CLI version skew — fix: cd ~/.claude/claude-memory-compiler && uv lock --upgrade-package claude-agent-sdk && uv sync
+    -> RESOLVED 8/11 - claude-agent-sdk 0.2.110 -> 0.2.136 (uv lock --upgrade-package + sync). Verified: last-flush.json OK 0h after.
+
+[2026-08-09 11:15] daily-backup: 5 error(s): repo-diverged:SecondBrain, repo-push:global-memory, repo-push:dotclaude, snapshot:sessions, manifest-unmanaged:S2_Evaluation - see ~/.claude/scripts/logs/daily-backup.log
+    -> RESOLVED 8/11 - skills: untracked last-weekly-run.log + __pycache__ (the churn source), commit a259114. SecondBrain: pulled to 40851e8, 4 local briefing variants preserved in doctor-backup-20260807-135924/secondbrain-local-briefings/.
+
+[2026-08-10 01:56] daily-backup: 4 error(s): repo-diverged:SecondBrain, repo-push:global-memory, snapshot:sessions, manifest-unmanaged:S2_Evaluation - see ~/.claude/scripts/logs/daily-backup.log
+    -> RESOLVED 8/11 - skills: untracked last-weekly-run.log + __pycache__ (the churn source), commit a259114. SecondBrain: pulled to 40851e8, 4 local briefing variants preserved in doctor-backup-20260807-135924/secondbrain-local-briefings/.
+
+[2026-08-10 08:39] daily-backup: 4 error(s): repo-diverged:SecondBrain, repo-push:global-memory, snapshot:sessions, manifest-unmanaged:S2_Evaluation - see ~/.claude/scripts/logs/daily-backup.log
+    -> RESOLVED 8/11 - skills: untracked last-weekly-run.log + __pycache__ (the churn source), commit a259114. SecondBrain: pulled to 40851e8, 4 local briefing variants preserved in doctor-backup-20260807-135924/secondbrain-local-briefings/.
+
+[2026-08-10T11:39:11.2413030-05:00] stack-doctor weekly: 8 issue(s): task:com.keystone.morningbriefing, task:com.keystone.dailybackup, errors-log, flush-error, backup-error, backup-cloud-check, skill-tax, memfile-full:MEMORY.md — details in ~/.claude/skills/claude-stack-doctor/scripts/last-weekly-run.log; run /claude-stack-doctor to fix
+    -> RESOLVED 8/11 - skill-tax was a false positive (script now reads skillOverrides); memfile-full fixed by consolidating MEMORY.md to 93%.
+
+[2026-08-11 02:15] daily-backup: 5 error(s): repo-diverged:SecondBrain, repo-push:global-memory, repo-diverged:skills, snapshot:sessions, manifest-unmanaged:COG_S2_Position_Reports|S2_Evaluation - see ~/.claude/scripts/logs/daily-backup.log
+    -> RESOLVED 8/11 - skills: untracked last-weekly-run.log + __pycache__ (the churn source), commit a259114. SecondBrain: pulled to 40851e8, 4 local briefing variants preserved in doctor-backup-20260807-135924/secondbrain-local-briefings/.
+
+[2026-08-11 07:47] daily-backup: 4 error(s): repo-diverged:SecondBrain, repo-diverged:skills, snapshot:sessions, manifest-unmanaged:COG_S2_Position_Reports|S2_Evaluation - see ~/.claude/scripts/logs/daily-backup.log
+    -> RESOLVED 8/11 - skills: untracked last-weekly-run.log + __pycache__ (the churn source), commit a259114. SecondBrain: pulled to 40851e8, 4 local briefing variants preserved in doctor-backup-20260807-135924/secondbrain-local-briefings/.
+
+[2026-08-11T15:22:30.518575+00:00] compiler-flush-failed: memory-compiler flush failed (session 6dac2c3b-c70e-49d3-8a00-7dc20d995307): FLUSH_ERROR: Exception: Claude Code returned an error result: success | a single failure is usually transient session-end contention (retries exhausted) — check scripts/flush.log; only if it repeats across sessions suspect bundled-CLI version skew — fix: cd ~/.claude/claude-memory-compiler && uv lock --upgrade-package claude-agent-sdk && uv sync
+    -> RESOLVED 8/11 - claude-agent-sdk 0.2.110 -> 0.2.136 (uv lock --upgrade-package + sync). Verified: last-flush.json OK 0h after.
+
+# NOT resolved by this pass (left in .errors.log): Outlook auth expired.
+# Also reported but not auto-fixable: DriveFS 154h stale; snapshot:sessions is an
+# rsync 'mmap: Resource deadlock avoided' race on a live Codex jsonl (file-in-use,
+# not rot); manifest-unmanaged DEV dirs is a scope decision for Eric.
+
+
+# ---- imported from Windows copy (.errors-archive-2026-08-11.log.from-windows) ----
+# Resolved error-log entries, archived 2026-08-11
+# Moved out of .errors.log so the live file surfaces only OPEN items at session start.
+
+[2026-08-08 00:51] daily-backup: 1 error(s): repo-diverged:SecondBrain - see ~/.claude/scripts/logs/daily-backup.log
+    -> RESOLVED 8/11 - skills: untracked last-weekly-run.log + __pycache__ (the churn source), commit a259114. SecondBrain: pulled to 40851e8, 4 local briefing variants preserved in doctor-backup-20260807-135924/secondbrain-local-briefings/.
+
+[2026-08-08 11:11] daily-backup: 1 error(s): repo-diverged:SecondBrain - see ~/.claude/scripts/logs/daily-backup.log
+    -> RESOLVED 8/11 - skills: untracked last-weekly-run.log + __pycache__ (the churn source), commit a259114. SecondBrain: pulled to 40851e8, 4 local briefing variants preserved in doctor-backup-20260807-135924/secondbrain-local-briefings/.
+
+[2026-08-08T16:17:49.885204+00:00] compiler-flush-failed: memory-compiler flush failed (session 7e69ce43-75ae-4883-b456-2158f2259787): FLUSH_ERROR: Exception: Claude Code returned an error result: success | a single failure is usually transient session-end contention (retries exhausted) — check scripts/flush.log; only if it repeats across sessions suspect bundled-CLI version skew — fix: cd ~/.claude/claude-memory-compiler && uv lock --upgrade-package claude-agent-sdk && uv sync
+    -> RESOLVED 8/11 - claude-agent-sdk 0.2.110 -> 0.2.136 (uv lock --upgrade-package + sync). Verified: last-flush.json OK 0h after.
+
+[2026-08-09 11:15] daily-backup: 5 error(s): repo-diverged:SecondBrain, repo-push:global-memory, repo-push:dotclaude, snapshot:sessions, manifest-unmanaged:S2_Evaluation - see ~/.claude/scripts/logs/daily-backup.log
+    -> RESOLVED 8/11 - skills: untracked last-weekly-run.log + __pycache__ (the churn source), commit a259114. SecondBrain: pulled to 40851e8, 4 local briefing variants preserved in doctor-backup-20260807-135924/secondbrain-local-briefings/.
+
+[2026-08-10 01:56] daily-backup: 4 error(s): repo-diverged:SecondBrain, repo-push:global-memory, snapshot:sessions, manifest-unmanaged:S2_Evaluation - see ~/.claude/scripts/logs/daily-backup.log
+    -> RESOLVED 8/11 - skills: untracked last-weekly-run.log + __pycache__ (the churn source), commit a259114. SecondBrain: pulled to 40851e8, 4 local briefing variants preserved in doctor-backup-20260807-135924/secondbrain-local-briefings/.
+
+[2026-08-10 08:39] daily-backup: 4 error(s): repo-diverged:SecondBrain, repo-push:global-memory, snapshot:sessions, manifest-unmanaged:S2_Evaluation - see ~/.claude/scripts/logs/daily-backup.log
+    -> RESOLVED 8/11 - skills: untracked last-weekly-run.log + __pycache__ (the churn source), commit a259114. SecondBrain: pulled to 40851e8, 4 local briefing variants preserved in doctor-backup-20260807-135924/secondbrain-local-briefings/.
+
+[2026-08-10T11:39:11.2413030-05:00] stack-doctor weekly: 8 issue(s): task:com.keystone.morningbriefing, task:com.keystone.dailybackup, errors-log, flush-error, backup-error, backup-cloud-check, skill-tax, memfile-full:MEMORY.md — details in ~/.claude/skills/claude-stack-doctor/scripts/last-weekly-run.log; run /claude-stack-doctor to fix
+    -> RESOLVED 8/11 - skill-tax was a false positive (script now reads skillOverrides); memfile-full fixed by consolidating MEMORY.md to 93%.
+
+[2026-08-11 02:15] daily-backup: 5 error(s): repo-diverged:SecondBrain, repo-push:global-memory, repo-diverged:skills, snapshot:sessions, manifest-unmanaged:COG_S2_Position_Reports|S2_Evaluation - see ~/.claude/scripts/logs/daily-backup.log
+    -> RESOLVED 8/11 - skills: untracked last-weekly-run.log + __pycache__ (the churn source), commit a259114. SecondBrain: pulled to 40851e8, 4 local briefing variants preserved in doctor-backup-20260807-135924/secondbrain-local-briefings/.
+
+[2026-08-11 07:47] daily-backup: 4 error(s): repo-diverged:SecondBrain, repo-diverged:skills, snapshot:sessions, manifest-unmanaged:COG_S2_Position_Reports|S2_Evaluation - see ~/.claude/scripts/logs/daily-backup.log
+    -> RESOLVED 8/11 - skills: untracked last-weekly-run.log + __pycache__ (the churn source), commit a259114. SecondBrain: pulled to 40851e8, 4 local briefing variants preserved in doctor-backup-20260807-135924/secondbrain-local-briefings/.
+
+[2026-08-11T15:22:30.518575+00:00] compiler-flush-failed: memory-compiler flush failed (session 6dac2c3b-c70e-49d3-8a00-7dc20d995307): FLUSH_ERROR: Exception: Claude Code returned an error result: success | a single failure is usually transient session-end contention (retries exhausted) — check scripts/flush.log; only if it repeats across sessions suspect bundled-CLI version skew — fix: cd ~/.claude/claude-memory-compiler && uv lock --upgrade-package claude-agent-sdk && uv sync
+    -> RESOLVED 8/11 - claude-agent-sdk 0.2.110 -> 0.2.136 (uv lock --upgrade-package + sync). Verified: last-flush.json OK 0h after.
+
+# NOT resolved by this pass (left in .errors.log): Outlook auth expired.
+# Also reported but not auto-fixable: DriveFS 154h stale; snapshot:sessions is an
+# rsync 'mmap: Resource deadlock avoided' race on a live Codex jsonl (file-in-use,
+# not rot); manifest-unmanaged DEV dirs is a scope decision for Eric.
+
+## from transcripts/errors-archive-20260819.log
+[2026-08-17T10:48:06.8976650-05:00] stack-doctor weekly: 3 issue(s): backup-stale, backup-cloud-check, memfile-full:MEMORY.md — details in ~/.claude/skills/claude-stack-doctor/scripts/last-weekly-run.log; run /claude-stack-doctor to fix
+[2026-08-18 01:16] daily-backup: 1 error(s): repo-push:global-memory - see ~/.claude/scripts/logs/daily-backup.log
+[2026-08-19 00:31] daily-backup: 1 error(s): manifest-unmanaged:AgentAssist|Education_Content_Agent - see ~/.claude/scripts/logs/daily-backup.log
+[2026-08-19 07:00] daily-backup: 1 error(s): manifest-unmanaged:AgentAssist|Education_Content_Agent - see ~/.claude/scripts/logs/daily-backup.log
+
+
+# ---- imported from Windows copy (errors-archive-20260819.log.from-windows) ----
+[2026-08-17T10:48:06.8976650-05:00] stack-doctor weekly: 3 issue(s): backup-stale, backup-cloud-check, memfile-full:MEMORY.md — details in ~/.claude/skills/claude-stack-doctor/scripts/last-weekly-run.log; run /claude-stack-doctor to fix
+[2026-08-18 01:16] daily-backup: 1 error(s): repo-push:global-memory - see ~/.claude/scripts/logs/daily-backup.log
+[2026-08-19 00:31] daily-backup: 1 error(s): manifest-unmanaged:AgentAssist|Education_Content_Agent - see ~/.claude/scripts/logs/daily-backup.log
+[2026-08-19 07:00] daily-backup: 1 error(s): manifest-unmanaged:AgentAssist|Education_Content_Agent - see ~/.claude/scripts/logs/daily-backup.log
+
+## from handoffs/errors-log-archived-2026-08-29.txt
+[2026-08-29T19:58:25.909Z] memsearch-sync: index ETIMEDOUT 6x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-08-29T19:59:30.522Z] memsearch-sync: index ETIMEDOUT 7x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-08-29T20:00:21.306Z] memsearch-sync: index ETIMEDOUT 8x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-08-29T20:01:24.681Z] memsearch-sync: index ETIMEDOUT 9x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-08-29T20:02:37.506Z] memsearch-sync: index ETIMEDOUT 10x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-08-29T20:03:49.472Z] memsearch-sync: index ETIMEDOUT 11x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+
+## from handoffs/errors-log-archived-2026-08-29.windows.txt
+[2026-08-29T19:58:25.909Z] memsearch-sync: index ETIMEDOUT 6x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-08-29T19:59:30.522Z] memsearch-sync: index ETIMEDOUT 7x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-08-29T20:00:21.306Z] memsearch-sync: index ETIMEDOUT 8x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-08-29T20:01:24.681Z] memsearch-sync: index ETIMEDOUT 9x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-08-29T20:02:37.506Z] memsearch-sync: index ETIMEDOUT 10x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-08-29T20:03:49.472Z] memsearch-sync: index ETIMEDOUT 11x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+
+## from transcripts/.errors.log.archived-2026-08-29
+[2026-08-22T20:02:50.078Z] memsearch-sync: index exit 1: Traceback (most recent call last):
+  File "/Users/kristinarash/.local/share/uv/tools/memsearch/lib/python3.12/site-packages/memsearch/embeddings/onnx.py", line 31, in __init__
+    import onnxruntime as ort
+  File "/Users/kristinarash/.local/share/uv/tools/memsearch/lib/python3.12/site-packages/onnxr
+[2026-08-24T10:38:24.7562350-05:00] stack-doctor weekly: 3 issue(s): errors-log, flush-stale, memfile-full:MEMORY.md — details in ~/.claude/skills/claude-stack-doctor/scripts/last-weekly-run.log; run /claude-stack-doctor to fix
+
+
+# ---- imported from Windows copy (.errors.log.archived-2026-08-29.from-windows) ----
+[2026-08-22T20:02:50.078Z] memsearch-sync: index exit 1: Traceback (most recent call last):
+  File "/Users/kristinarash/.local/share/uv/tools/memsearch/lib/python3.12/site-packages/memsearch/embeddings/onnx.py", line 31, in __init__
+    import onnxruntime as ort
+  File "/Users/kristinarash/.local/share/uv/tools/memsearch/lib/python3.12/site-packages/onnxr
+[2026-08-24T10:38:24.7562350-05:00] stack-doctor weekly: 3 issue(s): errors-log, flush-stale, memfile-full:MEMORY.md — details in ~/.claude/skills/claude-stack-doctor/scripts/last-weekly-run.log; run /claude-stack-doctor to fix
+
+## from transcripts/errors-archive-2026-08-29.log
+[2026-08-29T19:58:25.909Z] memsearch-sync: index ETIMEDOUT 6x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-08-29T19:59:30.522Z] memsearch-sync: index ETIMEDOUT 7x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-08-29T20:00:21.306Z] memsearch-sync: index ETIMEDOUT 8x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-08-29T20:01:24.681Z] memsearch-sync: index ETIMEDOUT 9x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-08-29T20:02:37.506Z] memsearch-sync: index ETIMEDOUT 10x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-08-29T20:03:49.472Z] memsearch-sync: index ETIMEDOUT 11x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-08-29T20:06:19.798Z] memsearch-sync: index ETIMEDOUT 12x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-08-29T20:07:25.941Z] memsearch-sync: index ETIMEDOUT 13x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+
+
+# ---- imported from Windows copy (errors-archive-2026-08-29.log.from-windows) ----
+[2026-08-29T19:58:25.909Z] memsearch-sync: index ETIMEDOUT 6x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-08-29T19:59:30.522Z] memsearch-sync: index ETIMEDOUT 7x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-08-29T20:00:21.306Z] memsearch-sync: index ETIMEDOUT 8x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-08-29T20:01:24.681Z] memsearch-sync: index ETIMEDOUT 9x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-08-29T20:02:37.506Z] memsearch-sync: index ETIMEDOUT 10x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-08-29T20:03:49.472Z] memsearch-sync: index ETIMEDOUT 11x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-08-29T20:06:19.798Z] memsearch-sync: index ETIMEDOUT 12x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-08-29T20:07:25.941Z] memsearch-sync: index ETIMEDOUT 13x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+
+## from transcripts/.errors.log.archived-2026-08-31
+[2026-08-30 07:02] daily-backup: 1 error(s): manifest-unmanaged:Baseball_PerformanceProfiles|Tech_Inventory_Analysis - see ~/.claude/scripts/logs/daily-backup.log
+[2026-08-30 09:00] daily-backup: 1 error(s): manifest-unmanaged:Baseball_PerformanceProfiles|Tech_Inventory_Analysis - see ~/.claude/scripts/logs/daily-backup.log
+[2026-08-31 07:00] daily-backup: 1 error(s): manifest-unmanaged:Baseball_PerformanceProfiles|Baylor_Doc_Style|Tech_Inventory_Analysis - see ~/.claude/scripts/logs/daily-backup.log
+[2026-08-31 09:00] daily-backup: 1 error(s): manifest-unmanaged:Baseball_PerformanceProfiles|Baylor_Doc_Style|Tech_Inventory_Analysis - see ~/.claude/scripts/logs/daily-backup.log
+[2026-08-31T10:30:17.8120920-05:00] stack-doctor weekly: 3 issue(s): task:com.keystone.dailybackup, errors-log, backup-error — details in ~/.claude/skills/claude-stack-doctor/scripts/last-weekly-run.log; run /claude-stack-doctor to fix
+
+
+# ---- imported from Windows copy (.errors.log.archived-2026-08-31.from-windows) ----
+[2026-08-30 07:02] daily-backup: 1 error(s): manifest-unmanaged:Baseball_PerformanceProfiles|Tech_Inventory_Analysis - see ~/.claude/scripts/logs/daily-backup.log
+[2026-08-30 09:00] daily-backup: 1 error(s): manifest-unmanaged:Baseball_PerformanceProfiles|Tech_Inventory_Analysis - see ~/.claude/scripts/logs/daily-backup.log
+[2026-08-31 07:00] daily-backup: 1 error(s): manifest-unmanaged:Baseball_PerformanceProfiles|Baylor_Doc_Style|Tech_Inventory_Analysis - see ~/.claude/scripts/logs/daily-backup.log
+[2026-08-31 09:00] daily-backup: 1 error(s): manifest-unmanaged:Baseball_PerformanceProfiles|Baylor_Doc_Style|Tech_Inventory_Analysis - see ~/.claude/scripts/logs/daily-backup.log
+[2026-08-31T10:30:17.8120920-05:00] stack-doctor weekly: 3 issue(s): task:com.keystone.dailybackup, errors-log, backup-error — details in ~/.claude/skills/claude-stack-doctor/scripts/last-weekly-run.log; run /claude-stack-doctor to fix
+
+## from transcripts/.errors.log.bak-20260831
+[2026-08-31 13:44] daily-backup: 1 error(s): manifest-unmanaged:CommandCentre - see ~/.claude/scripts/logs/daily-backup.log
+
+
+# ---- imported from Windows copy (.errors.log.bak-20260831.from-windows) ----
+[2026-08-31 13:44] daily-backup: 1 error(s): manifest-unmanaged:CommandCentre - see ~/.claude/scripts/logs/daily-backup.log
+
+## from transcripts/.errors.log.archived-2026-09-02
+[2026-09-02T01:31:50.596689+00:00] compiler-backlog: 7 log(s) backlogged, compiling newest 2 this run - run compile.py manually to catch up
+[2026-09-02T02:50:37.465Z] memsearch-sync: index ETIMEDOUT 6x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-02T02:57:22.824Z] memsearch-sync: index ETIMEDOUT 7x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-02 07:22] daily-backup: 5 error(s): repo-push:SecondBrain, repo-push:global-memory, repo-push:dotclaude, manifest-unmanaged:RTP_Constraints_Course, memsearch-index:full-set - see ~/.claude/scripts/logs/daily-backup.log
+
+
+# ---- imported from Windows copy (.errors.log.archived-2026-09-02.from-windows) ----
+[2026-09-02T01:31:50.596689+00:00] compiler-backlog: 7 log(s) backlogged, compiling newest 2 this run - run compile.py manually to catch up
+[2026-09-02T02:50:37.465Z] memsearch-sync: index ETIMEDOUT 6x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-02T02:57:22.824Z] memsearch-sync: index ETIMEDOUT 7x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-02 07:22] daily-backup: 5 error(s): repo-push:SecondBrain, repo-push:global-memory, repo-push:dotclaude, manifest-unmanaged:RTP_Constraints_Course, memsearch-index:full-set - see ~/.claude/scripts/logs/daily-backup.log
+
+## from transcripts/.errors.log.archived-2026-09-04
+[2026-09-04 09:09] daily-backup: 2 error(s): repo-push:global-memory, repo-push:skills - see ~/.claude/scripts/logs/daily-backup.log
+
+
+# ---- imported from Windows copy (.errors.log.archived-2026-09-04.from-windows) ----
+[2026-09-04 09:09] daily-backup: 2 error(s): repo-push:global-memory, repo-push:skills - see ~/.claude/scripts/logs/daily-backup.log
+
+## from transcripts/.errors.log.archived-2026-09-05
+[2026-09-05 09:10] daily-backup: 1 error(s): manifest-unmanaged:skill-audit-2026-09-05 - see ~/.claude/scripts/logs/daily-backup.log
+
+
+# ---- imported from Windows copy (.errors.log.archived-2026-09-05.from-windows) ----
+[2026-09-05 09:10] daily-backup: 1 error(s): manifest-unmanaged:skill-audit-2026-09-05 - see ~/.claude/scripts/logs/daily-backup.log
+
+## from transcripts/.errors.log.archived-2026-09-07
+[2026-09-06T00:24:10.143Z] missing transcript_path: {"session_id":"01a07418-e326-7611-9e18-36acea31ce3d","turn_id":"01a07418-e46b-7a43-a794-24449b863f69","transcript_path":null,"cwd":"/Users/kristinarash/DEV","hook_event_name":"Stop","model":"gpt-5.6-t
+[2026-09-06T00:24:15.459Z] missing transcript_path: {"session_id":"01a07419-e931-71a1-941a-aee2b0a88eb2","turn_id":"01a07419-e9c2-7111-8d47-2e5d6d574f6b","transcript_path":null,"cwd":"/","hook_event_name":"Stop","model":"gpt-5.6-luna","permission_mode"
+[2026-09-06T00:29:13.591Z] missing transcript_path: {"session_id":"01a0741d-89eb-7ea1-bfb0-c58d55f8168e","turn_id":"01a0741d-8b55-71f3-82b2-c42cc018ae0c","transcript_path":null,"cwd":"/Users/kristinarash/Documents/ChatGPT/PlayerPersonel","hook_event_na
+[2026-09-06T23:00:59.485413+00:00] compiler-backlog: 3 log(s) backlogged, compiling newest 2 this run - run compile.py manually to catch up
+[2026-09-07T14:47:10.201Z] missing transcript_path: {"session_id":"01a07c53-3969-7bc1-8dc8-338f63ec0ba2","turn_id":"01a07c53-46ad-7d02-a269-6826321d7ebc","transcript_path":null,"cwd":"/Users/kristinarash/Documents/ChatGPT/PlayerPersonel","hook_event_na
+[2026-09-07T14:47:15.086Z] missing transcript_path: {"session_id":"01a07c56-5fe4-7d63-8bd3-7930db52828a","turn_id":"01a07c56-6143-74b2-8118-ee7d109fed54","transcript_path":null,"cwd":"/","hook_event_name":"Stop","model":"gpt-5.6-luna","permission_mode"
+[2026-09-07T10:30:13.0395820-05:00] stack-doctor weekly: 2 issue(s): errors-log, memfile-full:MEMORY.md — details in ~/.claude/skills/claude-stack-doctor/scripts/last-weekly-run.log; run /claude-stack-doctor to fix
+[2026-09-07T23:05:46.554769+00:00] compiler-backlog: 2 log(s) backlogged, compiling newest 2 this run - run compile.py manually to catch up
+
+
+# ---- imported from Windows copy (.errors.log.archived-2026-09-07.from-windows) ----
+[2026-09-06T00:24:10.143Z] missing transcript_path: {"session_id":"01a07418-e326-7611-9e18-36acea31ce3d","turn_id":"01a07418-e46b-7a43-a794-24449b863f69","transcript_path":null,"cwd":"/Users/kristinarash/DEV","hook_event_name":"Stop","model":"gpt-5.6-t
+[2026-09-06T00:24:15.459Z] missing transcript_path: {"session_id":"01a07419-e931-71a1-941a-aee2b0a88eb2","turn_id":"01a07419-e9c2-7111-8d47-2e5d6d574f6b","transcript_path":null,"cwd":"/","hook_event_name":"Stop","model":"gpt-5.6-luna","permission_mode"
+[2026-09-06T00:29:13.591Z] missing transcript_path: {"session_id":"01a0741d-89eb-7ea1-bfb0-c58d55f8168e","turn_id":"01a0741d-8b55-71f3-82b2-c42cc018ae0c","transcript_path":null,"cwd":"/Users/kristinarash/Documents/ChatGPT/PlayerPersonel","hook_event_na
+[2026-09-06T23:00:59.485413+00:00] compiler-backlog: 3 log(s) backlogged, compiling newest 2 this run - run compile.py manually to catch up
+[2026-09-07T14:47:10.201Z] missing transcript_path: {"session_id":"01a07c53-3969-7bc1-8dc8-338f63ec0ba2","turn_id":"01a07c53-46ad-7d02-a269-6826321d7ebc","transcript_path":null,"cwd":"/Users/kristinarash/Documents/ChatGPT/PlayerPersonel","hook_event_na
+[2026-09-07T14:47:15.086Z] missing transcript_path: {"session_id":"01a07c56-5fe4-7d63-8bd3-7930db52828a","turn_id":"01a07c56-6143-74b2-8118-ee7d109fed54","transcript_path":null,"cwd":"/","hook_event_name":"Stop","model":"gpt-5.6-luna","permission_mode"
+[2026-09-07T10:30:13.0395820-05:00] stack-doctor weekly: 2 issue(s): errors-log, memfile-full:MEMORY.md — details in ~/.claude/skills/claude-stack-doctor/scripts/last-weekly-run.log; run /claude-stack-doctor to fix
+[2026-09-07T23:05:46.554769+00:00] compiler-backlog: 2 log(s) backlogged, compiling newest 2 this run - run compile.py manually to catch up
+
+## from transcripts/.errors.log.archived-2026-09-09
+[2026-09-08 16:59] daily-backup: 1 error(s): snapshot-ssd:.codex - see ~/.claude/scripts/logs/daily-backup.log
+[2026-09-08 17:01] daily-backup: 1 error(s): snapshot-ssd:.codex - see ~/.claude/scripts/logs/daily-backup.log
+[2026-09-09 07:36] daily-backup: 1 error(s): repo-push:global-memory - see ~/.claude/scripts/logs/daily-backup.log
+[2026-09-09 18:45] daily-backup: 2 error(s): repo-diverged:dotclaude, manifest-unmanaged:_ARCHIVE|_INBOX|2025-11-25_EOS_Football_Analysis_GPS_ERR|agent-skills|AppliedNewsletter_2026|B_Ellis|BAIR_Steering_Committee|BodyWeightWebApp|BookVaultApp|Build_Along|CATES|Cheer_Programming|cmj-norms-app|cmj-traffic-light|Department_Audits|docs|Education_Alignment_Initiative|Football_GRID|Game_Tracker_PWA|GameONPaper|Gemini_Projects|InjurPred|Intern_Curriculum|Jump_Dash|JumpReporting|morning-briefing|Non-Negative-Matrix-Factorization-RTP|Performance_Playbook|Portfolio|PostGameReport|PostSesaonAnalysis|Practice_PlayCounts|printing-press-library|PT_Dash|RTP_WorkingGroup|shiny-vertical-jump|sleep-scheduler|SoftwareTechDocs|SPC_Report|speed-velocity-profiling|SportScience_Benchmarking|SprintLab|TackleAnalytics|VALD_analytics|vision-builder|Volleyball_GRID|WashingtonWebPage|Weekly_Matchups_2026|Wilhelm_Brody_RTP - see ~/.claude/scripts/logs/daily-backup.log
+
+
+# ---- imported from Windows copy (.errors.log.archived-2026-09-09.from-windows) ----
+[2026-09-08 16:59] daily-backup: 1 error(s): snapshot-ssd:.codex - see ~/.claude/scripts/logs/daily-backup.log
+[2026-09-08 17:01] daily-backup: 1 error(s): snapshot-ssd:.codex - see ~/.claude/scripts/logs/daily-backup.log
+[2026-09-09 07:36] daily-backup: 1 error(s): repo-push:global-memory - see ~/.claude/scripts/logs/daily-backup.log
+[2026-09-09 18:45] daily-backup: 2 error(s): repo-diverged:dotclaude, manifest-unmanaged:_ARCHIVE|_INBOX|2025-11-25_EOS_Football_Analysis_GPS_ERR|agent-skills|AppliedNewsletter_2026|B_Ellis|BAIR_Steering_Committee|BodyWeightWebApp|BookVaultApp|Build_Along|CATES|Cheer_Programming|cmj-norms-app|cmj-traffic-light|Department_Audits|docs|Education_Alignment_Initiative|Football_GRID|Game_Tracker_PWA|GameONPaper|Gemini_Projects|InjurPred|Intern_Curriculum|Jump_Dash|JumpReporting|morning-briefing|Non-Negative-Matrix-Factorization-RTP|Performance_Playbook|Portfolio|PostGameReport|PostSesaonAnalysis|Practice_PlayCounts|printing-press-library|PT_Dash|RTP_WorkingGroup|shiny-vertical-jump|sleep-scheduler|SoftwareTechDocs|SPC_Report|speed-velocity-profiling|SportScience_Benchmarking|SprintLab|TackleAnalytics|VALD_analytics|vision-builder|Volleyball_GRID|WashingtonWebPage|Weekly_Matchups_2026|Wilhelm_Brody_RTP - see ~/.claude/scripts/logs/daily-backup.log
+
+## from transcripts/.errors.log.archived-2026-09-12
+[2026-09-12 14:23] daily-backup: 1 error(s): snapshot-ssd:LibraryProject - see ~/.claude/scripts/logs/daily-backup.log
+
+
+# ---- imported from Windows copy (.errors.log.archived-2026-09-12.from-windows) ----
+[2026-09-12 14:23] daily-backup: 1 error(s): snapshot-ssd:LibraryProject - see ~/.claude/scripts/logs/daily-backup.log
+
+## from transcripts/.errors.log.archived-2026-09-14
+[2026-09-13T04:30:44.946298+00:00] compiler-stale-lock: reclaimed compile lock held 1550min by pid 47899 (compile.py --auto)
+[2026-09-13 09:01] daily-backup: 1 error(s): manifest-unmanaged:Claude outputs - see ~/.claude/scripts/logs/daily-backup.log
+[2026-09-14 10:10] daily-backup: 3 error(s): repo-diverged:global-memory, repo-diverged:dotclaude, manifest-unmanaged:Claude outputs - see ~/.claude/scripts/logs/daily-backup.log
+[2026-09-14T10:34:13.6800730-05:00] stack-doctor weekly: 2 issue(s): handoff-memory-stale, handoff-behind:.claude — details in ~/.claude/skills/claude-stack-doctor/scripts/last-weekly-run.log; run /claude-stack-doctor to fix
+
+
+# ---- imported from Windows copy (.errors.log.archived-2026-09-14.from-windows) ----
+[2026-09-13T04:30:44.946298+00:00] compiler-stale-lock: reclaimed compile lock held 1550min by pid 47899 (compile.py --auto)
+[2026-09-13 09:01] daily-backup: 1 error(s): manifest-unmanaged:Claude outputs - see ~/.claude/scripts/logs/daily-backup.log
+[2026-09-14 10:10] daily-backup: 3 error(s): repo-diverged:global-memory, repo-diverged:dotclaude, manifest-unmanaged:Claude outputs - see ~/.claude/scripts/logs/daily-backup.log
+[2026-09-14T10:34:13.6800730-05:00] stack-doctor weekly: 2 issue(s): handoff-memory-stale, handoff-behind:.claude — details in ~/.claude/skills/claude-stack-doctor/scripts/last-weekly-run.log; run /claude-stack-doctor to fix
+
+## from transcripts/.errors.log.archived-2026-09-15
+[2026-09-15 06:03] daily-backup: 4 error(s): repo-diverged:global-memory, repo-diverged:dotclaude, manifest-unmanaged:PP_Recruiting|PythonScripts_2024|RTP_ProgressReport|Supervisor_Reviews|VALD_Performance|VALD_Release, snapshot-ssd:.codex - see ~/.claude/scripts/logs/daily-backup.log
+[2026-09-15 06:23] daily-backup: 1 error(s): snapshot-ssd:.codex - see ~/.claude/scripts/logs/daily-backup.log
+[2026-09-15 06:28] daily-backup: 1 error(s): snapshot-ssd:.codex - see ~/.claude/scripts/logs/daily-backup.log
+
+
+# ---- imported from Windows copy (.errors.log.archived-2026-09-15.from-windows) ----
+[2026-09-15 06:03] daily-backup: 4 error(s): repo-diverged:global-memory, repo-diverged:dotclaude, manifest-unmanaged:PP_Recruiting|PythonScripts_2024|RTP_ProgressReport|Supervisor_Reviews|VALD_Performance|VALD_Release, snapshot-ssd:.codex - see ~/.claude/scripts/logs/daily-backup.log
+[2026-09-15 06:23] daily-backup: 1 error(s): snapshot-ssd:.codex - see ~/.claude/scripts/logs/daily-backup.log
+[2026-09-15 06:28] daily-backup: 1 error(s): snapshot-ssd:.codex - see ~/.claude/scripts/logs/daily-backup.log
+
+## from transcripts/.errors.log.archived-2026-09-16
+[2026-09-16 19:44] daily-backup: 1 error(s): manifest-unmanaged:Weekly_Research_Review - see ~/.claude/scripts/logs/daily-backup.log
+[2026-09-16 20:02] daily-backup: 1 error(s): snapshot-ssd:.codex - see ~/.claude/scripts/logs/daily-backup.log
+
+
+# ---- imported from Windows copy (.errors.log.archived-2026-09-16.from-windows) ----
+[2026-09-16 19:44] daily-backup: 1 error(s): manifest-unmanaged:Weekly_Research_Review - see ~/.claude/scripts/logs/daily-backup.log
+[2026-09-16 20:02] daily-backup: 1 error(s): snapshot-ssd:.codex - see ~/.claude/scripts/logs/daily-backup.log
+
+## from transcripts/errors-archive-2026-09-16.log
+[2026-09-16T07:24:03-0500] gps-pull: error exit=4 roster fetch failed (Catapult API error 0: network error: HTTPSConnectionPool(host='connect-us.catapultsports.com', port=443): Max retries exceeded with url: /api/v6/athletes (Caused by NameResolution — see /Users/kristinarash/DEV/DataBase_GPS_Reporting/gps_report/logs/last_run.json
+[2026-09-16T12:46:41.423Z] memsearch-sync: index exit 1: Traceback (most recent call last):
+  File "/Users/kristinarash/.local/share/uv/tools/memsearch/lib/python3.12/site-packages/memsearch/embeddings/onnx.py", line 31, in __init__
+    import onnxruntime as ort
+  File "/Users/kristinarash/.local/share/uv/tools/memsearch/lib/python3.12/site-packages/onnxr
+[2026-09-16 09:04] daily-backup: 2 error(s): repo-diverged:global-memory, repo-diverged:dotclaude - see ~/.claude/scripts/logs/daily-backup.log
+[2026-09-16T19:23:10-0500] gps-pull: stale last success 2026-09-15T06:30:11-05:00 (37 h ago) — see /Users/kristinarash/DEV/DataBase_GPS_Reporting/gps_report/logs/last_run.json
+
+
+# ---- imported from Windows copy (errors-archive-2026-09-16.log.from-windows) ----
+[2026-09-16T07:24:03-0500] gps-pull: error exit=4 roster fetch failed (Catapult API error 0: network error: HTTPSConnectionPool(host='connect-us.catapultsports.com', port=443): Max retries exceeded with url: /api/v6/athletes (Caused by NameResolution — see /Users/kristinarash/DEV/DataBase_GPS_Reporting/gps_report/logs/last_run.json
+[2026-09-16T12:46:41.423Z] memsearch-sync: index exit 1: Traceback (most recent call last):
+  File "/Users/kristinarash/.local/share/uv/tools/memsearch/lib/python3.12/site-packages/memsearch/embeddings/onnx.py", line 31, in __init__
+    import onnxruntime as ort
+  File "/Users/kristinarash/.local/share/uv/tools/memsearch/lib/python3.12/site-packages/onnxr
+[2026-09-16 09:04] daily-backup: 2 error(s): repo-diverged:global-memory, repo-diverged:dotclaude - see ~/.claude/scripts/logs/daily-backup.log
+[2026-09-16T19:23:10-0500] gps-pull: stale last success 2026-09-15T06:30:11-05:00 (37 h ago) — see /Users/kristinarash/DEV/DataBase_GPS_Reporting/gps_report/logs/last_run.json
+
+## from transcripts/.errors.log.archived-2026-09-17
+[2026-09-17T21:40:02.682Z] memsearch-sync: index ETIMEDOUT 6x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+
+## from transcripts/.errors.log.archived-2026-09-21-closeout
+[2026-09-20T12:15:32.730441+00:00] adjudicate-budget-tripped: stopped after 362,417 / 250,000 tokens
+[2026-09-20 15:24] daily-backup: 1 error(s): repo-behind-blocked:global-memory - see ~/.claude/scripts/logs/daily-backup.log
+[2026-09-21 10:02] daily-backup: 2 error(s): repo-behind-blocked:global-memory, repo-push:dotclaude - see ~/.claude/scripts/logs/daily-backup.log
+[2026-09-21T10:49:11.2202500-05:00] stack-doctor weekly: 4 issue(s): handoff-fetch:global-memory, handoff-fetch:.claude, handoff-fetch:skills, handoff-fetch:SecondBrain — details in ~/.claude/skills/claude-stack-doctor/scripts/last-weekly-run.log; run /claude-stack-doctor to fix
+
+
+# ---- imported from Windows copy (.errors.log.archived-2026-09-21-closeout.from-windows) ----
+[2026-09-20T12:15:32.730441+00:00] adjudicate-budget-tripped: stopped after 362,417 / 250,000 tokens
+[2026-09-20 15:24] daily-backup: 1 error(s): repo-behind-blocked:global-memory - see ~/.claude/scripts/logs/daily-backup.log
+[2026-09-21 10:02] daily-backup: 2 error(s): repo-behind-blocked:global-memory, repo-push:dotclaude - see ~/.claude/scripts/logs/daily-backup.log
+[2026-09-21T10:49:11.2202500-05:00] stack-doctor weekly: 4 issue(s): handoff-fetch:global-memory, handoff-fetch:.claude, handoff-fetch:skills, handoff-fetch:SecondBrain — details in ~/.claude/skills/claude-stack-doctor/scripts/last-weekly-run.log; run /claude-stack-doctor to fix
+
+## from transcripts/.errors.log.archived-2026-09-22
+[2026-09-21T23:30:11.684558+00:00] compiler-backlog: 2 log(s) backlogged, compiling newest 2 this run - run compile.py manually to catch up
+
+
+# ---- imported from Windows copy (.errors.log.archived-2026-09-22.from-windows) ----
+[2026-09-21T23:30:11.684558+00:00] compiler-backlog: 2 log(s) backlogged, compiling newest 2 this run - run compile.py manually to catch up
+
+## from transcripts/.errors.log.archived-2026-09-24
+[2026-09-23T01:01:35.997003+00:00] compiler-backlog: 2 log(s) backlogged, compiling newest 2 this run - run compile.py manually to catch up
+[2026-09-23T01:01:35.997435+00:00] compiler-stale-lock: reclaimed compile lock held 1531min by pid 59036 (compile.py --auto)
+[2026-09-23 07:53] daily-backup: 1 error(s): repo-behind-blocked:global-memory - see ~/.claude/scripts/logs/daily-backup.log
+[2026-09-23T23:46:10.757722+00:00] compiler-stale-lock: reclaimed compile lock held 39min by pid 13048 (compile.py --auto)
+[2026-09-24T06:10:26.4961384-05:00] stack-doctor weekly: 4 issue(s): task:Backup AI Sessions to Drive, errors-log, backup-error:ai-sessions, memfile-full:MEMORY.md — details in ~/.claude/skills/claude-stack-doctor/scripts/last-weekly-run.log; run /claude-stack-doctor to fix
+
+
+# ---- imported from Windows copy (.errors.log.archived-2026-09-24.from-windows) ----
+[2026-09-23T01:01:35.997003+00:00] compiler-backlog: 2 log(s) backlogged, compiling newest 2 this run - run compile.py manually to catch up
+[2026-09-23T01:01:35.997435+00:00] compiler-stale-lock: reclaimed compile lock held 1531min by pid 59036 (compile.py --auto)
+[2026-09-23 07:53] daily-backup: 1 error(s): repo-behind-blocked:global-memory - see ~/.claude/scripts/logs/daily-backup.log
+[2026-09-23T23:46:10.757722+00:00] compiler-stale-lock: reclaimed compile lock held 39min by pid 13048 (compile.py --auto)
+[2026-09-24T06:10:26.4961384-05:00] stack-doctor weekly: 4 issue(s): task:Backup AI Sessions to Drive, errors-log, backup-error:ai-sessions, memfile-full:MEMORY.md — details in ~/.claude/skills/claude-stack-doctor/scripts/last-weekly-run.log; run /claude-stack-doctor to fix
+
+## from transcripts/.errors.log.archived-2026-09-30
+[2026-09-28T00:05:00.821Z] memsearch-sync: index ETIMEDOUT 6x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T00:15:05.694Z] memsearch-sync: index ETIMEDOUT 7x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T00:25:11.613Z] memsearch-sync: index ETIMEDOUT 8x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T00:35:15.559Z] memsearch-sync: index ETIMEDOUT 9x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T00:45:35.875Z] memsearch-sync: index ETIMEDOUT 10x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T00:55:48.213Z] memsearch-sync: index ETIMEDOUT 11x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T01:06:01.376Z] memsearch-sync: index ETIMEDOUT 12x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T01:07:20.858053+00:00] compiler-stale-lock: reclaimed compile lock held 30min by pid 105800 (compile.py --auto)
+[2026-09-28T01:16:06.400Z] memsearch-sync: index ETIMEDOUT 13x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T01:22:17.924034+00:00] compiler-flush-failed: memory-compiler flush failed (session dfcdad2e-ccca-4733-9c03-756f49a6eb04): FLUSH_ERROR: ResultError: Claude Code returned an error result: You've hit your session limit · resets 10:50pm (America/Chicago) (exit code: 1) | a single failure is usually transient session-end contention (retries exhausted) — check scripts/flush.log; only if it repeats across sessions suspect bundled-CLI version skew — fix: cd ~/.claude/claude-memory-compiler && uv lock --upgrade-package claude-agent-sdk && uv sync
+[2026-09-28T01:26:14.352Z] memsearch-sync: index ETIMEDOUT 14x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T01:26:29.859722+00:00] compiler-flush-failed: memory-compiler flush failed (session 752b693f-edb2-4aaa-ac10-43f8c08de5ad): FLUSH_ERROR: ResultError: Claude Code returned an error result: You've hit your session limit · resets 10:50pm (America/Chicago) (exit code: 1) | a single failure is usually transient session-end contention (retries exhausted) — check scripts/flush.log; only if it repeats across sessions suspect bundled-CLI version skew — fix: cd ~/.claude/claude-memory-compiler && uv lock --upgrade-package claude-agent-sdk && uv sync
+[2026-09-28T01:36:24.351Z] memsearch-sync: index ETIMEDOUT 15x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T01:36:53.479629+00:00] compiler-flush-failed: memory-compiler flush failed (session e55576a6-f6f5-40e4-9c9d-ade4f23ee9ad): FLUSH_ERROR: ResultError: Claude Code returned an error result: You've hit your session limit · resets 10:50pm (America/Chicago) (exit code: 1) | a single failure is usually transient session-end contention (retries exhausted) — check scripts/flush.log; only if it repeats across sessions suspect bundled-CLI version skew — fix: cd ~/.claude/claude-memory-compiler && uv lock --upgrade-package claude-agent-sdk && uv sync
+[2026-09-28T01:41:44.651913+00:00] compiler-stale-lock: reclaimed compile lock held 30min by pid 98556 (compile.py --auto)
+[2026-09-28T01:42:20.832343+00:00] compiler-flush-failed: memory-compiler flush failed (session c6567ac3-ec3f-4076-996b-306223b43cd1): FLUSH_ERROR: ResultError: Claude Code returned an error result: You've hit your session limit · resets 10:50pm (America/Chicago) (exit code: 1) | a single failure is usually transient session-end contention (retries exhausted) — check scripts/flush.log; only if it repeats across sessions suspect bundled-CLI version skew — fix: cd ~/.claude/claude-memory-compiler && uv lock --upgrade-package claude-agent-sdk && uv sync
+[2026-09-28T01:46:39.522Z] memsearch-sync: index ETIMEDOUT 16x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T01:46:48.843785+00:00] compiler-flush-failed: memory-compiler flush failed (session 0dde9ca1-7cb6-4b07-81c5-6d01ecc51462): FLUSH_ERROR: ResultError: Claude Code returned an error result: You've hit your session limit · resets 10:50pm (America/Chicago) (exit code: 1) | a single failure is usually transient session-end contention (retries exhausted) — check scripts/flush.log; only if it repeats across sessions suspect bundled-CLI version skew — fix: cd ~/.claude/claude-memory-compiler && uv lock --upgrade-package claude-agent-sdk && uv sync
+[2026-09-28T01:56:45.029Z] memsearch-sync: index ETIMEDOUT 17x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T01:56:48.403330+00:00] compiler-flush-failed: memory-compiler flush failed (session e80f202a-f82b-490e-bfd0-1626da347fe8): FLUSH_ERROR: ResultError: Claude Code returned an error result: You've hit your session limit · resets 10:50pm (America/Chicago) (exit code: 1) | a single failure is usually transient session-end contention (retries exhausted) — check scripts/flush.log; only if it repeats across sessions suspect bundled-CLI version skew — fix: cd ~/.claude/claude-memory-compiler && uv lock --upgrade-package claude-agent-sdk && uv sync
+[2026-09-28T02:06:46.836Z] memsearch-sync: index ETIMEDOUT 18x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T02:06:57.040092+00:00] compiler-flush-failed: memory-compiler flush failed (session 9506cda4-c4b9-400e-8a42-8fa621e15efb): FLUSH_ERROR: ResultError: Claude Code returned an error result: You've hit your session limit · resets 10:50pm (America/Chicago) (exit code: 1) | a single failure is usually transient session-end contention (retries exhausted) — check scripts/flush.log; only if it repeats across sessions suspect bundled-CLI version skew — fix: cd ~/.claude/claude-memory-compiler && uv lock --upgrade-package claude-agent-sdk && uv sync
+[2026-09-28T02:16:55.269Z] memsearch-sync: index ETIMEDOUT 19x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T03:46:46.885634+00:00] compiler-flush-failed: memory-compiler flush failed (session codex-01a0e43b-bff1-71a1-8797-6383c003b75c): FLUSH_ERROR: ResultError: Claude Code returned an error result: You've hit your session limit · resets 10:50pm (America/Chicago) (exit code: 1) | a single failure is usually transient session-end contention (retries exhausted) — check scripts/flush.log; only if it repeats across sessions suspect bundled-CLI version skew — fix: cd ~/.claude/claude-memory-compiler && uv lock --upgrade-package claude-agent-sdk && uv sync
+[2026-09-27T22:46:47.2307024-05:00] ERROR for session-end job C:\Users\eric_rash\.codex\state\session-end-memory\pending\session-end-20260927-224630-574-7e7f887b.json: Claude compiler reported FLUSH_ERROR. | codex-session-end-memory
+[2026-09-28T03:46:49.120422+00:00] compiler-stale-lock: reclaimed compile lock held 121min by pid 109324 (compile.py --auto)
+[2026-09-28T03:56:46.261Z] memsearch-sync: index ETIMEDOUT 20x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T04:47:11.314381+00:00] compiler-flush-failed: memory-compiler flush failed (session codex-01a0e43b-bff1-71a1-8797-6383c003b75c): **Context:** Force Plate Practitioner course archiving project (Applied Performance community course) — completing the video archive and Zotero library import, continued from a prior Codex session.  * | a single failure is usually transient session-end contention (retries exhausted) — check scripts/flush.log; only if it repeats across sessions suspect bundled-CLI version skew — fix: cd ~/.claude/claude-memory-compiler && uv lock --upgrade-package claude-agent-sdk && uv sync
+[2026-09-27T23:47:11.5321016-05:00] ERROR for session-end job C:\Users\eric_rash\.codex\state\session-end-memory\pending\session-end-20260927-234639-983-41566bf5.json: Claude compiler reported FLUSH_ERROR. | codex-session-end-memory
+[2026-09-28T04:57:10.767Z] memsearch-sync: index ETIMEDOUT 21x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T05:56:54.937Z] memsearch-sync: index Milvus unreachable 22x consecutively — indexing may not be keeping up: 2026-09-28 00:56:35,528 [WARNING][_recover]: Connection recovery failed (connection_manager.py:672)
+Traceback (most recent call last):
+  File "C:\Users\eric_rash\AppData\Roaming\Python\Python314\sit
+[2026-09-28T12:55:27.043Z] memsearch-sync: index ETIMEDOUT 23x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T13:10:36.957Z] memsearch-sync: index ETIMEDOUT 24x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T13:20:49.725Z] memsearch-sync: index ETIMEDOUT 25x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T13:36:02.724Z] memsearch-sync: index ETIMEDOUT 26x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T14:58:22.917Z] memsearch-sync: index ETIMEDOUT 27x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T15:08:45.252Z] memsearch-sync: index ETIMEDOUT 28x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T15:19:05.338Z] memsearch-sync: index ETIMEDOUT 29x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T10:21:07.8652994-05:00] ERROR for session-end job C:\Users\eric_rash\.codex\state\session-end-memory\pending\session-end-20260928-101952-362-2e960029.json: The process cannot access the file 'C:\Users\eric_rash\.codex\state\session-end-memory\session-end.log' because it is being used by another process. | codex-session-end-memory
+[2026-09-28T15:25:12.837Z] memsearch-sync: index Milvus unreachable 30x consecutively — indexing may not be keeping up: 2026-09-28 10:23:33,322 [WARNING][_recover]: Connection recovery failed (connection_manager.py:672)
+Traceback (most recent call last):
+  File "C:\Users\eric_rash\AppData\Roaming\Python\Python314\sit
+[2026-09-28T15:40:30.757Z] memsearch-sync: index Milvus unreachable 31x consecutively — indexing may not be keeping up: 2026-09-28 10:38:48,906 [WARNING][_recover]: Connection recovery failed (connection_manager.py:672)
+Traceback (most recent call last):
+  File "C:\Users\eric_rash\AppData\Roaming\Python\Python314\sit
+[2026-09-28T15:52:03.238Z] memsearch-sync: index ETIMEDOUT 32x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T16:03:15.428Z] memsearch-sync: index ETIMEDOUT 33x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T16:18:29.278Z] memsearch-sync: index ETIMEDOUT 34x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T17:48:25.548Z] memsearch-sync: index ETIMEDOUT 35x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-23T01:01:35.997003+00:00] compiler-backlog: 2 log(s) backlogged, compiling newest 2 this run - run compile.py manually to catch up
+[2026-09-23T01:01:35.997435+00:00] compiler-stale-lock: reclaimed compile lock held 1531min by pid 59036 (compile.py --auto)
+[2026-09-23 07:53] daily-backup: 1 error(s): repo-behind-blocked:global-memory - see ~/.claude/scripts/logs/daily-backup.log
+[2026-09-24 09:01] daily-backup: 1 error(s): repo-behind-blocked:global-memory - see ~/.claude/scripts/logs/daily-backup.log
+[2026-09-25T00:47:13.718670+00:00] compiler-backlog: 3 log(s) backlogged, compiling newest 2 this run - run compile.py manually to catch up
+[2026-09-24 21:18] daily-backup: 1 error(s): manifest-unmanaged:RunningTheRoom - see ~/.claude/scripts/logs/daily-backup.log
+[2026-09-25T02:25:56.465559+00:00] compiler-backlog: 2 log(s) backlogged, compiling newest 2 this run - run compile.py manually to catch up
+[2026-09-26 11:38] daily-backup: 2 error(s): repo-behind-blocked:global-memory, manifest-unmanaged:RunningTheRoom - see ~/.claude/scripts/logs/daily-backup.log
+[2026-09-26T16:26:03-0500] perch-pull: error exit=1 after 3 attempt(s) — see /Users/kristinarash/DEV/PlayerProfiles_FB_03-28-2026/logs/last_run.json
+[2026-09-27T00:34:58-0500] perch-pull: error exit=1 after 3 attempt(s) — see /Users/kristinarash/DEV/PlayerProfiles_FB_03-28-2026/logs/last_run.json
+[2026-09-27 11:05] daily-backup: 2 error(s): repo-behind-blocked:global-memory, manifest-unmanaged:RunningTheRoom - see ~/.claude/scripts/logs/daily-backup.log
+[2026-09-27T16:06:31.154337+00:00] adjudicate-budget-tripped: stopped after 315,063 / 250,000 tokens
+[2026-09-27T17:32:19.698737+00:00] compiler-flush-failed: memory-compiler flush failed (session 5a33a7ad-69b0-4a38-a3df-3a1b420dd536): FLUSH_ERROR: ResultError: Claude Code returned an error result: You've hit your session limit · resets 12:40pm (America/Chicago) (exit code: 1) | a single failure is usually transient session-end contention (retries exhausted) — check scripts/flush.log; only if it repeats across sessions suspect bundled-CLI version skew — fix: cd ~/.claude/claude-memory-compiler && uv lock --upgrade-package claude-agent-sdk && uv sync
+[2026-09-27 23:43] daily-backup: 4 error(s): repo-behind-blocked:SecondBrain, repo-behind-blocked:global-memory, repo-behind-blocked:skills, manifest-unmanaged:RunningTheRoom - see ~/.claude/scripts/logs/daily-backup.log
+[2026-09-28T20:56:51.602Z] memsearch-sync: index ETIMEDOUT 36x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T10:50:08.9533700-05:00] stack-doctor weekly: 1 issue(s): handoff-behind:SecondBrain — details in ~/.claude/skills/claude-stack-doctor/scripts/last-weekly-run.log; run /claude-stack-doctor to fix
+[2026-09-28T19:02:22-0500] vald-pull: error exit=1 after 2 attempt(s) — see /Users/kristinarash/DEV/ForcePlate_DecisionSystem/logs/last_run.json
+
+
+# ---- imported from Windows copy (.errors.log.archived-2026-09-30.from-windows) ----
+[2026-09-28T00:05:00.821Z] memsearch-sync: index ETIMEDOUT 6x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T00:15:05.694Z] memsearch-sync: index ETIMEDOUT 7x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T00:25:11.613Z] memsearch-sync: index ETIMEDOUT 8x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T00:35:15.559Z] memsearch-sync: index ETIMEDOUT 9x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T00:45:35.875Z] memsearch-sync: index ETIMEDOUT 10x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T00:55:48.213Z] memsearch-sync: index ETIMEDOUT 11x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T01:06:01.376Z] memsearch-sync: index ETIMEDOUT 12x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T01:07:20.858053+00:00] compiler-stale-lock: reclaimed compile lock held 30min by pid 105800 (compile.py --auto)
+[2026-09-28T01:16:06.400Z] memsearch-sync: index ETIMEDOUT 13x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T01:22:17.924034+00:00] compiler-flush-failed: memory-compiler flush failed (session dfcdad2e-ccca-4733-9c03-756f49a6eb04): FLUSH_ERROR: ResultError: Claude Code returned an error result: You've hit your session limit · resets 10:50pm (America/Chicago) (exit code: 1) | a single failure is usually transient session-end contention (retries exhausted) — check scripts/flush.log; only if it repeats across sessions suspect bundled-CLI version skew — fix: cd ~/.claude/claude-memory-compiler && uv lock --upgrade-package claude-agent-sdk && uv sync
+[2026-09-28T01:26:14.352Z] memsearch-sync: index ETIMEDOUT 14x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T01:26:29.859722+00:00] compiler-flush-failed: memory-compiler flush failed (session 752b693f-edb2-4aaa-ac10-43f8c08de5ad): FLUSH_ERROR: ResultError: Claude Code returned an error result: You've hit your session limit · resets 10:50pm (America/Chicago) (exit code: 1) | a single failure is usually transient session-end contention (retries exhausted) — check scripts/flush.log; only if it repeats across sessions suspect bundled-CLI version skew — fix: cd ~/.claude/claude-memory-compiler && uv lock --upgrade-package claude-agent-sdk && uv sync
+[2026-09-28T01:36:24.351Z] memsearch-sync: index ETIMEDOUT 15x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T01:36:53.479629+00:00] compiler-flush-failed: memory-compiler flush failed (session e55576a6-f6f5-40e4-9c9d-ade4f23ee9ad): FLUSH_ERROR: ResultError: Claude Code returned an error result: You've hit your session limit · resets 10:50pm (America/Chicago) (exit code: 1) | a single failure is usually transient session-end contention (retries exhausted) — check scripts/flush.log; only if it repeats across sessions suspect bundled-CLI version skew — fix: cd ~/.claude/claude-memory-compiler && uv lock --upgrade-package claude-agent-sdk && uv sync
+[2026-09-28T01:41:44.651913+00:00] compiler-stale-lock: reclaimed compile lock held 30min by pid 98556 (compile.py --auto)
+[2026-09-28T01:42:20.832343+00:00] compiler-flush-failed: memory-compiler flush failed (session c6567ac3-ec3f-4076-996b-306223b43cd1): FLUSH_ERROR: ResultError: Claude Code returned an error result: You've hit your session limit · resets 10:50pm (America/Chicago) (exit code: 1) | a single failure is usually transient session-end contention (retries exhausted) — check scripts/flush.log; only if it repeats across sessions suspect bundled-CLI version skew — fix: cd ~/.claude/claude-memory-compiler && uv lock --upgrade-package claude-agent-sdk && uv sync
+[2026-09-28T01:46:39.522Z] memsearch-sync: index ETIMEDOUT 16x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T01:46:48.843785+00:00] compiler-flush-failed: memory-compiler flush failed (session 0dde9ca1-7cb6-4b07-81c5-6d01ecc51462): FLUSH_ERROR: ResultError: Claude Code returned an error result: You've hit your session limit · resets 10:50pm (America/Chicago) (exit code: 1) | a single failure is usually transient session-end contention (retries exhausted) — check scripts/flush.log; only if it repeats across sessions suspect bundled-CLI version skew — fix: cd ~/.claude/claude-memory-compiler && uv lock --upgrade-package claude-agent-sdk && uv sync
+[2026-09-28T01:56:45.029Z] memsearch-sync: index ETIMEDOUT 17x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T01:56:48.403330+00:00] compiler-flush-failed: memory-compiler flush failed (session e80f202a-f82b-490e-bfd0-1626da347fe8): FLUSH_ERROR: ResultError: Claude Code returned an error result: You've hit your session limit · resets 10:50pm (America/Chicago) (exit code: 1) | a single failure is usually transient session-end contention (retries exhausted) — check scripts/flush.log; only if it repeats across sessions suspect bundled-CLI version skew — fix: cd ~/.claude/claude-memory-compiler && uv lock --upgrade-package claude-agent-sdk && uv sync
+[2026-09-28T02:06:46.836Z] memsearch-sync: index ETIMEDOUT 18x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T02:06:57.040092+00:00] compiler-flush-failed: memory-compiler flush failed (session 9506cda4-c4b9-400e-8a42-8fa621e15efb): FLUSH_ERROR: ResultError: Claude Code returned an error result: You've hit your session limit · resets 10:50pm (America/Chicago) (exit code: 1) | a single failure is usually transient session-end contention (retries exhausted) — check scripts/flush.log; only if it repeats across sessions suspect bundled-CLI version skew — fix: cd ~/.claude/claude-memory-compiler && uv lock --upgrade-package claude-agent-sdk && uv sync
+[2026-09-28T02:16:55.269Z] memsearch-sync: index ETIMEDOUT 19x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T03:46:46.885634+00:00] compiler-flush-failed: memory-compiler flush failed (session codex-01a0e43b-bff1-71a1-8797-6383c003b75c): FLUSH_ERROR: ResultError: Claude Code returned an error result: You've hit your session limit · resets 10:50pm (America/Chicago) (exit code: 1) | a single failure is usually transient session-end contention (retries exhausted) — check scripts/flush.log; only if it repeats across sessions suspect bundled-CLI version skew — fix: cd ~/.claude/claude-memory-compiler && uv lock --upgrade-package claude-agent-sdk && uv sync
+[2026-09-27T22:46:47.2307024-05:00] ERROR for session-end job C:\Users\eric_rash\.codex\state\session-end-memory\pending\session-end-20260927-224630-574-7e7f887b.json: Claude compiler reported FLUSH_ERROR. | codex-session-end-memory
+[2026-09-28T03:46:49.120422+00:00] compiler-stale-lock: reclaimed compile lock held 121min by pid 109324 (compile.py --auto)
+[2026-09-28T03:56:46.261Z] memsearch-sync: index ETIMEDOUT 20x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T04:47:11.314381+00:00] compiler-flush-failed: memory-compiler flush failed (session codex-01a0e43b-bff1-71a1-8797-6383c003b75c): **Context:** Force Plate Practitioner course archiving project (Applied Performance community course) — completing the video archive and Zotero library import, continued from a prior Codex session.  * | a single failure is usually transient session-end contention (retries exhausted) — check scripts/flush.log; only if it repeats across sessions suspect bundled-CLI version skew — fix: cd ~/.claude/claude-memory-compiler && uv lock --upgrade-package claude-agent-sdk && uv sync
+[2026-09-27T23:47:11.5321016-05:00] ERROR for session-end job C:\Users\eric_rash\.codex\state\session-end-memory\pending\session-end-20260927-234639-983-41566bf5.json: Claude compiler reported FLUSH_ERROR. | codex-session-end-memory
+[2026-09-28T04:57:10.767Z] memsearch-sync: index ETIMEDOUT 21x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T05:56:54.937Z] memsearch-sync: index Milvus unreachable 22x consecutively — indexing may not be keeping up: 2026-09-28 00:56:35,528 [WARNING][_recover]: Connection recovery failed (connection_manager.py:672)
+Traceback (most recent call last):
+  File "C:\Users\eric_rash\AppData\Roaming\Python\Python314\sit
+[2026-09-28T12:55:27.043Z] memsearch-sync: index ETIMEDOUT 23x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T13:10:36.957Z] memsearch-sync: index ETIMEDOUT 24x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T13:20:49.725Z] memsearch-sync: index ETIMEDOUT 25x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T13:36:02.724Z] memsearch-sync: index ETIMEDOUT 26x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T14:58:22.917Z] memsearch-sync: index ETIMEDOUT 27x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T15:08:45.252Z] memsearch-sync: index ETIMEDOUT 28x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T15:19:05.338Z] memsearch-sync: index ETIMEDOUT 29x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T10:21:07.8652994-05:00] ERROR for session-end job C:\Users\eric_rash\.codex\state\session-end-memory\pending\session-end-20260928-101952-362-2e960029.json: The process cannot access the file 'C:\Users\eric_rash\.codex\state\session-end-memory\session-end.log' because it is being used by another process. | codex-session-end-memory
+[2026-09-28T15:25:12.837Z] memsearch-sync: index Milvus unreachable 30x consecutively — indexing may not be keeping up: 2026-09-28 10:23:33,322 [WARNING][_recover]: Connection recovery failed (connection_manager.py:672)
+Traceback (most recent call last):
+  File "C:\Users\eric_rash\AppData\Roaming\Python\Python314\sit
+[2026-09-28T15:40:30.757Z] memsearch-sync: index Milvus unreachable 31x consecutively — indexing may not be keeping up: 2026-09-28 10:38:48,906 [WARNING][_recover]: Connection recovery failed (connection_manager.py:672)
+Traceback (most recent call last):
+  File "C:\Users\eric_rash\AppData\Roaming\Python\Python314\sit
+[2026-09-28T15:52:03.238Z] memsearch-sync: index ETIMEDOUT 32x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T16:03:15.428Z] memsearch-sync: index ETIMEDOUT 33x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T16:18:29.278Z] memsearch-sync: index ETIMEDOUT 34x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T17:48:25.548Z] memsearch-sync: index ETIMEDOUT 35x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-23T01:01:35.997003+00:00] compiler-backlog: 2 log(s) backlogged, compiling newest 2 this run - run compile.py manually to catch up
+[2026-09-23T01:01:35.997435+00:00] compiler-stale-lock: reclaimed compile lock held 1531min by pid 59036 (compile.py --auto)
+[2026-09-23 07:53] daily-backup: 1 error(s): repo-behind-blocked:global-memory - see ~/.claude/scripts/logs/daily-backup.log
+[2026-09-24 09:01] daily-backup: 1 error(s): repo-behind-blocked:global-memory - see ~/.claude/scripts/logs/daily-backup.log
+[2026-09-25T00:47:13.718670+00:00] compiler-backlog: 3 log(s) backlogged, compiling newest 2 this run - run compile.py manually to catch up
+[2026-09-24 21:18] daily-backup: 1 error(s): manifest-unmanaged:RunningTheRoom - see ~/.claude/scripts/logs/daily-backup.log
+[2026-09-25T02:25:56.465559+00:00] compiler-backlog: 2 log(s) backlogged, compiling newest 2 this run - run compile.py manually to catch up
+[2026-09-26 11:38] daily-backup: 2 error(s): repo-behind-blocked:global-memory, manifest-unmanaged:RunningTheRoom - see ~/.claude/scripts/logs/daily-backup.log
+[2026-09-26T16:26:03-0500] perch-pull: error exit=1 after 3 attempt(s) — see /Users/kristinarash/DEV/PlayerProfiles_FB_03-28-2026/logs/last_run.json
+[2026-09-27T00:34:58-0500] perch-pull: error exit=1 after 3 attempt(s) — see /Users/kristinarash/DEV/PlayerProfiles_FB_03-28-2026/logs/last_run.json
+[2026-09-27 11:05] daily-backup: 2 error(s): repo-behind-blocked:global-memory, manifest-unmanaged:RunningTheRoom - see ~/.claude/scripts/logs/daily-backup.log
+[2026-09-27T16:06:31.154337+00:00] adjudicate-budget-tripped: stopped after 315,063 / 250,000 tokens
+[2026-09-27T17:32:19.698737+00:00] compiler-flush-failed: memory-compiler flush failed (session 5a33a7ad-69b0-4a38-a3df-3a1b420dd536): FLUSH_ERROR: ResultError: Claude Code returned an error result: You've hit your session limit · resets 12:40pm (America/Chicago) (exit code: 1) | a single failure is usually transient session-end contention (retries exhausted) — check scripts/flush.log; only if it repeats across sessions suspect bundled-CLI version skew — fix: cd ~/.claude/claude-memory-compiler && uv lock --upgrade-package claude-agent-sdk && uv sync
+[2026-09-27 23:43] daily-backup: 4 error(s): repo-behind-blocked:SecondBrain, repo-behind-blocked:global-memory, repo-behind-blocked:skills, manifest-unmanaged:RunningTheRoom - see ~/.claude/scripts/logs/daily-backup.log
+[2026-09-28T20:56:51.602Z] memsearch-sync: index ETIMEDOUT 36x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T10:50:08.9533700-05:00] stack-doctor weekly: 1 issue(s): handoff-behind:SecondBrain — details in ~/.claude/skills/claude-stack-doctor/scripts/last-weekly-run.log; run /claude-stack-doctor to fix
+[2026-09-28T19:02:22-0500] vald-pull: error exit=1 after 2 attempt(s) — see /Users/kristinarash/DEV/ForcePlate_DecisionSystem/logs/last_run.json
+
+## from transcripts/.errors.log.archived-2026-09-30b
+[2026-09-28T00:05:00.821Z] memsearch-sync: index ETIMEDOUT 6x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T00:15:05.694Z] memsearch-sync: index ETIMEDOUT 7x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T00:25:11.613Z] memsearch-sync: index ETIMEDOUT 8x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T00:35:15.559Z] memsearch-sync: index ETIMEDOUT 9x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T00:45:35.875Z] memsearch-sync: index ETIMEDOUT 10x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T00:55:48.213Z] memsearch-sync: index ETIMEDOUT 11x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T01:06:01.376Z] memsearch-sync: index ETIMEDOUT 12x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T01:07:20.858053+00:00] compiler-stale-lock: reclaimed compile lock held 30min by pid 105800 (compile.py --auto)
+[2026-09-28T01:16:06.400Z] memsearch-sync: index ETIMEDOUT 13x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T01:22:17.924034+00:00] compiler-flush-failed: memory-compiler flush failed (session dfcdad2e-ccca-4733-9c03-756f49a6eb04): FLUSH_ERROR: ResultError: Claude Code returned an error result: You've hit your session limit · resets 10:50pm (America/Chicago) (exit code: 1) | a single failure is usually transient session-end contention (retries exhausted) — check scripts/flush.log; only if it repeats across sessions suspect bundled-CLI version skew — fix: cd ~/.claude/claude-memory-compiler && uv lock --upgrade-package claude-agent-sdk && uv sync
+[2026-09-28T01:26:14.352Z] memsearch-sync: index ETIMEDOUT 14x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T01:26:29.859722+00:00] compiler-flush-failed: memory-compiler flush failed (session 752b693f-edb2-4aaa-ac10-43f8c08de5ad): FLUSH_ERROR: ResultError: Claude Code returned an error result: You've hit your session limit · resets 10:50pm (America/Chicago) (exit code: 1) | a single failure is usually transient session-end contention (retries exhausted) — check scripts/flush.log; only if it repeats across sessions suspect bundled-CLI version skew — fix: cd ~/.claude/claude-memory-compiler && uv lock --upgrade-package claude-agent-sdk && uv sync
+[2026-09-28T01:36:24.351Z] memsearch-sync: index ETIMEDOUT 15x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T01:36:53.479629+00:00] compiler-flush-failed: memory-compiler flush failed (session e55576a6-f6f5-40e4-9c9d-ade4f23ee9ad): FLUSH_ERROR: ResultError: Claude Code returned an error result: You've hit your session limit · resets 10:50pm (America/Chicago) (exit code: 1) | a single failure is usually transient session-end contention (retries exhausted) — check scripts/flush.log; only if it repeats across sessions suspect bundled-CLI version skew — fix: cd ~/.claude/claude-memory-compiler && uv lock --upgrade-package claude-agent-sdk && uv sync
+[2026-09-28T01:41:44.651913+00:00] compiler-stale-lock: reclaimed compile lock held 30min by pid 98556 (compile.py --auto)
+[2026-09-28T01:42:20.832343+00:00] compiler-flush-failed: memory-compiler flush failed (session c6567ac3-ec3f-4076-996b-306223b43cd1): FLUSH_ERROR: ResultError: Claude Code returned an error result: You've hit your session limit · resets 10:50pm (America/Chicago) (exit code: 1) | a single failure is usually transient session-end contention (retries exhausted) — check scripts/flush.log; only if it repeats across sessions suspect bundled-CLI version skew — fix: cd ~/.claude/claude-memory-compiler && uv lock --upgrade-package claude-agent-sdk && uv sync
+[2026-09-28T01:46:39.522Z] memsearch-sync: index ETIMEDOUT 16x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T01:46:48.843785+00:00] compiler-flush-failed: memory-compiler flush failed (session 0dde9ca1-7cb6-4b07-81c5-6d01ecc51462): FLUSH_ERROR: ResultError: Claude Code returned an error result: You've hit your session limit · resets 10:50pm (America/Chicago) (exit code: 1) | a single failure is usually transient session-end contention (retries exhausted) — check scripts/flush.log; only if it repeats across sessions suspect bundled-CLI version skew — fix: cd ~/.claude/claude-memory-compiler && uv lock --upgrade-package claude-agent-sdk && uv sync
+[2026-09-28T01:56:45.029Z] memsearch-sync: index ETIMEDOUT 17x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T01:56:48.403330+00:00] compiler-flush-failed: memory-compiler flush failed (session e80f202a-f82b-490e-bfd0-1626da347fe8): FLUSH_ERROR: ResultError: Claude Code returned an error result: You've hit your session limit · resets 10:50pm (America/Chicago) (exit code: 1) | a single failure is usually transient session-end contention (retries exhausted) — check scripts/flush.log; only if it repeats across sessions suspect bundled-CLI version skew — fix: cd ~/.claude/claude-memory-compiler && uv lock --upgrade-package claude-agent-sdk && uv sync
+[2026-09-28T02:06:46.836Z] memsearch-sync: index ETIMEDOUT 18x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T02:06:57.040092+00:00] compiler-flush-failed: memory-compiler flush failed (session 9506cda4-c4b9-400e-8a42-8fa621e15efb): FLUSH_ERROR: ResultError: Claude Code returned an error result: You've hit your session limit · resets 10:50pm (America/Chicago) (exit code: 1) | a single failure is usually transient session-end contention (retries exhausted) — check scripts/flush.log; only if it repeats across sessions suspect bundled-CLI version skew — fix: cd ~/.claude/claude-memory-compiler && uv lock --upgrade-package claude-agent-sdk && uv sync
+[2026-09-28T02:16:55.269Z] memsearch-sync: index ETIMEDOUT 19x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T03:46:46.885634+00:00] compiler-flush-failed: memory-compiler flush failed (session codex-01a0e43b-bff1-71a1-8797-6383c003b75c): FLUSH_ERROR: ResultError: Claude Code returned an error result: You've hit your session limit · resets 10:50pm (America/Chicago) (exit code: 1) | a single failure is usually transient session-end contention (retries exhausted) — check scripts/flush.log; only if it repeats across sessions suspect bundled-CLI version skew — fix: cd ~/.claude/claude-memory-compiler && uv lock --upgrade-package claude-agent-sdk && uv sync
+[2026-09-27T22:46:47.2307024-05:00] ERROR for session-end job C:\Users\eric_rash\.codex\state\session-end-memory\pending\session-end-20260927-224630-574-7e7f887b.json: Claude compiler reported FLUSH_ERROR. | codex-session-end-memory
+[2026-09-28T03:46:49.120422+00:00] compiler-stale-lock: reclaimed compile lock held 121min by pid 109324 (compile.py --auto)
+[2026-09-28T03:56:46.261Z] memsearch-sync: index ETIMEDOUT 20x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T04:47:11.314381+00:00] compiler-flush-failed: memory-compiler flush failed (session codex-01a0e43b-bff1-71a1-8797-6383c003b75c): **Context:** Force Plate Practitioner course archiving project (Applied Performance community course) — completing the video archive and Zotero library import, continued from a prior Codex session.  * | a single failure is usually transient session-end contention (retries exhausted) — check scripts/flush.log; only if it repeats across sessions suspect bundled-CLI version skew — fix: cd ~/.claude/claude-memory-compiler && uv lock --upgrade-package claude-agent-sdk && uv sync
+[2026-09-27T23:47:11.5321016-05:00] ERROR for session-end job C:\Users\eric_rash\.codex\state\session-end-memory\pending\session-end-20260927-234639-983-41566bf5.json: Claude compiler reported FLUSH_ERROR. | codex-session-end-memory
+[2026-09-28T04:57:10.767Z] memsearch-sync: index ETIMEDOUT 21x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T05:56:54.937Z] memsearch-sync: index Milvus unreachable 22x consecutively — indexing may not be keeping up: 2026-09-28 00:56:35,528 [WARNING][_recover]: Connection recovery failed (connection_manager.py:672)
+Traceback (most recent call last):
+  File "C:\Users\eric_rash\AppData\Roaming\Python\Python314\sit
+[2026-09-28T12:55:27.043Z] memsearch-sync: index ETIMEDOUT 23x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T13:10:36.957Z] memsearch-sync: index ETIMEDOUT 24x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T13:20:49.725Z] memsearch-sync: index ETIMEDOUT 25x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T13:36:02.724Z] memsearch-sync: index ETIMEDOUT 26x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T14:58:22.917Z] memsearch-sync: index ETIMEDOUT 27x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T15:08:45.252Z] memsearch-sync: index ETIMEDOUT 28x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T15:19:05.338Z] memsearch-sync: index ETIMEDOUT 29x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T10:21:07.8652994-05:00] ERROR for session-end job C:\Users\eric_rash\.codex\state\session-end-memory\pending\session-end-20260928-101952-362-2e960029.json: The process cannot access the file 'C:\Users\eric_rash\.codex\state\session-end-memory\session-end.log' because it is being used by another process. | codex-session-end-memory
+[2026-09-28T15:25:12.837Z] memsearch-sync: index Milvus unreachable 30x consecutively — indexing may not be keeping up: 2026-09-28 10:23:33,322 [WARNING][_recover]: Connection recovery failed (connection_manager.py:672)
+Traceback (most recent call last):
+  File "C:\Users\eric_rash\AppData\Roaming\Python\Python314\sit
+[2026-09-28T15:40:30.757Z] memsearch-sync: index Milvus unreachable 31x consecutively — indexing may not be keeping up: 2026-09-28 10:38:48,906 [WARNING][_recover]: Connection recovery failed (connection_manager.py:672)
+Traceback (most recent call last):
+  File "C:\Users\eric_rash\AppData\Roaming\Python\Python314\sit
+[2026-09-28T15:52:03.238Z] memsearch-sync: index ETIMEDOUT 32x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T16:03:15.428Z] memsearch-sync: index ETIMEDOUT 33x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T16:18:29.278Z] memsearch-sync: index ETIMEDOUT 34x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T17:48:25.548Z] memsearch-sync: index ETIMEDOUT 35x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-23T01:01:35.997003+00:00] compiler-backlog: 2 log(s) backlogged, compiling newest 2 this run - run compile.py manually to catch up
+[2026-09-23T01:01:35.997435+00:00] compiler-stale-lock: reclaimed compile lock held 1531min by pid 59036 (compile.py --auto)
+[2026-09-23 07:53] daily-backup: 1 error(s): repo-behind-blocked:global-memory - see ~/.claude/scripts/logs/daily-backup.log
+[2026-09-24 09:01] daily-backup: 1 error(s): repo-behind-blocked:global-memory - see ~/.claude/scripts/logs/daily-backup.log
+[2026-09-25T00:47:13.718670+00:00] compiler-backlog: 3 log(s) backlogged, compiling newest 2 this run - run compile.py manually to catch up
+[2026-09-24 21:18] daily-backup: 1 error(s): manifest-unmanaged:RunningTheRoom - see ~/.claude/scripts/logs/daily-backup.log
+[2026-09-25T02:25:56.465559+00:00] compiler-backlog: 2 log(s) backlogged, compiling newest 2 this run - run compile.py manually to catch up
+[2026-09-26 11:38] daily-backup: 2 error(s): repo-behind-blocked:global-memory, manifest-unmanaged:RunningTheRoom - see ~/.claude/scripts/logs/daily-backup.log
+[2026-09-26T16:26:03-0500] perch-pull: error exit=1 after 3 attempt(s) — see /Users/kristinarash/DEV/PlayerProfiles_FB_03-28-2026/logs/last_run.json
+[2026-09-27T00:34:58-0500] perch-pull: error exit=1 after 3 attempt(s) — see /Users/kristinarash/DEV/PlayerProfiles_FB_03-28-2026/logs/last_run.json
+[2026-09-27 11:05] daily-backup: 2 error(s): repo-behind-blocked:global-memory, manifest-unmanaged:RunningTheRoom - see ~/.claude/scripts/logs/daily-backup.log
+[2026-09-27T16:06:31.154337+00:00] adjudicate-budget-tripped: stopped after 315,063 / 250,000 tokens
+[2026-09-27T17:32:19.698737+00:00] compiler-flush-failed: memory-compiler flush failed (session 5a33a7ad-69b0-4a38-a3df-3a1b420dd536): FLUSH_ERROR: ResultError: Claude Code returned an error result: You've hit your session limit · resets 12:40pm (America/Chicago) (exit code: 1) | a single failure is usually transient session-end contention (retries exhausted) — check scripts/flush.log; only if it repeats across sessions suspect bundled-CLI version skew — fix: cd ~/.claude/claude-memory-compiler && uv lock --upgrade-package claude-agent-sdk && uv sync
+[2026-09-27 23:43] daily-backup: 4 error(s): repo-behind-blocked:SecondBrain, repo-behind-blocked:global-memory, repo-behind-blocked:skills, manifest-unmanaged:RunningTheRoom - see ~/.claude/scripts/logs/daily-backup.log
+[2026-09-28T10:50:08.9533700-05:00] stack-doctor weekly: 1 issue(s): handoff-behind:SecondBrain — details in ~/.claude/skills/claude-stack-doctor/scripts/last-weekly-run.log; run /claude-stack-doctor to fix
+[2026-09-28T19:02:22-0500] vald-pull: error exit=1 after 2 attempt(s) — see /Users/kristinarash/DEV/ForcePlate_DecisionSystem/logs/last_run.json
+[2026-09-30 07:51] daily-backup: 1 error(s): repo-behind-blocked:global-memory - see ~/.claude/scripts/logs/daily-backup.log
+
+
+# ---- imported from Windows copy (.errors.log.archived-2026-09-30b.from-windows) ----
+[2026-09-28T00:05:00.821Z] memsearch-sync: index ETIMEDOUT 6x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T00:15:05.694Z] memsearch-sync: index ETIMEDOUT 7x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T00:25:11.613Z] memsearch-sync: index ETIMEDOUT 8x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T00:35:15.559Z] memsearch-sync: index ETIMEDOUT 9x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T00:45:35.875Z] memsearch-sync: index ETIMEDOUT 10x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T00:55:48.213Z] memsearch-sync: index ETIMEDOUT 11x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T01:06:01.376Z] memsearch-sync: index ETIMEDOUT 12x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T01:07:20.858053+00:00] compiler-stale-lock: reclaimed compile lock held 30min by pid 105800 (compile.py --auto)
+[2026-09-28T01:16:06.400Z] memsearch-sync: index ETIMEDOUT 13x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T01:22:17.924034+00:00] compiler-flush-failed: memory-compiler flush failed (session dfcdad2e-ccca-4733-9c03-756f49a6eb04): FLUSH_ERROR: ResultError: Claude Code returned an error result: You've hit your session limit · resets 10:50pm (America/Chicago) (exit code: 1) | a single failure is usually transient session-end contention (retries exhausted) — check scripts/flush.log; only if it repeats across sessions suspect bundled-CLI version skew — fix: cd ~/.claude/claude-memory-compiler && uv lock --upgrade-package claude-agent-sdk && uv sync
+[2026-09-28T01:26:14.352Z] memsearch-sync: index ETIMEDOUT 14x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T01:26:29.859722+00:00] compiler-flush-failed: memory-compiler flush failed (session 752b693f-edb2-4aaa-ac10-43f8c08de5ad): FLUSH_ERROR: ResultError: Claude Code returned an error result: You've hit your session limit · resets 10:50pm (America/Chicago) (exit code: 1) | a single failure is usually transient session-end contention (retries exhausted) — check scripts/flush.log; only if it repeats across sessions suspect bundled-CLI version skew — fix: cd ~/.claude/claude-memory-compiler && uv lock --upgrade-package claude-agent-sdk && uv sync
+[2026-09-28T01:36:24.351Z] memsearch-sync: index ETIMEDOUT 15x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T01:36:53.479629+00:00] compiler-flush-failed: memory-compiler flush failed (session e55576a6-f6f5-40e4-9c9d-ade4f23ee9ad): FLUSH_ERROR: ResultError: Claude Code returned an error result: You've hit your session limit · resets 10:50pm (America/Chicago) (exit code: 1) | a single failure is usually transient session-end contention (retries exhausted) — check scripts/flush.log; only if it repeats across sessions suspect bundled-CLI version skew — fix: cd ~/.claude/claude-memory-compiler && uv lock --upgrade-package claude-agent-sdk && uv sync
+[2026-09-28T01:41:44.651913+00:00] compiler-stale-lock: reclaimed compile lock held 30min by pid 98556 (compile.py --auto)
+[2026-09-28T01:42:20.832343+00:00] compiler-flush-failed: memory-compiler flush failed (session c6567ac3-ec3f-4076-996b-306223b43cd1): FLUSH_ERROR: ResultError: Claude Code returned an error result: You've hit your session limit · resets 10:50pm (America/Chicago) (exit code: 1) | a single failure is usually transient session-end contention (retries exhausted) — check scripts/flush.log; only if it repeats across sessions suspect bundled-CLI version skew — fix: cd ~/.claude/claude-memory-compiler && uv lock --upgrade-package claude-agent-sdk && uv sync
+[2026-09-28T01:46:39.522Z] memsearch-sync: index ETIMEDOUT 16x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T01:46:48.843785+00:00] compiler-flush-failed: memory-compiler flush failed (session 0dde9ca1-7cb6-4b07-81c5-6d01ecc51462): FLUSH_ERROR: ResultError: Claude Code returned an error result: You've hit your session limit · resets 10:50pm (America/Chicago) (exit code: 1) | a single failure is usually transient session-end contention (retries exhausted) — check scripts/flush.log; only if it repeats across sessions suspect bundled-CLI version skew — fix: cd ~/.claude/claude-memory-compiler && uv lock --upgrade-package claude-agent-sdk && uv sync
+[2026-09-28T01:56:45.029Z] memsearch-sync: index ETIMEDOUT 17x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T01:56:48.403330+00:00] compiler-flush-failed: memory-compiler flush failed (session e80f202a-f82b-490e-bfd0-1626da347fe8): FLUSH_ERROR: ResultError: Claude Code returned an error result: You've hit your session limit · resets 10:50pm (America/Chicago) (exit code: 1) | a single failure is usually transient session-end contention (retries exhausted) — check scripts/flush.log; only if it repeats across sessions suspect bundled-CLI version skew — fix: cd ~/.claude/claude-memory-compiler && uv lock --upgrade-package claude-agent-sdk && uv sync
+[2026-09-28T02:06:46.836Z] memsearch-sync: index ETIMEDOUT 18x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T02:06:57.040092+00:00] compiler-flush-failed: memory-compiler flush failed (session 9506cda4-c4b9-400e-8a42-8fa621e15efb): FLUSH_ERROR: ResultError: Claude Code returned an error result: You've hit your session limit · resets 10:50pm (America/Chicago) (exit code: 1) | a single failure is usually transient session-end contention (retries exhausted) — check scripts/flush.log; only if it repeats across sessions suspect bundled-CLI version skew — fix: cd ~/.claude/claude-memory-compiler && uv lock --upgrade-package claude-agent-sdk && uv sync
+[2026-09-28T02:16:55.269Z] memsearch-sync: index ETIMEDOUT 19x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T03:46:46.885634+00:00] compiler-flush-failed: memory-compiler flush failed (session codex-01a0e43b-bff1-71a1-8797-6383c003b75c): FLUSH_ERROR: ResultError: Claude Code returned an error result: You've hit your session limit · resets 10:50pm (America/Chicago) (exit code: 1) | a single failure is usually transient session-end contention (retries exhausted) — check scripts/flush.log; only if it repeats across sessions suspect bundled-CLI version skew — fix: cd ~/.claude/claude-memory-compiler && uv lock --upgrade-package claude-agent-sdk && uv sync
+[2026-09-27T22:46:47.2307024-05:00] ERROR for session-end job C:\Users\eric_rash\.codex\state\session-end-memory\pending\session-end-20260927-224630-574-7e7f887b.json: Claude compiler reported FLUSH_ERROR. | codex-session-end-memory
+[2026-09-28T03:46:49.120422+00:00] compiler-stale-lock: reclaimed compile lock held 121min by pid 109324 (compile.py --auto)
+[2026-09-28T03:56:46.261Z] memsearch-sync: index ETIMEDOUT 20x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T04:47:11.314381+00:00] compiler-flush-failed: memory-compiler flush failed (session codex-01a0e43b-bff1-71a1-8797-6383c003b75c): **Context:** Force Plate Practitioner course archiving project (Applied Performance community course) — completing the video archive and Zotero library import, continued from a prior Codex session.  * | a single failure is usually transient session-end contention (retries exhausted) — check scripts/flush.log; only if it repeats across sessions suspect bundled-CLI version skew — fix: cd ~/.claude/claude-memory-compiler && uv lock --upgrade-package claude-agent-sdk && uv sync
+[2026-09-27T23:47:11.5321016-05:00] ERROR for session-end job C:\Users\eric_rash\.codex\state\session-end-memory\pending\session-end-20260927-234639-983-41566bf5.json: Claude compiler reported FLUSH_ERROR. | codex-session-end-memory
+[2026-09-28T04:57:10.767Z] memsearch-sync: index ETIMEDOUT 21x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T05:56:54.937Z] memsearch-sync: index Milvus unreachable 22x consecutively — indexing may not be keeping up: 2026-09-28 00:56:35,528 [WARNING][_recover]: Connection recovery failed (connection_manager.py:672)
+Traceback (most recent call last):
+  File "C:\Users\eric_rash\AppData\Roaming\Python\Python314\sit
+[2026-09-28T12:55:27.043Z] memsearch-sync: index ETIMEDOUT 23x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T13:10:36.957Z] memsearch-sync: index ETIMEDOUT 24x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T13:20:49.725Z] memsearch-sync: index ETIMEDOUT 25x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T13:36:02.724Z] memsearch-sync: index ETIMEDOUT 26x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T14:58:22.917Z] memsearch-sync: index ETIMEDOUT 27x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T15:08:45.252Z] memsearch-sync: index ETIMEDOUT 28x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T15:19:05.338Z] memsearch-sync: index ETIMEDOUT 29x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T10:21:07.8652994-05:00] ERROR for session-end job C:\Users\eric_rash\.codex\state\session-end-memory\pending\session-end-20260928-101952-362-2e960029.json: The process cannot access the file 'C:\Users\eric_rash\.codex\state\session-end-memory\session-end.log' because it is being used by another process. | codex-session-end-memory
+[2026-09-28T15:25:12.837Z] memsearch-sync: index Milvus unreachable 30x consecutively — indexing may not be keeping up: 2026-09-28 10:23:33,322 [WARNING][_recover]: Connection recovery failed (connection_manager.py:672)
+Traceback (most recent call last):
+  File "C:\Users\eric_rash\AppData\Roaming\Python\Python314\sit
+[2026-09-28T15:40:30.757Z] memsearch-sync: index Milvus unreachable 31x consecutively — indexing may not be keeping up: 2026-09-28 10:38:48,906 [WARNING][_recover]: Connection recovery failed (connection_manager.py:672)
+Traceback (most recent call last):
+  File "C:\Users\eric_rash\AppData\Roaming\Python\Python314\sit
+[2026-09-28T15:52:03.238Z] memsearch-sync: index ETIMEDOUT 32x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T16:03:15.428Z] memsearch-sync: index ETIMEDOUT 33x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T16:18:29.278Z] memsearch-sync: index ETIMEDOUT 34x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-28T17:48:25.548Z] memsearch-sync: index ETIMEDOUT 35x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-09-23T01:01:35.997003+00:00] compiler-backlog: 2 log(s) backlogged, compiling newest 2 this run - run compile.py manually to catch up
+[2026-09-23T01:01:35.997435+00:00] compiler-stale-lock: reclaimed compile lock held 1531min by pid 59036 (compile.py --auto)
+[2026-09-23 07:53] daily-backup: 1 error(s): repo-behind-blocked:global-memory - see ~/.claude/scripts/logs/daily-backup.log
+[2026-09-24 09:01] daily-backup: 1 error(s): repo-behind-blocked:global-memory - see ~/.claude/scripts/logs/daily-backup.log
+[2026-09-25T00:47:13.718670+00:00] compiler-backlog: 3 log(s) backlogged, compiling newest 2 this run - run compile.py manually to catch up
+[2026-09-24 21:18] daily-backup: 1 error(s): manifest-unmanaged:RunningTheRoom - see ~/.claude/scripts/logs/daily-backup.log
+[2026-09-25T02:25:56.465559+00:00] compiler-backlog: 2 log(s) backlogged, compiling newest 2 this run - run compile.py manually to catch up
+[2026-09-26 11:38] daily-backup: 2 error(s): repo-behind-blocked:global-memory, manifest-unmanaged:RunningTheRoom - see ~/.claude/scripts/logs/daily-backup.log
+[2026-09-26T16:26:03-0500] perch-pull: error exit=1 after 3 attempt(s) — see /Users/kristinarash/DEV/PlayerProfiles_FB_03-28-2026/logs/last_run.json
+[2026-09-27T00:34:58-0500] perch-pull: error exit=1 after 3 attempt(s) — see /Users/kristinarash/DEV/PlayerProfiles_FB_03-28-2026/logs/last_run.json
+[2026-09-27 11:05] daily-backup: 2 error(s): repo-behind-blocked:global-memory, manifest-unmanaged:RunningTheRoom - see ~/.claude/scripts/logs/daily-backup.log
+[2026-09-27T16:06:31.154337+00:00] adjudicate-budget-tripped: stopped after 315,063 / 250,000 tokens
+[2026-09-27T17:32:19.698737+00:00] compiler-flush-failed: memory-compiler flush failed (session 5a33a7ad-69b0-4a38-a3df-3a1b420dd536): FLUSH_ERROR: ResultError: Claude Code returned an error result: You've hit your session limit · resets 12:40pm (America/Chicago) (exit code: 1) | a single failure is usually transient session-end contention (retries exhausted) — check scripts/flush.log; only if it repeats across sessions suspect bundled-CLI version skew — fix: cd ~/.claude/claude-memory-compiler && uv lock --upgrade-package claude-agent-sdk && uv sync
+[2026-09-27 23:43] daily-backup: 4 error(s): repo-behind-blocked:SecondBrain, repo-behind-blocked:global-memory, repo-behind-blocked:skills, manifest-unmanaged:RunningTheRoom - see ~/.claude/scripts/logs/daily-backup.log
+[2026-09-28T10:50:08.9533700-05:00] stack-doctor weekly: 1 issue(s): handoff-behind:SecondBrain — details in ~/.claude/skills/claude-stack-doctor/scripts/last-weekly-run.log; run /claude-stack-doctor to fix
+[2026-09-28T19:02:22-0500] vald-pull: error exit=1 after 2 attempt(s) — see /Users/kristinarash/DEV/ForcePlate_DecisionSystem/logs/last_run.json
+[2026-09-30 07:51] daily-backup: 1 error(s): repo-behind-blocked:global-memory - see ~/.claude/scripts/logs/daily-backup.log
+
+## from transcripts/.errors.log.archived-2026-10-02
+[2026-10-01T11:55:30-0500] perch-pull: error exit=1 after 3 attempt(s) — see /Users/kristinarash/DEV/PlayerProfiles_FB_03-28-2026/logs/last_run.json
+[2026-10-01] aios-audit due - run "audit my AI OS" in ~/DEV/KeystoneOS (uncommitted trend row waiting)
+[2026-10-02 01:37] daily-backup: 2 error(s): repo-behind-blocked:global-memory, manifest-unmanaged:42Analytics - see ~/.claude/scripts/logs/daily-backup.log
+[2026-10-02T21:16:59.591Z] memsearch-sync: index exit 1: grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with: (full output: C:\Users\eric_rash\.claude\global-memory\transcripts\.memsearch-index.log)
+
+
+# ---- imported from Windows copy (.errors.log.archived-2026-10-02.from-windows) ----
+[2026-10-01T11:55:30-0500] perch-pull: error exit=1 after 3 attempt(s) — see /Users/kristinarash/DEV/PlayerProfiles_FB_03-28-2026/logs/last_run.json
+[2026-10-01] aios-audit due - run "audit my AI OS" in ~/DEV/KeystoneOS (uncommitted trend row waiting)
+[2026-10-02 01:37] daily-backup: 2 error(s): repo-behind-blocked:global-memory, manifest-unmanaged:42Analytics - see ~/.claude/scripts/logs/daily-backup.log
+[2026-10-02T21:16:59.591Z] memsearch-sync: index exit 1: grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with: (full output: C:\Users\eric_rash\.claude\global-memory\transcripts\.memsearch-index.log)
+
+## from transcripts/.errors.log.archived-2026-10-05
+[2026-10-03 23:53] daily-backup: 1 error(s): repo-behind-blocked:global-memory - see ~/.claude/scripts/logs/daily-backup.log
+[2026-10-04T13:00:32.332976+00:00] adjudicate-budget-tripped: stopped after 335,350 / 250,000 tokens
+[2026-10-04 23:20] daily-backup: 2 error(s): repo-behind-blocked:global-memory, repo-push:dotclaude - see ~/.claude/scripts/logs/daily-backup.log
+
+
+# ---- imported from Windows copy (.errors.log.archived-2026-10-05.from-windows) ----
+[2026-10-03 23:53] daily-backup: 1 error(s): repo-behind-blocked:global-memory - see ~/.claude/scripts/logs/daily-backup.log
+[2026-10-04T13:00:32.332976+00:00] adjudicate-budget-tripped: stopped after 335,350 / 250,000 tokens
+[2026-10-04 23:20] daily-backup: 2 error(s): repo-behind-blocked:global-memory, repo-push:dotclaude - see ~/.claude/scripts/logs/daily-backup.log
+
+## from transcripts/.errors.log.archived-2026-10-06
+[2026-10-05T10:55:44.3920700-05:00] stack-doctor weekly: 3 issue(s): recall-coverage, memfile-full:USER.md, memfile-full:MEMORY.md — details in ~/.claude/skills/claude-stack-doctor/scripts/last-weekly-run.log; run /claude-stack-doctor to fix
+
+
+# ---- imported from Windows copy (.errors.log.archived-2026-10-06.from-windows) ----
+[2026-10-05T10:55:44.3920700-05:00] stack-doctor weekly: 3 issue(s): recall-coverage, memfile-full:USER.md, memfile-full:MEMORY.md — details in ~/.claude/skills/claude-stack-doctor/scripts/last-weekly-run.log; run /claude-stack-doctor to fix
+
+## from transcripts/.errors.log.archive-2026-10-11
+[2026-10-08T23:27:43.988375+00:00] compiler-backlog: 5 log(s) backlogged, compiling newest 2 this run - run compile.py manually to catch up
+[2026-10-09T05:07:54.387629+00:00] compiler-budget-tripped: stopped after 1,170,660 / 600,000 tokens; 1 log(s) deferred
+[2026-10-09T07:00:34.422910-05:00] claude-files-digest: send failed for 2026-10-08 - see ~/.claude/scripts/logs/claude-files-digest.log
+[2026-10-09T12:11:50.780Z] memsearch-sync: index exit null:  (full output: /Users/kristinarash/.claude/global-memory/transcripts/.memsearch-index.log)
+[2026-10-09T17:07:26-0500] gps-pull: error exit=4 API listing failed for all 1 window(s) — see /Users/kristinarash/DEV/DataBase_GPS_Reporting/gps_report/logs/last_run.json
+[2026-10-10T07:13:42.052443-05:00] claude-files-digest: send failed for 2026-10-09 - see ~/.claude/scripts/logs/claude-files-digest.log
+[2026-10-10 09:54] daily-backup: 2 error(s): repo-behind-blocked:global-memory, repo-diverged:dotclaude - see ~/.claude/scripts/logs/daily-backup.log
+[2026-10-10T10:39:50.672391-05:00] claude-files-digest: send failed for 2026-10-09 - see ~/.claude/scripts/logs/claude-files-digest.log
+[2026-10-10 11:16] daily-backup: 1 error(s): memsearch-index:full-set - see ~/.claude/scripts/logs/daily-backup.log
+[2026-10-10T16:20:17.299916+00:00] compiler-flush-failed: memory-compiler flush failed (session de318a0f-c1af-4286-a2a7-854ca72a1efd): FLUSH_ERROR: ResultError: Claude Code returned an error result: Reached maximum number of turns (2) (exit code: 1) | a single failure is usually transient session-end contention (retries exhausted) — check scripts/flush.log; only if it repeats across sessions suspect bundled-CLI version skew — fix: cd ~/.claude/claude-memory-compiler && uv lock --upgrade-package claude-agent-sdk && uv sync
+[2026-10-10 21:08] daily-backup: 1 error(s): memsearch-index:full-set - see ~/.claude/scripts/logs/daily-backup.log
+[2026-10-11 12:09] daily-backup: 1 error(s): memsearch-index:full-set - see ~/.claude/scripts/logs/daily-backup.log
+[2026-10-11T20:55:10.835Z] memsearch-sync: index index busy (lock held) 6x consecutively — indexing may not be keeping up: Failed to start MilvusLite server for /Users/kristinarash/.memsearch/milvus.db
+Traceback (most recent call last):
+  File "/Users/kristinarash/.local/share/uv/tools/memsearch/lib/python3.12/site-packag
+
+
+# ---- imported from Windows copy (.errors.log.from-windows) ----
+[2026-10-06T19:02:01.313Z] memsearch-sync: index Milvus unreachable 6x consecutively — indexing may not be keeping up: 2026-10-06 13:59:14,103 [WARNING][_recover]: Connection recovery failed (connection_manager.py:672)
+Traceback (most recent call last):
+  File "C:\Users\eric_rash\AppData\Roaming\Python\Python314\sit
+[2026-10-06T19:33:46.174Z] memsearch-sync: index Milvus unreachable 7x consecutively — indexing may not be keeping up: 2026-10-06 14:31:28,643 [WARNING][_recover]: Connection recovery failed (connection_manager.py:672)
+Traceback (most recent call last):
+  File "C:\Users\eric_rash\AppData\Roaming\Python\Python314\sit
+[2026-10-06T16:54:03.805528-05:00] nightly-digest: send failed for 2026-10-06 - see ~/.claude/scripts/logs/nightly-digest.log
+[2026-10-07T18:17:00.165Z] memsearch-sync: index ETIMEDOUT 8x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+[2026-10-07T19:10:14.237Z] memsearch-sync: index ETIMEDOUT 9x consecutively — indexing may not be keeping up: spawnSync memsearch ETIMEDOUT
+
+## from transcripts/.errors.log.archived-2026-10-12
+[2026-10-12T12:31:31.849795+00:00] compiler-flush-failed: memory-compiler flush failed (session 3494d934-eb42-4fbd-8a67-2b53bd2260ea): FLUSH_ERROR: ResultError: Claude Code returned an error result: Reached maximum number of turns (2) (exit code: 1) | a single failure is usually transient session-end contention (retries exhausted) — check scripts/flush.log; only if it repeats across sessions suspect bundled-CLI version skew — fix: cd ~/.claude/claude-memory-compiler && uv lock --upgrade-package claude-agent-sdk && uv sync
+[2026-10-12T10:37:26.4401640-05:00] stack-doctor weekly: 4 issue(s): errors-log, flush-error, backup-error, memfile-full:MEMORY.md — details in ~/.claude/skills/claude-stack-doctor/scripts/last-weekly-run.log; run /claude-stack-doctor to fix
+[2026-10-12T20:36:34.005390+00:00] compiler-flush-failed: memory-compiler flush failed (session 343438c1-750d-485d-95ef-df02e10a809b): FLUSH_ERROR: ResultError: Claude Code returned an error result: Reached maximum number of turns (2) (exit code: 1) | a single failure is usually transient session-end contention (retries exhausted) — check scripts/flush.log; only if it repeats across sessions suspect bundled-CLI version skew — fix: cd ~/.claude/claude-memory-compiler && uv lock --upgrade-package claude-agent-sdk && uv sync
+
+## from transcripts/.errors.log.archived-2026-10-12b
+[2026-10-12 18:09] daily-backup: 1 error(s): manifest-unmanaged:house-model - see ~/.claude/scripts/logs/daily-backup.log
+
+## from transcripts/.errors.log.archived-2026-10-13-closeout
+
+
+## from transcripts/.errors.log.archived-2026-10-19
+[2026-10-15 06:32] daily-backup: 7 error(s): backup-target-offline:GoogleDrive/_MACHINE, backup-target-offline:GoogleDrive/_MACHINE, backup-target-offline:GoogleDrive/_MACHINE, backup-target-offline:GoogleDrive/_MACHINE, backup-target-offline:GoogleDrive/_MACHINE, backup-target-offline:GoogleDrive/_MACHINE, manifest-unmanaged:Cloudroom_Learning - see ~/.claude/scripts/logs/daily-backup.log
+[2026-10-16 06:01] daily-backup: 7 error(s): backup-target-offline:GoogleDrive/_MACHINE, backup-target-offline:GoogleDrive/_MACHINE, backup-target-offline:GoogleDrive/_MACHINE, backup-target-offline:GoogleDrive/_MACHINE, backup-target-offline:GoogleDrive/_MACHINE, backup-target-offline:GoogleDrive/_MACHINE, manifest-unmanaged:Cloudroom_Learning - see ~/.claude/scripts/logs/daily-backup.log
+[2026-10-18T01:08:09.719362+00:00] compiler-flush-failed: memory-compiler flush failed (session 7724877d-e923-4704-87b0-028675e29c89): FLUSH_ERROR: ResultError: Claude Code returned an error result: API Error: Can't reach the API server — check your internet or DNS (ENOTFOUND) (exit code: 1) | a single failure is usually transient session-end contention (retries exhausted) — check scripts/flush.log; only if it repeats across sessions suspect bundled-CLI version skew — fix: cd ~/.claude/claude-memory-compiler && uv lock --upgrade-package claude-agent-sdk && uv sync
+[2026-10-18T01:08:09.902785+00:00] compiler-stale-lock: reclaimed compile lock held 1260min by pid 4915 (compile.py --auto)
+[2026-10-18T10:32:12.057392-05:00] claude-files-digest: send failed for 2026-10-17 - see ~/.claude/scripts/logs/claude-files-digest.log
+[2026-10-19T00:03:49.908541+00:00] compiler-flush-failed: memory-compiler flush failed (session agy-_loose): FLUSH_ERROR: Exception: Control request timeout: initialize | a single failure is usually transient session-end contention (retries exhausted) — check scripts/flush.log; only if it repeats across sessions suspect bundled-CLI version skew — fix: cd ~/.claude/claude-memory-compiler && uv lock --upgrade-package claude-agent-sdk && uv sync
+[2026-10-19T00:46:32.853158+00:00] compiler-backlog: 1 log(s) backlogged, compiling newest 2 this run - run compile.py manually to catch up
+[2026-10-18T20:33:56-0500] gps-pull: coach-report 2026-10-17 missing coach_report.pdf (not written by this run) — see /Users/kristinarash/DEV/DataBase_GPS_Reporting/gps_report/logs/last_run.json
+[2026-10-19T04:07:04.471970+00:00] compiler-backlog: 1 log(s) backlogged, compiling newest 2 this run - run compile.py manually to catch up
+[2026-10-19T04:07:04.476728+00:00] compiler-stale-lock: reclaimed compile lock held 201min by pid 65291 (compile.py --auto)
+[2026-10-19 06:25] daily-backup: 7 error(s): repo-push:global-memory, repo-push:dotclaude, snapshot:claude-projects.tgz, snapshot:codex-sessions.tgz, snapshot:codex-agents.tgz, snapshot:codex-sqlite.tgz, snapshot:gemini.tgz - see ~/.claude/scripts/logs/daily-backup.log
+[2026-10-19T10:40:21.3539430-05:00] stack-doctor weekly: 6 issue(s): task:com.keystone.dailybackup, errors-log, flush-error, backup-error, memfile-full:USER.md, memfile-full:MEMORY.md — details in ~/.claude/skills/claude-stack-doctor/scripts/last-weekly-run.log; run /claude-stack-doctor to fix
+
+## from transcripts/.errors.log.archived-2026-10-20
+[2026-10-20T05:06:50.837Z] session-autopush: DEV: not pushed, fetch failed (offline?): error: git-remote-https died of signal 9
+fatal: remote helper 'https' aborted session
+[2026-10-20T05:06:50.847Z] session-autopush: DEV: not pushed, fetch failed (offline?): error: git-remote-https died of signal 9
+fatal: remote helper 'https' aborted session
+[2026-10-20T05:06:50.916Z] session-autopush: DEV: not pushed, fetch failed (offline?): error: git-remote-https died of signal 9
+fatal: remote helper 'https' aborted session
+
+## from transcripts/.errors.log.archived-2026-10-22
+[2026-10-21T07:33:07.196228-05:00] claude-files-digest: send failed for 2026-10-20 - see ~/.claude/scripts/logs/claude-files-digest.log
+[2026-10-21 09:26] daily-backup: 7 error(s): repo-behind-blocked:global-memory, snapshot:claude-projects.tgz, snapshot:codex-sessions.tgz, snapshot:codex-agents.tgz, snapshot:gemini.tgz, snapshot:launchagents.tgz, snapshot:dev-databases.tgz - see ~/.claude/scripts/logs/daily-backup.log
+[2026-10-21T23:22:59.339Z] session-autopush: DEV: not pushed, fetch failed (offline?): fatal: unable to access 'https://github.com/erash11/DEV.git/': Could not resolve host: github.com
+[2026-10-22T01:16:19.231596+00:00] compiler-flush-failed: memory-compiler flush failed (session b5e553b3-7c3d-4e6d-bac9-92f137a55b69): FLUSH_ERROR: ResultError: Claude Code returned an error result: API Error: Can't reach the API server — check your internet or DNS (ENOTFOUND) (exit code: 1) | a single failure is usually transient session-end contention (retries exhausted) — check scripts/flush.log; only if it repeats across sessions suspect bundled-CLI version skew — fix: cd ~/.claude/claude-memory-compiler && uv lock --upgrade-package claude-agent-sdk && uv sync
+[2026-10-22T01:16:19.474360+00:00] compiler-backlog: 3 log(s) backlogged, compiling newest 2 this run - run compile.py manually to catch up
+[2026-10-22T03:14:02.498644+00:00] compiler-budget-tripped: stopped after 1,128,885 / 600,000 tokens; 1 log(s) deferred
+[2026-10-22 06:05] daily-backup: 5 error(s): repo-diverged:global-memory, snapshot:claude-projects.tgz, snapshot:codex-sessions.tgz, snapshot:gemini.tgz, snapshot:launchagents.tgz - see ~/.claude/scripts/logs/daily-backup.log
+[2026-10-22T11:05:23.070149+00:00] compiler-backlog: 3 log(s) backlogged, compiling newest 2 this run - run compile.py manually to catch up
+
+## from transcripts/.errors.log.archived-2026-10-23
