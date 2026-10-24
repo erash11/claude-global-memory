@@ -19,7 +19,7 @@ BayCap · house-model (10/12) · 5S5M (EAI STATUS) · project-triage PM system �
 - `~/DEV` = THIN repo; `.gitignore` starts `/*`, never remove →Tier A github-consolidation.
 - PFF: swap Parquet on Drive, never the DB; `PFF_DB`.
 - Schedules →Tier A automation-cadence. CFB capture Mac only.
-- Post-merge: delete merged branches unasked (verify) →Tier A post-merge-cleanup.
+- Post-merge: remove merged worktrees + remote branches unasked; local `git branch -d` is dcg-blocked, hand Eric the line →Tier A post-merge-cleanup.
 - Sessions: start `where-was-i.py`, prune `session-sweep.py` →Tier A session-hygiene.
 
 ## Pending Decisions
