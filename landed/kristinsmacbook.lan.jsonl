@@ -1,7 +1,10 @@
+{"root": "DEV", "path": "project-triage/docs/STATUS.md", "when": "2026-10-23T21:26:15-05:00", "how": "changed, uncommitted", "machine": "kristinsmacbook.lan"}
+{"root": "DEV", "path": "TackleAnalytics/docs/STATUS.md", "when": "2026-10-23T21:05:26-05:00", "how": "changed", "machine": "kristinsmacbook.lan"}
+{"root": "DEV", "path": "Football/PFF_Position_Reports/docs/STATUS.md", "when": "2026-10-23T21:05:24-05:00", "how": "changed", "machine": "kristinsmacbook.lan"}
+{"root": "DEV", "path": "Performance_Playbook/docs/STATUS.md", "when": "2026-10-23T21:04:38-05:00", "how": "changed", "machine": "kristinsmacbook.lan"}
+{"root": "DEV", "path": "RunningTheRoom/docs/STATUS.md", "when": "2026-10-23T21:04:36-05:00", "how": "changed", "machine": "kristinsmacbook.lan"}
+{"root": "DEV", "path": "project-triage/portfolio.json", "when": "2026-10-23T21:04:34-05:00", "how": "changed", "machine": "kristinsmacbook.lan"}
 {"root": "VAULT", "path": "Templates/weekly-review.md", "when": "2026-10-23T21:04:19-05:00", "how": "new", "machine": "kristinsmacbook.lan"}
-{"root": "DEV", "path": "Performance_Playbook/docs/STATUS.md", "when": "2026-10-23T21:04:04-05:00", "how": "changed, uncommitted", "machine": "kristinsmacbook.lan"}
-{"root": "DEV", "path": "RunningTheRoom/docs/STATUS.md", "when": "2026-10-23T21:04:04-05:00", "how": "changed, uncommitted", "machine": "kristinsmacbook.lan"}
-{"root": "DEV", "path": "project-triage/portfolio.json", "when": "2026-10-23T21:03:47-05:00", "how": "changed, uncommitted", "machine": "kristinsmacbook.lan"}
 {"root": "VAULT", "path": "Inbox/weekly-review/2026-10-23-review.md", "when": "2026-10-23T21:03:29-05:00", "how": "new", "machine": "kristinsmacbook.lan"}
 {"root": "DEV", "path": "Football/PFF_Position_Reports/scripts/wr_model.py", "when": "2026-10-23T20:41:33-05:00", "how": "changed", "machine": "kristinsmacbook.lan"}
 {"root": "VAULT", "path": "Inbox/meetings/2026-10-22_StaffMeet_10222026.md", "when": "2026-10-23T20:02:20-05:00", "how": "new", "machine": "kristinsmacbook.lan"}
@@ -58,8 +61,6 @@
 {"root": "DEV", "path": "CFB_Victory_Model/docs/STATUS.md", "when": "2026-10-23T19:27:29-05:00", "how": "changed", "machine": "kristinsmacbook.lan"}
 {"root": "DEV", "path": "CFB_Victory_Model/docs/handoffs/2026-10-23-week8-capture.md", "when": "2026-10-23T19:27:29-05:00", "how": "changed", "machine": "kristinsmacbook.lan"}
 {"root": "DEV", "path": "CFB_Victory_Model/weekly_capture.py", "when": "2026-10-23T19:27:29-05:00", "how": "changed", "machine": "kristinsmacbook.lan"}
-{"root": "DEV", "path": "TackleAnalytics/docs/STATUS.md", "when": "2026-10-23T19:24:05-05:00", "how": "changed", "machine": "kristinsmacbook.lan"}
-{"root": "DEV", "path": "project-triage/docs/STATUS.md", "when": "2026-10-23T19:23:43-05:00", "how": "changed", "machine": "kristinsmacbook.lan"}
 {"root": "DEV", "path": "project-triage/cards.py", "when": "2026-10-23T19:23:43-05:00", "how": "changed", "machine": "kristinsmacbook.lan"}
 {"root": "DEV", "path": "project-triage/portfolio.py", "when": "2026-10-23T19:23:43-05:00", "how": "changed", "machine": "kristinsmacbook.lan"}
 {"root": "DEV", "path": "project-triage/tests/test_cards.py", "when": "2026-10-23T19:23:43-05:00", "how": "changed", "machine": "kristinsmacbook.lan"}
@@ -85,7 +86,6 @@
 {"root": "DEV", "path": "Football/PFF_Position_Reports/scripts/metric_stability.py", "when": "2026-10-23T14:43:06Z", "how": "new", "machine": "kristinsmacbook.lan"}
 {"root": "DEV", "path": "Football/PFF_Position_Reports/scripts/pull_wr_targets.py", "when": "2026-10-23T14:41:31-05:00", "how": "new", "machine": "kristinsmacbook.lan"}
 {"root": "DEV", "path": "TypeSafe_Sandbox/skill_router/test_router.py", "when": "2026-10-23T12:18:17-05:00", "how": "changed", "machine": "kristinsmacbook.lan"}
-{"root": "DEV", "path": "Football/PFF_Position_Reports/docs/STATUS.md", "when": "2026-10-23T12:08:15-05:00", "how": "changed", "machine": "kristinsmacbook.lan"}
 {"root": "DEV", "path": "Football/PFF_Position_Reports/scripts/scheme_read.py", "when": "2026-10-23T12:08:15-05:00", "how": "new", "machine": "kristinsmacbook.lan"}
 {"root": "DEV", "path": "Football/PFF_Position_Reports/scripts/split_stability.py", "when": "2026-10-23T11:56:00-05:00", "how": "new", "machine": "kristinsmacbook.lan"}
 {"root": "DEV", "path": "KeystoneOS/data/jobs.json", "when": "2026-10-23T11:33:34-05:00", "how": "changed", "machine": "kristinsmacbook.lan"}
