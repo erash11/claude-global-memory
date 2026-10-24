@@ -14,6 +14,7 @@ Eric Rash, Director of Applied Performance, Baylor Athletics. Builds football GP
 - Usage-sensitive: few subagents; no fan-outs or review agents unless asked.
 - Direct; says "stop" when done. Challenge vague reasoning: "sharpened, not soothed."
 - Decide standard technical details, state the choice, move on.
+- Takes your pick; won't verify or recall follow-ups. Verify yourself; make steps run/alert unaided.
 - Small steps. Do not break mid-season work.
 - OKR-driven change agent; sets direction when leadership doesn't.
 - Right question over downstream craft; Christian faith is his organizing frame.
