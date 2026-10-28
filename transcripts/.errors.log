@@ -1,0 +1,7 @@
+[2026-10-26T13:43:09.182Z] session-autopush: DEV: not pushed, fetch failed (offline?): fatal: unable to access 'https://github.com/erash11/DEV.git/': Could not resolve host: github.com
+2026-10-27 11:46 keystone meeting-sync: fireflies-pp-cli sync reported 3 sync_error event(s): a bad or expired FIREFLIES_API_KEY, or a Fireflies API error.
+[2026-10-27T16:41:49-0500] gps-pull: stale last success 2026-10-25T16:30:12-05:00 (48 h ago) — see /Users/kristinarash/DEV/DataBase_GPS_Reporting/gps_report/logs/last_run.json
+[2026-10-27T17:26:08-0500] gps-pull: error exit=4 API listing failed for all 1 window(s) — see /Users/kristinarash/DEV/DataBase_GPS_Reporting/gps_report/logs/last_run.json
+[2026-10-27T18:45:08-0500] vald-pull: error exit=1 after 2 attempt(s) — see /Users/kristinarash/DEV/ForcePlate_DecisionSystem/logs/last_run.json
+[2026-10-28T10:04:22-0500] gps-pull: stale last success 2026-10-25T16:30:12-05:00 (66 h ago) — see /Users/kristinarash/DEV/DataBase_GPS_Reporting/gps_report/logs/last_run.json
+[2026-10-28T10:08:33-0500] gps-pull: partial exit=3 1 session/listing error(s); 0 unrostered athlete row(s) — see /Users/kristinarash/DEV/DataBase_GPS_Reporting/gps_report/logs/last_run.json
