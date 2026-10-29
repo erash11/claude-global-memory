@@ -1,12 +1,32 @@
-{"root": "DEV", "path": "claude-global-memory/transcripts/2026-10-29.md", "when": "2026-10-29T17:07:33-05:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "SportScienceResearchRepo/docs/STATUS.md", "when": "2026-10-29T17:24:47-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "SportScienceResearchRepo/docs/handoffs/2026-10-29-batch-133-139-open-access.md", "when": "2026-10-29T17:24:47-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "claude-global-memory/transcripts/2026-10-29.md", "when": "2026-10-29T17:24:29-05:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "BAIR_Steering_Committee/docs/naming/stress-test-2026-10-29.md", "when": "2026-10-29T17:24:14-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "drive-tools/tools/drive_index.py", "when": "2026-10-29T17:22:24-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "drive-tools/docs/STATUS.md", "when": "2026-10-29T17:22:24-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "BAIR_Steering_Committee/docs/STATUS.md", "when": "2026-10-29T17:19:51-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "BAIR_Steering_Committee/scripts/name_finder.py", "when": "2026-10-29T17:19:51-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "SportScienceResearchRepo/papers.json", "when": "2026-10-29T17:14:33-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "SportScienceResearchRepo/docs/library-coverage-manifest.json", "when": "2026-10-29T17:14:33-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "SportScienceResearchRepo/paper-taxonomy.json", "when": "2026-10-29T17:14:33-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "SportScienceResearchRepo/docs/pilot-screening/batch-133-training-performance.json", "when": "2026-10-29T17:14:33-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "SportScienceResearchRepo/docs/pilot-screening/batch-135-rehabilitation-return-to-sport.json", "when": "2026-10-29T17:14:33-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "SportScienceResearchRepo/docs/pilot-screening/batch-136-recovery-readiness.json", "when": "2026-10-29T17:14:33-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "SportScienceResearchRepo/docs/pilot-screening/batch-137-nutrition-hydration.json", "when": "2026-10-29T17:14:33-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "SportScienceResearchRepo/docs/pilot-screening/batch-138-brain-health-psychology.json", "when": "2026-10-29T17:14:33-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "SportScienceResearchRepo/docs/pilot-screening/batch-139-monitoring-technology.json", "when": "2026-10-29T17:14:33-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "SportScienceResearchRepo/docs/pilot-screening/batches-133-139-review.md", "when": "2026-10-29T17:14:33-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "SportScienceResearchRepo/docs/pilot-synthesis/batch-133.json", "when": "2026-10-29T17:14:33-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "SportScienceResearchRepo/docs/pilot-synthesis/batch-134.json", "when": "2026-10-29T17:14:33-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "SportScienceResearchRepo/docs/pilot-synthesis/batch-135.json", "when": "2026-10-29T17:14:33-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "SportScienceResearchRepo/docs/pilot-synthesis/batch-136.json", "when": "2026-10-29T17:14:33-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "SportScienceResearchRepo/docs/pilot-synthesis/batch-137.json", "when": "2026-10-29T17:14:33-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "SportScienceResearchRepo/docs/pilot-synthesis/batch-138.json", "when": "2026-10-29T17:14:33-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "SportScienceResearchRepo/docs/pilot-synthesis/batch-139.json", "when": "2026-10-29T17:14:33-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "claude-global-memory/landed/Kristinas-MacBook.local.jsonl", "when": "2026-10-29T17:09:13-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "drive-tools/tools/rename.py", "when": "2026-10-29T16:59:58-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "BAIR_Steering_Committee/docs/STATUS.md", "when": "2026-10-29T16:57:37-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "BAIR_Steering_Committee/scripts/name_finder.py", "when": "2026-10-29T16:57:37-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "drive-tools/tools/drive_index.py", "when": "2026-10-29T16:56:42-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "BAIR_Steering_Committee/.gitignore", "when": "2026-10-29T16:51:09-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "claude-global-memory/MEMORY.md", "when": "2026-10-29T16:51:03-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "claude-global-memory/landed/Kristinas-MacBook.local.jsonl", "when": "2026-10-29T16:51:03-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "SportScienceResearchRepo/docs/STATUS.md", "when": "2026-10-29T16:51:01-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "ForcePlate_DecisionSystem/docs/STATUS.md", "when": "2026-10-29T16:50:59-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Football/PerformanceSnapshot/docs/handoffs/2026-10-29-performance-snapshot-v1.md", "when": "2026-10-29T16:50:57-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Football/PerformanceSnapshot/docs/STATUS.md", "when": "2026-10-29T16:50:57-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
@@ -46,7 +66,6 @@
 {"root": "DEV", "path": "Football/PerformanceSnapshot/src/load.py", "when": "2026-10-29T16:32:54-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Football/PerformanceSnapshot/templates/snapshot.html", "when": "2026-10-29T16:32:54-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Football/PerformanceSnapshot/tests/test_names.py", "when": "2026-10-29T16:32:54-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "drive-tools/docs/STATUS.md", "when": "2026-10-29T16:29:54-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "drive-tools/tools/survivors.py", "when": "2026-10-29T16:29:54-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "graphify-out/.graphify_extract.json", "when": "2026-10-29T15:33:39-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "graphify-out/.graphify_gemini.json", "when": "2026-10-29T15:33:39-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
@@ -1807,7 +1826,6 @@
 {"root": "DRIVE", "path": "Cloud_Copy/DEV/SportScienceResearchRepo/docs/pilot-synthesis/batch-126.json", "when": "2026-10-13T16:19:14-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "Cloud_Copy/DEV/SportScienceResearchRepo/docs/pilot-synthesis/batch-130.json", "when": "2026-10-13T16:19:14-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "Cloud_Copy/DEV/SportScienceResearchRepo/docs/pilot-synthesis/batch-127.json", "when": "2026-10-13T16:19:14-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "SportScienceResearchRepo/papers.json", "when": "2026-10-13T16:05:51-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "SportScienceResearchRepo/docs/pilot-synthesis/batch-130.json", "when": "2026-10-13T16:05:51-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "SportScienceResearchRepo/docs/pilot-screening/batches-123-130-review.md", "when": "2026-10-13T16:04:33-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "SportScienceResearchRepo/docs/pilot-screening/batch-130-monitoring-technology.json", "when": "2026-10-13T16:04:33-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
@@ -2959,8 +2977,6 @@
 {"root": "DRIVE", "path": "09_PRO_DEV/Continuing_Education/SPORT SCIENCE NETWORK/Bryan Mann - Force-Velocity Profiles/video.en.vtt", "when": "2026-10-13T07:32:51-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "09_PRO_DEV/Continuing_Education/SPORT SCIENCE NETWORK/_Extraction Archive/Bryan Mann - Force-Velocity Profiles/video.en.vtt", "when": "2026-10-13T07:32:51-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "SportScienceResearchRepo/docs/handoffs/2026-10-13-batch-123-external-doi.md", "when": "2026-10-13T06:54:09-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "SportScienceResearchRepo/docs/library-coverage-manifest.json", "when": "2026-10-13T06:45:45-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "SportScienceResearchRepo/paper-taxonomy.json", "when": "2026-10-13T06:45:45-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "SportScienceResearchRepo/docs/needs-eric.md", "when": "2026-10-13T06:45:45-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "SportScienceResearchRepo/docs/pilot-screening/batch-115-training-performance.json", "when": "2026-10-13T06:45:45-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "SportScienceResearchRepo/docs/pilot-screening/batch-118-recovery-readiness.json", "when": "2026-10-13T06:45:45-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
