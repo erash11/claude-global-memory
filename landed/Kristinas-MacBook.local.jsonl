@@ -1,9 +1,15 @@
-{"root": "DEV", "path": "Football/PerformanceSnapshot/docs/handoffs/2026-10-29-performance-snapshot-v1.md", "when": "2026-10-29T16:49:50-05:00", "how": "new, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "Football/PerformanceSnapshot/docs/STATUS.md", "when": "2026-10-29T16:49:34-05:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "ForcePlate_DecisionSystem/docs/STATUS.md", "when": "2026-10-29T16:49:34-05:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "claude-global-memory/transcripts/2026-10-29.md", "when": "2026-10-29T16:49:16-05:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "claude-global-memory/MEMORY.md", "when": "2026-10-29T16:49:05-05:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "claude-global-memory/landed/Kristinas-MacBook.local.jsonl", "when": "2026-10-29T16:47:27-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "claude-global-memory/transcripts/2026-10-29.md", "when": "2026-10-29T17:07:33-05:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "drive-tools/tools/rename.py", "when": "2026-10-29T16:59:58-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "BAIR_Steering_Committee/docs/STATUS.md", "when": "2026-10-29T16:57:37-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "BAIR_Steering_Committee/scripts/name_finder.py", "when": "2026-10-29T16:57:37-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "drive-tools/tools/drive_index.py", "when": "2026-10-29T16:56:42-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "BAIR_Steering_Committee/.gitignore", "when": "2026-10-29T16:51:09-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "claude-global-memory/MEMORY.md", "when": "2026-10-29T16:51:03-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "claude-global-memory/landed/Kristinas-MacBook.local.jsonl", "when": "2026-10-29T16:51:03-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "SportScienceResearchRepo/docs/STATUS.md", "when": "2026-10-29T16:51:01-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "ForcePlate_DecisionSystem/docs/STATUS.md", "when": "2026-10-29T16:50:59-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "Football/PerformanceSnapshot/docs/handoffs/2026-10-29-performance-snapshot-v1.md", "when": "2026-10-29T16:50:57-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "Football/PerformanceSnapshot/docs/STATUS.md", "when": "2026-10-29T16:50:57-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "SpecialRequests/Wilhelm_Brody_RTP/docs/STATUS.md", "when": "2026-10-29T16:47:16-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "project-triage/docs/STATUS.md", "when": "2026-10-29T16:47:14-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "DataBase_GPS_Reporting/docs/STATUS.md", "when": "2026-10-29T16:43:40-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
@@ -42,7 +48,6 @@
 {"root": "DEV", "path": "Football/PerformanceSnapshot/tests/test_names.py", "when": "2026-10-29T16:32:54-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "drive-tools/docs/STATUS.md", "when": "2026-10-29T16:29:54-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "drive-tools/tools/survivors.py", "when": "2026-10-29T16:29:54-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "drive-tools/tools/drive_index.py", "when": "2026-10-29T16:22:33-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "graphify-out/.graphify_extract.json", "when": "2026-10-29T15:33:39-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "graphify-out/.graphify_gemini.json", "when": "2026-10-29T15:33:39-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "graphify-out/.graphify_semantic.json", "when": "2026-10-29T15:33:39-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
@@ -62,7 +67,6 @@
 {"root": "DEV", "path": "BAIR_Steering_Committee/01_Process/ARC_Research_Request_Checklist_KENNY_ER_2026-10-29.pdf", "when": "2026-10-29T15:30:20-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "BAIR_Steering_Committee/04_Committee/ARC_OnePage_KENNY_ER_2026-10-29.docx", "when": "2026-10-29T15:30:20-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "BAIR_Steering_Committee/04_Committee/ARC_OnePage_KENNY_ER_2026-10-29.pdf", "when": "2026-10-29T15:30:20-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "BAIR_Steering_Committee/docs/STATUS.md", "when": "2026-10-29T15:30:20-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "BAIR_Steering_Committee/scripts/build_arc_docs.py", "when": "2026-10-29T15:30:20-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Football/PerformanceSnapshot/config.py", "when": "2026-10-29T14:29:05-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "BAIR_Steering_Committee/docs/context.md", "when": "2026-10-29T14:18:13-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
@@ -1659,7 +1663,6 @@
 {"root": "DRIVE", "path": "Cloud_Copy/DEV/SportScienceResearchRepo/docs/handoffs/2026-10-13-pr29-merge-and-library-candidates.md", "when": "2026-10-13T16:23:31-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "ZoteroInjestion/docs/STATUS.md", "when": "2026-10-13T16:23:18-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "Cloud_Copy/DEV/ZoteroInjestion/docs/STATUS.md", "when": "2026-10-13T16:23:18-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "SportScienceResearchRepo/docs/STATUS.md", "when": "2026-10-13T16:23:03-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "Cloud_Copy/DEV/SportScienceResearchRepo/docs/STATUS.md", "when": "2026-10-13T16:23:03-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Flint/staging/library/strength-and-conditioning/supertraining--verkhoshansky/framework--large-training-cycle-local-spp-before-competition-speed-fig-14.md", "when": "2026-10-13T16:21:57-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Flint/staging/library/strength-and-conditioning/supertraining--verkhoshansky/principle--long-term-delayed-training-effect-from-volume-above-the-optimum.md", "when": "2026-10-13T16:21:57-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
