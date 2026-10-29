@@ -1,11 +1,12 @@
-{"root": "DEV", "path": "claude-global-memory/transcripts/2026-10-29.md", "when": "2026-10-29T17:26:24-05:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "drive-tools/docs/STATUS.md", "when": "2026-10-29T17:26:23-05:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "claude-global-memory/landed/Kristinas-MacBook.local.jsonl", "when": "2026-10-29T17:26:09-05:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "BAIR_Steering_Committee/docs/naming/stress-test-2026-10-29.md", "when": "2026-10-29T17:36:46-05:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "BAIR_Steering_Committee/docs/handoffs/2026-10-29-arc-umbrella-name.md", "when": "2026-10-29T17:36:46-05:00", "how": "new, uncommitted", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "BAIR_Steering_Committee/docs/STATUS.md", "when": "2026-10-29T17:36:08-05:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "claude-global-memory/transcripts/2026-10-29.md", "when": "2026-10-29T17:33:08-05:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "drive-tools/docs/STATUS.md", "when": "2026-10-29T17:27:10-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "claude-global-memory/landed/Kristinas-MacBook.local.jsonl", "when": "2026-10-29T17:26:53-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "SportScienceResearchRepo/docs/STATUS.md", "when": "2026-10-29T17:25:23-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "SportScienceResearchRepo/docs/handoffs/2026-10-29-batch-133-139-open-access.md", "when": "2026-10-29T17:24:47-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "BAIR_Steering_Committee/docs/naming/stress-test-2026-10-29.md", "when": "2026-10-29T17:24:14-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "drive-tools/tools/drive_index.py", "when": "2026-10-29T17:22:24-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "BAIR_Steering_Committee/docs/STATUS.md", "when": "2026-10-29T17:19:51-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "BAIR_Steering_Committee/scripts/name_finder.py", "when": "2026-10-29T17:19:51-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "SportScienceResearchRepo/papers.json", "when": "2026-10-29T17:14:33-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "SportScienceResearchRepo/docs/library-coverage-manifest.json", "when": "2026-10-29T17:14:33-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
