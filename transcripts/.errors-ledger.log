@@ -844,3 +844,4 @@ fatal: remote helper 'https' aborted session
 [2026-10-30 12:00] daily-backup: secret-scan warning (not blocked): 1 staged dotclaude projects/ file(s) match a secret pattern: projects/-Users-kristinarash-DEV/b1b9233e-a07b-48f3-aed1-abea0104e565.jsonl - check and rotate if real; values are not logged
 [2026-10-30 12:11] daily-backup: 1 error(s): manifest-unmanaged:_to_delete - see ~/.claude/scripts/logs/daily-backup.log
 [2026-10-30 13:08] daily-backup: 1 error(s): manifest-unmanaged:_to_delete - see ~/.claude/scripts/logs/daily-backup.log
+[2026-10-30 15:58] daily-backup: secret-scan warning (not blocked): 1 staged dotclaude projects/ file(s) match a secret pattern: projects/-Users-kristinarash-DEV/b1b9233e-a07b-48f3-aed1-abea0104e565.jsonl - check and rotate if real; values are not logged
