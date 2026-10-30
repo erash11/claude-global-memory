@@ -1,6 +1,7 @@
 # STATUS
 
 ## Current state
+- 2026-10-30: `.errors.log` had 3 daily-backup entries. Cause 1: new folder `~/DEV/_to_delete` was not in the backup manifest (fixed in dotclaude). Cause 2: secret-scan warning on session `b1b9233e…jsonl` was a false hit (split words 'Risk-Stratification', 'one-task-one-agent' in git output). Archived to `.errors-ledger.log` and cleared at 15:31.
 - 2026-10-29: routine writes only (today's transcript, landed ledger, memsearch stamp). `.errors.log` was archived to `.errors-ledger.log` and cleared at 15:31.
 - 2026-10-19 (offline catch-up closeout): GPS/Perch/VALD pulls re-run, all ok. daily-backup re-run with CRASHBOX: OK, 93 jobs. GPS coach report archived (Eric's call). Error log archived to `transcripts/.errors.log.archived-2026-10-19` and cleared after checking the compiler. USER.md 87%, MEMORY.md 75% after consolidation. Handoff: `handoffs/2026-10-19-offline-catchup-and-coach-archive.md`.
 - 2026-10-16 (BayCap development-plan closeout): Updated BayCap memory pointer to the standalone NODAL-style iOS goal; roadmap at BayCap/docs/DEVELOPMENT_PLAN.md is pushed. Account setup remains next. Project handoff and registry aligned. Today's transcript is recent; private histories stay local. Existing backup errors and 4 registry gaps remain open. DEV-only landed refresh used because the Drive mount previously stalled the full scan. This paused repo was touched for closeout maintenance only.
