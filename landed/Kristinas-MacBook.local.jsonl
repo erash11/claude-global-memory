@@ -1,11 +1,69 @@
-{"root": "DEV", "path": "CFB_Victory_Model/evaluate_2026_season.py", "when": "2026-10-30T15:32:29-05:00", "how": "new, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "claude-global-memory/transcripts/.errors.log", "when": "2026-10-30T15:32:23-05:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "claude-global-memory/transcripts/.errors-ledger.log", "when": "2026-10-30T15:32:23-05:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "project-triage/portfolio.json", "when": "2026-10-30T15:31:19-05:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "claude-global-memory/transcripts/.memsearch-last-run", "when": "2026-10-30T15:30:26-05:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "claude-global-memory/transcripts/2026-10-30.md", "when": "2026-10-30T15:27:14-05:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "CFB_Victory_Model/docs/STATUS.md", "when": "2026-10-30T16:24:57-05:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "CFB_Victory_Model/docs/handoffs/2026-10-30-eval-audit-market-view.md", "when": "2026-10-30T16:24:40-05:00", "how": "new, uncommitted", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "CFB_Victory_Model/docs/handoffs/STATUS-archive-2026-Q4.md", "when": "2026-10-30T16:24:40-05:00", "how": "new, uncommitted", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "project-triage/portfolio.json", "when": "2026-10-30T16:23:52-05:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "claude-global-memory/transcripts/2026-10-30.md", "when": "2026-10-30T16:21:09-05:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "drive-tools/tools/survivors.py", "when": "2026-10-30T16:21:03-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "claude-global-memory/transcripts/.errors-ledger.log", "when": "2026-10-30T16:20:46-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "CFB_Victory_Model/market_view.py", "when": "2026-10-30T16:02:51-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "CFB_Victory_Model/scripts/weekly_run.sh", "when": "2026-10-30T16:02:51-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "drive-tools/docs/STATUS.md", "when": "2026-10-30T15:56:08-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "CFB_Victory_Model/audit_model.py", "when": "2026-10-30T15:48:26-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "CFB_Victory_Model/docs/MODEL_AUDIT_2026-10-30.md", "when": "2026-10-30T15:48:26-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "claude-global-memory/transcripts/.errors.log", "when": "2026-10-30T15:35:11-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "claude-global-memory/transcripts/.memsearch-last-run", "when": "2026-10-30T15:35:11-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "claude-global-memory/landed/Kristinas-MacBook.local.jsonl", "when": "2026-10-30T15:35:11-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "claude-global-memory/docs/STATUS.md", "when": "2026-10-30T15:35:11-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "graphify-out/graph.html", "when": "2026-10-30T15:35:10-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "graphify-out/cost.json", "when": "2026-10-30T15:35:10-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "graphify-out/graph.json", "when": "2026-10-30T15:35:10-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "graphify-out/manifest.json", "when": "2026-10-30T15:35:10-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "graphify-out/GRAPH_REPORT.md", "when": "2026-10-30T15:35:10-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "graphify-out/.graphify_labels.json", "when": "2026-10-30T15:35:10-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "graphify-out/.graphify_analysis.json", "when": "2026-10-30T15:35:10-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "graphify-out/.graphify_extract.json", "when": "2026-10-30T15:35:10-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "graphify-out/.graphify_gemini.json", "when": "2026-10-30T15:35:10-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "graphify-out/.graphify_semantic.json", "when": "2026-10-30T15:35:10-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "graphify-out/rotate_log.txt", "when": "2026-10-30T15:35:10-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "graphify-out/graphify-out/cache/stat-index.json", "when": "2026-10-30T15:35:10-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-30_arizona-state_compare.txt", "when": "2026-10-30T15:35:09-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-30_arizona_compare.txt", "when": "2026-10-30T15:35:09-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-30_baylor_compare.txt", "when": "2026-10-30T15:35:09-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-30_byu_compare.txt", "when": "2026-10-30T15:35:09-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-30_cincinnati_compare.txt", "when": "2026-10-30T15:35:09-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-30_colorado_compare.txt", "when": "2026-10-30T15:35:09-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-30_houston_compare.txt", "when": "2026-10-30T15:35:09-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-30_iowa-state_compare.txt", "when": "2026-10-30T15:35:09-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-30_kansas-state_compare.txt", "when": "2026-10-30T15:35:09-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-30_kansas_compare.txt", "when": "2026-10-30T15:35:09-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-30_oklahoma-state_compare.txt", "when": "2026-10-30T15:35:09-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-30_tcu_compare.txt", "when": "2026-10-30T15:35:09-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-30_texas-tech_compare.txt", "when": "2026-10-30T15:35:09-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-30_ucf_compare.txt", "when": "2026-10-30T15:35:09-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-30_utah_compare.txt", "when": "2026-10-30T15:35:09-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-30_west-virginia_compare.txt", "when": "2026-10-30T15:35:09-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-30_west-virginia.csv", "when": "2026-10-30T15:35:09-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-30_utah.csv", "when": "2026-10-30T15:35:09-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-30_ucf.csv", "when": "2026-10-30T15:35:09-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-30_texas-tech.csv", "when": "2026-10-30T15:35:09-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-30_tcu.csv", "when": "2026-10-30T15:35:09-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-30_oklahoma-state.csv", "when": "2026-10-30T15:35:09-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-30_kansas-state.csv", "when": "2026-10-30T15:35:09-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-30_kansas.csv", "when": "2026-10-30T15:35:09-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-30_iowa-state.csv", "when": "2026-10-30T15:35:09-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-30_houston.csv", "when": "2026-10-30T15:35:09-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-30_colorado.csv", "when": "2026-10-30T15:35:09-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-30_cincinnati.csv", "when": "2026-10-30T15:35:09-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-30_byu.csv", "when": "2026-10-30T15:35:09-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-30_baylor.csv", "when": "2026-10-30T15:35:09-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-30_arizona-state.csv", "when": "2026-10-30T15:35:09-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-30_arizona.csv", "when": "2026-10-30T15:35:09-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "project-triage/docs/STATUS.md", "when": "2026-10-30T15:35:09-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "CFB_Forecast_Archive/docs/STATUS.md", "when": "2026-10-30T15:35:09-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "project-triage/docs/handoffs/STATUS-archive-2026-Q4.md", "when": "2026-10-30T15:35:09-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "CFB_Victory_Model/evaluate_2026_season.py", "when": "2026-10-30T15:34:55-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "CFB_Victory_Model/EVAL_2026_SEASON.md", "when": "2026-10-30T15:34:55-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "CFB_Victory_Model/data/weekly_forecast_log.csv", "when": "2026-10-30T13:47:36-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "CFB_Victory_Model/docs/STATUS.md", "when": "2026-10-30T13:47:36-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "CFB_Victory_Model/data/weekly_snapshots/2026-10-30_arizona-state.csv", "when": "2026-10-30T13:47:36-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "CFB_Victory_Model/data/weekly_snapshots/2026-10-30_arizona.csv", "when": "2026-10-30T13:47:36-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "CFB_Victory_Model/data/weekly_snapshots/2026-10-30_baylor.csv", "when": "2026-10-30T13:47:36-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
@@ -22,63 +80,17 @@
 {"root": "DEV", "path": "CFB_Victory_Model/data/weekly_snapshots/2026-10-30_ucf.csv", "when": "2026-10-30T13:47:36-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "CFB_Victory_Model/data/weekly_snapshots/2026-10-30_utah.csv", "when": "2026-10-30T13:47:36-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "CFB_Victory_Model/data/weekly_snapshots/2026-10-30_west-virginia.csv", "when": "2026-10-30T13:47:36-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-30_arizona-state_compare.txt", "when": "2026-10-30T13:46:57-05:00", "how": "new, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-30_arizona_compare.txt", "when": "2026-10-30T13:46:57-05:00", "how": "new, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-30_baylor_compare.txt", "when": "2026-10-30T13:46:57-05:00", "how": "new, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-30_byu_compare.txt", "when": "2026-10-30T13:46:57-05:00", "how": "new, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-30_cincinnati_compare.txt", "when": "2026-10-30T13:46:57-05:00", "how": "new, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-30_colorado_compare.txt", "when": "2026-10-30T13:46:57-05:00", "how": "new, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-30_houston_compare.txt", "when": "2026-10-30T13:46:57-05:00", "how": "new, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-30_iowa-state_compare.txt", "when": "2026-10-30T13:46:57-05:00", "how": "new, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-30_kansas-state_compare.txt", "when": "2026-10-30T13:46:57-05:00", "how": "new, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-30_kansas_compare.txt", "when": "2026-10-30T13:46:57-05:00", "how": "new, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-30_oklahoma-state_compare.txt", "when": "2026-10-30T13:46:57-05:00", "how": "new, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-30_tcu_compare.txt", "when": "2026-10-30T13:46:57-05:00", "how": "new, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-30_texas-tech_compare.txt", "when": "2026-10-30T13:46:57-05:00", "how": "new, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-30_ucf_compare.txt", "when": "2026-10-30T13:46:57-05:00", "how": "new, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-30_utah_compare.txt", "when": "2026-10-30T13:46:57-05:00", "how": "new, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-30_west-virginia_compare.txt", "when": "2026-10-30T13:46:57-05:00", "how": "new, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-30_west-virginia.csv", "when": "2026-10-30T13:46:56-05:00", "how": "new, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-30_utah.csv", "when": "2026-10-30T13:46:46-05:00", "how": "new, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-30_ucf.csv", "when": "2026-10-30T13:46:37-05:00", "how": "new, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-30_texas-tech.csv", "when": "2026-10-30T13:46:27-05:00", "how": "new, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-30_tcu.csv", "when": "2026-10-30T13:46:17-05:00", "how": "new, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-30_oklahoma-state.csv", "when": "2026-10-30T13:46:07-05:00", "how": "new, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-30_kansas-state.csv", "when": "2026-10-30T13:45:44-05:00", "how": "new, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-30_kansas.csv", "when": "2026-10-30T13:45:21-05:00", "how": "new, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-30_iowa-state.csv", "when": "2026-10-30T13:45:11-05:00", "how": "new, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-30_houston.csv", "when": "2026-10-30T13:45:01-05:00", "how": "new, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-30_colorado.csv", "when": "2026-10-30T13:44:51-05:00", "how": "new, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-30_cincinnati.csv", "when": "2026-10-30T13:44:41-05:00", "how": "new, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-30_byu.csv", "when": "2026-10-30T13:44:30-05:00", "how": "new, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-30_baylor.csv", "when": "2026-10-30T13:44:21-05:00", "how": "new, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-30_arizona-state.csv", "when": "2026-10-30T13:44:11-05:00", "how": "new, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-30_arizona.csv", "when": "2026-10-30T13:44:01-05:00", "how": "new, uncommitted", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "claude-global-memory/transcripts/2026-10-29.md", "when": "2026-10-30T12:00:10-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "KeystoneOS/docs/STATUS.md", "when": "2026-10-30T09:58:22-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "KeystoneOS/docs/agy-memory-bridge.md", "when": "2026-10-30T09:58:22-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "KeystoneOS/scripts/agy-sync.ps1", "when": "2026-10-30T09:58:22-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "KeystoneOS/tests/agy-sync.ps1", "when": "2026-10-30T09:58:22-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "graphify-out/graph.html", "when": "2026-10-30T09:30:48-05:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "graphify-out/cost.json", "when": "2026-10-30T09:30:47-05:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "graphify-out/graph.json", "when": "2026-10-30T09:30:47-05:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "graphify-out/manifest.json", "when": "2026-10-30T09:30:47-05:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "graphify-out/GRAPH_REPORT.md", "when": "2026-10-30T09:30:46-05:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "graphify-out/.graphify_labels.json", "when": "2026-10-30T09:30:46-05:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "graphify-out/.graphify_analysis.json", "when": "2026-10-30T09:30:44-05:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "graphify-out/.graphify_extract.json", "when": "2026-10-30T09:30:42-05:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "graphify-out/.graphify_gemini.json", "when": "2026-10-30T09:30:42-05:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "graphify-out/.graphify_semantic.json", "when": "2026-10-30T09:30:41-05:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "graphify-out/rotate_log.txt", "when": "2026-10-30T09:30:41-05:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "graphify-out/graphify-out/cache/stat-index.json", "when": "2026-10-30T09:30:08-05:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
 {"root": "VAULT", "path": "Inbox/weekly-slate/2026-10-30.md", "when": "2026-10-30T07:53:14-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "VAULT", "path": "Inbox/meetings/2026-10-29_Oct_29_0944_AM.md", "when": "2026-10-30T06:10:20-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "VAULT", "path": "Inbox/meetings/2026-10-29_Oct_29_0922_AM.md", "when": "2026-10-30T06:10:20-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "claude-global-memory/landed/Kristinas-MacBook.local.jsonl", "when": "2026-10-29T17:37:48-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "BAIR_Steering_Committee/docs/naming/stress-test-2026-10-29.md", "when": "2026-10-29T17:37:46-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "BAIR_Steering_Committee/docs/handoffs/2026-10-29-arc-umbrella-name.md", "when": "2026-10-29T17:37:46-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "BAIR_Steering_Committee/docs/STATUS.md", "when": "2026-10-29T17:37:46-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "drive-tools/docs/STATUS.md", "when": "2026-10-29T17:27:10-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "SportScienceResearchRepo/docs/STATUS.md", "when": "2026-10-29T17:25:23-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "SportScienceResearchRepo/docs/handoffs/2026-10-29-batch-133-139-open-access.md", "when": "2026-10-29T17:24:47-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "drive-tools/tools/drive_index.py", "when": "2026-10-29T17:22:24-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
@@ -107,13 +119,11 @@
 {"root": "DEV", "path": "Football/PerformanceSnapshot/docs/handoffs/2026-10-29-performance-snapshot-v1.md", "when": "2026-10-29T16:50:57-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Football/PerformanceSnapshot/docs/STATUS.md", "when": "2026-10-29T16:50:57-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "SpecialRequests/Wilhelm_Brody_RTP/docs/STATUS.md", "when": "2026-10-29T16:47:16-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "project-triage/docs/STATUS.md", "when": "2026-10-29T16:47:14-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "DataBase_GPS_Reporting/docs/STATUS.md", "when": "2026-10-29T16:43:40-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Kinexon_Volleyball/docs/STATUS.md", "when": "2026-10-29T16:43:40-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "PlayerProfiles_FB_03-28-2026/docs/STATUS.md", "when": "2026-10-29T16:43:40-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "NCAA_BestPractices_Doc/docs/STATUS.md", "when": "2026-10-29T16:43:40-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Football/docs/STATUS.md", "when": "2026-10-29T16:43:40-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "claude-global-memory/docs/STATUS.md", "when": "2026-10-29T16:43:40-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "SportScienceResearchRepo/SourcePapers/2025 Update to the Female Athlete Triad Coalition Consensus Statement Part 2 - Clinical Guidelines for Screening, Diagnosis, Treatment, and Return to Play for Adolescents and Adults.pdf", "when": "2026-10-29T16:43:32-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "SportScienceResearchRepo/SourcePapers/Acute-chronic workload ratio and load management for team sports - a multilevel meta-analysis.pdf", "when": "2026-10-29T16:43:32-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "SportScienceResearchRepo/SourcePapers/Are There Sex Disparities in Return to Sport After Anterior Cruciate Ligament Reconstruction_ A Systematic Review and Exploratory Meta-analysis.pdf", "when": "2026-10-29T16:43:32-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
@@ -140,7 +150,6 @@
 {"root": "DEV", "path": "Football/PerformanceSnapshot/src/load.py", "when": "2026-10-29T16:32:54-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Football/PerformanceSnapshot/templates/snapshot.html", "when": "2026-10-29T16:32:54-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Football/PerformanceSnapshot/tests/test_names.py", "when": "2026-10-29T16:32:54-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "drive-tools/tools/survivors.py", "when": "2026-10-29T16:29:54-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Football/PerformanceSnapshot/src/build.py", "when": "2026-10-29T15:31:27-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "BAIR_Steering_Committee/01_Process/ARC_Research_Request_Checklist_KENNY_ER_2026-10-29.docx", "when": "2026-10-29T15:30:20-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "BAIR_Steering_Committee/01_Process/ARC_Research_Request_Checklist_KENNY_ER_2026-10-29.pdf", "when": "2026-10-29T15:30:20-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
@@ -168,7 +177,6 @@
 {"root": "DEV", "path": "project-triage/docs/handoffs/2026-10-23-landed-drive-watchdog.md", "when": "2026-10-23T17:08:45-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "project-triage/tests/test_landed.py", "when": "2026-10-23T17:05:36-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "project-triage/landed.py", "when": "2026-10-23T17:05:36-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "CFB_Forecast_Archive/docs/STATUS.md", "when": "2026-10-23T16:59:02-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "CFB_Victory_Model/docs/handoffs/2026-10-23-week8-capture.md", "when": "2026-10-23T15:29:41-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "graphify-out/daily_extract.log", "when": "2026-10-23T15:26:30-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-23_arizona-state.csv", "when": "2026-10-23T14:59:49-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
