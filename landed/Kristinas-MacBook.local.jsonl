@@ -1,5 +1,8 @@
-{"root": "DEV", "path": "claude-global-memory/transcripts/2026-10-30.md", "when": "2026-10-30T17:40:20-05:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "claude-global-memory/transcripts/.memsearch-last-run", "when": "2026-10-30T17:36:59-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "SportScienceResearchRepo/docs/STATUS.md", "when": "2026-10-30T17:57:52-05:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "claude-global-memory/transcripts/2026-10-30.md", "when": "2026-10-30T17:55:37-05:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "claude-global-memory/transcripts/.memsearch-last-run", "when": "2026-10-30T17:51:31-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "claude-global-memory/landed/Kristinas-MacBook.local.jsonl", "when": "2026-10-30T17:44:11-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "Football/PerformanceSnapshot/docs/STATUS.md", "when": "2026-10-30T17:43:49-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "VAULT", "path": "Inbox/weekly-review/2026-10-30-review.md", "when": "2026-10-30T17:00:01-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "project-triage/portfolio.json", "when": "2026-10-30T16:59:32-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "project-triage/docs/STATUS.md", "when": "2026-10-30T16:59:32-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
@@ -7,8 +10,6 @@
 {"root": "DEV", "path": "project-triage/slate.py", "when": "2026-10-30T16:59:32-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "project-triage/tests/test_seven_day.py", "when": "2026-10-30T16:59:32-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "project-triage/docs/project-management-system-design.md", "when": "2026-10-30T16:59:32-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "Football/PerformanceSnapshot/docs/STATUS.md", "when": "2026-10-30T16:55:26-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "claude-global-memory/landed/Kristinas-MacBook.local.jsonl", "when": "2026-10-30T16:55:19-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "BAIR_Steering_Committee/docs/STATUS.md", "when": "2026-10-30T16:55:17-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "KeystoneOS/docs/STATUS.md", "when": "2026-10-30T16:55:15-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "RunningTheRoom/docs/STATUS.md", "when": "2026-10-30T16:52:44-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
@@ -106,7 +107,6 @@
 {"root": "VAULT", "path": "Inbox/weekly-slate/2026-10-30.md", "when": "2026-10-30T07:53:14-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "BAIR_Steering_Committee/docs/naming/stress-test-2026-10-29.md", "when": "2026-10-29T17:37:46-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "BAIR_Steering_Committee/docs/handoffs/2026-10-29-arc-umbrella-name.md", "when": "2026-10-29T17:37:46-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "SportScienceResearchRepo/docs/STATUS.md", "when": "2026-10-29T17:25:23-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "SportScienceResearchRepo/docs/handoffs/2026-10-29-batch-133-139-open-access.md", "when": "2026-10-29T17:24:47-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "drive-tools/tools/drive_index.py", "when": "2026-10-29T17:22:24-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "BAIR_Steering_Committee/scripts/name_finder.py", "when": "2026-10-29T17:19:51-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
