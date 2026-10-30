@@ -1,16 +1,23 @@
-{"root": "VAULT", "path": "Inbox/weekly-review/2026-10-30-review.md", "when": "2026-10-30T16:53:55-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "claude-global-memory/transcripts/2026-10-30.md", "when": "2026-10-30T16:52:53-05:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "claude-global-memory/transcripts/2026-10-30.md", "when": "2026-10-30T17:40:20-05:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "claude-global-memory/transcripts/.memsearch-last-run", "when": "2026-10-30T17:36:59-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "VAULT", "path": "Inbox/weekly-review/2026-10-30-review.md", "when": "2026-10-30T17:00:01-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "project-triage/portfolio.json", "when": "2026-10-30T16:59:32-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "project-triage/docs/STATUS.md", "when": "2026-10-30T16:59:32-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "project-triage/seven_day.py", "when": "2026-10-30T16:59:32-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "project-triage/slate.py", "when": "2026-10-30T16:59:32-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "project-triage/tests/test_seven_day.py", "when": "2026-10-30T16:59:32-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "project-triage/docs/project-management-system-design.md", "when": "2026-10-30T16:59:32-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "Football/PerformanceSnapshot/docs/STATUS.md", "when": "2026-10-30T16:55:26-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "claude-global-memory/landed/Kristinas-MacBook.local.jsonl", "when": "2026-10-30T16:55:19-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "BAIR_Steering_Committee/docs/STATUS.md", "when": "2026-10-30T16:55:17-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "KeystoneOS/docs/STATUS.md", "when": "2026-10-30T16:55:15-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "RunningTheRoom/docs/STATUS.md", "when": "2026-10-30T16:52:44-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Performance_Playbook/docs/STATUS.md", "when": "2026-10-30T16:52:42-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "VAULT", "path": "output/_ledger.md", "when": "2026-10-30T16:52:42-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "CFB_Victory_Model/docs/CFBD_API_Access_Verification_2026-08-13.md", "when": "2026-10-30T16:52:21-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "BAIR_Steering_Committee/docs/program/baylor_athletics_research_may13_appendix.md", "when": "2026-10-30T16:52:20-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "BAIR_Steering_Committee/scripts/build_baylor_research_leavebehind.py", "when": "2026-10-30T16:52:20-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "claude-global-memory/transcripts/.memsearch-last-run", "when": "2026-10-30T16:51:57-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "claude-global-memory/landed/Kristinas-MacBook.local.jsonl", "when": "2026-10-30T16:51:57-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "project-triage/portfolio.json", "when": "2026-10-30T16:51:37-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "drive-tools/docs/STATUS.md", "when": "2026-10-30T16:49:22-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "KeystoneOS/docs/STATUS.md", "when": "2026-10-30T16:44:07-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "KeystoneOS/scripts/keystone.ps1", "when": "2026-10-30T16:44:07-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "KeystoneOS/tests/keystone-meeting-sync-generic.ps1", "when": "2026-10-30T16:44:07-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "VAULT", "path": "Inbox/meetings/2026-10-29_Oct_29_0944_AM.md", "when": "2026-10-30T16:42:46-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
@@ -71,7 +78,6 @@
 {"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-30_baylor.csv", "when": "2026-10-30T15:35:09-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-30_arizona-state.csv", "when": "2026-10-30T15:35:09-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-30_arizona.csv", "when": "2026-10-30T15:35:09-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "project-triage/docs/STATUS.md", "when": "2026-10-30T15:35:09-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "CFB_Forecast_Archive/docs/STATUS.md", "when": "2026-10-30T15:35:09-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "project-triage/docs/handoffs/STATUS-archive-2026-Q4.md", "when": "2026-10-30T15:35:09-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "CFB_Victory_Model/evaluate_2026_season.py", "when": "2026-10-30T15:34:55-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
@@ -100,7 +106,6 @@
 {"root": "VAULT", "path": "Inbox/weekly-slate/2026-10-30.md", "when": "2026-10-30T07:53:14-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "BAIR_Steering_Committee/docs/naming/stress-test-2026-10-29.md", "when": "2026-10-29T17:37:46-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "BAIR_Steering_Committee/docs/handoffs/2026-10-29-arc-umbrella-name.md", "when": "2026-10-29T17:37:46-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "BAIR_Steering_Committee/docs/STATUS.md", "when": "2026-10-29T17:37:46-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "SportScienceResearchRepo/docs/STATUS.md", "when": "2026-10-29T17:25:23-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "SportScienceResearchRepo/docs/handoffs/2026-10-29-batch-133-139-open-access.md", "when": "2026-10-29T17:24:47-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "drive-tools/tools/drive_index.py", "when": "2026-10-29T17:22:24-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
@@ -127,7 +132,6 @@
 {"root": "DEV", "path": "claude-global-memory/MEMORY.md", "when": "2026-10-29T16:51:03-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "ForcePlate_DecisionSystem/docs/STATUS.md", "when": "2026-10-29T16:50:59-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Football/PerformanceSnapshot/docs/handoffs/2026-10-29-performance-snapshot-v1.md", "when": "2026-10-29T16:50:57-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "Football/PerformanceSnapshot/docs/STATUS.md", "when": "2026-10-29T16:50:57-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "SpecialRequests/Wilhelm_Brody_RTP/docs/STATUS.md", "when": "2026-10-29T16:47:16-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "DataBase_GPS_Reporting/docs/STATUS.md", "when": "2026-10-29T16:43:40-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Kinexon_Volleyball/docs/STATUS.md", "when": "2026-10-29T16:43:40-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
@@ -152,7 +156,6 @@
 {"root": "DEV", "path": "SpecialRequests/docs/STATUS.md", "when": "2026-10-29T16:41:37-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "project-triage/docs/GUIDE.md", "when": "2026-10-29T16:38:13-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "project-triage/board.html", "when": "2026-10-29T16:38:13-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "project-triage/seven_day.py", "when": "2026-10-29T16:38:13-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "SpecialRequests/Wilhelm_Brody_RTP/.gitignore", "when": "2026-10-29T16:33:26-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "SpecialRequests/Wilhelm_Brody_RTP/data/report_data.json", "when": "2026-10-29T16:33:26-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Football/PerformanceSnapshot/docs/METHOD.md", "when": "2026-10-29T16:32:54-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
@@ -4015,8 +4018,6 @@
 {"root": "DEV", "path": "project-triage/docs/handoffs/2026-10-03-organization-pass-and-pm-pieces.md", "when": "2026-10-03T15:03:59-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "project-triage/board_ops.py", "when": "2026-10-03T14:52:51-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "project-triage/portfolio.py", "when": "2026-10-03T14:52:51-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "project-triage/slate.py", "when": "2026-10-03T14:52:51-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "project-triage/tests/test_seven_day.py", "when": "2026-10-03T14:52:51-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Flint/staging/fixes_supertraining_ch7a_applied.md", "when": "2026-10-03T14:33:53-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Flint/staging/fixes_supertraining_ch7b_applied.md", "when": "2026-10-03T14:33:53-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Flint/staging/library/strength-and-conditioning/supertraining--verkhoshansky/case-study--box-squat-with-free-weights-plus-elastic-bands.md", "when": "2026-10-03T14:33:53-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
