@@ -1,6 +1,7 @@
 # STATUS
 
 ## Current state
+- 2026-10-31: daily writes only: today's transcript, `.errors-ledger.log` (`.errors.log` is empty), the memsearch run stamp, and a `MEMORY.md` working-memory update (Front Burner thread). The registry row stays archived: this repo is plumbing, not a project.
 - 2026-10-30: `.errors.log` had 3 daily-backup entries. Cause 1: new folder `~/DEV/_to_delete` was not in the backup manifest (fixed in dotclaude). Cause 2: secret-scan warning on session `b1b9233e…jsonl` was a false hit (split words 'Risk-Stratification', 'one-task-one-agent' in git output). Archived to `.errors-ledger.log` and cleared at 15:31.
 - 2026-10-29: routine writes only (today's transcript, landed ledger, memsearch stamp). `.errors.log` was archived to `.errors-ledger.log` and cleared at 15:31.
 - 2026-10-19 (offline catch-up closeout): GPS/Perch/VALD pulls re-run, all ok. daily-backup re-run with CRASHBOX: OK, 93 jobs. GPS coach report archived (Eric's call). Error log archived to `transcripts/.errors.log.archived-2026-10-19` and cleared after checking the compiler. USER.md 87%, MEMORY.md 75% after consolidation. Handoff: `handoffs/2026-10-19-offline-catchup-and-coach-archive.md`.
