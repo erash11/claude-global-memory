@@ -1,8 +1,10 @@
-{"root": "DEV", "path": "claude-global-memory/landed/Kristinas-MacBook.local.jsonl", "when": "2026-10-31T21:10:33-05:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "claude-global-memory/transcripts/2026-10-31.md", "when": "2026-10-31T21:12:08-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "drive-tools/docs/STATUS.md", "when": "2026-10-31T21:11:35-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "drive-tools/docs/handoffs/2026-10-31-drive-filing-and-trash.md", "when": "2026-10-31T21:11:35-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "TypeSafe_Sandbox/docs/STATUS.md", "when": "2026-10-31T21:11:34-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "claude-global-memory/landed/Kristinas-MacBook.local.jsonl", "when": "2026-10-31T21:11:29-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "drive-tools/docs/handoffs/2026-10-31-drive-renames.md", "when": "2026-10-31T21:10:19-05:00", "how": "new, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "drive-tools/docs/STATUS.md", "when": "2026-10-31T21:09:58-05:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "drive-tools/docs/handoffs/STATUS-archive-2026-Q4.md", "when": "2026-10-31T21:09:50-05:00", "how": "new, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "claude-global-memory/transcripts/2026-10-31.md", "when": "2026-10-31T21:07:52-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "claude-global-memory/transcripts/.memsearch-last-run", "when": "2026-10-31T21:03:05-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "SportScienceResearchRepo/docs/STATUS.md", "when": "2026-10-31T21:03:03-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Football/PerformanceSnapshot/docs/STATUS.md", "when": "2026-10-31T21:03:01-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
@@ -10,7 +12,6 @@
 {"root": "DEV", "path": "Performance_Playbook/docs/STATUS.md", "when": "2026-10-31T21:02:56-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Football/PFF_Position_Reports/docs/STATUS.md", "when": "2026-10-31T21:02:54-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Football/PFF_Position_Reports/scripts/fbs_model.py", "when": "2026-10-31T21:02:54-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "TypeSafe_Sandbox/docs/STATUS.md", "when": "2026-10-31T20:52:50-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "TypeSafe_Sandbox/.gitignore", "when": "2026-10-31T20:52:50-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "TypeSafe_Sandbox/docs/FOLDER_SORT_PREREG.md", "when": "2026-10-31T20:52:50-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "TypeSafe_Sandbox/folder_sort/sample.py", "when": "2026-10-31T20:52:50-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
