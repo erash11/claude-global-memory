@@ -13,7 +13,7 @@ BayCap · PerformanceSnapshot (FB/, live launchd) · house-model (10/12) · 5S5M
 - Win laptop: no automation; desktop-app sessions only (10/21), push to GitHub to sync to Mac. Mac sole writer GPS/Perch/VALD; GPS coach report archived 10/19.
 - Hooks: ~/.codex/hooks links ~/.claude/hooks; edit there only →Tier A hook-two-copies-trap.
 - daily-backup: manifest entries alone copy nothing; sweep nested ~/.claude repos.
-- `DEV/Linda_Projects` = private I-983 repo. Drive reads hang →Tier A drive-fuse-read-hang.
+- `DEV/Program/Linda_Projects` = private I-983 repo. Drive reads hang →Tier A drive-fuse-read-hang.
 - `~/DEV` = THIN repo; `.gitignore` starts `/*`, never remove →Tier A github-consolidation.
 - PFF: swap Parquet on Drive, never the DB; `PFF_DB`.
 - Schedules →Tier A automation-cadence. CFB capture Mac only.
