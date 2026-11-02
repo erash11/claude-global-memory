@@ -1,16 +1,28 @@
-{"root": "DEV", "path": "project-triage/docs/STATUS.md", "when": "2026-11-02T14:20:09-06:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "KeystoneOS/docs/STATUS.md", "when": "2026-11-02T14:20:09-06:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
+{"root": "VAULT", "path": "output/_ledger.md", "when": "2026-11-02T14:35:40-06:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "claude-global-memory/transcripts/2026-11-02.md", "when": "2026-11-02T14:35:04-06:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
+{"root": "VAULT", "path": "Inbox/status-reports/2026-10-31-status.md", "when": "2026-11-02T14:34:44-06:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "claude-global-memory/transcripts/.errors-ledger.log", "when": "2026-11-02T14:23:44-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "claude-global-memory/transcripts/.memsearch-last-run", "when": "2026-11-02T14:23:44-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "claude-global-memory/landed/Kristinas-MacBook.local.jsonl", "when": "2026-11-02T14:23:44-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "claude-global-memory/docs/STATUS.md", "when": "2026-11-02T14:23:44-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "project-triage/docs/STATUS.md", "when": "2026-11-02T14:23:11-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "Tech_Inventory_Analysis/docs/STATUS.md", "when": "2026-11-02T14:23:08-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "Performance_Playbook/docs/STATUS.md", "when": "2026-11-02T14:23:06-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "NCAA_BestPractices_Doc/docs/STATUS.md", "when": "2026-11-02T14:23:03-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "LibraryProject/docs/STATUS.md", "when": "2026-11-02T14:23:01-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "KeystoneOS/docs/STATUS.md", "when": "2026-11-02T14:23:00-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "Football/PerformanceSnapshot/docs/STATUS.md", "when": "2026-11-02T14:22:58-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "Football/PFF_Position_Reports/docs/STATUS.md", "when": "2026-11-02T14:22:54-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "Football/PFF_Data_Project/docs/STATUS.md", "when": "2026-11-02T14:22:52-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "Catapult_API/docs/STATUS.md", "when": "2026-11-02T14:22:50-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "project-triage/portfolio.json", "when": "2026-11-02T14:22:19-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "VAULT", "path": "docs/STATUS.md", "when": "2026-11-02T14:20:09-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "claude-global-memory/transcripts/2026-11-02.md", "when": "2026-11-02T14:18:53-06:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "project-triage/portfolio.json", "when": "2026-11-02T14:18:48-06:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "DataBase_GPS_Reporting/docs/STATUS.md", "when": "2026-11-02T14:07:39-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "DataBase_GPS_Reporting/analysis/pl_bands/README.md", "when": "2026-11-02T14:07:39-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "claude-global-memory/transcripts/.errors.log", "when": "2026-11-02T14:06:25-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "KeystoneOS/.claude/skills/aios-audit/SKILL.md", "when": "2026-11-02T14:04:02-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "KeystoneOS/docs/rot.md", "when": "2026-11-02T14:04:02-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "08_ADMIN/Meet_Prep/Check_In_CR/RufCheckIn_Agenda.docx", "when": "2026-11-02T14:02:38-06:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "claude-global-memory/transcripts/.errors-ledger.log", "when": "2026-11-02T13:57:22-06:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "claude-global-memory/transcripts/.memsearch-last-run", "when": "2026-11-02T13:55:54-06:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "KeystoneOS/docs/audits/aios-audit-2026-11-02-compare.md", "when": "2026-11-02T13:19:43-06:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "KeystoneOS/docs/audits/aios-audit-2026-11-02-rerun.md", "when": "2026-11-02T13:18:04-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "KeystoneOS/scripts/aios-metrics.py", "when": "2026-11-02T13:01:31-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
@@ -18,7 +30,6 @@
 {"root": "DEV", "path": "KeystoneOS/docs/audits/aios-audit-2026-11-02.md", "when": "2026-11-02T12:54:27-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "02_SPORTS/Football/FA2026/04_Outputs/05. 2026 In Season/09. Iowa State/baylor-iowa-state-tendency-packet-visual-2026-11-02.pdf", "when": "2026-11-02T12:42:09-06:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Catapult_API/.gitignore", "when": "2026-11-02T12:33:02-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "Catapult_API/docs/STATUS.md", "when": "2026-11-02T12:33:02-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "02_SPORTS/Football/FA2026/04_Outputs/Auburn_G1_2026-09-05/Auburn_G1_ST_Report.pdf", "when": "2026-11-02T12:32:52-06:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "02_SPORTS/Football/FA2026/04_Outputs/Auburn_G1_2026-09-05/Auburn_G1_ST_Report_ByPhase.pdf", "when": "2026-11-02T12:32:49-06:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "02_SPORTS/Football/FA2026/04_Outputs/Auburn_G1_2026-09-05/Auburn_G1_OC_Report.pdf", "when": "2026-11-02T12:32:47-06:00", "how": "new", "machine": "Kristinas-MacBook.local"}
@@ -29,7 +40,6 @@
 {"root": "DRIVE", "path": "02_SPORTS/Football/FA2026/04_Outputs/Auburn_G1_2026-09-05/Auburn_G1_090526.pdf", "when": "2026-11-02T12:32:34-06:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "02_SPORTS/Football/FA2026/04_Outputs/Auburn_G1_2026-09-05/Auburn_G1_090526_v2.pdf", "when": "2026-11-02T12:32:32-06:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "02_SPORTS/Football/FA2026/04_Outputs/05. 2026 In Season/09. Iowa State/baylor-iowa-state-tendency-packet-2026-11-02.md", "when": "2026-11-02T12:29:38-06:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "Football/PFF_Position_Reports/docs/STATUS.md", "when": "2026-11-02T12:28:14-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "SportScienceResearchRepo/docs/STATUS.md", "when": "2026-11-02T12:27:32-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "SportScienceResearchRepo/SourcePapers/Athlete mental health and wellbeing during the transition into elite sport - Strategies to prepare the system.pdf", "when": "2026-11-02T12:27:32-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "SportScienceResearchRepo/SourcePapers/Clinical outcome following concussion among college athletes with a history of prior concussion - A systematic review.pdf", "when": "2026-11-02T12:27:32-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
@@ -54,12 +64,7 @@
 {"root": "DEV", "path": "SportScienceResearchRepo/SourcePapers/_wrong_2026-11-02/The acute demands of repeated sprint training on physiological, neuromuscular, perceptual and performance outcomes in team sport athletes - A sy.pdf", "when": "2026-11-02T12:27:32-06:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "SportScienceResearchRepo/SourcePapers/_wrong_2026-11-02/Vibration therapy - A clinical commentary.pdf", "when": "2026-11-02T12:27:32-06:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "SportScienceResearchRepo/docs/pilot-screening/wrong-pdf-fetch-2026-11-02.md", "when": "2026-11-02T12:27:32-06:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "VAULT", "path": "Inbox/status-reports/2026-10-31-status.md", "when": "2026-11-02T12:26:11-06:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "NCAA_BestPractices_Doc/docs/STATUS.md", "when": "2026-11-02T12:25:33-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "Performance_Playbook/docs/STATUS.md", "when": "2026-11-02T12:25:29-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Performance_Playbook/docs/digest/sources.md", "when": "2026-11-02T12:25:29-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "Tech_Inventory_Analysis/docs/STATUS.md", "when": "2026-11-02T12:25:27-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "Football/PFF_Data_Project/docs/STATUS.md", "when": "2026-11-02T12:22:22-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "LibraryProject/LibraryProject.code-workspace", "when": "2026-11-02T12:21:27-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "graphify-out/graph.html", "when": "2026-11-02T12:05:22-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "graphify-out/cost.json", "when": "2026-11-02T12:05:22-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
@@ -92,8 +97,6 @@
 {"root": "DEV", "path": "Football/PFF_Position_Reports/scripts/pos_model.py", "when": "2026-11-01T17:33:23-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Football/PFF_Position_Reports/scripts/qb_v4.py", "when": "2026-11-01T17:33:23-06:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Football/PFF_Position_Reports/docs/handoffs/2026-10-31-automation-review-rebuild.md", "when": "2026-10-31T21:20:33-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "claude-global-memory/landed/Kristinas-MacBook.local.jsonl", "when": "2026-10-31T21:19:43-05:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "VAULT", "path": "output/_ledger.md", "when": "2026-10-31T21:19:05-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "VAULT", "path": "Knowledge/tooling/duckdb-executemany-binds-row-by-row.md", "when": "2026-10-31T21:19:04-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "claude-global-memory/transcripts/2026-10-31.md", "when": "2026-10-31T21:17:25-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "drive-tools/docs/handoffs/2026-10-31-drive-renames.md", "when": "2026-10-31T21:12:45-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
@@ -101,7 +104,6 @@
 {"root": "DEV", "path": "drive-tools/docs/STATUS.md", "when": "2026-10-31T21:11:35-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "drive-tools/docs/handoffs/2026-10-31-drive-filing-and-trash.md", "when": "2026-10-31T21:11:35-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "TypeSafe_Sandbox/docs/STATUS.md", "when": "2026-10-31T21:11:34-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "Football/PerformanceSnapshot/docs/STATUS.md", "when": "2026-10-31T21:03:01-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "BAIR_Steering_Committee/docs/STATUS.md", "when": "2026-10-31T21:02:58-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Football/PFF_Position_Reports/scripts/fbs_model.py", "when": "2026-10-31T21:02:54-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "TypeSafe_Sandbox/.gitignore", "when": "2026-10-31T20:52:50-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
@@ -148,7 +150,6 @@
 {"root": "DEV", "path": "TypeSafe_Sandbox/docs/handoffs/STATUS-archive-2026-Q4.md", "when": "2026-10-31T13:04:18-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "TypeSafe_Sandbox/docs/handoffs/STATUS-archive-2026-Q3.md", "when": "2026-10-31T13:04:18-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "VAULT", "path": "Knowledge/tooling/split-io-and-memory-concurrency.md", "when": "2026-10-31T13:01:46-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "claude-global-memory/docs/STATUS.md", "when": "2026-10-31T12:55:56-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "CFB_Victory_Model/docs/STATUS.md", "when": "2026-10-31T12:55:04-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "KeystoneOS/scripts/ritual-check.ps1", "when": "2026-10-31T12:52:11-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "KeystoneOS/tests/keystone-ritual-forecast-capture.ps1", "when": "2026-10-31T12:52:11-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
@@ -3348,7 +3349,6 @@
 {"root": "DRIVE", "path": "Cloud_Copy/DEV/Education_Alignment_Initiative/docs/STATUS.md", "when": "2026-10-12T17:47:15-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Risk_Stratification_Engine/docs/STATUS.md", "when": "2026-10-12T17:47:11-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "Cloud_Copy/DEV/Risk_Stratification_Engine/docs/STATUS.md", "when": "2026-10-12T17:47:11-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "LibraryProject/docs/STATUS.md", "when": "2026-10-12T17:47:07-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "Cloud_Copy/DEV/LibraryProject/docs/STATUS.md", "when": "2026-10-12T17:47:07-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "Cloud_Copy/DEV/NCAA_BestPractices_Doc/docs/STATUS.md", "when": "2026-10-12T17:47:05-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "NCAA_BestPractices_Doc/scripts/build_plan.py", "when": "2026-10-12T17:46:39-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
@@ -4138,44 +4138,3 @@
 {"root": "VAULT", "path": "Knowledge/library/research-papers/issurin-2016-benefits-and-limitations-of-block-periodized-training-approaches-to-athletes-preparation-a.md", "when": "2026-10-03T15:17:17-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "05_SYSTEMS/AI_Sessions_Backup/BU-1979FJ4/claude-code/C--Users-eric-rash-Desktop-DEV/c64d667f-ee47-48af-bcdc-1087bfc78faa.jsonl", "when": "2026-10-03T15:05:48-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "project-triage/docs/handoffs/2026-10-03-organization-pass-and-pm-pieces.md", "when": "2026-10-03T15:03:59-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "Flint/staging/fixes_supertraining_ch7a_applied.md", "when": "2026-10-03T14:33:53-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "Flint/staging/fixes_supertraining_ch7b_applied.md", "when": "2026-10-03T14:33:53-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "Flint/staging/library/strength-and-conditioning/supertraining--verkhoshansky/case-study--box-squat-with-free-weights-plus-elastic-bands.md", "when": "2026-10-03T14:33:53-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "Flint/staging/library/strength-and-conditioning/supertraining--verkhoshansky/case-study--fradd-free-weight-isokinetic-and-combined-elbow-flexion.md", "when": "2026-10-03T14:33:53-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "Flint/staging/library/strength-and-conditioning/supertraining--verkhoshansky/framework--four-forms-of-accelerated-powermetrics.md", "when": "2026-10-03T14:33:53-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "Flint/staging/library/strength-and-conditioning/supertraining--verkhoshansky/framework--three-bodybuilding-regimes-and-add-on-methods.md", "when": "2026-10-03T14:33:53-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "Flint/staging/library/strength-and-conditioning/supertraining--verkhoshansky/heuristic--overcoming-sticking-points-repertoire-of-27-strategies.md", "when": "2026-10-03T14:33:53-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "Flint/staging/review_supertraining_ch7a_opus_round2.md", "when": "2026-10-03T14:33:53-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "Flint/staging/review_supertraining_ch7b_opus_round2.md", "when": "2026-10-03T14:33:53-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "VAULT", "path": "Knowledge/library/strength-and-conditioning/supertraining--verkhoshansky/heuristic--overcoming-sticking-points-repertoire-of-27-strategies.md", "when": "2026-10-03T14:33:33-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "VAULT", "path": "Knowledge/library/strength-and-conditioning/supertraining--verkhoshansky/framework--three-bodybuilding-regimes-and-add-on-methods.md", "when": "2026-10-03T14:33:33-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "VAULT", "path": "Knowledge/library/strength-and-conditioning/supertraining--verkhoshansky/framework--four-forms-of-accelerated-powermetrics.md", "when": "2026-10-03T14:33:02-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "VAULT", "path": "Knowledge/library/strength-and-conditioning/supertraining--verkhoshansky/case-study--fradd-free-weight-isokinetic-and-combined-elbow-flexion.md", "when": "2026-10-03T14:33:02-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "VAULT", "path": "Knowledge/library/strength-and-conditioning/supertraining--verkhoshansky/case-study--box-squat-with-free-weights-plus-elastic-bands.md", "when": "2026-10-03T14:33:02-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DRIVE", "path": "05_SYSTEMS/AI_Sessions_Backup/BU-1979FJ4/claude-code/C--Users-eric-rash-Desktop-DEV/754bb143-4537-4e51-95f9-a5c406df5525/tool-results/hook-1090f095-de75-4b94-973b-0f871793217f-7-additionalContext.txt", "when": "2026-10-03T14:30:12-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "Flint/staging/library/strength-and-conditioning/supertraining--verkhoshansky/framework--maximal-supramaximal-circa-maximal-and-submaximal-methods.md", "when": "2026-10-03T14:28:55-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "Flint/staging/library/strength-and-conditioning/supertraining--verkhoshansky/framework--pnf-activation-and-relaxation-techniques.md", "when": "2026-10-03T14:28:55-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "Flint/staging/library/strength-and-conditioning/supertraining--verkhoshansky/framework--set-structures-plateau-step-stripping-and-pyramids.md", "when": "2026-10-03T14:28:55-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "Flint/staging/library/strength-and-conditioning/supertraining--verkhoshansky/framework--strength-training-aims-and-method-chart-figs-7-1-and-7-2.md", "when": "2026-10-03T14:28:55-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "Flint/staging/library/strength-and-conditioning/supertraining--verkhoshansky/heuristic--progressive-and-random-segmental-training.md", "when": "2026-10-03T14:28:55-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "Flint/staging/library/strength-and-conditioning/supertraining--verkhoshansky/heuristic--use-pulleys-and-dumbbells-for-spiral-diagonal-pnf-patterns.md", "when": "2026-10-03T14:28:55-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "VAULT", "path": "Knowledge/library/strength-and-conditioning/supertraining--verkhoshansky/framework--strength-training-aims-and-method-chart-figs-7-1-and-7-2.md", "when": "2026-10-03T14:27:54-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DRIVE", "path": "05_SYSTEMS/AI_Sessions_Backup/BU-1979FJ4/claude-code/C--Users-eric-rash-Desktop-DEV/2e684bbe-5d92-4c61-91f1-8f88c01bfded.jsonl", "when": "2026-10-03T14:25:47-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "VAULT", "path": "Knowledge/library/strength-and-conditioning/supertraining--verkhoshansky/framework--set-structures-plateau-step-stripping-and-pyramids.md", "when": "2026-10-03T14:24:59-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "VAULT", "path": "Knowledge/library/strength-and-conditioning/supertraining--verkhoshansky/heuristic--progressive-and-random-segmental-training.md", "when": "2026-10-03T14:24:59-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "VAULT", "path": "Knowledge/library/strength-and-conditioning/supertraining--verkhoshansky/framework--maximal-supramaximal-circa-maximal-and-submaximal-methods.md", "when": "2026-10-03T14:24:59-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DRIVE", "path": "05_SYSTEMS/AI_Sessions_Backup/BU-1979FJ4/claude-code/C--Users-eric-rash--claude-claude-memory-compiler/c262e345-5c52-4b9d-8545-2c82bb0cfabb.jsonl", "when": "2026-10-03T14:24:58-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DRIVE", "path": "05_SYSTEMS/AI_Sessions_Backup/BU-1979FJ4/claude-code/C--Users-eric-rash-Desktop-DEV/c988a5dd-27b7-4679-92d0-0cba2397611f.jsonl", "when": "2026-10-03T14:24:47-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DRIVE", "path": "05_SYSTEMS/AI_Sessions_Backup/BU-1979FJ4/claude-code/C--Users-eric-rash-Desktop-DEV/385c8ad4-a143-470d-99d9-ac1c38898008.jsonl", "when": "2026-10-03T14:23:48-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "VAULT", "path": "Knowledge/library/strength-and-conditioning/supertraining--verkhoshansky/heuristic--use-pulleys-and-dumbbells-for-spiral-diagonal-pnf-patterns.md", "when": "2026-10-03T14:23:28-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "VAULT", "path": "Knowledge/library/strength-and-conditioning/supertraining--verkhoshansky/framework--pnf-activation-and-relaxation-techniques.md", "when": "2026-10-03T14:23:10-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "Flint/staging/fixes_supertraining_ch6d_applied.md", "when": "2026-10-03T14:22:53-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "Flint/staging/library/strength-and-conditioning/supertraining--verkhoshansky/claim--functional-training-means-sport-specific-and-no-exercise-is-non-functional.md", "when": "2026-10-03T14:22:53-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "Flint/staging/library/strength-and-conditioning/supertraining--verkhoshansky/claim--two-large-mesocycles-a-year-bi-cyclic-organisation.md", "when": "2026-10-03T14:22:53-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "Flint/staging/library/strength-and-conditioning/supertraining--verkhoshansky/framework--annual-models-for-medium-and-long-duration-endurance-sports.md", "when": "2026-10-03T14:22:53-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "Flint/staging/review_supertraining_ch6d_opus_round2.md", "when": "2026-10-03T14:22:53-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "Flint/staging/review_supertraining_ch7a_opus.md", "when": "2026-10-03T14:22:53-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "Flint/staging/review_supertraining_ch7b_opus.md", "when": "2026-10-03T14:22:53-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "VAULT", "path": "Knowledge/library/strength-and-conditioning/supertraining--verkhoshansky/claim--functional-training-means-sport-specific-and-no-exercise-is-non-functional.md", "when": "2026-10-03T14:22:49-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "VAULT", "path": "Knowledge/library/strength-and-conditioning/supertraining--verkhoshansky/claim--two-large-mesocycles-a-year-bi-cyclic-organisation.md", "when": "2026-10-03T14:22:08-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "VAULT", "path": "Knowledge/library/strength-and-conditioning/supertraining--verkhoshansky/framework--annual-models-for-medium-and-long-duration-endurance-sports.md", "when": "2026-10-03T14:22:08-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
