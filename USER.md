@@ -2,7 +2,7 @@
 # User Profile
 
 ## About
-Eric Rash, Director of Applied Performance, Baylor Athletics. Builds football GPS and force-plate pipelines. Wife Kristina; kids Ames 5, Saylor 4, Rowan 10mo (9/2026). Career target: analytics-first player-coach near Iowa, $90K+ floor, mid-2027. Read `~/DEV/ContextVault` before career/personal advice.
+Eric Rash, Director of Applied Performance, Baylor Athletics. Builds football GPS and force-plate pipelines. Wife Kristina; kids Ames 5, Saylor 4, Rowan 10mo (9/2026). Career target: analytics-first player-coach near Iowa, $90K+ floor, mid-2027. Read `~/DEV/Research/ContextVault` before career/personal advice.
 
 ## Preferences
 - Python/R. Mac primary; Win laptop desktop-app only (10/21).
