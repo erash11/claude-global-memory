@@ -1,9 +1,11 @@
-{"root": "VAULT", "path": "output/_ledger.md", "when": "2026-11-02T14:35:40-06:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "claude-global-memory/transcripts/2026-11-02.md", "when": "2026-11-02T14:35:04-06:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "drive-tools/docs/STATUS.md", "when": "2026-11-02T14:38:19-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "claude-global-memory/landed/Kristinas-MacBook.local.jsonl", "when": "2026-11-02T14:37:46-06:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
+{"root": "VAULT", "path": "output/_ledger.md", "when": "2026-11-02T14:36:41-06:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "claude-global-memory/transcripts/2026-11-02.md", "when": "2026-11-02T14:36:26-06:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "project-triage/portfolio.json", "when": "2026-11-02T14:36:25-06:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
 {"root": "VAULT", "path": "Inbox/status-reports/2026-10-31-status.md", "when": "2026-11-02T14:34:44-06:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "claude-global-memory/transcripts/.errors-ledger.log", "when": "2026-11-02T14:23:44-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "claude-global-memory/transcripts/.memsearch-last-run", "when": "2026-11-02T14:23:44-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "claude-global-memory/landed/Kristinas-MacBook.local.jsonl", "when": "2026-11-02T14:23:44-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "claude-global-memory/docs/STATUS.md", "when": "2026-11-02T14:23:44-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "project-triage/docs/STATUS.md", "when": "2026-11-02T14:23:11-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Tech_Inventory_Analysis/docs/STATUS.md", "when": "2026-11-02T14:23:08-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
@@ -15,7 +17,6 @@
 {"root": "DEV", "path": "Football/PFF_Position_Reports/docs/STATUS.md", "when": "2026-11-02T14:22:54-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Football/PFF_Data_Project/docs/STATUS.md", "when": "2026-11-02T14:22:52-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Catapult_API/docs/STATUS.md", "when": "2026-11-02T14:22:50-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "project-triage/portfolio.json", "when": "2026-11-02T14:22:19-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "VAULT", "path": "docs/STATUS.md", "when": "2026-11-02T14:20:09-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "DataBase_GPS_Reporting/docs/STATUS.md", "when": "2026-11-02T14:07:39-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "DataBase_GPS_Reporting/analysis/pl_bands/README.md", "when": "2026-11-02T14:07:39-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
@@ -101,7 +102,6 @@
 {"root": "DEV", "path": "claude-global-memory/transcripts/2026-10-31.md", "when": "2026-10-31T21:17:25-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "drive-tools/docs/handoffs/2026-10-31-drive-renames.md", "when": "2026-10-31T21:12:45-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "drive-tools/docs/handoffs/STATUS-archive-2026-Q4.md", "when": "2026-10-31T21:12:45-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "drive-tools/docs/STATUS.md", "when": "2026-10-31T21:11:35-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "drive-tools/docs/handoffs/2026-10-31-drive-filing-and-trash.md", "when": "2026-10-31T21:11:35-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "TypeSafe_Sandbox/docs/STATUS.md", "when": "2026-10-31T21:11:34-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "BAIR_Steering_Committee/docs/STATUS.md", "when": "2026-10-31T21:02:58-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
