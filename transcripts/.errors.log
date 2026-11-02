@@ -1,3 +1,4 @@
 [2026-11-01] aios-audit due - run "audit my AI OS" in ~/DEV/KeystoneOS (uncommitted trend row waiting)
 [2026-11-02T10:30:24.4101430-06:00] stack-doctor weekly: 1 issue(s): errors-log — details in ~/.claude/skills/claude-stack-doctor/scripts/last-weekly-run.log; run /claude-stack-doctor to fix
 [2026-11-02 11:50] daily-backup: 10 error(s): snapshot:claude-projects.tgz, snapshot:codex-sessions.tgz, snapshot:codex-sqlite.tgz, snapshot:gemini.tgz, snapshot:launchagents.tgz, snapshot:agents.tgz, snapshot:codex-config.tgz, snapshot:shell-dotfiles.tgz, snapshot:dev-databases.tgz, receipt-failed:drive - see ~/.claude/scripts/logs/daily-backup.log
+[2026-11-02 12:23] daily-backup: 1 error(s): receipt-failed:drive - see ~/.claude/scripts/logs/daily-backup.log
