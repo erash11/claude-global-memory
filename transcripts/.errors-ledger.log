@@ -862,3 +862,7 @@ fatal: remote helper 'https' aborted session
 [2026-11-02T19:02:28.690Z] transcript_path does not exist: {"session_id":"15d95b4f-38c1-47b0-acf1-e8ef52876e76","transcript_path":"/Users/kristinarash/.claude/projects/-Users-kristinarash-DEV-KeystoneOS/15d95b4f-38c1-47b0-acf1-e8ef52876e76.jsonl","cwd":"/User entrypoint=cli callers=["/Users/kristinarash/.local/bin/claude audit my AI OS","-zsh","login -pf kristinarash"]
 [2026-11-02T19:02:44.269Z] transcript_path does not exist: {"session_id":"15d95b4f-38c1-47b0-acf1-e8ef52876e76","transcript_path":"/Users/kristinarash/.claude/projects/-Users-kristinarash-DEV-KeystoneOS/15d95b4f-38c1-47b0-acf1-e8ef52876e76.jsonl","cwd":"/User entrypoint=cli callers=["/Users/kristinarash/.local/bin/claude audit my AI OS","-zsh","login -pf kristinarash"]
 [2026-11-02T19:03:35.648Z] transcript_path does not exist: {"session_id":"15d95b4f-38c1-47b0-acf1-e8ef52876e76","transcript_path":"/Users/kristinarash/.claude/projects/-Users-kristinarash-DEV-KeystoneOS/15d95b4f-38c1-47b0-acf1-e8ef52876e76.jsonl","cwd":"/User entrypoint=cli callers=["/Users/kristinarash/.local/bin/claude audit my AI OS","-zsh","login -pf kristinarash"]
+# archived 2026-11-02 closeout (cause: machine load ~24 during Drive index build; portfolio.py today now 1.7 s)
+[2026-11-02T21:08:57.070Z] front-burner: portfolio.py today failed (timed out after 6 s)
+[2026-11-02T21:08:59.290Z] front-burner: portfolio.py today failed (timed out after 6 s)
+[2026-11-02T21:09:39.751Z] front-burner: portfolio.py today failed (timed out after 6 s)
