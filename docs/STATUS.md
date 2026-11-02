@@ -1,6 +1,7 @@
 # STATUS
 
 ## Current state
+- 2026-11-02 (archived on the board; system repo, touched every day by hooks and the backup): `.errors.log` cleared after its 11 lines were traced (aios-audit ran; lost transcripts came from a leaked Terminal, now quit), `63e71df`.
 - 2026-10-31: daily writes only: today's transcript, `.errors-ledger.log` (`.errors.log` is empty), the memsearch run stamp, and a `MEMORY.md` working-memory update (Front Burner thread). The registry row stays archived: this repo is plumbing, not a project.
 - 2026-10-30: `.errors.log` had 3 daily-backup entries. Cause 1: new folder `~/DEV/_to_delete` was not in the backup manifest (fixed in dotclaude). Cause 2: secret-scan warning on session `b1b9233e…jsonl` was a false hit (split words 'Risk-Stratification', 'one-task-one-agent' in git output). Archived to `.errors-ledger.log` and cleared at 15:31.
 - 2026-10-29: routine writes only (today's transcript, landed ledger, memsearch stamp). `.errors.log` was archived to `.errors-ledger.log` and cleared at 15:31.
