@@ -1,20 +1,43 @@
-{"root": "DEV", "path": "claude-global-memory/transcripts/.errors-ledger.log", "when": "2026-11-02T17:17:14-06:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "project-triage/portfolio.json", "when": "2026-11-02T17:17:01-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "claude-global-memory/transcripts/2026-11-02.md", "when": "2026-11-02T17:13:44-06:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "Personal/MacEverything/docs/STATUS.md", "when": "2026-11-02T17:13:40-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "Personal/MacEverything/scripts/install.sh", "when": "2026-11-02T17:13:40-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "claude-global-memory/transcripts/autopush.log", "when": "2026-11-02T17:02:25-06:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "claude-global-memory/transcripts/.memsearch-last-run", "when": "2026-11-02T17:02:22-06:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DRIVE", "path": "01_PROJECTS/_STALLED/2026-10-29_PerformanceSnapshot/01_Working/PerformanceSnapshot_latest.html", "when": "2026-11-02T16:43:23-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "Personal/MacEverything/docs/STATUS.md", "when": "2026-11-02T18:28:40-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "project-triage/portfolio.json", "when": "2026-11-02T18:28:12-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "Personal/MacEverything/.gitignore", "when": "2026-11-02T18:28:10-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "VAULT", "path": "output/_ledger.md", "when": "2026-11-02T18:27:27-06:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "VAULT", "path": "Knowledge/tooling/silent-fallbacks-make-broken-tools-look-healthy.md", "when": "2026-11-02T18:27:27-06:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "drive-tools/tools/trash_twins.py", "when": "2026-11-02T18:23:55-06:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "claude-global-memory/transcripts/2026-11-02.md", "when": "2026-11-02T18:23:44-06:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "Personal/MacEverything/docs/handoffs/2026-11-03-parity-handoff.md", "when": "2026-11-02T18:23:41-06:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "drive-tools/tools/newcred_to_keychain.sh", "when": "2026-11-02T18:23:09-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "drive-tools/AGENTS.md", "when": "2026-11-02T18:09:07-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DRIVE", "path": "10_ARCHIVE/2026/Annual_Report_2024_old_versions/2024-06-06_Applied_Performance_ExecutiveSummary_Draft.docx", "when": "2026-11-02T17:54:37-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DRIVE", "path": "10_ARCHIVE/2026/Annual_Report_2024_old_versions/2024-06-06_Applied_Performance_ExecutiveSummary_Template_Draft.docx", "when": "2026-11-02T17:54:31-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "project-triage/docs/STATUS.md", "when": "2026-11-02T17:42:11-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "project-triage/tests/test_landed.py", "when": "2026-11-02T17:41:11-06:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "project-triage/landed.py", "when": "2026-11-02T17:41:11-06:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "Personal/MacEverything/docs/PARITY.md", "when": "2026-11-02T17:34:00-06:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DRIVE", "path": "01_PROJECTS/_STALLED/2026-10-29_PerformanceSnapshot/01_Working/PerformanceSnapshot_latest.html", "when": "2026-11-02T17:32:33-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "Personal/MacEverything/scripts/parity_check.py", "when": "2026-11-02T17:29:13-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "project-triage/tests/test_board_server.py", "when": "2026-11-02T17:28:41-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "Personal/MacEverything/scripts/install.sh", "when": "2026-11-02T17:26:29-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "claude-global-memory/transcripts/.errors-ledger.log", "when": "2026-11-02T17:20:47-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "claude-global-memory/transcripts/autopush.log", "when": "2026-11-02T17:20:47-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "claude-global-memory/transcripts/.memsearch-last-run", "when": "2026-11-02T17:20:47-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "claude-global-memory/landed/Kristinas-MacBook.local.jsonl", "when": "2026-11-02T17:20:47-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "Personal/SignalPlays/docs/STATUS.md", "when": "2026-11-02T17:19:22-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "Program/Baylor_Doc_Style/docs/STATUS.md", "when": "2026-11-02T17:19:20-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "TypeSafe_Sandbox/docs/STATUS.md", "when": "2026-11-02T17:19:07-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "Research/TOS_Evidence_Brief/docs/STATUS.md", "when": "2026-11-02T17:19:05-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "Performance/Risk_Stratification_Engine/docs/STATUS.md", "when": "2026-11-02T17:19:03-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "RTP_WorkingGroup/docs/STATUS.md", "when": "2026-11-02T17:19:01-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "Performance/RTP_ProgressReport/docs/STATUS.md", "when": "2026-11-02T17:18:59-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "Research/Flint/docs/STATUS.md", "when": "2026-11-02T17:18:57-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "Research/ZoteroInjestion/docs/STATUS.md", "when": "2026-11-02T17:18:55-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "Program/RTP_Constraints_Course/docs/STATUS.md", "when": "2026-11-02T17:18:53-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "Program/Education_Alignment_Initiative/docs/STATUS.md", "when": "2026-11-02T17:18:51-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "Performance/BayCap/docs/STATUS.md", "when": "2026-11-02T17:18:49-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "drive-tools/docs/STATUS.md", "when": "2026-11-02T16:09:06-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "project-triage/crosswalk.py", "when": "2026-11-02T16:08:14-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "project-triage/tests/test_crosswalk.py", "when": "2026-11-02T16:08:14-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "Performance/BayCap/docs/STATUS.md", "when": "2026-11-02T16:04:02-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "Research/Flint/docs/STATUS.md", "when": "2026-11-02T16:03:59-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "Research/ZoteroInjestion/docs/STATUS.md", "when": "2026-11-02T16:03:57-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "Program/RTP_Constraints_Course/docs/STATUS.md", "when": "2026-11-02T16:03:54-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Program/Education_Alignment_Initiative/README.md", "when": "2026-11-02T16:03:50-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "Program/Education_Alignment_Initiative/docs/STATUS.md", "when": "2026-11-02T16:03:50-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "RTP_WorkingGroup/README.md", "when": "2026-11-02T16:03:48-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Performance/RTP_ProgressReport/AGENTS.md", "when": "2026-11-02T16:03:46-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Performance/RTP_ProgressReport/data/README.md", "when": "2026-11-02T16:03:46-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
@@ -68,11 +91,8 @@
 {"root": "DEV", "path": "Personal/SignalPlays/data/README.md", "when": "2026-11-02T15:02:16-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "CFB_Victory_Model/ops/com.keystone.forecastcapture.plist", "when": "2026-11-02T15:00:14-06:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "drive-tools/tools/file_moves.py", "when": "2026-11-02T14:58:34-06:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "claude-global-memory/landed/Kristinas-MacBook.local.jsonl", "when": "2026-11-02T14:38:58-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "VAULT", "path": "output/_ledger.md", "when": "2026-11-02T14:36:41-06:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "VAULT", "path": "Inbox/status-reports/2026-10-31-status.md", "when": "2026-11-02T14:34:44-06:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "claude-global-memory/docs/STATUS.md", "when": "2026-11-02T14:23:44-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "project-triage/docs/STATUS.md", "when": "2026-11-02T14:23:11-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Tech_Inventory_Analysis/docs/STATUS.md", "when": "2026-11-02T14:23:08-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Program/Tech_Inventory_Analysis/docs/STATUS.md", "when": "2026-11-02T14:23:08-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Performance_Playbook/docs/STATUS.md", "when": "2026-11-02T14:23:06-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
@@ -197,7 +217,6 @@
 {"root": "DEV", "path": "drive-tools/docs/handoffs/2026-10-31-drive-renames.md", "when": "2026-10-31T21:12:45-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "drive-tools/docs/handoffs/STATUS-archive-2026-Q4.md", "when": "2026-10-31T21:12:45-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "drive-tools/docs/handoffs/2026-10-31-drive-filing-and-trash.md", "when": "2026-10-31T21:11:35-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "TypeSafe_Sandbox/docs/STATUS.md", "when": "2026-10-31T21:11:34-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "BAIR_Steering_Committee/docs/STATUS.md", "when": "2026-10-31T21:02:58-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Football/PFF_Position_Reports/scripts/fbs_model.py", "when": "2026-10-31T21:02:54-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "TypeSafe_Sandbox/.gitignore", "when": "2026-10-31T20:52:50-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
@@ -245,7 +264,6 @@
 {"root": "DEV", "path": "KeystoneOS/tests/keystone-ritual-front-burner.ps1", "when": "2026-10-31T12:52:11-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "project-triage/docs/GUIDE.md", "when": "2026-10-31T12:51:40-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "project-triage/board.html", "when": "2026-10-31T12:51:40-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "project-triage/tests/test_board_server.py", "when": "2026-10-31T12:51:40-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "project-triage/README.md", "when": "2026-10-31T12:51:40-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "project-triage/board_ops.py", "when": "2026-10-31T12:51:40-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "project-triage/tests/test_board_ops.py", "when": "2026-10-31T12:51:40-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
@@ -433,8 +451,6 @@
 {"root": "DEV", "path": "Football/PerformanceSnapshot/tests/test_sten.py", "when": "2026-10-29T07:40:37-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "claude-global-memory/transcripts/2026-10-28.md", "when": "2026-10-29T06:07:30-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "project-triage/docs/handoffs/2026-10-23-landed-drive-watchdog.md", "when": "2026-10-23T17:08:45-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "project-triage/tests/test_landed.py", "when": "2026-10-23T17:05:36-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "project-triage/landed.py", "when": "2026-10-23T17:05:36-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "CFB_Victory_Model/docs/handoffs/2026-10-23-week8-capture.md", "when": "2026-10-23T15:29:41-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "graphify-out/daily_extract.log", "when": "2026-10-23T15:26:30-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "CFB_Forecast_Archive/2026/2026-10-23_arizona-state.csv", "when": "2026-10-23T14:59:49-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
@@ -4046,26 +4062,3 @@
 {"root": "DEV", "path": "NCAA_BestPractices_Doc/deliverables/SSI_BestPractices_PLAN_ER_2026-10-04.docx", "when": "2026-10-04T16:24:21-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "NCAA_BestPractices_Doc/deliverables/SSI_BestPractices_PLAN_ER_2026-10-04.pdf", "when": "2026-10-04T16:24:21-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "NCAA_BestPractices_Doc/docs/SOURCES.md", "when": "2026-10-04T16:02:57-05:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DRIVE", "path": "05_SYSTEMS/AI_Sessions_Backup/BU-1979FJ4/claude-code/C--Users-eric-rash-Desktop-DEV-42Analytics/19043f0d-1f5f-4547-b866-477df56e6bfa/subagents/agent-ad1d35e753a647ab2.jsonl", "when": "2026-10-03T18:07:29-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DRIVE", "path": "05_SYSTEMS/AI_Sessions_Backup/BU-1979FJ4/claude-code/C--Users-eric-rash-Desktop-DEV-42Analytics/19043f0d-1f5f-4547-b866-477df56e6bfa/subagents/agent-ad1d35e753a647ab2.meta.json", "when": "2026-10-03T18:07:28-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DRIVE", "path": "05_SYSTEMS/AI_Sessions_Backup/BU-1979FJ4/claude-code/C--Users-eric-rash-Desktop-DEV-42Analytics/19043f0d-1f5f-4547-b866-477df56e6bfa.jsonl", "when": "2026-10-03T18:07:27-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DRIVE", "path": "05_SYSTEMS/AI_Sessions_Backup/BU-1979FJ4/claude-code/C--Users-eric-rash-Desktop-DEV/memory/project_skill-bloat-and-promotion.md", "when": "2026-10-03T18:07:27-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DRIVE", "path": "05_SYSTEMS/AI_Sessions_Backup/BU-1979FJ4/claude-code/C--Users-eric-rash-Desktop-DEV/memory/user_child-dental-plan.md", "when": "2026-10-03T18:07:27-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DRIVE", "path": "05_SYSTEMS/AI_Sessions_Backup/BU-1979FJ4/claude-code/C--Users-eric-rash-Desktop-DEV/memory/project_prioritization-slate.md", "when": "2026-10-03T18:07:26-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DRIVE", "path": "05_SYSTEMS/AI_Sessions_Backup/BU-1979FJ4/claude-code/C--Users-eric-rash-Desktop-DEV/memory/project_personal-site-build-routes.md", "when": "2026-10-03T18:07:26-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DRIVE", "path": "05_SYSTEMS/AI_Sessions_Backup/BU-1979FJ4/claude-code/C--Users-eric-rash-Desktop-DEV/memory/project_github-consolidation.md", "when": "2026-10-03T18:07:22-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DRIVE", "path": "05_SYSTEMS/AI_Sessions_Backup/BU-1979FJ4/claude-code/C--Users-eric-rash-Desktop-DEV/memory/project_42analytics-youtube-pipeline.md", "when": "2026-10-03T18:07:04-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DRIVE", "path": "05_SYSTEMS/AI_Sessions_Backup/BU-1979FJ4/claude-code/C--Users-eric-rash-Desktop-DEV/memory/project_drive-fuse-rsync-mtime-loop.md", "when": "2026-10-03T18:07:04-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DRIVE", "path": "05_SYSTEMS/AI_Sessions_Backup/BU-1979FJ4/claude-code/C--Users-eric-rash-Desktop-DEV/3189d0ed-8be4-4c04-8d43-2200dde425a8.jsonl", "when": "2026-10-03T18:06:58-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DRIVE", "path": "05_SYSTEMS/AI_Sessions_Backup/BU-1979FJ4/claude-code/C--Users-eric-rash-Desktop-DEV/bad69345-ccd6-45a6-99c7-f6f10073e938.jsonl", "when": "2026-10-03T18:06:55-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DRIVE", "path": "05_SYSTEMS/AI_Sessions_Backup/BU-1979FJ4/claude-code/C--Users-eric-rash-Desktop-DEV/2f92325d-4bf0-4d6a-9475-d5c87300cb88.jsonl", "when": "2026-10-03T18:04:28-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DRIVE", "path": "05_SYSTEMS/AI_Sessions_Backup/BU-1979FJ4/claude-code/-Users-kristinarash-DEV/memory/user_child-dental-plan.md", "when": "2026-10-03T18:04:11-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DRIVE", "path": "05_SYSTEMS/AI_Sessions_Backup/BU-1979FJ4/claude-code/-Users-kristinarash-DEV/memory/project_personal-site-build-routes.md", "when": "2026-10-03T18:03:58-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DRIVE", "path": "05_SYSTEMS/AI_Sessions_Backup/BU-1979FJ4/claude-code/-Users-kristinarash-DEV/memory/project_drive-fuse-rsync-mtime-loop.md", "when": "2026-10-03T18:03:13-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DRIVE", "path": "05_SYSTEMS/AI_Sessions_Backup/BU-1979FJ4/claude-code/-Users-kristinarash-DEV/memory/project_dcg-guard-blocks.md", "when": "2026-10-03T18:03:12-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DRIVE", "path": "05_SYSTEMS/AI_Sessions_Backup/BU-1979FJ4/claude-code/-Users-kristinarash-DEV/c59d1788-5ebe-4b20-81a1-9007c16d8649.jsonl", "when": "2026-10-03T18:02:57-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DRIVE", "path": "05_SYSTEMS/AI_Sessions_Backup/BU-1979FJ4/claude-code/-Users-kristinarash-DEV/6dce9bea-22de-4294-be8b-ed7247624d42.jsonl", "when": "2026-10-03T18:02:36-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DRIVE", "path": "05_SYSTEMS/AI_Sessions_Backup/BU-1979FJ4/claude-code/-Users-kristinarash-DEV/3cbd7684-d6cc-4898-a8eb-e75e8dbed3d3.jsonl", "when": "2026-10-03T18:02:36-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DRIVE", "path": "05_SYSTEMS/AI_Sessions_Backup/BU-1979FJ4/claude-code/-Users-kristinarash-DEV/9823c1f0-89f5-4638-9223-c6892607ac2b.jsonl", "when": "2026-10-03T18:02:36-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DRIVE", "path": "05_SYSTEMS/AI_Sessions_Backup/BU-1979FJ4/claude-code/-Users-kristinarash-DEV/5588a26f-eb71-4fbf-9ec2-0b977c29c506.jsonl", "when": "2026-10-03T18:02:33-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DRIVE", "path": "05_SYSTEMS/AI_Sessions_Backup/BU-1979FJ4/claude-code/-Users-kristinarash-DEV/61d23a0c-cb7b-4ade-9084-b78166c0b1db.jsonl", "when": "2026-10-03T18:02:29-05:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
