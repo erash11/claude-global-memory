@@ -1,1 +1,0 @@
-[2026-11-03 06:49] daily-backup: secret-scan warning (not blocked): 1 staged dotclaude projects/ file(s) match a secret pattern: projects/-Users-kristinarash-DEV/2d5c93b0-f48c-48ce-a2fc-59cc2f50d48a.jsonl - check and rotate if real; values are not logged
