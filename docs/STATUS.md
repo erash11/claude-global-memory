@@ -1,6 +1,7 @@
 # STATUS
 
 ## Current state
+- 2026-11-05: Hooks only: today's transcript and the landed ledger. `.errors.log` had 1 entry (performance-snapshot DB lock); archived to `.errors-ledger.log` and cleared in closeout.
 - 2026-11-04: daily writes only: today's transcript and the landed ledger (every session). `.errors.log` is empty. Stays archived on the board (it is the memory store, not a project).
 - 2026-11-03: touched only by the daily backup (343b7dd, 06:49) and the 06:51 Mac snapshot; transcripts and the landed ledger update every session. Stays archived on the board (it is the memory store, not a project).
 - 2026-11-02 (archived on the board; system repo, touched every day by hooks and the backup): `.errors.log` cleared after its 11 lines were traced (aios-audit ran; lost transcripts came from a leaked Terminal, now quit), `63e71df`.
