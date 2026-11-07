@@ -1,6 +1,7 @@
 # STATUS
 
 ## Current state
+- 2026-11-06: touched by routine memory work only (transcripts, daily backup, `.errors.log` archived at closeout: two forceplate.db lock errors from 18:10).
 - 2026-11-05: Hooks only: today's transcript and the landed ledger. `.errors.log` had 1 entry (performance-snapshot DB lock); archived to `.errors-ledger.log` and cleared in closeout.
 - 2026-11-04: daily writes only: today's transcript and the landed ledger (every session). `.errors.log` is empty. Stays archived on the board (it is the memory store, not a project).
 - 2026-11-03: touched only by the daily backup (343b7dd, 06:49) and the 06:51 Mac snapshot; transcripts and the landed ledger update every session. Stays archived on the board (it is the memory store, not a project).
