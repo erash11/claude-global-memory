@@ -1,18 +1,20 @@
-{"root": "DEV", "path": "claude-global-memory/transcripts/2026-11-07.md", "when": "2026-11-07T08:32:49-06:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "claude-global-memory/transcripts/2026-11-07.md", "when": "2026-11-07T09:21:36-06:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "claude-global-memory/transcripts/.memsearch-last-run", "when": "2026-11-07T08:39:15-06:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "Program/Performance_Playbook/docs/STATUS.md", "when": "2026-11-07T08:37:57-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "Program/Performance_Playbook/docs/digest/ch01_forcedecks_cmj.md", "when": "2026-11-07T08:37:57-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "project-triage/portfolio.json", "when": "2026-11-07T08:36:26-06:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "Football/PerformanceSnapshot/docs/STATUS.md", "when": "2026-11-07T08:34:44-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "Program/BAIR_Steering_Committee/docs/handoffs/2026-11-07-arc-scaling-system.md", "when": "2026-11-07T08:34:39-06:00", "how": "new", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "Program/BAIR_Steering_Committee/docs/STATUS.md", "when": "2026-11-07T08:34:39-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "project-triage/docs/STATUS.md", "when": "2026-11-07T08:34:24-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "claude-global-memory/docs/STATUS.md", "when": "2026-11-07T08:33:49-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DEV", "path": "claude-global-memory/landed/Kristinas-MacBook.local.jsonl", "when": "2026-11-07T08:33:49-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DRIVE", "path": "03_REPORTS/2026-11-07_Department_ARC_ScalingSystem_Plan_Kenny.docx", "when": "2026-11-07T08:33:19-06:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Football/Gemini_Projects/docs/STATUS.md", "when": "2026-11-07T08:32:45-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Football/Gemini_Projects/docs/handoffs/2026-11-07-rsi-mod-watch-and-depth-check.md", "when": "2026-11-07T08:32:45-06:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Program/RunningTheRoom/docs/STATUS.md", "when": "2026-11-07T08:32:33-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Intern_Curriculum/docs/STATUS.md", "when": "2026-11-07T08:32:32-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "project-triage/docs/STATUS.md", "when": "2026-11-07T08:32:26-06:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "claude-global-memory/docs/STATUS.md", "when": "2026-11-07T08:32:26-06:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "Football/PerformanceSnapshot/docs/STATUS.md", "when": "2026-11-07T08:32:26-06:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "project-triage/portfolio.json", "when": "2026-11-07T08:31:57-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "claude-global-memory/landed/Kristinas-MacBook.local.jsonl", "when": "2026-11-07T08:31:52-06:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "Program/BAIR_Steering_Committee/docs/handoffs/2026-11-07-arc-scaling-system.md", "when": "2026-11-07T08:31:40-06:00", "how": "new, uncommitted", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "Program/Performance_Playbook/docs/STATUS.md", "when": "2026-11-07T08:31:34-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "Program/Performance_Playbook/docs/digest/ch01_forcedecks_cmj.md", "when": "2026-11-07T08:31:34-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "VAULT", "path": "docs/STATUS.md", "when": "2026-11-07T08:31:18-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "Program/BAIR_Steering_Committee/docs/STATUS.md", "when": "2026-11-07T08:31:09-06:00", "how": "changed, uncommitted", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Football/Baylor_Exposure_Data/docs/STATUS.md", "when": "2026-11-07T08:27:53-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Performance/Ath_Medicine/docs/STATUS.md", "when": "2026-11-07T08:27:52-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Performance/Ath_Medicine/.gitignore", "when": "2026-11-07T08:27:32-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
@@ -25,7 +27,7 @@
 {"root": "DEV", "path": "Performance/Kinexon_WBB/tests/test_store_credentials.py", "when": "2026-11-07T08:19:21-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Performance/Kinexon_WBB/src/kinexon_wbb/sync.py", "when": "2026-11-07T08:15:01-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "claude-global-memory/transcripts/2026-11-06.md", "when": "2026-11-07T08:06:36-06:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DEV", "path": "claude-global-memory/transcripts/.memsearch-last-run", "when": "2026-11-07T08:06:36-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
+{"root": "DRIVE", "path": "01_PROJECTS/_ACTIVE/2026-11-05_Gemini_Projects/Football_CMJ_FatigueFlags.xlsx", "when": "2026-11-07T08:00:49-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Football/Gemini_Projects/cmj_flags/workbook.py", "when": "2026-11-07T08:00:40-06:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Football/Gemini_Projects/tests/test_workbook.py", "when": "2026-11-07T08:00:40-06:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Football/Gemini_Projects/docs/decisions.md", "when": "2026-11-07T08:00:40-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
@@ -55,7 +57,6 @@
 {"root": "DEV", "path": "Performance/Kinexon_WBB/src/kinexon_wbb/schema.sql", "when": "2026-11-07T07:47:27-06:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Program/BAIR_Steering_Committee/04_Committee/ARC_Scale_2_OneCollege_ER_2026-11-07.excalidraw", "when": "2026-11-07T07:46:05-06:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "01_PROJECTS/_ACTIVE/2026-11-05_Gemini_Projects/~$Football_CMJ_FatigueFlags.xlsx", "when": "2026-11-07T07:45:06-06:00", "how": "new", "machine": "Kristinas-MacBook.local"}
-{"root": "DRIVE", "path": "01_PROJECTS/_ACTIVE/2026-11-05_Gemini_Projects/Football_CMJ_FatigueFlags.xlsx", "when": "2026-11-07T07:42:58-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Football/Gemini_Projects/cmj_flags/teamchart.py", "when": "2026-11-07T07:42:51-06:00", "how": "new", "machine": "Kristinas-MacBook.local"}
 {"root": "DRIVE", "path": "01_PROJECTS/_STALLED/2026-10-29_PerformanceSnapshot/01_Working/PerformanceSnapshot_latest.html", "when": "2026-11-07T07:23:57-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
 {"root": "DEV", "path": "Football/FaceComps/docs/STATUS.md", "when": "2026-11-06T19:05:00-06:00", "how": "changed", "machine": "Kristinas-MacBook.local"}
